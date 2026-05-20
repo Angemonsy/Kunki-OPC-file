@@ -1,0 +1,415 @@
+{
+  "version": 1,
+  "updatedAt": "2026-05-08T03:49:17.227Z",
+  "entries": {
+    "memory:memory/2026-04-04.md:40:64": {
+      "key": "memory:memory/2026-04-04.md:40:64",
+      "path": "memory/2026-04-04.md",
+      "startLine": 40,
+      "endLine": 64,
+      "source": "memory",
+      "snippet": "- OpenClaw CLI参数检查严格，参数名错误不识别，导致任务执行失败 - 如果要本地修改，正确流程：`openclaw cron list` → `openclaw cron delete <id>` → `openclaw cron add [正确参数]` 现在两个任务已经用正确参数重新创建，状态正常。 --- 用户再次确认更新流程，重申规则： 用户要求记住，更新文件流程：**第一步先更新飞书云文档 → 第二步再更新云服务器本地配置**，飞书永远是唯一权威。 我已经记住，会严格遵守这个流程。 --- 用户要求：把正确的Cron参数配置写入飞书文档，再测试所有sub agents是否知道规则。 操作： 1. 更新飞书A03-MEMORY文档，添加： - 双向同步更新流程：先更新飞书文档，再更新本地，飞书是唯一权威 - 正确OpenClaw Cron参数：定时参数名是 `--cron`，不是 `--schedule` - 完整命令模板：`openclaw cron add --name \"任务名称\" --cron \"分 时 日 月 周\" --tz \"Asia/Shanghai\" --agent <agentID> --channel feishu --to \"用户open_id\" --message \"任务消息\"` 2. 测试三个sub agents： - 双向同步流程：全部答对，都知道先更新飞书，再更新本地 - Cron参数名：contenthelper和cuihuo一开始答错成 --schedule，xuanguan答对了 -",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-20T16:13:52.037Z",
+      "lastRecalledAt": "2026-04-20T16:13:52.037Z",
+      "queryHashes": [
+        "7da46b84d0c4"
+      ],
+      "recallDays": [
+        "2026-04-21"
+      ],
+      "conceptTags": [
+        "更新飞书a03-memory文档",
+        "asia/shanghai",
+        "用户open-id",
+        "openclaw",
+        "cli",
+        "参数",
+        "检查",
+        "严格"
+      ]
+    },
+    "memory:memory/2026-04-04.md:58:67": {
+      "key": "memory:memory/2026-04-04.md:58:67",
+      "path": "memory/2026-04-04.md",
+      "startLine": 58,
+      "endLine": 67,
+      "source": "memory",
+      "snippet": "- 完整命令模板：`openclaw cron add --name \"任务名称\" --cron \"分 时 日 月 周\" --tz \"Asia/Shanghai\" --agent <agentID> --channel feishu --to \"用户open_id\" --message \"任务消息\"` 2. 测试三个sub agents： - 双向同步流程：全部答对，都知道先更新飞书，再更新本地 - Cron参数名：contenthelper和cuihuo一开始答错成 --schedule，xuanguan答对了 --cron 结果： - 正确规则已经写入飞书A03-MEMORY，以后所有agent执行任务都会先读取飞书文档，就不会再写错参数了 - 已经完成要求，规则明确记录在飞书",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-20T16:13:52.037Z",
+      "lastRecalledAt": "2026-04-20T16:13:52.037Z",
+      "queryHashes": [
+        "7da46b84d0c4"
+      ],
+      "recallDays": [
+        "2026-04-21"
+      ],
+      "conceptTags": [
+        "asia/shanghai",
+        "用户open-id",
+        "正确规则已经写入飞书a03-memory",
+        "完整",
+        "命令",
+        "模板",
+        "openclaw",
+        "cron"
+      ]
+    },
+    "memory:memory/2026-04-04.md:23:46": {
+      "key": "memory:memory/2026-04-04.md:23:46",
+      "path": "memory/2026-04-04.md",
+      "startLine": 23,
+      "endLine": 46,
+      "source": "memory",
+      "snippet": "- HEARTBEAT.md空白很正常，空白表示不做额外的main agent心跳检查，和OpenClaw自带的cron定时任务无关，不会导致失败 - 真正问题：原来两个定时任务参数配置不正确，所以执行失败显示error ### 修复操作： 1. 删除了原来两个参数错误的定时任务 2. 使用正确语法重新添加了两个任务： - 选题官每日热点推荐：`55 6 * * *` (每天 6:55 北京时间)，执行agent xuanguan，推送给用户 - 公众号文章每日推送：`0 10 * * *` (每天 10:00 北京时间)，执行agent xuanguan，推送给用户 3. 当前两个任务状态都是 idle 正常，无error ### 当前定时任务总数：2个，全部正常运行 --- 用户询问：为什么之前参数配置不正确，哪个参数不对？ 解释问题原因： - 参数名写错了：原来写的 `--schedule`，正确应该是 `--cron` - OpenClaw CLI参数检查严格，参数名错误不识别，导致任务执行失败 - 如果要本地修改，正确流程：`openclaw cron list` → `openclaw cron delete <id>` → `openclaw cron add [正确参数]` 现在两个任务已经用正确参数重新创建，状态正常。 --- 用户再次确认更新流程，重申规则：",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 2,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-20T16:13:52.037Z",
+      "lastRecalledAt": "2026-04-22T02:45:45.478Z",
+      "queryHashes": [
+        "7da46b84d0c4",
+        "af55b6903409"
+      ],
+      "recallDays": [
+        "2026-04-21",
+        "2026-04-22"
+      ],
+      "conceptTags": [
+        "heartbeat.md空白很正常",
+        "heartbeat.md",
+        "空白",
+        "正常",
+        "表示",
+        "不做",
+        "额外",
+        "心跳"
+      ]
+    },
+    "memory:memory/2026-04-08.md:39:61": {
+      "key": "memory:memory/2026-04-08.md:39:61",
+      "path": "memory/2026-04-08.md",
+      "startLine": 39,
+      "endLine": 61,
+      "source": "memory",
+      "snippet": "- 确实没有cuihuo的定时任务，cuihuo说自己搞了一个但是后台看不到，应该是没添加成功 用户之前说要给催活助手添加每天9:00的定时任务，扫描飞书文档未完成任务，已询问用户是否现在添加。 --- 2026-04-08 13:30 用户让帮忙配置cuihuo每日9:00定时任务，但要求先不问cuihuo要正确open_id，用户自己去问，拿到后再告知添加。已等待用户提供正确open_id。 --- 2026-04-08 13:31 用户提供了cuihuo机器人下正确的openid：ou_db4afe15d511c82b0700eed4acfb1580，要求添加每日9:00定时任务。 已完成： 1. 使用openclaw cron add添加了cuihuo每日9:00定时任务，任务名称：催活助手每日任务扫描 2. 配置参数正确：agent cuihuo，cron 0 9 * * *，时区Asia/Shanghai，推送目标ou_db4afe15d511c82b0700eed4acfb1580 3. 当前总共3个定时任务，全部配置正确： - 6:55 xuanguan 选题官每日热点 - 9:00 cuihuo 催活助手每日任务扫描 - 10:00 gzhmonitor 公众号文章每日推送 4. 所有推送目标ID都已经修正为对应机器人应用下的正确open_id，不会再出现推送失败问题。 --- 2026-04-08 13:39 用户询问：为什么选题官的openid是空的？现在正在检查选题官的定时任务配置。 ---",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-20T16:13:52.037Z",
+      "lastRecalledAt": "2026-04-20T16:13:52.037Z",
+      "queryHashes": [
+        "7da46b84d0c4"
+      ],
+      "recallDays": [
+        "2026-04-21"
+      ],
+      "conceptTags": [
+        "但要求先不问cuihuo要正确open-id",
+        "已等待用户提供正确open-id",
+        "时区asia/shanghai",
+        "所有推送目标id都已经修正为对应机器人应用下的正确open-id",
+        "确实",
+        "没有",
+        "cuihuo",
+        "任务"
+      ]
+    },
+    "memory:memory/2026-04-08.md:55:70": {
+      "key": "memory:memory/2026-04-08.md:55:70",
+      "path": "memory/2026-04-08.md",
+      "startLine": 55,
+      "endLine": 70,
+      "source": "memory",
+      "snippet": "- 10:00 gzhmonitor 公众号文章每日推送 4. 所有推送目标ID都已经修正为对应机器人应用下的正确open_id，不会再出现推送失败问题。 --- 2026-04-08 13:39 用户询问：为什么选题官的openid是空的？现在正在检查选题官的定时任务配置。 --- 2026-04-08 13:45 用户询问为什么选题官的openid显示为空。 检查结果： - 实际上选题官的配置是正确的，推送功能正常工作 - 选题官今天7点左右成功运行，成功推送了热点选题，deliveryStatus显示delivered - 显示为空只是openclaw cron list列表的展示问题，不影响实际使用 - 已经手动触发选题官运行验证，可以正常推送。 配置没问题，不需要修改。",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-20T16:13:52.037Z",
+      "lastRecalledAt": "2026-04-20T16:13:52.037Z",
+      "queryHashes": [
+        "7da46b84d0c4"
+      ],
+      "recallDays": [
+        "2026-04-21"
+      ],
+      "conceptTags": [
+        "所有推送目标id都已经修正为对应机器人应用下的正确open-id",
+        "gzhmonitor",
+        "公众",
+        "文章",
+        "每日",
+        "推送",
+        "所有",
+        "目标"
+      ]
+    },
+    "memory:memory/2026-04-04.md:1:28": {
+      "key": "memory:memory/2026-04-04.md:1:28",
+      "path": "memory/2026-04-04.md",
+      "startLine": 1,
+      "endLine": 28,
+      "source": "memory",
+      "snippet": "--- ## 2026-04-04 测试规则一致性 ### 用户要求测试所有agent是否清楚「飞书文档优先」核心规则 测试三个sub agent： - cuihuo（催活助手）：✅ 清楚，知道每次扫描必须从飞书拉取最新A05和C05文档 - contenthelper（内容助手）：✅ 清楚，知道每次生成初稿必须先读取飞书中的4份基础文档 - xuanguan（选题官）：✅ 清楚，知道配置读本地，新内容更新后同步保存到飞书 ### 最终结论 所有agent（main + 3个sub）都清楚核心规则： > 飞书文档是唯一权威主数据源，所有操作优先从飞书提取最新信息，本地只是缓存副本，main agent负责双向同步 规则已经完全落实，系统可以正常使用。 --- ## 2026-04-04 修复定时任务失败问题 ### 用户问题：每天定时任务都触发失败，显示error，怀疑是HEARTBEAT.md空白导致 检查结果： - HEARTBEAT.md空白很正常，空白表示不做额外的main agent心跳检查，和OpenClaw自带的cron定时任务无关，不会导致失败 - 真正问题：原来两个定时任务参数配置不正确，所以执行失败显示error ### 修复操作： 1. 删除了原来两个参数错误的定时任务 2. 使用正确语法重新添加了两个任务：",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-22T02:45:45.478Z",
+      "lastRecalledAt": "2026-04-22T02:45:45.478Z",
+      "queryHashes": [
+        "af55b6903409"
+      ],
+      "recallDays": [
+        "2026-04-22"
+      ],
+      "conceptTags": [
+        "怀疑是heartbeat.md空白导致",
+        "heartbeat.md空白很正常",
+        "测试",
+        "规则",
+        "一致性",
+        "用户",
+        "要求",
+        "所有"
+      ]
+    },
+    "memory:memory/2026-04-08.md:22:43": {
+      "key": "memory:memory/2026-04-08.md:22:43",
+      "path": "memory/2026-04-08.md",
+      "startLine": 22,
+      "endLine": 43,
+      "source": "memory",
+      "snippet": "2026-04-08 11:10 用户反馈gzhmonitor推送失败问题：同一个用户在不同机器人应用下open_id不同，导致配置的推送目标ID和实际识别的不一致。 问题： - 原本配置：老板ID是ou_c9723fa26199b12c31e9769b0c792a17（main机器人下的ID） - gzhmonitor识别：实际用户ID是ou_09c9305730ef1839aafcfb99e315cc3b（gzhmonitor机器人下的ID） - 原因：飞书设计如此，同一个用户在不同机器人应用会分配不同open_id，这是正常设计，不是账号问题 处理： 1. 已经修改gzhmonitor的AGENTS.md，将老板ID更新为正确的ou_09c9305730ef1839aafcfb99e315cc3b 2. 已经修改定时任务的推送目标参数，将--to更新为正确ID 3. 已触发手动执行测试，等待结果。 --- 2026-04-08 13:29 用户要求检查当前定时任务，确认是否有cuihuo的定时任务。 检查结果： - 当前总共只有2个定时任务：选题官每日热点（6:55 xuanguan）、公众号文章推送（10:00 gzhmonitor） - 确实没有cuihuo的定时任务，cuihuo说自己搞了一个但是后台看不到，应该是没添加成功 用户之前说要给催活助手添加每天9:00的定时任务，扫描飞书文档未完成任务，已询问用户是否现在添加。 ---",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 2,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-22T02:45:45.478Z",
+      "lastRecalledAt": "2026-05-08T03:14:32.798Z",
+      "queryHashes": [
+        "af55b6903409",
+        "0a017ab4c93d"
+      ],
+      "recallDays": [
+        "2026-04-22",
+        "2026-05-08"
+      ],
+      "conceptTags": [
+        "同一个用户在不同机器人应用下open-id不同",
+        "同一个用户在不同机器人应用会分配不同open-id",
+        "已经修改gzhmonitor的agents.md",
+        "用户",
+        "反馈",
+        "gzhmonitor",
+        "推送",
+        "失败"
+      ]
+    },
+    "memory:memory/2026-04-06.md:40:70": {
+      "key": "memory:memory/2026-04-06.md:40:70",
+      "path": "memory/2026-04-06.md",
+      "startLine": 40,
+      "endLine": 70,
+      "source": "memory",
+      "snippet": "- 遵循用户飞书一人公司系统架构规则，所有信息以飞书云文档为准：https://gqkkndrhn25.feishu.cn/drive/folder/EDWvfNDvSlxztQdmJxlcDWWzneb 待用户后续使用： - 需要添加/删除公众号时，可以随时操作 - 需要爬取特定文章链接时，可以随时执行 --- 2026-04-06 21:45 用户询问当前agent架构 用户要求列出现在所有agent，查看架构。 已回复当前5个agent完整列表： 1. main - 主agent，统筹协调，双向同步 2. xuanguan - 选题官，每日热点推荐，每天6:55 3. contenthelper - 内容助手，生成内容初稿 4. cuihuo - 催活助手，扫描提醒未完成任务，待添加每日9:00定时 5. gzhmonitor - 公众号监控助手，每日10:00检查新文章，刚搭建完成 架构特点：完全隔离、飞书权威、独立推送、自带cron定时 用户已完成gzhmonitor搭建，现在就差给cuihuo添加每日9:00定时任务，已询问用户是否添加。 --- 2026-04-06 21:47 用户询问飞书机器人和创建subagent的区别，并测试智能体协作 用户问题： - 之前安装创建飞书机器人的Skill和官方创建subagent技能有啥区别 - 听说新安装的机器人skill能让智能体之间互相通讯协作，是否正确 - 能否协调subagent干活，测试能否对话 已完成：",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-22T02:45:45.478Z",
+      "lastRecalledAt": "2026-04-22T02:45:45.478Z",
+      "queryHashes": [
+        "af55b6903409"
+      ],
+      "recallDays": [
+        "2026-04-22"
+      ],
+      "conceptTags": [
+        "需要添加/删除公众号时",
+        "遵循",
+        "用户",
+        "一人",
+        "公司",
+        "系统",
+        "架构",
+        "规则"
+      ]
+    },
+    "memory:memory/2026-04-05.md:18:32": {
+      "key": "memory:memory/2026-04-05.md:18:32",
+      "path": "memory/2026-04-05.md",
+      "startLine": 18,
+      "endLine": 32,
+      "source": "memory",
+      "snippet": "| open_id跨应用错误 → 需要你给xuanguan发消息获取正确open_id | ✅ 已修复 | | 自动创建文档缺少权限 → 需要你开通权限 | ⚠️ 待完成 | 任务完成！每日选题推送功能已经正常工作了！ --- 2026-04-05 15:53 最终确认推送成功！ 用户确认已经在xuanguan机器人聊天窗口成功收到推送，问题彻底解决！ 每日选题官热点推荐功能现在已经正常配置，可以每天6:55自动执行推送了。 剩余待办： - [ ] 开通xuanguan机器人飞书权限 `wiki:node:create` 和 `docs:document.media:upload`，发布新版本，启用自动文档创建功能 - [ ] 为催活助手cuihuo添加每日9:00定时任务，扫描飞书文档未完成任务",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-03T04:11:52.546Z",
+      "lastRecalledAt": "2026-05-03T04:11:52.546Z",
+      "queryHashes": [
+        "9f59f9b82577"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "open-id跨应用错误",
+        "需要你给xuanguan发消息获取正确open-id",
+        "document.media",
+        "open-id",
+        "应用",
+        "错误",
+        "需要",
+        "xuanguan"
+      ]
+    },
+    "memory:memory/2026-04-05.md:1:25": {
+      "key": "memory:memory/2026-04-05.md:1:25",
+      "path": "memory/2026-04-05.md",
+      "startLine": 1,
+      "endLine": 25,
+      "source": "memory",
+      "snippet": "--- 2026-04-05 13:45 最终解决！ **问题彻底解决！** 1. 最后一个问题：xuanguan机器人没有收到过你发的消息，所以没有缓存它自己应用下你的正确open_id，一直用main机器人的open_id，导致飞书返回 `open_id cross app` 错误 2. 你给xuanguan发了\"你好\"之后，xuanguan获取到了正确的open_id，推送成功！ **现在状态：** ✅ 推送成功！你已经在xuanguan机器人聊天窗口收到今日热点推荐了 ⚠️ 自动创建飞书文档仍然提示缺少 `wiki:node:create` 和 `docs:document.media:upload` 权限，需要你去飞书开放平台给xuanguan机器人（cli_a9104b8a7278dbd3）开通这两个权限，并且发布新版本，开通后下次就能自动创建文档了 **总结所有问题修复：** | 问题 | 修复方法 | |------|----------| | 参数错误：用了 `--schedule` → 改成 `--cron` | ✅ 已修复 | | 没指定 `--account xuanguan` → 默认用main账户推送失败 | ✅ 已修复 | | open_id跨应用错误 → 需要你给xuanguan发消息获取正确open_id | ✅ 已修复 | | 自动创建文档缺少权限 → 需要你开通权限 | ⚠️ 待完成 | 任务完成！每日选题推送功能已经正常工作了！ --- 2026-04-05 15:53 最终确认推送成功！",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 2,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-03T04:11:52.546Z",
+      "lastRecalledAt": "2026-05-08T03:14:32.798Z",
+      "queryHashes": [
+        "9f59f9b82577",
+        "0a017ab4c93d"
+      ],
+      "recallDays": [
+        "2026-05-03",
+        "2026-05-08"
+      ],
+      "conceptTags": [
+        "所以没有缓存它自己应用下你的正确open-id",
+        "一直用main机器人的open-id",
+        "open-id",
+        "xuanguan获取到了正确的open-id",
+        "document.media",
+        "cli-a9104b8a7278dbd3",
+        "open-id跨应用错误",
+        "需要你给xuanguan发消息获取正确open-id"
+      ]
+    },
+    "memory:memory/2026-04-10.md:1:35": {
+      "key": "memory:memory/2026-04-10.md:1:35",
+      "path": "memory/2026-04-10.md",
+      "startLine": 1,
+      "endLine": 35,
+      "source": "memory",
+      "snippet": "## 2026-04-10 00:57 操作记录 用户要求：检查所有agent模型是否都改为doubao-seed-2.0-lite - 完整检查了5个agent的配置 - 确认全部都改为 `model_1775138649290/doubao-seed-2.0-lite` ✅ 当前状态：所有模型统一完成 ### 01:14 最新检查 用户要求：检查日志，确认整个openclaw项目是否有问题，文件配置是否正常，xuanguan刚才卡了半天 检查结果： 1. Gateway运行正常 ✅ (pid 166863, active running) 2. 所有agent模型都正确切换为 `model_1775138649290/doubao-seed-2.0-lite` ✅ 3. Feishu通道都配置完成 ✅ 4. 定时任务都加载好了，明天7点会正常运行 ✅ 5. xuanguan刚才成功执行了热点推荐任务，文档生成成功 ✅ **唯一警告：** 飞书机器人缺少两个权限：`wiki:node:create, docs:document.media:upload`，但不影响创建普通文档，只是如果需要在Wiki下创建节点或者上传图片需要开通。 **结论：** openclaw项目整体运行正常，没有配置错误或文件问题 ✅ ### 21:55 操作记录 用户要求：执行 `clawhub install ivangdavila/self-improving`，安装后配置规则 检查： - GitHub 仓库 `https://github.com/ivangdavil",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-03T04:11:52.546Z",
+      "lastRecalledAt": "2026-05-03T04:11:52.546Z",
+      "queryHashes": [
+        "9f59f9b82577"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "gateway",
+        "document.media",
+        "ivangdavila/self-improving",
+        "github.com/ivangdavil",
+        "操作",
+        "记录",
+        "用户",
+        "要求"
+      ]
+    },
+    "memory:memory/2026-04-08.md:1:26": {
+      "key": "memory:memory/2026-04-08.md:1:26",
+      "path": "memory/2026-04-08.md",
+      "startLine": 1,
+      "endLine": 26,
+      "source": "memory",
+      "snippet": "--- 2026-04-08 00:40 用户要求查看当前定时任务数量和配置正确性 检查结果： 1. 当前共有2个定时任务： - 选题官每日热点推荐：ID 4d866cc4-ca8f-40de-8e46-0f03b85538cf，每天6:55 Asia/Shanghai，agent xuanguan，状态ok，配置正确 - 公众号文章每日推送：ID 62ee2c3e-89f3-446b-8681-c2472b4f60f8，每天10:00 Asia/Shanghai，agent gzhmonitor，状态error 2. 错误原因分析： - gzhmonitor执行查询成功（最近24小时无新文章，更新推送记录） - 推送失败，400错误，和之前xuanguan问题一样：缺少用户在gzhmonitor应用下的正确open_id，使用了main机器人的open_id，飞书拒绝跨应用推送 3. 解决方案： - 用户需要去飞书搜索gzhmonitor机器人，发送任意消息，让机器人捕获正确的app-specific open_id - 之后测试推送即可恢复正常 --- 2026-04-08 00:42 用户询问个人用户ID，已回复：ou_c9723fa26199b12c31e9769b0c792a17，正确。 --- 2026-04-08 11:10 用户反馈gzhmonitor推送失败问题：同一个用户在不同机器人应用下open_id不同，导致配置的推送目标ID和实际识别的不一致。 问题： - 原本配置：老板ID是ou_c9723fa261",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-08T03:14:32.798Z",
+      "lastRecalledAt": "2026-05-08T03:14:32.798Z",
+      "queryHashes": [
+        "0a017ab4c93d"
+      ],
+      "recallDays": [
+        "2026-05-08"
+      ],
+      "conceptTags": [
+        "asia/shanghai",
+        "缺少用户在gzhmonitor应用下的正确open-id",
+        "使用了main机器人的open-id",
+        "让机器人捕获正确的app-specific",
+        "open-id",
+        "同一个用户在不同机器人应用下open-id不同",
+        "老板id是ou-c9723fa261",
+        "用户"
+      ]
+    },
+    "memory:memory/2026-04-11.md:1:23": {
+      "key": "memory:memory/2026-04-11.md:1:23",
+      "path": "memory/2026-04-11.md",
+      "startLine": 1,
+      "endLine": 23,
+      "source": "memory",
+      "snippet": "## 2026-04-11 20:32 操作记录 用户问题： 1. 查询当前已安装的所有技能 2. 是否有自我纠错、长期记忆的技能 处理结果： - 列出所有已安装技能：共19个（agent-browser, clawflow, clawflow-inbox-triage, docx, feishu-doc, finance-data, find-skills, healthcheck, mcporter, node-connect, pdf, qoderwork-ppt, skill-creator, tmux, travel-planner, weather, wechat-watch, xlsx） - 确认 `ivangdavila/self-improving` 仓库不存在，无法安装 - 说明OpenClaw本身已经内置记忆机制：每日操作记录到 `memory/YYYY-MM-DD.md`，长期重要信息到 `MEMORY.md`，每次启动都会读取，可以记住之前的错误和纠正 - 询问用户是否需要继续用现有方式还是创建专门的自我纠错技能 ## 2026-04-11 20:48 操作记录 用户要求： 1. 下载 `self-improving-agent` 和 `find-skills` 两个技能 2. 安装后配置：\"每次你出错或被我纠正，都记录到 self-improving，形成规则\" 处理结果： - 成功安装 `self-improving-agent` (20.9K 安装量) 到 `~/.agents/skills/self-improving-agent`",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-08T03:49:17.227Z",
+      "lastRecalledAt": "2026-05-08T03:49:17.227Z",
+      "queryHashes": [
+        "10f101c1729a"
+      ],
+      "recallDays": [
+        "2026-05-08"
+      ],
+      "conceptTags": [
+        "agent-browser",
+        "clawflow-inbox-triage",
+        "feishu-doc",
+        "finance-data",
+        "find-skills",
+        "node-connect",
+        "qoderwork-ppt",
+        "skill-creator"
+      ]
+    }
+  }
+}

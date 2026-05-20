@@ -1,0 +1,66 @@
+# Dependencies
+node_modules/
+*/node_modules/
+.npm/
+
+# OpenClaw specific
+.openclaw/*.log
+.openclaw/*pid
+.openclaw/runtime/
+.openclaw/tmp/
+*.pid
+
+# Sensitive data
+*.env
+.env
+.env.*
+config/*secret*
+*token*
+*password*
+creds/
+credentials/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Media (large files)
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.zip
+*.tar.gz
+*.rar
+
+# Memory daily files (keep only in cloud, exclude from git)
+memory/20*.md
+!memory/README.md
