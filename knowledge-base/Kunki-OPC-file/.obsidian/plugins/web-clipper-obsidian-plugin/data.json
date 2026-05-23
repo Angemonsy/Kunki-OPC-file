@@ -1,0 +1,20 @@
+{
+    "engine":  "playwright",
+    "apiKey":  "",
+    "screenshotServerPath":  "",
+    "imageFolder":  "web-clipper-images",
+    "viewportWidth":  1280,
+    "viewportHeight":  720,
+    "format":  "png",
+    "blockAds":  true,
+    "blockCookieBanners":  true,
+    "blockChats":  true,
+    "fullPage":  false,
+    "delay":  3,
+    "translateToZh":  true,
+    "recordDuration":  15,
+    "recordFormat":  "mp4",
+    "scrollDelay":  500,
+    "scrollDuration":  1500,
+    "scrollBy":  800
+}

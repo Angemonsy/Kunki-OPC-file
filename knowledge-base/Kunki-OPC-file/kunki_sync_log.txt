@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "<string>", line 6, in <module>
+    data = json.load(open('kunki_input_correct.json'))
+  File "C:\Python313\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+                 ~~~~~~~^^
+UnicodeDecodeError: 'gbk' codec can't decode byte 0x80 in position 148: illegal multibyte sequence

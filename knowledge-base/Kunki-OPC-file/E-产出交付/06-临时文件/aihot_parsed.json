@@ -1,0 +1,482 @@
+{
+  "精选热点": [],
+  "全部AI动态": [
+    {
+      "title": "宝玉@dotey精选81OpenAI 政变之夜内部短信曝光：董事会为何执意赶走 Altman？在马斯克起诉OpenAI案",
+      "summary": "宝玉@dotey精选81OpenAI 政变之夜内部短信曝光：董事会为何执意赶走 Altman？在马斯克起诉OpenAI案的庭审中，前CTO Mira Murati的证词及2023年11月政变之夜的内部短信被公开。短信显示，董事会解雇Altman后态度反转，已选定前Twitch CEO为新任CEO。Altman曾提议由微软收购OpenAI以实现董事会治理目标。当被问及动机时，Murati回复：“他们只是不想让AGI掌控在你手上。”这些证据正支撑马斯克主张OpenAI背叛非营利初衷的诉讼，其要求推翻营利模式并索赔1800亿美元。OpenAI安全/对齐行业动态推荐理由：Altman与Murati的短信首次曝光，「就是不想让AGI掌在你手里」把董事会的真实动机砸实了。微软收购提议更是为马斯克诉讼提供了新弹药，这场庭审信息量太大。",
+      "url": "https://x.com/dotey/status/2052255174706479349",
+      "tags": [
+        "OpenAI",
+        "安全/对齐",
+        "行业动态"
+      ],
+      "source": "宝玉",
+      "score": ""
+    },
+    {
+      "title": "HuggingFace Daily Papers（社区热门论文）精选76OpenSearch-VL：前沿多模态搜索智能体",
+      "summary": "HuggingFace Daily Papers（社区热门论文）精选76OpenSearch-VL：前沿多模态搜索智能体的开源方案研究团队推出完全开源的OpenSearch-VL方案，用于训练前沿多模态深度搜索智能体。该方案包含三大核心：通过维基百科路径采样、模糊实体重写和视觉定位构建的高质量训练数据集（包括用于微调的SearchVL-SFT-36k和用于强化学习的SearchVL-RL-8k）；统一文本搜索、图像搜索、OCR及图像处理工具的多样化环境；以及能处理级联工具失败的多轮致命错误感知GRPO训练算法。基于此训练的智能体在七个基准测试中平均提升超过10分，在多项任务上达到与专有商业模型相当的水平。所有数据、代码和模型均将开源。智能体arXiv多模态论文/研究推荐理由：把多模态搜索 agent 的完整训练配方开源了，数据、环境、算法全都有，七个基准平均涨 10 点，直接对标商业模型，做深度搜索的同学可以无脑跟。",
+      "url": "https://arxiv.org/abs/2605.05185",
+      "tags": [
+        "智能体",
+        "arXiv",
+        "多模态",
+        "论文/研究"
+      ],
+      "source": "HuggingFace Daily Papers（社区热门论文）",
+      "score": ""
+    },
+    {
+      "title": "推文推荐免费网站aihot.virxact.com，可直接追踪AI信息",
+      "summary": "推文推荐免费网站aihot.virxact.com，可直接追踪AI信息。该平台由公众号顶流博主卡兹克（@Khazix0918）公开其日常使用的优质信息源，无需登录即可访问，采用时间线形式便于查找，并分类整合官方信源、优质博主和推友等内容，还包括公众号监测和AI日报。用户通过此平台可使自己的AI信息源与顶流博主保持一致。",
+      "url": "https://x.com/berryxia/status/2052228465496322318",
+      "tags": [
+        "搜索",
+        "教程/实践"
+      ],
+      "source": "Berryxia.AI",
+      "score": ""
+    },
+    {
+      "title": "meng shao@shao__meng精选77Amp发布新版CLI工具Neo，引领Coding Agent向长链路转型",
+      "summary": "meng shao@shao__meng精选77Amp发布新版CLI工具Neo，引领Coding Agent向长链路转型Amp发布CLI工具Neo，标志着Coding Agent从“陪伴式”转向“长链路”新方向，核心是减少人工介入、支持随处运行与触发。关键更新包括：实现本地线程的远程控制与编排；引入自动上下文压缩，淘汰手动管理；正式发布Plugin API，支持扩展工具与交互；采用队列与引导机制优化工作流；权限模型彻底反转，默认允许所有操作，将安全控制权移交插件系统；性能大幅提升，CPU与内存占用显著下降。此次更新旨在构建更自主、高效且可扩展的智能编程代理架构。智能体MCP/工具产品更新编码推荐理由：Amp 这次重写把 Coding Agent 从「陪你写代码」变成了「替你干完活」，默认不询问权限这步走得够狠，但也确实是大模型能力上来的必然。",
+      "url": "https://x.com/shao__meng/status/2052212574306095337",
+      "tags": [
+        "智能体",
+        "MCP/工具",
+        "产品更新",
+        "编码"
+      ],
+      "source": "meng shao",
+      "score": ""
+    },
+    {
+      "title": "向阳乔木@vista8精选76Open Slide：让 AI 来写你的 PPT 代码开源项目 Open Slide 基于",
+      "summary": "向阳乔木@vista8精选76Open Slide：让 AI 来写你的 PPT 代码开源项目 Open Slide 基于 React 框架构建 PPT，其工作流专为 AI Agent 设计。它利用丰富的 React 组件库实现更强扩展性，便于集成各类图表。核心功能包括可视化编辑器支持手动修改，以及 AI 能直接读取用户评论并协同修改内容。项目还集成了包含 1500+ 品牌 Logo 的 SVGL 库，方便技术演示，旨在提升 PPT 制作的效率与自动化程度。智能体GitHub开源/仓库推荐理由：用 React 写 PPT 的思路很妙，加上 1500+ 品牌 Logo 库，AI 生成演示文稿终于不是一坨屎了。做技术的可以 clone 下来跑跑看。",
+      "url": "https://x.com/vista8/status/2052203194982248537",
+      "tags": [
+        "智能体",
+        "GitHub",
+        "开源/仓库"
+      ],
+      "source": "向阳乔木",
+      "score": ""
+    },
+    {
+      "title": "Flue ：又一个Agent开发框架",
+      "summary": "Flue ：又一个Agent开发框架。\n开发类似Claude Code风格的智能体，基于TypeScript。\n想折腾开发自己Agent的朋友可以试试。\n安装超级简单，官方提供了Prompt：\nfetch https：//flueframework.com/start.md to create a new agent",
+      "url": "https://x.com/vista8/status/2052199176218259752",
+      "tags": [
+        "智能体",
+        "开源/仓库"
+      ],
+      "source": "向阳乔木",
+      "score": ""
+    },
+    {
+      "title": "一个用 Chrome Dev Tool 学习调试 Codex App 的技巧：\n",
+      "summary": "一个用 Chrome Dev Tool 学习调试 Codex App 的技巧：\n1. 退出 Codex App，从命令行打开：\n> open /Applications/Codex.app --args --remote-debugging-port=8315 --remote-allow-origins=http：//localhost：8315\n2. Chrome 中输入 chrome：//inspect\n3. 点击其中的链接即可打开 Chrome Debug Tool",
+      "url": "https://x.com/dotey/status/2052200047278739457",
+      "tags": [
+        "OpenAI",
+        "教程/实践",
+        "编码"
+      ],
+      "source": "宝玉",
+      "score": ""
+    },
+    {
+      "title": "向阳乔木@vista8精选75Al Agent装进口袋：TRAE SOLO移动端上手全攻略字节推出的TRAE SOLO ",
+      "summary": "向阳乔木@vista8精选75Al Agent装进口袋：TRAE SOLO移动端上手全攻略字节推出的TRAE SOLO AI Agent工具现已向全量用户开放App、Web和桌面三端，实现跨设备无缝衔接。其移动端支持访问电脑项目、调用已安装技能并执行任务，演示了数据分析、信息整理、学习辅助及自动化等场景。工具支持第三方模型和技能扩展，并与飞书深度集成，便捷创建文档和日程。其“More Than Coding”理念强调AI Agent能处理各类长程复杂任务，而不仅限于编程。智能体MCP/工具教程/实践端侧推荐理由：TRAE SOLO 移动端不是阉割版，三端同步、同会话，还能装 Skill、接飞书，是目前把 AI Agent 随身化的最完整方案。在外面也能工作，这才是移动端该有的样子。",
+      "url": "https://x.com/vista8/status/2052187256920691131",
+      "tags": [
+        "智能体",
+        "MCP/工具",
+        "教程/实践",
+        "端侧"
+      ],
+      "source": "向阳乔木",
+      "score": ""
+    },
+    {
+      "title": "首届连接代码与文化的AI创意大会将于6月17日至18日登陆纽约",
+      "summary": "首届连接代码与文化的AI创意大会将于6月17日至18日登陆纽约。\n早鸟票数量有限现已开售。\n趁早抢购以免错失良机。\nhttp：//vibecon.ai",
+      "url": "https://x.com/Replit/status/2052181075988992004",
+      "tags": [
+        "开源生态",
+        "行业动态"
+      ],
+      "source": "Replit ?",
+      "score": ""
+    },
+    {
+      "title": "Apple Machine Learning Research（RSS）精选63Normalizing Flows wi",
+      "summary": "Apple Machine Learning Research（RSS）精选63Normalizing Flows with Iterative Denoising研究团队在归一化流（NFs）生成模型领域取得新进展，提出了迭代TARFlow（iTARFlow）。该方法在训练阶段保持完全端到端的基于似然的目标，采样时则采用自回归生成方式。iTARFlow延续了TARFlow在图像建模任务上的优势，使其成为扩散模型等方法的可行替代方案，进一步提升了归一化流生成模型的性能表现。图像生成论文/研究推荐理由：Normalizing Flows 这个老方法被苹果玩出新花样，iTARFlow 在训练上保留端到端似然，采样却自回归，给做生成模型的人提供了扩散模型之外的第二个靠谱选择。",
+      "url": "https://machinelearning.apple.com/research/normalizing-flows-iterative-denoising",
+      "tags": [
+        "图像生成",
+        "论文/研究"
+      ],
+      "source": "Apple Machine Learning Research（RSS）",
+      "score": ""
+    },
+    {
+      "title": "Apple Machine Learning Research（RSS）精选64SpecMD： 关于推测性专家预取的综合",
+      "summary": "Apple Machine Learning Research（RSS）精选64SpecMD： 关于推测性专家预取的综合研究研究团队开发了SpecMD，这是一个用于在各种硬件配置上对临时缓存策略进行基准测试的标准化框架。该研究聚焦于混合专家模型，这类模型虽然实现了稀疏专家激活，但需要专家缓存机制才能将稀疏性转化为实际性能提升。此前的研究提出了以硬件为中心的缓存策略，但不同缓存策略之间以及它们与不同硬件规格之间的相互作用尚不明确。SpecMD框架旨在填补这一理解空白，系统性地评估缓存策略的交互影响与硬件适配性。推理论文/研究部署/工程推荐理由：MoE推理的缓存策略一直靠经验摸，Apple给的标准化框架能系统比较不同策略，做分布式推理的可以省些心力。",
+      "url": "https://machinelearning.apple.com/research/specmd-expert-prefetching",
+      "tags": [
+        "推理",
+        "论文/研究",
+        "部署/工程"
+      ],
+      "source": "Apple Machine Learning Research（RSS）",
+      "score": ""
+    },
+    {
+      "title": "Berryxia.AI@berryxia精选72Google翻译推出实时耳机传译，支持70多种语言Google Tran",
+      "summary": "Berryxia.AI@berryxia精选72Google翻译推出实时耳机传译，支持70多种语言Google Translate的Live translate功能通过耳机提供70多种语言的实时同声传译。用户只需佩戴耳机并启动应用，即可在耳中直接听到翻译。该功能基于Gemini高级语音模型，不仅能准确翻译语义，还能保留说话人的语气、重音和节奏等细微特征，使交流体验更接近真人对话。这项技术旨在消除跨语言沟通的障碍，让用户在海外能进行更自然的交流。Google产品更新语音推荐理由：Google 把实时同传塞进耳机，关键不是翻译而是 Gemini 保留了语气和节奏，听到的是人不是机器，出国党必存。",
+      "url": "https://x.com/berryxia/status/2052172994437681315",
+      "tags": [
+        "Google",
+        "产品更新",
+        "语音"
+      ],
+      "source": "Berryxia.AI",
+      "score": ""
+    },
+    {
+      "title": "现在所有Replit开发者都能安全地将webhooks、GitHub、Slack等外部服务连接到私有应用\n这样内部工具可",
+      "summary": "现在所有Replit开发者都能安全地将webhooks、GitHub、Slack等外部服务连接到私有应用\n这样内部工具可以发布Slack更新，或商业应用可以接收Stripe付款，同时保持对组织或团队的私密性。\n要实现此功能，请将应用私有发布，您将在发布面板的\"安全\"部分看到外部访问令牌选项，可在此创建和管理这些外部服务的令牌",
+      "url": "https://x.com/Replit/status/2052175144349848033",
+      "tags": [
+        "产品更新",
+        "部署/工程"
+      ],
+      "source": "Replit ?",
+      "score": ""
+    },
+    {
+      "title": "xAI：News（网页）精选79Grok Imagine API 推出\"Quality Mode\"图像生成与编辑功能xA",
+      "summary": "xAI：News（网页）精选79Grok Imagine API 推出\"Quality Mode\"图像生成与编辑功能xAI正式向企业开发者和团队推出Grok Imagine API的“Quality Mode”图像生成与编辑功能。该模式在真实性、文本渲染和创意控制上实现显著提升，能生成细节精细、纹理准确、场景逼真的图像，并具备清晰的多语言文本生成能力。在独立排行榜中，该API已位列顶级模型之列。定价为输入提示每次0.01美元，输出图像根据分辨率（1K或2K）每张费用在0.05至0.07美元之间。此功能适用于产品可视化、营销素材快速生成、用户内容风格创作等多种商业场景。xAI产品更新多模态关联讨论 1 条X：xAI (@xai)推荐理由：Grok Imagine 的 Quality Mode 在写实度和文字渲染上提升很明显，对需要高频生成产品图和 UGC 内容的品牌团队是个实在的更新，API 直接能用，单张才几分钱。",
+      "url": "https://x.ai/news/grok-imagine-quality-mode",
+      "tags": [
+        "xAI",
+        "产品更新",
+        "多模态"
+      ],
+      "source": "xAI：News（网页）",
+      "score": ""
+    },
+    {
+      "title": "OpenAI：官网动态（RSS · 排除企业/客户案例）精选72Uber 利用 OpenAI 帮助司机更智能地赚钱、乘客",
+      "summary": "OpenAI：官网动态（RSS · 排除企业/客户案例）精选72Uber 利用 OpenAI 帮助司机更智能地赚钱、乘客更快地叫车Uber 宣布在其全球实时交通服务平台中集成 OpenAI 技术，用于驱动 AI 助手与语音功能。新功能旨在帮助司机更智能地规划接单以提升收入，同时让乘客能够更快完成叫车流程。该技术将应用于优化实时供需匹配与用户体验。OpenAI行业动态语音推荐理由：Uber 把 OpenAI 的语音和助手能力搬进了打车场景，这是 AI 真正融入日常服务的一个信号，对做产品的人来说，落地路径比技术参数更重要。",
+      "url": "https://openai.com/index/uber",
+      "tags": [
+        "OpenAI",
+        "行业动态",
+        "语音"
+      ],
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "score": ""
+    },
+    {
+      "title": "Google DeepMind宣布与Fenris Creations建立研究合作伙伴关系，将在独立的EVE Online",
+      "summary": "Google DeepMind宣布与Fenris Creations建立研究合作伙伴关系，将在独立的EVE Online游戏环境中进行新研究。该合作聚焦于复杂、动态且由玩家驱动的系统中的智能研究。Demis Hassabis强调游戏一直是AI的理想试验场，并盛赞EVE Online是一款非凡的游戏且拥有出色的社区。此次合作旨在利用这一独特环境推进人工智能在复杂系统领域的发展。",
+      "url": "https://x.com/testingcatalog/status/2052149633913139655",
+      "tags": [
+        "DeepMind",
+        "行业动态"
+      ],
+      "source": "TestingCatalog News ??",
+      "score": ""
+    },
+    {
+      "title": "Apple Machine Learning Research（RSS）精选72从位置认知到功能理解：为多模态大语言模型",
+      "summary": "Apple Machine Learning Research（RSS）精选72从位置认知到功能理解：为多模态大语言模型设立空间功能智能基准现有基准如VSI-Bench主要评估基础几何感知能力，但未能触及具身智能所需的高阶认知。为此，研究团队推出了空间功能智能基准SFI-Bench，该基准包含超过1700个问题，数据来源于多样化的第一人称室内扫描视频。SFI-Bench旨在系统评估多模态大模型从物体位置感知到功能意图理解的高级空间推理能力，标志着对智能体空间认知的评估从几何层面迈向功能层面。多模态推理论文/研究推荐理由：Apple 自己搞的 SFI-Bench 把评估从几何定位推进到功能理解，这个方向很对，做具身智能和空间推理的团队该跟一下。",
+      "url": "https://machinelearning.apple.com/research/spatial",
+      "tags": [
+        "多模态",
+        "推理",
+        "论文/研究"
+      ],
+      "source": "Apple Machine Learning Research（RSS）",
+      "score": ""
+    },
+    {
+      "title": "xAI：News（网页）精选83Grok Web 正式推出 Connectors 功能，实现与日常应用深度集成xAI 正",
+      "summary": "xAI：News（网页）精选83Grok Web 正式推出 Connectors 功能，实现与日常应用深度集成xAI 正式在 Grok Web 上线 Connectors 功能，提供与多种日常应用工具的深度集成。该功能允许 Grok 端到端处理任务，如阅读总结邮件、更新幻灯片、管理日历和编辑电子表格，无需频繁切换和复制粘贴。首批支持的连接器包括 SharePoint、Outlook、OneDrive、Google Workspace、Notion、GitHub 和 Linear，涵盖文件搜索读写、代码审查与任务管理等操作。同时推出的“自带 MCP”功能支持连接自定义模型上下文协议服务器。完整的 Connectors 支持也即将登陆 Grok iOS 和 Android 应用。MCP/工具xAI产品更新推荐理由：Grok这波连接器把 Office、GitHub 和 Notion 全打通了，不是演示级挂接，是能直接读写编辑的真集成，外加开放自建 MCP，产品经理和开发者都该立刻上手试试。",
+      "url": "https://x.ai/news/grok-connectors",
+      "tags": [
+        "MCP/工具",
+        "xAI",
+        "产品更新"
+      ],
+      "source": "xAI：News（网页）",
+      "score": ""
+    },
+    {
+      "title": "Hacker News 热门（buzzing.cc 中文翻译）精选76Show HN： Tilde.run - 具备事务",
+      "summary": "Hacker News 热门（buzzing.cc 中文翻译）精选76Show HN： Tilde.run - 具备事务性和版本控制文件系统的代理沙箱Tilde.run 发布了一款代理沙箱，其核心特点是具备事务性和版本控制功能的文件系统。该系统支持事务操作，确保文件更改的原子性，同时提供完整的版本历史记录。该工具旨在为开发者提供一个安全、可回溯的代码执行环境，适用于需要高可靠性的自动化代理或脚本测试场景。目前该项目已在 Hacker News 上获得 102 点关注度。智能体产品更新部署/工程推荐理由：Agent 沙箱里的文件操作终于有了事务和版本回滚，对自动化链路调试是个实在的改进，搞 LLM 工具调用的可以试试。",
+      "url": "https://tilde.run/",
+      "tags": [
+        "智能体",
+        "产品更新",
+        "部署/工程"
+      ],
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "score": ""
+    },
+    {
+      "title": "GitHub Blog精选56Validating agentic behavior when \"correct\" is",
+      "summary": "GitHub Blog精选56Validating agentic behavior when \"correct\" isn't deterministicGitHub 探讨如何为 Copilot 编码智能体构建“信任层”。文章提出，在“正确”答案非确定性的场景下，可通过领域分析来验证智能体的自主行为，避免使用脆弱的脚本或黑盒判断。该方法旨在提升 AI 编码助手的可靠性与透明度，确保其行为符合预期标准。智能体GitHub教程/实践编码推荐理由：做coding agent最头疼的就是如何验证产出质量，GitHub这篇把他们的内部方法论开源了，用dominance分析替代脆弱的脚本，对正在折腾AI编程工具的团队是实打实的参考，值得逐帧学习。",
+      "url": "https://github.blog/ai-and-ml/generative-ai/validating-agentic-behavior-when-correct-isnt-deterministic",
+      "tags": [
+        "智能体",
+        "GitHub",
+        "教程/实践",
+        "编码"
+      ],
+      "source": "GitHub Blog",
+      "score": ""
+    },
+    {
+      "title": "xAI正在成为SpaceXAI",
+      "summary": "xAI正在成为SpaceXAI。",
+      "url": "https://x.com/rohanpaul_ai/status/2052120407281721513",
+      "tags": [
+        "xAI",
+        "行业动态"
+      ],
+      "source": "Rohan Paul",
+      "score": ""
+    },
+    {
+      "title": "Hugging Face：Blog（RSS）精选65vLLM V0 到 V1：在线强化学习中优先确保后端行为正确性为确保",
+      "summary": "Hugging Face：Blog（RSS）精选65vLLM V0 到 V1：在线强化学习中优先确保后端行为正确性为确保 vLLM 从 0.8.5 到 0.18.1 的重大重写后，在线强化学习训练结果与 V0 参考运行一致，团队优先修复后端行为而非调整 RL 目标。关键修复包括：将日志概率模式设为 `processed_logprobs` 以匹配采样器分布；禁用 V1 特有的前缀缓存和异步调度等运行时默认值；调整权重更新路径以匹配 V0 的缓存保留行为；并确保 rollout 后端使用 fp32 精度的 `lm_head` 进行最终投影。这些措施消除了策略比率均值偏差，使 V1 在 KL 散度、熵等指标上与 V0 达成一致。Hugging Face推理教程/实践部署/工程推荐理由：vLLM V1迁移时踩的四个坑全在这里，从logprob语义到fp32投影头，修完才调RL目标，做在线RL的团队可以直接抄这份配置清单。",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+      "tags": [
+        "Hugging Face",
+        "推理",
+        "教程/实践",
+        "部署/工程"
+      ],
+      "source": "Hugging Face：Blog（RSS）",
+      "score": ""
+    },
+    {
+      "title": "通过个人智能与Nano Banana 2的协同工作，您现在可以将兴趣转化为Gemini中的图像",
+      "summary": "通过个人智能与Nano Banana 2的协同工作，您现在可以将兴趣转化为Gemini中的图像。\n请勿错过我们在Discord上的下一次社区活动，届时将有最新版本团队的现场演示和问答环节。\n??加入我们的Discord观看直播：http：//discord.gg/gemini\n?? 今天太平洋时间中午12：00",
+      "url": "https://x.com/GeminiApp/status/2052081499437166749",
+      "tags": [
+        "Google",
+        "产品更新",
+        "图像生成",
+        "多模态"
+      ],
+      "source": "Google Gemini",
+      "score": ""
+    },
+    {
+      "title": "介绍ChatGPT未来班2026届--首批在大学四年全程使用ChatGPT的26",
+      "summary": "介绍ChatGPT未来班2026届--首批在大学四年全程使用ChatGPT的26位优秀毕业生，他们运用AI实现了以下成果：\n- 绘制了150万个此前未知的太空天体\n- 通过墙壁和废墟探测灾难幸存者\n- 使超过1亿张星系图像可检索\n- 保护濒危语言\n- 建立基础设施，将超过500万磅未售库存从垃圾填埋场转移",
+      "url": "https://x.com/OpenAI/status/2052086313797705954",
+      "tags": [
+        "OpenAI",
+        "行业动态"
+      ],
+      "source": "OpenAI",
+      "score": ""
+    },
+    {
+      "title": "OrcaRouter-Lite 现已开源，这是一个采用MIT许可、可自托管的大型语言模型路由工具",
+      "summary": "OrcaRouter-Lite 现已开源，这是一个采用MIT许可、可自托管的大型语言模型路由工具。它支持用户自带密钥，无需外部数据库，并能对接OpenAI、Anthropic、Google、Groq等多种服务提供商。其核心创新是model=\"auto\"模式，可自动为每次请求选择成本最低且能力匹配的模型，并具备跨提供商的确定性提示缓存功能，使得重复的相同请求能在毫秒内以零成本返回。该项目旨在解决开发团队手动编写复杂模型选择逻辑的痛点，通过简单的Docker部署即可实现路由功能，托管版本将于本周稍晚推出。",
+      "url": "https://x.com/kimmonismus/status/2052084057014407615",
+      "tags": [
+        "GitHub",
+        "开源/仓库",
+        "开源生态",
+        "部署/工程"
+      ],
+      "source": "Chubby??",
+      "score": ""
+    },
+    {
+      "title": "我们正在推出领域特定能力评分，使用与通用ECI相同的量表，追踪模型在软件工程和数学基准测试中的能力",
+      "summary": "我们正在推出领域特定能力评分，使用与通用ECI相同的量表，追踪模型在软件工程和数学基准测试中的能力。我们还支持用户自定义创建ECI变体。链接如下！",
+      "url": "https://x.com/EpochAIResearch/status/2052069897530933438",
+      "tags": [
+        "推理",
+        "编码",
+        "评测/基准"
+      ],
+      "source": "Epoch AI",
+      "score": ""
+    },
+    {
+      "title": "作者盛赞访问Moonshot AI（月之暗面）的体验极佳",
+      "summary": "作者盛赞访问Moonshot AI（月之暗面）的体验极佳。其旗下产品Kimi正以超200亿美元的投后估值完成新一轮约20亿美元融资，由美团龙珠领投。公司在2025年前六个月融资总额超39亿美元，估值较去年11月增长约4倍，成为中国累计融资额最高的AI初创公司。其年度经常性收入在短期内从1亿美元快速增长至超2亿美元，付费订阅和API使用量均在加速。",
+      "url": "https://x.com/natolambert/status/2052067048206090610",
+      "tags": [
+        "DeepSeek",
+        "推理",
+        "行业动态"
+      ],
+      "source": "Nathan Lambert",
+      "score": ""
+    },
+    {
+      "title": "Anthropic：Newsroom（网页）精选81Claude使用限制提升及与SpaceX达成算力合作Anthropi",
+      "summary": "Anthropic：Newsroom（网页）精选81Claude使用限制提升及与SpaceX达成算力合作Anthropic与SpaceX达成合作，获得其Colossus 1数据中心超300兆瓦（含逾22万块NVIDIA GPU）的算力。此举使Claude Code的Pro、Max等多档计划的五小时速率限制立即翻倍，并取消了高峰时段限流；Claude Opus的API速率也大幅提升。公司还公布了与亚马逊、谷歌、微软等科技巨头的一系列大规模算力协议，总投资额巨大。为满足企业客户的合规需求，算力扩张计划也将覆盖亚洲和欧洲地区。Anthropic产品更新部署/工程关联讨论 13 条X：xAI (@xai)X：Claude Devs (@ClaudeDevs)X：Thariq (@trq212)xAI：News（网页）X：歸藏 (@op7418)Hacker News 热门（buzzing.cc 中文翻译）X：宝玉 (@dotey)X：Testing Catalog (@testingcatalog)X：Rohan Paul (@rohanpaul_ai)X：Kim (@kimmonismus)The Decoder：AI News（RSS）X：阿易 AI Notes (@AYi_AInotes)X：小互 (@xiaohu)推荐理由：跟 SpaceX 搞轨道算力是长期故事，但今天起 Claude Code 速率翻倍、API 限制松绑，对重度用户是立刻能摸到的甜头，即日生效不用等。",
+      "url": "https://www.anthropic.com/news/higher-limits-spacex",
+      "tags": [
+        "Anthropic",
+        "产品更新",
+        "部署/工程"
+      ],
+      "source": "Anthropic：Newsroom（网页）",
+      "score": ""
+    },
+    {
+      "title": "Stanford CS336课程指出，过去三年主流大语言模型架构高度收敛，约90%组件形成共通模板",
+      "summary": "Stanford CS336课程指出，过去三年主流大语言模型架构高度收敛，约90%组件形成共通模板。核心包括：架构普遍采用pre-norm、RMS Norm、无偏置、SwiGLU/GeGLU激活函数、RoPE位置编码；超参数如FFN维度比例、注意力头配置、模型纵横比等已成惯例。为保障训练稳定，Z-loss、QK norm等技术被广泛使用；GQA成为推理部署标配，局部与全局attention交替是处理长上下文的新趋势。这套模板被视为2026年开源LLM的\"默认配置\"。",
+      "url": "https://x.com/berryxia/status/2052046098966220980",
+      "tags": [
+        "教程/实践"
+      ],
+      "source": "Berryxia.AI",
+      "score": ""
+    },
+    {
+      "title": "NVIDIA AI Blog精选58NVIDIA Spectrum-X -- 开放的、AI原生的以太网架构 -- 为千兆",
+      "summary": "NVIDIA AI Blog精选58NVIDIA Spectrum-X -- 开放的、AI原生的以太网架构 -- 为千兆级AI树立标准，现已支持MRCNVIDIA宣布其Spectrum-X以太网扩展架构现已支持多资源容器（MRC）。这一AI原生的开放以太网架构旨在为构建千兆级AI工厂提供网络标准，以满足大规模AI训练与推理对高性能、可扩展网络的需求。MRC的加入增强了资源隔离与管理能力，使Spectrum-X能够更好地支持多租户、多工作负载的复杂AI环境，确保AI计算集群的性能与效率。产品更新部署/工程推荐理由：做AI基础设施的同行值得看，MRC这个新特性在超大规模网络里能再压一波通信延迟，属于那种平时用不上但建万卡集群时就会想起的更新。",
+      "url": "https://blogs.nvidia.com/blog/category/enterprise/intelligent-networking",
+      "tags": [
+        "产品更新",
+        "部署/工程"
+      ],
+      "source": "NVIDIA AI Blog",
+      "score": ""
+    },
+    {
+      "title": "姚老师将其去年编写的提示词整理并开源，强调这些提示词以实干派风格为主，适用于商业场景，源于实际业务需求",
+      "summary": "姚老师将其去年编写的提示词整理并开源，强调这些提示词以实干派风格为主，适用于商业场景，源于实际业务需求。合集包含约100个提示词，覆盖AI方法、工作、学习、生活、教育、内容、编程、营销和思考等9类场景，特别推荐其中的元提示词（包括简易版和进阶版）。项目已通过GitHub发布，并将持续更新验证过的有价值提示词，方便用户下载和迭代。",
+      "url": "https://x.com/vista8/status/2052027791546233050",
+      "tags": [
+        "开源生态",
+        "教程/实践"
+      ],
+      "source": "向阳乔木",
+      "score": ""
+    },
+    {
+      "title": "Perplexity Agent API 现已提供金融搜索功能",
+      "summary": "Perplexity Agent API 现已提供金融搜索功能。\n开发者只需一次工具调用，即可为需要当前可验证金融答案的智能体获取授权金融数据集、实时市场数据和附引用的网络资源。",
+      "url": "https://x.com/perplexity_ai/status/2052028012313649194",
+      "tags": [
+        "产品更新",
+        "搜索"
+      ],
+      "source": "Perplexity",
+      "score": ""
+    },
+    {
+      "title": "?? SenseNova-U1 更新：\n? 开源8步蒸馏LoRA：100 NFE",
+      "summary": "?? SenseNova-U1 更新：\n? 开源8步蒸馏LoRA：100 NFE降至8 NFE，H100推理时间从23秒缩短至2秒\n?? 现已支持ComfyUI，提供文生图、图像编辑和交错生成的即用工作流\n试用链接 ??\nhttps：//github.com/OpenSenseNova/SenseNova-U1/",
+      "url": "https://x.com/SenseTime_AI/status/2052033518121955818",
+      "tags": [
+        "图像生成",
+        "开源/仓库",
+        "推理",
+        "模型发布"
+      ],
+      "source": "SenseTime",
+      "score": ""
+    },
+    {
+      "title": "Simon Willison 博客精选77编程模式界限模糊：从\"感觉编码\"到\"代理工程\"的融合与隐忧作者在访谈中反思，曾",
+      "summary": "Simon Willison 博客精选77编程模式界限模糊：从\"感觉编码\"到\"代理工程\"的融合与隐忧作者在访谈中反思，曾严格区分的两种AI编程模式——“感觉编码”（不审查代码）与“代理工程”（专业工程师构建高质量系统）——其界限在实践中正迅速模糊。随着Claude等编码代理可靠性提升，作者发现自己即使在生产级项目中也不再逐行审查AI生成的代码，转而将其视为可信的“半黑箱”。这带来了新的责任困境：AI缺乏职业声誉却持续产出正确代码，可能导致“偏差正常化”风险，即每一次成功都可能在不当时刻埋下隐患。同时，AI生成代码的便捷性也使得评估软件质量的传统指标（如提交次数、测试覆盖）不再可靠。智能体大佬观点编码推荐理由：Simon 坦诚自己在生产级开发中也开始‘不看代码就信任 Claude Code’，这个伦理困境是每个 AI 编程工具使用者都绕不开的一课，他的思考比大多数评测都更能帮你定位自己的信任边界。",
+      "url": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering",
+      "tags": [
+        "智能体",
+        "大佬观点",
+        "编码"
+      ],
+      "source": "Simon Willison 博客",
+      "score": ""
+    },
+    {
+      "title": "IT之家（RSS）精选71豆包大模型家族首款全模态理解模型：字节跳动 Doubao-Seed-2.0-lite 升级字节",
+      "summary": "IT之家（RSS）精选71豆包大模型家族首款全模态理解模型：字节跳动 Doubao-Seed-2.0-lite 升级字节跳动火山引擎发布豆包大模型家族首款全模态理解模型 Doubao-Seed-2.0-lite 升级版。该模型原生统一支持视频、图像、音频和文本理解，并能进行跨模态联合推理，在物理、医疗等学科推理及细粒度感知上表现超越此前Pro版本。音频方面支持19种语种转写及多语种互译，多项基准测试优于Gemini-3.1-Pro。同时，其Agent、Coding与GUI能力升级，能更稳定处理长任务、胜任深度开发，并实现界面理解与操作执行的闭环。新版本已在火山方舟上线，旨在为企业提供高性价比的全模态任务部署方案。智能体多模态推理模型发布推荐理由：豆包Seed 2.0 lite把视频、音频、图片、文字原生塞进一个模型，还顺手强化了Agent和GUI操作，对需要全模态处理的企业来说，这可能是目前性价比最高的选择。",
+      "url": "https://www.ithome.com/0/947/010.htm",
+      "tags": [
+        "智能体",
+        "多模态",
+        "推理",
+        "模型发布"
+      ],
+      "source": "IT之家（RSS）",
+      "score": ""
+    },
+    {
+      "title": "OpenAI：官网动态（RSS · 排除企业/客户案例）精选69通过 MRC（多路径可靠连接）解锁大规模 AI 训练网络",
+      "summary": "OpenAI：官网动态（RSS · 排除企业/客户案例）精选69通过 MRC（多路径可靠连接）解锁大规模 AI 训练网络OpenAI 发布了名为 MRC 的新型超级计算机网络协议，旨在提升大规模 AI 训练集群的韧性与性能。该协议通过开放计算项目公开，支持在数千个 GPU 间建立高效、可靠的多路径连接，能自动绕过故障链路，将网络有效带宽提升最高达 30%，同时显著降低训练作业因网络问题中断的概率。MRC 的设计目标是应对万卡级集群的复杂网络挑战，为下一代大模型训练提供基础设施支持。OpenAI产品更新部署/工程关联讨论 1 条X：OpenAI (@OpenAI)推荐理由：虽然只是个网络协议，但MRC在超大规模训练集群里解决的是真实痛点，OpenAI自己内部用了才放出来，做万卡级训练的团队确实该看看。",
+      "url": "https://openai.com/index/mrc-supercomputer-networking",
+      "tags": [
+        "OpenAI",
+        "产品更新",
+        "部署/工程"
+      ],
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "score": ""
+    },
+    {
+      "title": "Berryxia.AI@berryxia精选79国家队领投DeepSeek估值飙升至450亿美元DeepSeek估值在数",
+      "summary": "Berryxia.AI@berryxia精选79国家队领投DeepSeek估值飙升至450亿美元DeepSeek估值在数周内从200亿美元跃升至450亿美元，本轮融资由国家大基金领投，腾讯有意跟投，创始人梁文锋也参与出资。此举标志着国家队首次公开投资本土大模型公司，具有强烈的战略象征意义。这被视为官方将AI大模型正式纳入“半导体国家战略”的关键信号，向市场传递了国家全力支持国产AI发展的明确信息，预示着行业将进入新的发展阶段。DeepSeek行业动态推荐理由：大基金第一次押注大模型就给了 DeepSeek，这等于官方把大模型升格为半导体级国家战略，对整个赛道是强心针，但其他玩家的融资故事恐怕得换个讲法了。",
+      "url": "https://x.com/berryxia/status/2051974536481198511",
+      "tags": [
+        "DeepSeek",
+        "行业动态"
+      ],
+      "source": "Berryxia.AI",
+      "score": ""
+    },
+    {
+      "title": "发布两周后，Hy3预览版以3.66T处理量在@OpenRouter周榜位列第一，周环比增长298%",
+      "summary": "发布两周后，Hy3预览版以3.66T处理量在@OpenRouter周榜位列第一，周环比增长298%。\n在总使用量、工具调用和编程领域均排名第一。全平台市场占有率达15.4%。??\n运行Hy3预览版的热门应用：Hermes Agent， Claude Code， Kilo Code， OpenClaw， Cline。@NousResearch @claudeai @kilocodehq @openclaw @cline\n衷心感谢所有基于此开发的开发者。??\n请在OpenRouter上试用：https：//openrouter.ai/tencent/hy3-preview：free",
+      "url": "https://x.com/TencentHunyuan/status/2051978552900538403",
+      "tags": [
+        "MCP/工具",
+        "编码",
+        "行业动态"
+      ],
+      "source": "Tencent Hy",
+      "score": ""
+    },
+    {
+      "title": "阿绎 AYi@AYi_AInotes精选79这个创造了Claude Code的男人Boris Cherny大神，完整公开",
+      "summary": "阿绎 AYi@AYi_AInotes精选79这个创造了Claude Code的男人Boris Cherny大神，完整公开了自己的工作流，并直播演示了一半的编码工作在手机上完成??Boris Cherny公开其高效AI编码工作流，核心基于三点反直觉原则：1. 坚持使用最昂贵、最聪明的模型（如Claude），因其能一次性清晰规划，避免笨模型反复试错消耗更多token；2. 团队仅维护一个纯文本知识库文件，记录Claude的每次错误并每周更新，形成长期记忆；3. 始终让Claude查看自身代码的运行结果（包括执行和渲染）。其工作模式是在手机上并行启动多个Claude实例，基于规划模式制定方案后自动执行修改，从而高效完成任务。智能体Anthropic教程/实践编码关联讨论 1 条X：宝玉 (@dotey)推荐理由：Boris Cherny 的 Claude Code 工作流是「反直觉但真能省钱省时间」的实操手册，三条原则每一条都可以抄进团队规范，看完立刻能上线。",
+      "url": "https://x.com/AYi_AInotes/status/2051958831320588797",
+      "tags": [
+        "智能体",
+        "Anthropic",
+        "教程/实践",
+        "编码"
+      ],
+      "source": "阿绎 AYi",
+      "score": ""
+    },
+    {
+      "title": "IT之家（RSS）精选71让 AI 检查软件卡顿问题，Qt 推出智能体代码分析技能Qt集团近日推出一项名为QML分析器的",
+      "summary": "IT之家（RSS）精选71让 AI 检查软件卡顿问题，Qt 推出智能体代码分析技能Qt集团近日推出一项名为QML分析器的AI智能体开发技能。该技能可将2D Qt Quick应用程序的代码性能分析工作委托给AI智能体，使其能够诊断渲染、逻辑及内存相关问题。当面对界面卡顿或帧率下降等性能投诉时，AI可借助此技能进行分析并生成详细的性能瓶颈报告。目前该技能仅适用于2D Qt Quick应用，已在GitHub Copilot、Claude桌面版及CLI等环境中完成测试，与Claude Sonnet 4.6、GPT 5.4和Gemini 3.1 Pro等主流大模型搭配使用时效果最佳。智能体产品更新编码推荐理由：Qt 开发者能立刻用上的 AI 性能分析技能，开源且支持主流编程助手，排查卡顿不用再纯手工。非 Qt 用户可以直接略过。",
+      "url": "https://www.ithome.com/0/946/947.htm",
+      "tags": [
+        "智能体",
+        "产品更新",
+        "编码"
+      ],
+      "source": "IT之家（RSS）",
+      "score": ""
+    }
+  ],
+  "低粉爆文": []
+}

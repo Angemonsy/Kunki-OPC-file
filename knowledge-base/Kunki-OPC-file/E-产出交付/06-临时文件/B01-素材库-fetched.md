@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "doc_id": "EvbFdAS1gogWDGxUpYMc00jznR6",
+    "length": 327,
+    "log_id": "20260507234436A15683EE7505D510A511",
+    "markdown": "# B01 素材库\n\n开篇模板、金句钩子、文案框架（教知识/聊观点/讲故事/晒过程）、标题公式。\n\n从自己数据最好的内容里提炼，后面靠复盘不断更新。\n\n## 文案框架\n\n### 教知识类\n\n### 聊观点类\n\n### 讲故事类\n\n### 晒过程类\n\n## 标题公式\n\n## 金句钩子\n\n## 开篇模板\n",
+    "message": "Document fetched successfully",
+    "offset": 0,
+    "title": "B01-素材库",
+    "total_length": 141
+  },
+  "_notice": {
+    "update": {
+      "current": "1.0.14",
+      "latest": "1.0.24",
+      "message": "lark-cli 1.0.24 available, current 1.0.14"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "doc_id": "CKnYdL8f0ot9bFxDpPscTnVKntg",
+    "length": 751,
+    "log_id": "20260510233631B50FA91D1F02D82172DC",
+    "markdown": "# A06 每日复盘日志\n\n你的「输入输出黑匣子」。每天一条记录，从这里沉淀精华到各个板块。\n\n---\n\n\u003ccallout emoji=\"💡\" background-color=\"light-blue\"\u003e\n\n**记录格式**：日期 → 今日输入 → 今日输出 → 今日洞察 → 流向标记流向标记告诉我们这条洞察该喂给哪个板块\n\u003c/callout\u003e\n\n---\n\n## 【模板】YYYY-MM-DD 周X\n\n### 今日输入\n\n读了什么、学了什么、看到了什么、和谁聊了什么\n\n- \n\n### 今日输出\n\n写了什么内容、做了什么事、推进了什么项目\n\n- \n\n### 今日洞察\n\n新想法、新认知、踩的坑、验证的打法\n\n- \n\n### 流向标记\n\n这条内容该去哪里？\n\n- → A 记忆：\n- → B 素材库：\n- → B 选题：\n- → C 学术素材：\n\n---\n",
+    "message": "Document fetched successfully",
+    "offset": 0,
+    "title": "A06-每日复盘日志",
+    "total_length": 367
+  },
+  "_notice": {
+    "update": {
+      "current": "1.0.14",
+      "latest": "1.0.27",
+      "message": "lark-cli 1.0.27 available, current 1.0.14"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+# Claude 凭证（各电脑独立）
+.claude/settings.json
+.claude/local-config.json
+.claude/.oauth-tokens
+.claude/**/*.log
+.claude/.tmp/
+.claude/tmp/
+
+# Obsidian 本地工作区（各自保留窗口状态）
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/cache
+.obsidian/appearance.json
+.obsidian/graph.json
+.obsidian/hotkeys.json
+
+# Claude Code 本地凭证和缓存 - 凭证不同步，其他全同步
+# (already above, kept for consistency)
+
+# Dependencies / Node modules / Python env
+node_modules/
+*/node_modules/
+.npm/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# OpenClaw specific
+.openclaw/*.log
+.openclaw/*pid
+.openclaw/runtime/
+.openclaw/tmp/
+*.pid
+
+# Sensitive data
+*.env
+.env
+.env.*
+config/*secret*
+*token*
+*password*
+creds/
+credentials/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+*.swp
+*.swo
+*~
+.claudian/
+.learnings/
+.tmp/
+.D
+*.lnk
+
+# Local environment variables
+.env
+.env.local
+.env.*.local
+
+# 飞书CLI缓存
+.lark-cli/
+
+# Memory daily files (keep only in cloud, exclude from git)
+memory/20*.md
+!memory/README.md
+
+# Media (large files)
+# *.mp4
+# *.mov
+# *.wav
+# *.mp3
+# *.zip
+# *.tar.gz
+# *.rar

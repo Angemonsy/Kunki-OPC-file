@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>我是林kunki — AI时代一人公司实践者</title>
+
+    <!-- Fonts from Fontshare -->
+    <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=clash-display@400,700&f[]=satoshi@400,700&display=swap" />
+
+    <style>
+      /* ===========================================
+           CSS CUSTOM PROPERTIES (THEME)
+           Neon Cyber Preset
+           =========================================== */
+      :root {
+        /* Colors */
+        --bg-primary: #0a0e27;
+        --bg-secondary: rgba(255, 255, 255, 0.05);
+        --text-primary: #ffffff;
+        --text-secondary: rgba(255, 255, 255, 0.7);
+        --accent: #00ffff;
+        --accent-secondary: #ff00ff;
+        --accent-glow: rgba(0, 255, 255, 0.5);
+
+        /* Typography */
+        --font-display: "Clash Display", sans-serif;
+        --font-body: "Satoshi", sans-serif;
+        --title-size: clamp(2rem, 6vw, 5rem);
+        --subtitle-size: clamp(0.875rem, 2vw, 1.25rem);
+        --body-size: clamp(0.75rem, 1.2vw, 1.125rem);
+
+        /* Spacing */
+        --slide-padding: clamp(1.5rem, 4vw, 4rem);
+        --content-gap: clamp(1rem, 2vw, 2rem);
+
+        /* Animation */
+        --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+        --duration-normal: 0.6s;
+      }
+
+      /* ===========================================
+           BASE STYLES — viewport-base.css
+           =========================================== */
+
+/* ===========================================
+   FRONTEND SLIDES — VIEWPORT BASE CSS
+   Mandatory base styles for all presentations
+   Full 16:9 viewport, no scroll, snap on slides
+   =========================================== */
+
+html {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: var(--body-size);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* Every slide is full viewport height */
+.slide {
+  width: 100vw;
+  min-height: 100vh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--slide-padding);
+  box-sizing: border-box;
+}
+
+/* When using split layouts, slides can be normal flow but still snap */
+.slide-full {
+  width: 100vw;
+  min-height: 100vh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  position: relative;
+  padding: var(--slide-padding);
+  box-sizing: border-box;
+}
+
+.slide-content {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--content-gap);
+}
+
+/* Progress bar at the top */
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: var(--accent);
+  z-index: 100;
+  transition: width 0.3s ease;
+  box-shadow: 0 0 10px var(--accent-glow);
+}
+
+/* Navigation dots on the right */
+.nav-dots {
+  position: fixed;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.nav-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--text-secondary);
+  opacity: 0.5;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav-dot.active {
+  opacity: 1;
+  background: var(--accent);
+  transform: scale(1.5);
+  box-shadow: 0 0 8px var(--accent-glow);
+}
+
+/* Typography defaults */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: var(--title-size);
+}
+
+h2 {
+  font-size: clamp(1.5rem, 4vw, 3rem);
+}
+
+ul, ol {
+  margin: 0;
+  padding-left: 1.5em;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Two column grid */
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--content-gap);
+  align-items: center;
+}
+
+/* Three column grid */
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--content-gap);
+}
+
+/* Four column grid */
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+/* Cards */
+.card {
+  background: var(--bg-secondary);
+  padding: clamp(1rem, 2vw, 1.5rem);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Abstract shape decorations */
+.shape {
+  position: absolute;
+  z-index: 0;
+  opacity: 0.4;
+  border-radius: 999px;
+  filter: blur(40px);
+  pointer-events: none;
+}
+
+/* Ensure content is above shapes */
+.content > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Hide scrollbar for clean look but keep functionality */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 768px) {
+  .nav-dots {
+    display: none;
+  }
+}
+
+      /* ===========================================
+           ANIMATIONS
+           Trigger via .visible class (added by JS on scroll)
+           =========================================== */
+      .reveal {
+        opacity: 0;
+        transform: translateY(30px);
+        transition:
+          opacity var(--duration-normal) var(--ease-out-expo),
+          transform var(--duration-normal) var(--ease-out-expo);
+      }
+
+      .slide.visible .reveal {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      /* Stagger children for sequential reveal */
+      .reveal:nth-child(1) { transition-delay: 0.1s; }
+      .reveal:nth-child(2) { transition-delay: 0.2s; }
+      .reveal:nth-child(3) { transition-delay: 0.3s; }
+      .reveal:nth-child(4) { transition-delay: 0.4s; }
+      .reveal:nth-child(5) { transition-delay: 0.5s; }
+      .reveal:nth-child(6) { transition-delay: 0.6s; }
+
+      /* ===========================================
+           PRESET-SPECIFIC CUSTOM STYLES — Neon Cyber
+           =========================================== */
+
+      /* Animated background gradient */
+      body::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background:
+          radial-gradient(circle at 20% 20%, rgba(0, 255, 255, 0.15) 0%, transparent 50%),
+          radial-gradient(circle at 80% 80%, rgba(255, 0, 255, 0.15) 0%, transparent 50%),
+          radial-gradient(circle at 40% 80%, rgba(0, 100, 255, 0.1) 0%, transparent 50%);
+        z-index: 0;
+        pointer-events: none;
+        animation: pulse 8s ease-in-out infinite alternate;
+      }
+
+      @keyframes pulse {
+        0% { opacity: 0.5; transform: scale(1); }
+        100% { opacity: 1; transform: scale(1.1); }
+      }
+
+      /* Floating particles */
+      .particle {
+        position: fixed;
+        width: 2px;
+        height: 2px;
+        background: var(--accent);
+        border-radius: 50%;
+        box-shadow: 0 0 6px var(--accent-glow);
+        animation: float 20s linear infinite;
+        opacity: 0.7;
+        z-index: 1;
+        pointer-events: none;
+      }
+
+      @keyframes float {
+        0% {
+          transform: translateY(100vh) translateX(0);
+          opacity: 0;
+        }
+        10% {
+          opacity: 0.7;
+        }
+        90% {
+          opacity: 0.7;
+        }
+        100% {
+          transform: translateY(-10px) translateX(var(--drift));
+          opacity: 0;
+        }
+      }
+
+      /* Gradient text */
+      .gradient-text {
+        background: linear-gradient(135deg, var(--accent), var(--accent-secondary));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        filter: drop-shadow(0 0 20px var(--accent-glow));
+      }
+
+      /* Glowing border for cards */
+      .card-neon {
+        background: var(--bg-secondary);
+        padding: clamp(1rem, 2vw, 1.5rem);
+        border-radius: 12px;
+        border: 1px solid var(--accent);
+        box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+        transition: all 0.3s ease;
+      }
+
+      .card-neon:hover {
+        box-shadow: 0 0 30px rgba(0, 255, 255, 0.4);
+        transform: translateY(-2px);
+      }
+
+      .card-neon.pink {
+        border-color: var(--accent-secondary);
+        box-shadow: 0 0 20px rgba(255, 0, 255, 0.2);
+      }
+
+      .card-neon.pink:hover {
+        box-shadow: 0 0 30px rgba(255, 0, 255, 0.4);
+      }
+
+      /* Ensure content is above particles */
+      .slide-content > * {
+        position: relative;
+        z-index: 2;
+      }
+
+      /* Title slide specific */
+      .title-slide {
+        text-align: center;
+      }
+
+      .subtitle {
+        color: var(--text-secondary);
+        font-size: var(--subtitle-size);
+      }
+
+      .badge {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        border: 1px solid var(--accent);
+        border-radius: 999px;
+        color: var(--accent);
+        font-size: 0.8rem;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        box-shadow: 0 0 15px var(--accent-glow);
+        margin-bottom: 1rem;
+      }
+
+      /* Funnel diagram styling */
+      .funnel-item {
+        padding: 1rem;
+        margin: 0.5rem auto;
+        border-radius: 8px;
+        text-align: center;
+        border: 1px solid var(--accent);
+        background: linear-gradient(90deg, transparent, rgba(0, 255, 255, 0.1), transparent);
+      }
+
+      .funnel-item.free { width: 80%; border-color: var(--accent); }
+      .funnel-item.low { width: 65%; border-color: #4cd964; }
+      .funnel-item.mid { width: 50%; border-color: #ffcc00; }
+      .funnel-item.high { width: 35%; border-color: var(--accent-secondary); }
+
+      /* End slide */
+      .end-slide {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- Floating particles for neon cyber effect -->
+    <div class="particle" style="left: 10%; animation-delay: 0s; --drift: 50px;"></div>
+    <div class="particle" style="left: 20%; animation-delay: 2s; --drift: -30px;"></div>
+    <div class="particle" style="left: 35%; animation-delay: 4s; --drift: 20px;"></div>
+    <div class="particle" style="left: 50%; animation-delay: 1s; --drift: -50px;"></div>
+    <div class="particle" style="left: 65%; animation-delay: 6s; --drift: 40px;"></div>
+    <div class="particle" style="left: 80%; animation-delay: 3s; --drift: -20px;"></div>
+    <div class="particle" style="left: 90%; animation-delay: 7s; --drift: 30px;"></div>
+
+    <!-- Progress bar -->
+    <div class="progress-bar"></div>
+
+    <!-- Navigation dots -->
+    <nav class="nav-dots"><!-- Generated by JS --></nav>
+
+    <!-- SLIDES START -->
+
+    <!-- Title Slide -->
+    <section class="slide title-slide">
+      <div class="slide-content">
+        <div class="reveal">
+          <span class="badge">Personal Brand · 2026</span>
+          <h1 class="gradient-text">我是林kunki</h1>
+        </div>
+        <p class="reveal subtitle">AI时代一人公司实践者</p>
+      </div>
+    </section>
+
+    <!-- About Me -->
+    <section class="slide">
+      <div class="slide-content">
+        <h2 class="reveal gradient-text">关于我</h2>
+        <div class="reveal card-neon">
+          <ul>
+            <li>🎓 <strong>05后 · 广外国贸大三</strong> — 年纪最小的实践者</li>
+            <li>🏆 <strong>专业第一 · SCI二区论文一作 · 亚太AI大赛金奖</strong></li>
+            <li>🚀 <strong>双线推进</strong> — 边保研边搭建AI一人公司</li>
+            <li>🤝 <strong>和北京投资人合作</strong> — 写作《OpenClaw智能体运营》</li>
+          </ul>
+        </div>
+        <div class="grid-2">
+          <div class="reveal card-neon">
+            <h3 style="color: var(--accent); margin-bottom: 0.5rem;">顶层定位</h3>
+            <p><strong>AI时代一人公司实践者</strong><br>用亲身经历告诉你：大学生如何一边校内拿结果，一边用AI搭建自己的数字资产</p>
+          </div>
+          <div class="reveal card-neon pink">
+            <h3 style="color: var(--accent-secondary); margin-bottom: 0.5rem;">落地体系</h3>
+            <p><strong>540学生法则</strong><br>3个100搭系统，4个60练能力，课内用AI高效提分，课外真实战场练赚钱能力</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 540 Student Rule -->
+    <section class="slide">
+      <div class="slide-content">
+        <h2 class="reveal gradient-text">核心哲学：540学生法则</h2>
+        <p class="reveal" style="color: var(--text-secondary);">540 = 3个100 + 4个60 · 系统构建能力+实战训练场</p>
+        <div class="grid-2">
+          <div class="reveal card-neon">
+            <h3 style="color: var(--accent);">🎯 3个100（底层系统）</h3>
+            <ul>
+              <li><strong>100小时</strong> AI工具真实使用</li>
+              <li><strong>100小时</strong> 目标试错与推进</li>
+              <li><strong>100小时</strong> 优质信息输入</li>
+            </ul>
+          </div>
+          <div class="reveal card-neon pink">
+            <h3 style="color: var(--accent-secondary);">💪 4个60（能力训练场）</h3>
+            <ul>
+              <li><strong>60天健身</strong> — 练自律精力抗压</li>
+              <li><strong>60天社交表达</strong> — 练链接破冰传递</li>
+              <li><strong>60天内容输出</strong> — 练表达建数字资产</li>
+              <li><strong>60天销售成交</strong> — 练需求洞察闭环</li>
+            </ul>
+          </div>
+        </div>
+        <div class="reveal" style="text-align: center; margin-top: 1rem;">
+          <blockquote style="font-size: 1.2rem; color: var(--accent); text-shadow: 0 0 10px var(--accent-glow);">
+            课内用AI高效拿结果，课外做540练真能力
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Three Identities -->
+    <section class="slide">
+      <div class="slide-content">
+        <h2 class="reveal gradient-text">人设三身份</h2>
+        <p class="reveal" style="color: var(--text-secondary);">不端着 · 不装 · 只给你看真实可复制的路径</p>
+        <div class="grid-3">
+          <div class="reveal card-neon">
+            <h3 style="color: var(--accent); margin-bottom: 0.5rem;">真实实践者</h3>
+            <p>不端着，持续记录一步步打顺路</p>
+          </div>
+          <div class="reveal card-neon">
+            <h3 style="color: var(--accent); margin-bottom: 0.5rem;">结果拆解者</h3>
+            <p>不只讲故事，把方法全拆出来给你看</p>
+          </div>
+          <div class="reveal card-neon pink">
+            <h3 style="color: var(--accent-secondary); margin-bottom: 0.5rem;">路径参考者</h3>
+            <p>不替你做决定，给可复制可调整的路径</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Differentiation -->
+    <section class="slide">
+      <div class="slide-content">
+        <h2 class="reveal gradient-text">差异化优势</h2>
+        <div class="grid-4">
+          <div class="reveal card-neon">
+            <strong>年纪优势</strong>
+            <p style="margin: 0.5rem 0 0 0; color: var(--text-secondary);">05后大学生，结果最硬，2-3年窗口期</p>
+          </div>
+          <div class="reveal card-neon">
+            <strong>双线硬结果</strong>
+            <p style="margin: 0.5rem 0 0 0; color: var(--text-secondary);">绩点第一+SCI+竞赛 + AI商业化从0到1</p>
+          </div>
+          <div class="reveal card-neon">
+            <strong>连续叙事</strong>
+            <p style="margin: 0.5rem 0 0 0; color: var(--text-secondary);">正在发生，从象牙塔走向市场，别人抄不走</p>
+          </div>
+          <div class="reveal card-neon pink">
+            <strong>专属方法论</strong>
+            <p style="margin: 0.5rem 0 0 0; color: var(--text-secondary);">540法则，所有产品都挂这个标签</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Four Content Lines -->
+    <section class="slide">
+      <div class="slide-content">
+        <h2 class="reveal gradient-text">内容四条主线</h2>
+        <div class="grid-2">
+          <div class="reveal card-neon">
+            <h3 style="color: var(--accent); margin-bottom: 0.5rem;">🎓 大学结果</h3>
+            <p>绩点、论文、竞赛、保研、学习系统<br><small style="color: var(--text-secondary);">讲"如何用最低成本拿到关键结果"</small></p>
+          </div>
+          <div class="reveal card-neon">
+            <h3 style="color: var(--accent); margin-bottom: 0.5rem;">🤖 AI工具与系统</h3>
+            <p>真实用过的AI工具、智能体、工作流、OpenClaw<br><small style="color: var(--text-secondary);">只讲"怎么用、适合谁、解决什么问题"</small></p>
+          </div>
+          <div class="reveal card-neon">
+            <h3 style="color: var(--accent); margin-bottom: 0.5rem">🏭 一人公司实践</h3>
+            <p>内容输出、个人网站、私域、产品、品牌搭建<br><small style="color: var(--text-secondary);">全过程真实记录</small></p>
+          </div>
+          <div class="reveal card-neon pink">
+            <h3 style="color: var(--accent-secondary); margin-bottom: 0.5rem">🧪 成长实验</h3>
+            <p>健身、社交、行动力、形象管理<br><small style="color: var(--text-secondary);">不写鸡汤，写实验记录和方法复盘</small></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Business Model -->
+    <section class="slide">
+      <div class="slide-content">
+        <h2 class="reveal gradient-text">商业模式 · 四层漏斗</h2>
+        <p class="reveal" style="color: var(--text-secondary);">用内容获客，用自有产品做主营收，一步步筛选</p>
+        <div class="reveal">
+          <div class="funnel-item free">
+            <strong>免费层</strong> — 公域内容+网站+540思维导图+AI工具清单
+          </div>
+          <div class="funnel-item low">
+            <strong>低价层</strong> — 《540入门工具包》 9.9元 · 筛选付费意愿
+          </div>
+          <div class="funnel-item mid">
+            <strong>中价层</strong> — 《540年度陪伴社群》 199元/年 · 主营收
+          </div>
+          <div class="funnel-item high">
+            <strong>高价层</strong> — 《一人公司起步陪跑》 1299元 · 1v1定位+搭流程
+          </div>
+        </div>
+        <p class="reveal" style="text-align: center; margin-top: 1rem; color: var(--text-secondary);">补位：AI会员代充 · 低门槛成交，筛选精准用户</p>
+      </div>
+    </section>
+
+    <!-- AI Team -->
+    <section class="slide">
+      <div class="slide-content">
+        <h2 class="reveal gradient-text">AI智能体分工 · 六人自动运转</h2>
+        <div class="grid-2">
+          <div class="reveal card-neon">
+            <ul>
+              <li><strong style="color: var(--accent);">选哥</strong> — 每日选题推荐官，爬热点评分推选题</li>
+              <li><strong style="color: var(--accent);">盘哥</strong> — 复盘沉淀官，发布后数据沉淀更新素材</li>
+              <li><strong style="color: var(--accent);">催哥</strong> — 进度催促监督，每日提醒待完成</li>
+            </ul>
+          </div>
+          <div class="reveal card-neon pink">
+            <ul>
+              <li><strong style="color: var(--accent-secondary);">情报哥</strong> — 信息情报收集，院校/行业动态整理</li>
+              <li><strong style="color: var(--accent-secondary);">写作哥</strong> — 内容初稿写作，按框架生成初稿</li>
+              <li><strong style="color: var(--accent-secondary);">Main Agent</strong> — 系统运维+内容创作枢纽</li>
+            </ul>
+          </div>
+        </div>
+        <div class="reveal" style="text-align: center;">
+          <p style="color: var(--accent); text-shadow: 0 0 10px var(--accent-glow);">人做决策，AI做重复劳动 · 飞轮自动转起来</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Flywheel -->
+    <section class="slide">
+      <div class="slide-content">
+        <h2 class="reveal gradient-text">持续迭代 · 自动飞轮闭环</h2>
+        <div class="reveal card-neon">
+          <ol>
+            <li><strong style="color: var(--accent);">飞书云端 · 选哥</strong> — 每日爬热点，自动生成3个选题推荐</li>
+            <li><strong style="color: var(--accent);">本地 · 你创作</strong> — 我帮你全链路生产到公众号草稿</li>
+            <li><strong style="color: var(--accent);">发布后 · 盘哥</strong> — 录入数据，复盘沉淀，更新素材库和记忆</li>
+            <li><strong style="color: var(--accent);">同步本地</strong> — 下次选题更准，系统越用越聪明</li>
+          </ol>
+        </div>
+        <div class="reveal" style="text-align: center;">
+          <p style="font-size: 1.2rem; color: var(--accent-secondary); text-shadow: 0 0 10px rgba(255, 0, 255, 0.5);">数据回流 → 自动进化 → 系统越滚越大</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Slide -->
+    <section class="slide end-slide">
+      <div class="slide-content">
+        <h1 class="reveal gradient-text">感谢观看</h1>
+        <p class="reveal subtitle">我是林kunki · AI时代一人公司实践者</p>
+        <p class="reveal" style="color: var(--text-secondary); margin-top: 1rem;">
+          📱 关注我，看大学生如何用AI搭建一人公司
+        </p>
+      </div>
+    </section>
+
+    <!-- SLIDES END -->
+
+    <script>
+      /* ===========================================
+           SLIDE PRESENTATION CONTROLLER
+           =========================================== */
+      class SlidePresentation {
+        constructor() {
+          this.slides = document.querySelectorAll('.slide');
+          this.currentSlide = 0;
+          this.progressBar = document.querySelector('.progress-bar');
+          this.navDotsContainer = document.querySelector('.nav-dots');
+          this.setupIntersectionObserver();
+          this.setupKeyboardNav();
+          this.setupTouchNav();
+          this.setupProgressBar();
+          this.setupNavDots();
+          this.goToSlide(0);
+          window.presentation = this;
+        }
+
+        setupIntersectionObserver() {
+          const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                const index = Array.from(this.slides).indexOf(entry.target);
+                if (index >= 0) {
+                  this.currentSlide = index;
+                  this.updateProgress();
+                  this.updateNavDots();
+                }
+              } else {
+                entry.target.classList.remove('visible');
+              }
+            });
+          }, { threshold: 0.5 });
+
+          this.slides.forEach(slide => {
+            observer.observe(slide);
+          });
+        }
+
+        setupKeyboardNav() {
+          document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowDown' || e.key === 'PageDown' || e.key === ' ') {
+              e.preventDefault();
+              this.nextSlide();
+            } else if (e.key === 'ArrowUp' || e.key === 'PageUp') {
+              e.preventDefault();
+              this.prevSlide();
+            }
+          });
+        }
+
+        setupTouchNav() {
+          let startY = 0;
+          document.addEventListener('touchstart', (e) => {
+            startY = e.touches[0].clientY;
+          }, { passive: true });
+
+          document.addEventListener('touchend', (e) => {
+            const endY = e.changedTouches[0].clientY;
+            const diff = startY - endY;
+            if (Math.abs(diff) > 50) { // Minimum swipe distance
+              if (diff > 0) {
+                this.nextSlide();
+              } else {
+                this.prevSlide();
+              }
+            }
+          }, { passive: true });
+        }
+
+        setupProgressBar() {
+          if (!this.progressBar) return;
+          this.updateProgress();
+        }
+
+        updateProgress() {
+          if (!this.progressBar) return;
+          const progress = ((this.currentSlide + 1) / this.slides.length) * 100;
+          this.progressBar.style.width = progress + '%';
+        }
+
+        setupNavDots() {
+          if (!this.navDotsContainer) return;
+          this.navDotsContainer.innerHTML = '';
+          this.slides.forEach((_, index) => {
+            const dot = document.createElement('div');
+            dot.classList.add('nav-dot');
+            if (index === this.currentSlide) dot.classList.add('active');
+            dot.addEventListener('click', () => this.goToSlide(index));
+            this.navDotsContainer.appendChild(dot);
+          });
+        }
+
+        updateNavDots() {
+          if (!this.navDotsContainer) return;
+          const dots = this.navDotsContainer.querySelectorAll('.nav-dot');
+          dots.forEach((dot, index) => {
+            if (index === this.currentSlide) {
+              dot.classList.add('active');
+            } else {
+              dot.classList.remove('active');
+            }
+          });
+        }
+
+        goToSlide(index) {
+          this.currentSlide = index;
+          this.slides[index].scrollIntoView({ behavior: 'smooth', block: 'start' });
+          this.updateProgress();
+          this.updateNavDots();
+        }
+
+        nextSlide() {
+          if (this.currentSlide < this.slides.length - 1) {
+            this.goToSlide(this.currentSlide + 1);
+          }
+        }
+
+        prevSlide() {
+          if (this.currentSlide > 0) {
+            this.goToSlide(this.currentSlide - 1);
+          }
+        }
+      }
+
+      new SlidePresentation();
+    </script>
+  </body>
+</html>

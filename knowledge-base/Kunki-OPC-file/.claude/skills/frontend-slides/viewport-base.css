@@ -1,0 +1,184 @@
+/* ===========================================
+   FRONTEND SLIDES — VIEWPORT BASE CSS
+   Mandatory base styles for all presentations
+   Full 16:9 viewport, no scroll, snap on slides
+   =========================================== */
+
+html {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: var(--body-size);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* Every slide is full viewport height */
+.slide {
+  width: 100vw;
+  min-height: 100vh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--slide-padding);
+  box-sizing: border-box;
+}
+
+/* When using split layouts, slides can be normal flow but still snap */
+.slide-full {
+  width: 100vw;
+  min-height: 100vh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  position: relative;
+  padding: var(--slide-padding);
+  box-sizing: border-box;
+}
+
+.slide-content {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--content-gap);
+}
+
+/* Progress bar at the top */
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: var(--accent);
+  z-index: 100;
+  transition: width 0.3s ease;
+}
+
+/* Navigation dots on the right */
+.nav-dots {
+  position: fixed;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.nav-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--text-secondary);
+  opacity: 0.5;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav-dot.active {
+  opacity: 1;
+  background: var(--accent);
+  transform: scale(1.5);
+}
+
+/* Typography defaults */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: var(--title-size);
+}
+
+h2 {
+  font-size: clamp(1.5rem, 4vw, 3rem);
+}
+
+ul, ol {
+  margin: 0;
+  padding-left: 1.5em;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Two column grid */
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--content-gap);
+  align-items: center;
+}
+
+/* Three column grid */
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--content-gap);
+}
+
+/* Cards */
+.card {
+  background: var(--bg-secondary);
+  padding: clamp(1rem, 2vw, 1.5rem);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Abstract shape decorations */
+.shape {
+  position: absolute;
+  z-index: 0;
+  opacity: 0.4;
+  border-radius: 999px;
+  filter: blur(40px);
+  pointer-events: none;
+}
+
+/* Ensure content is above shapes */
+.content > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Hide scrollbar for clean look but keep functionality */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 768px) {
+  .nav-dots {
+    display: none;
+  }
+}

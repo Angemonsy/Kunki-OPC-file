@@ -1,0 +1,701 @@
+{
+  "settings": {
+    "syncMode": "openapi",
+    "apiKey": "gk_live_da1850762d8fa112.d007af4cb7d0267f9493783dc2abbe47d85fbc8ac16d9d3c",
+    "clientId": "cli_3802f9db08b811f197679c63c078bacc",
+    "targetFolder": "00_Inbox/020 GetNotes",
+    "autoSyncOnStartup": true,
+    "autoSyncEnabled": true,
+    "syncIntervalMinutes": 30,
+    "downloadAudio": false,
+    "showRibbonIcon": true
+  },
+  "state": {
+    "schemaVersion": 2,
+    "nextLocalSequence": 32,
+    "notesByCanonicalId": {
+      "api:1909340804645320096": {
+        "canonicalId": "api:1909340804645320096",
+        "filePath": "00_Inbox/020 GetNotes/99 其他/0001-AI商业化创业与学生创业经验线下交流记录-1909340804645320096.md",
+        "fingerprint": "1320c572",
+        "deleted": true,
+        "lastSyncedAt": 1778318045298,
+        "localSequence": 1,
+        "stem": "0001-AI商业化创业与学生创业经验线下交流记录-1909340804645320096",
+        "sourceIds": {
+          "api": "1909340804645320096"
+        },
+        "type": "other",
+        "updatedAt": 1778069460000,
+        "title": "AI商业化创业与学生创业经验线下交流记录",
+        "assetPaths": {
+          "audios": [
+            "00_Inbox/020 GetNotes/_assets/audio/0001-AI商业化创业与学生创业经验线下交流记录-1909340804645320096-01.mp3"
+          ],
+          "images": [],
+          "files": []
+        }
+      },
+      "api:1909187588129930384": {
+        "canonicalId": "api:1909187588129930384",
+        "filePath": "00_Inbox/020 GetNotes/99 其他/0002-广州OPC一人公司夜校分享会：AI超级个体到商业变现落地-1909187588129930384.md",
+        "fingerprint": "23df36e3",
+        "deleted": true,
+        "lastSyncedAt": 1778318048827,
+        "localSequence": 2,
+        "stem": "0002-广州OPC一人公司夜校分享会：AI超级个体到商业变现落地-1909187588129930384",
+        "sourceIds": {
+          "api": "1909187588129930384"
+        },
+        "type": "other",
+        "updatedAt": 1777706172000,
+        "title": "广州OPC一人公司夜校分享会：AI超级个体到商业变现落地",
+        "assetPaths": {
+          "audios": [
+            "00_Inbox/020 GetNotes/_assets/audio/0002-广州OPC一人公司夜校分享会：AI超级个体到商业变现落地-1909187588129930384-01.mp3"
+          ],
+          "images": [],
+          "files": []
+        }
+      },
+      "api:1908277963448450936": {
+        "canonicalId": "api:1908277963448450936",
+        "filePath": "00_Inbox/020 GetNotes/99 其他/0003-AI创业、职场与自媒体的线下交流讨论-1908277963448450936.md",
+        "fingerprint": "8ee32672",
+        "deleted": true,
+        "lastSyncedAt": 1778318054216,
+        "localSequence": 3,
+        "stem": "0003-AI创业、职场与自媒体的线下交流讨论-1908277963448450936",
+        "sourceIds": {
+          "api": "1908277963448450936"
+        },
+        "type": "other",
+        "updatedAt": 1777207083000,
+        "title": "AI创业、职场与自媒体的线下交流讨论",
+        "assetPaths": {
+          "audios": [
+            "00_Inbox/020 GetNotes/_assets/audio/0003-AI创业、职场与自媒体的线下交流讨论-1908277963448450936-01.mp3"
+          ],
+          "images": [],
+          "files": []
+        }
+      },
+      "api:1908261662973820792": {
+        "canonicalId": "api:1908261662973820792",
+        "filePath": "00_Inbox/020 GetNotes/99 其他/0004-线下商业交流饭局：AI内容创业与大学生社群合作讨论-1908261662973820792.md",
+        "fingerprint": "33261f31",
+        "deleted": true,
+        "lastSyncedAt": 1778318056050,
+        "localSequence": 4,
+        "stem": "0004-线下商业交流饭局：AI内容创业与大学生社群合作讨论-1908261662973820792",
+        "sourceIds": {
+          "api": "1908261662973820792"
+        },
+        "type": "other",
+        "updatedAt": 1777197274000,
+        "title": "线下商业交流饭局：AI内容创业与大学生社群合作讨论",
+        "assetPaths": {
+          "audios": [
+            "00_Inbox/020 GetNotes/_assets/audio/0004-线下商业交流饭局：AI内容创业与大学生社群合作讨论-1908261662973820792-01.mp3"
+          ],
+          "images": [],
+          "files": []
+        }
+      },
+      "api:1908247978133613704": {
+        "canonicalId": "api:1908247978133613704",
+        "filePath": "00_Inbox/020 GetNotes/02 多人会议/0005-火山引擎AI能力与飞象视频生成大模型落地分享-1908247978133613704.md",
+        "fingerprint": "cda82ab",
+        "deleted": true,
+        "lastSyncedAt": 1778318057147,
+        "localSequence": 5,
+        "stem": "0005-火山引擎AI能力与飞象视频生成大模型落地分享-1908247978133613704",
+        "sourceIds": {
+          "api": "1908247978133613704"
+        },
+        "type": "meeting",
+        "updatedAt": 1777194420000,
+        "title": "火山引擎AI能力与飞象视频生成大模型落地分享",
+        "assetPaths": {
+          "audios": [
+            "00_Inbox/020 GetNotes/_assets/audio/0005-火山引擎AI能力与飞象视频生成大模型落地分享-1908247978133613704-01.mp3"
+          ],
+          "images": [],
+          "files": []
+        }
+      },
+      "api:1908247963102412664": {
+        "canonicalId": "api:1908247963102412664",
+        "filePath": "00_Inbox/020 GetNotes/02 多人会议/0006-AI拓局企业数字化转型解决方案介绍-1908247963102412664.md",
+        "fingerprint": "435d94b8",
+        "deleted": true,
+        "lastSyncedAt": 1778318058372,
+        "localSequence": 6,
+        "stem": "0006-AI拓局企业数字化转型解决方案介绍-1908247963102412664",
+        "sourceIds": {
+          "api": "1908247963102412664"
+        },
+        "type": "meeting",
+        "updatedAt": 1777194406000,
+        "title": "AI拓局企业数字化转型解决方案介绍",
+        "assetPaths": {
+          "audios": [
+            "00_Inbox/020 GetNotes/_assets/audio/0006-AI拓局企业数字化转型解决方案介绍-1908247963102412664-01.mp3"
+          ],
+          "images": [],
+          "files": []
+        }
+      },
+      "api:1908240500597124232": {
+        "canonicalId": "api:1908240500597124232",
+        "filePath": "00_Inbox/020 GetNotes/99 其他/0007-AI+保险获客商业落地分享-1908240500597124232.md",
+        "fingerprint": "ad2dde18",
+        "deleted": true,
+        "lastSyncedAt": 1778318061696,
+        "localSequence": 7,
+        "stem": "0007-AI+保险获客商业落地分享-1908240500597124232",
+        "sourceIds": {
+          "api": "1908240500597124232"
+        },
+        "type": "other",
+        "updatedAt": 1777187456000,
+        "title": "AI+保险获客商业落地分享",
+        "assetPaths": {
+          "audios": [
+            "00_Inbox/020 GetNotes/_assets/audio/0007-AI+保险获客商业落地分享-1908240500597124232-01.mp3"
+          ],
+          "images": [],
+          "files": []
+        }
+      },
+      "api:1908247924447571080": {
+        "canonicalId": "api:1908247924447571080",
+        "filePath": "00_Inbox/020 GetNotes/99 其他/0008-AI行业线下大会场间交流讨论-1908247924447571080.md",
+        "fingerprint": "98d16e3b",
+        "deleted": true,
+        "lastSyncedAt": 1778318063198,
+        "localSequence": 8,
+        "stem": "0008-AI行业线下大会场间交流讨论-1908247924447571080",
+        "sourceIds": {
+          "api": "1908247924447571080"
+        },
+        "type": "other",
+        "updatedAt": 1777179858000,
+        "title": "AI行业线下大会场间交流讨论",
+        "assetPaths": {
+          "audios": [
+            "00_Inbox/020 GetNotes/_assets/audio/0008-AI行业线下大会场间交流讨论-1908247924447571080-01.mp3"
+          ],
+          "images": [],
+          "files": []
+        }
+      },
+      "api:1908232356263935616": {
+        "canonicalId": "api:1908232356263935616",
+        "filePath": "00_Inbox/020 GetNotes/99 其他/0009-AI应用增长与破局行动家成长路径分享-1908232356263935616.md",
+        "fingerprint": "d38c05c2",
+        "deleted": true,
+        "lastSyncedAt": 1778318065093,
+        "localSequence": 9,
+        "stem": "0009-AI应用增长与破局行动家成长路径分享-1908232356263935616",
+        "sourceIds": {
+          "api": "1908232356263935616"
+        },
+        "type": "other",
+        "updatedAt": 1777171273000,
+        "title": "AI应用增长与破局行动家成长路径分享",
+        "assetPaths": {
+          "audios": [
+            "00_Inbox/020 GetNotes/_assets/audio/0009-AI应用增长与破局行动家成长路径分享-1908232356263935616-01.mp3"
+          ],
+          "images": [],
+          "files": []
+        }
+      },
+      "api:1908223176845459936": {
+        "canonicalId": "api:1908223176845459936",
+        "filePath": "00_Inbox/020 GetNotes/99 其他/0010-AI驱动科技助残：企业转型与OPC孵化创业分享-1908223176845459936.md",
+        "fingerprint": "c02255b4",
+        "deleted": true,
+        "lastSyncedAt": 1778318066330,
+        "localSequence": 10,
+        "stem": "0010-AI驱动科技助残：企业转型与OPC孵化创业分享-1908223176845459936",
+        "sourceIds": {
+          "api": "1908223176845459936"
+        },
+        "type": "other",
+        "updatedAt": 1777169581000,
+        "title": "AI驱动科技助残：企业转型与OPC孵化创业分享",
+        "assetPaths": {
+          "audios": [
+            "00_Inbox/020 GetNotes/_assets/audio/0010-AI驱动科技助残：企业转型与OPC孵化创业分享-1908223176845459936-01.mp3"
+          ],
+          "images": [],
+          "files": []
+        }
+      },
+      "api:1908184417987007864": {
+        "canonicalId": "api:1908184417987007864",
+        "filePath": "00_Inbox/020 GetNotes/99 其他/0011-全国OPC生态建设实践交流分享会-1908184417987007864.md",
+        "fingerprint": "39200cf9",
+        "deleted": true,
+        "lastSyncedAt": 1778318069443,
+        "localSequence": 11,
+        "stem": "0011-全国OPC生态建设实践交流分享会-1908184417987007864",
+        "sourceIds": {
+          "api": "1908184417987007864"
+        },
+        "type": "other",
+        "updatedAt": 1777124520000,
+        "title": "全国OPC生态建设实践交流分享会",
+        "assetPaths": {
+          "audios": [
+            "00_Inbox/020 GetNotes/_assets/audio/0011-全国OPC生态建设实践交流分享会-1908184417987007864-01.mp3"
+          ],
+          "images": [],
+          "files": []
+        }
+      },
+      "api:1908163970720925608": {
+        "canonicalId": "api:1908163970720925608",
+        "filePath": "00_Inbox/020 GetNotes/02 多人会议/0012-AI破局行动家大会创业者经验分享-1908163970720925608.md",
+        "fingerprint": "bdf8e8f7",
+        "deleted": true,
+        "lastSyncedAt": 1778318071835,
+        "localSequence": 12,
+        "stem": "0012-AI破局行动家大会创业者经验分享-1908163970720925608",
+        "sourceIds": {
+          "api": "1908163970720925608"
+        },
+        "type": "meeting",
+        "updatedAt": 1777116182000,
+        "title": "AI破局行动家大会创业者经验分享",
+        "assetPaths": {
+          "audios": [
+            "00_Inbox/020 GetNotes/_assets/audio/0012-AI破局行动家大会创业者经验分享-1908163970720925608-01.mp3"
+          ],
+          "images": [],
+          "files": []
+        }
+      },
+      "api:1908163951393959040": {
+        "canonicalId": "api:1908163951393959040",
+        "filePath": "00_Inbox/020 GetNotes/02 多人会议/0013-AI重塑行业机遇分享与创业讨论-1908163951393959040.md",
+        "fingerprint": "ffabddcf",
+        "deleted": true,
+        "lastSyncedAt": 1778318073276,
+        "localSequence": 13,
+        "stem": "0013-AI重塑行业机遇分享与创业讨论-1908163951393959040",
+        "sourceIds": {
+          "api": "1908163951393959040"
+        },
+        "type": "meeting",
+        "updatedAt": 1777116164000,
+        "title": "AI重塑行业机遇分享与创业讨论",
+        "assetPaths": {
+          "audios": [
+            "00_Inbox/020 GetNotes/_assets/audio/0013-AI重塑行业机遇分享与创业讨论-1908163951393959040-01.mp3"
+          ],
+          "images": [],
+          "files": []
+        }
+      },
+      "api:1908172945055614888": {
+        "canonicalId": "api:1908172945055614888",
+        "filePath": "00_Inbox/020 GetNotes/99 其他/0014-45岁转型AI一人公司分享：从失业到月入过万的AI创业实践-1908172945055614888.md",
+        "fingerprint": "6578cba4",
+        "deleted": true,
+        "lastSyncedAt": 1778318076260,
+        "localSequence": 14,
+        "stem": "0014-45岁转型AI一人公司分享：从失业到月入过万的AI创业实践-1908172945055614888",
+        "sourceIds": {
+          "api": "1908172945055614888"
+        },
+        "type": "other",
+        "updatedAt": 1777115011000,
+        "title": "45岁转型AI一人公司分享：从失业到月入过万的AI创业实践",
+        "assetPaths": {
+          "audios": [
+            "00_Inbox/020 GetNotes/_assets/audio/0014-45岁转型AI一人公司分享：从失业到月入过万的AI创业实践-1908172945055614888-01.mp3"
+          ],
+          "images": [],
+          "files": []
+        }
+      },
+      "api:1908160516493475688": {
+        "canonicalId": "api:1908160516493475688",
+        "filePath": "00_Inbox/020 GetNotes/02 多人会议/0015-AI创业者嘉年华：秋叶关于AI图书与培训行业的创业分享-1908160516493475688.md",
+        "fingerprint": "f9c892cf",
+        "deleted": true,
+        "lastSyncedAt": 1778318077788,
+        "localSequence": 15,
+        "stem": "0015-AI创业者嘉年华：秋叶关于AI图书与培训行业的创业分享-1908160516493475688",
+        "sourceIds": {
+          "api": "1908160516493475688"
+        },
+        "type": "meeting",
+        "updatedAt": 1777112965000,
+        "title": "AI创业者嘉年华：秋叶关于AI图书与培训行业的创业分享",
+        "assetPaths": {
+          "audios": [
+            "00_Inbox/020 GetNotes/_assets/audio/0015-AI创业者嘉年华：秋叶关于AI图书与培训行业的创业分享-1908160516493475688-01.mp3"
+          ],
+          "images": [],
+          "files": []
+        }
+      },
+      "api:1908160496093293696": {
+        "canonicalId": "api:1908160496093293696",
+        "filePath": "00_Inbox/020 GetNotes/99 其他/0016-普通人从零基础用AI做PPT变现到团队百万营收分享-1908160496093293696.md",
+        "fingerprint": "9b8c1044",
+        "deleted": true,
+        "lastSyncedAt": 1778318081506,
+        "localSequence": 16,
+        "stem": "0016-普通人从零基础用AI做PPT变现到团队百万营收分享-1908160496093293696",
+        "sourceIds": {
+          "api": "1908160496093293696"
+        },
+        "type": "other",
+        "updatedAt": 1777112946000,
+        "title": "普通人从零基础用AI做PPT变现到团队百万营收分享",
+        "assetPaths": {
+          "audios": [
+            "00_Inbox/020 GetNotes/_assets/audio/0016-普通人从零基础用AI做PPT变现到团队百万营收分享-1908160496093293696-01.mp3"
+          ],
+          "images": [],
+          "files": []
+        }
+      },
+      "api:1908160462806384488": {
+        "canonicalId": "api:1908160462806384488",
+        "filePath": "00_Inbox/020 GetNotes/99 其他/0017-AI时代：知识库加技能实现一人成军-1908160462806384488.md",
+        "fingerprint": "cce412c2",
+        "deleted": true,
+        "lastSyncedAt": 1778318083788,
+        "localSequence": 17,
+        "stem": "0017-AI时代：知识库加技能实现一人成军-1908160462806384488",
+        "sourceIds": {
+          "api": "1908160462806384488"
+        },
+        "type": "other",
+        "updatedAt": 1777112915000,
+        "title": "AI时代：知识库加技能实现一人成军",
+        "assetPaths": {
+          "audios": [
+            "00_Inbox/020 GetNotes/_assets/audio/0017-AI时代：知识库加技能实现一人成军-1908160462806384488-01.mp3"
+          ],
+          "images": [],
+          "files": []
+        }
+      },
+      "api:1908160416635486056": {
+        "canonicalId": "api:1908160416635486056",
+        "filePath": "00_Inbox/020 GetNotes/99 其他/0018-AI编程出海：用25个AI员工打造一人公司自动化系统-1908160416635486056.md",
+        "fingerprint": "dfec2f1f",
+        "deleted": true,
+        "lastSyncedAt": 1778318085323,
+        "localSequence": 18,
+        "stem": "0018-AI编程出海：用25个AI员工打造一人公司自动化系统-1908160416635486056",
+        "sourceIds": {
+          "api": "1908160416635486056"
+        },
+        "type": "other",
+        "updatedAt": 1777112872000,
+        "title": "AI编程出海：用25个AI员工打造一人公司自动化系统",
+        "assetPaths": {
+          "audios": [
+            "00_Inbox/020 GetNotes/_assets/audio/0018-AI编程出海：用25个AI员工打造一人公司自动化系统-1908160416635486056-01.mp3"
+          ],
+          "images": [],
+          "files": []
+        }
+      },
+      "api:1908138163336173488": {
+        "canonicalId": "api:1908138163336173488",
+        "filePath": "00_Inbox/020 GetNotes/99 其他/0019-AI商业落地分享与破局社群线下问答交流-1908138163336173488.md",
+        "fingerprint": "f0291a85",
+        "deleted": true,
+        "lastSyncedAt": 1778318087979,
+        "localSequence": 19,
+        "stem": "0019-AI商业落地分享与破局社群线下问答交流-1908138163336173488",
+        "sourceIds": {
+          "api": "1908138163336173488"
+        },
+        "type": "other",
+        "updatedAt": 1777085830000,
+        "title": "AI商业落地分享与破局社群线下问答交流",
+        "assetPaths": {
+          "audios": [
+            "00_Inbox/020 GetNotes/_assets/audio/0019-AI商业落地分享与破局社群线下问答交流-1908138163336173488-01.mp3"
+          ],
+          "images": [],
+          "files": []
+        }
+      },
+      "api:1908131377288378640": {
+        "canonicalId": "api:1908131377288378640",
+        "filePath": "00_Inbox/020 GetNotes/99 其他/0020-李尚龙AI时代创业与个人转型分享：从作家到AI投资人的转变-1908131377288378640.md",
+        "fingerprint": "1182d06d",
+        "deleted": true,
+        "lastSyncedAt": 1778318089419,
+        "localSequence": 20,
+        "stem": "0020-李尚龙AI时代创业与个人转型分享：从作家到AI投资人的转变-1908131377288378640",
+        "sourceIds": {
+          "api": "1908131377288378640"
+        },
+        "type": "other",
+        "updatedAt": 1777082420000,
+        "title": "李尚龙AI时代创业与个人转型分享：从作家到AI投资人的转变",
+        "assetPaths": {
+          "audios": [
+            "00_Inbox/020 GetNotes/_assets/audio/0020-李尚龙AI时代创业与个人转型分享：从作家到AI投资人的转变-1908131377288378640-01.mp3"
+          ],
+          "images": [],
+          "files": []
+        }
+      },
+      "api:1908127734082885552": {
+        "canonicalId": "api:1908127734082885552",
+        "filePath": "00_Inbox/020 GetNotes/99 其他/0021-AI破局俱乐部杭州大会创始人分享：普通人如何抓住AI时代红利-1908127734082885552.md",
+        "fingerprint": "60242812",
+        "deleted": true,
+        "lastSyncedAt": 1778318091280,
+        "localSequence": 21,
+        "stem": "0021-AI破局俱乐部杭州大会创始人分享：普通人如何抓住AI时代红利-1908127734082885552",
+        "sourceIds": {
+          "api": "1908127734082885552"
+        },
+        "type": "other",
+        "updatedAt": 1777079226000,
+        "title": "AI破局俱乐部杭州大会创始人分享：普通人如何抓住AI时代红利",
+        "assetPaths": {
+          "audios": [
+            "00_Inbox/020 GetNotes/_assets/audio/0021-AI破局俱乐部杭州大会创始人分享：普通人如何抓住AI时代红利-1908127734082885552-01.mp3"
+          ],
+          "images": [],
+          "files": []
+        }
+      },
+      "api:1871710711748063840": {
+        "canonicalId": "api:1871710711748063840",
+        "filePath": "00_Inbox/020 GetNotes/03 纯文本记录/0022-note-1871710711748063840-1871710711748063840.md",
+        "fingerprint": "2db483c4",
+        "deleted": false,
+        "lastSyncedAt": 1778318091511,
+        "localSequence": 22,
+        "stem": "0022-note-1871710711748063840-1871710711748063840",
+        "sourceIds": {
+          "api": "1871710711748063840"
+        },
+        "type": "text",
+        "updatedAt": 1743166628000,
+        "title": "note-1871710711748063840",
+        "assetPaths": {
+          "audios": [],
+          "images": [],
+          "files": []
+        }
+      },
+      "api:1870975023578241872": {
+        "canonicalId": "api:1870975023578241872",
+        "filePath": "00_Inbox/020 GetNotes/99 其他/0023-阿里巴巴CEO吴泳铭：全面推动现有业务AI化，开发杀手级AI应用-1870975023578241872.md",
+        "fingerprint": "6637f9ab",
+        "deleted": true,
+        "lastSyncedAt": 1778318093013,
+        "localSequence": 23,
+        "stem": "0023-阿里巴巴CEO吴泳铭：全面推动现有业务AI化，开发杀手级AI应用-1870975023578241872",
+        "sourceIds": {
+          "api": "1870975023578241872"
+        },
+        "type": "other",
+        "updatedAt": 1742481276000,
+        "title": "阿里巴巴CEO吴泳铭：全面推动现有业务AI化，开发杀手级AI应用",
+        "assetPaths": {
+          "audios": [],
+          "images": [
+            "00_Inbox/020 GetNotes/_assets/images/0023-阿里巴巴CEO吴泳铭：全面推动现有业务AI化，开发杀手级AI应用-1870975023578241872-01.jpg"
+          ],
+          "files": []
+        }
+      },
+      "api:1869444242473649480": {
+        "canonicalId": "api:1869444242473649480",
+        "filePath": "00_Inbox/020 GetNotes/04 链接同步摘抄/0024-警惕舒适圈，主动突破自我，与时代共舞-1869444242473649480.md",
+        "fingerprint": "b6623907",
+        "deleted": true,
+        "lastSyncedAt": 1778318093506,
+        "localSequence": 24,
+        "stem": "0024-警惕舒适圈，主动突破自我，与时代共舞-1869444242473649480",
+        "sourceIds": {
+          "api": "1869444242473649480"
+        },
+        "type": "link",
+        "updatedAt": 1741055625000,
+        "title": "警惕舒适圈，主动突破自我，与时代共舞",
+        "assetPaths": {
+          "audios": [],
+          "images": [],
+          "files": []
+        }
+      },
+      "api:1910006219633656264": {
+        "canonicalId": "api:1910006219633656264",
+        "filePath": "00_Inbox/020 GetNotes/99 其他/0025-校园美食小程序V2版本需求讨论与创业项目对接交流-1910006219633656264.md",
+        "fingerprint": "7112b766",
+        "deleted": false,
+        "lastSyncedAt": 1779115732410,
+        "localSequence": 25,
+        "stem": "0025-校园美食小程序V2版本需求讨论与创业项目对接交流-1910006219633656264",
+        "sourceIds": {
+          "api": "1910006219633656264"
+        },
+        "type": "other",
+        "updatedAt": 1778828567000,
+        "title": "校园美食小程序V2版本需求讨论与创业项目对接交流",
+        "assetPaths": {
+          "audios": [],
+          "images": [],
+          "files": []
+        }
+      },
+      "api:1910002647296180680": {
+        "canonicalId": "api:1910002647296180680",
+        "filePath": "00_Inbox/020 GetNotes/99 其他/0026-闪剪AI智能体产品介绍与大学生AI赛道创业规划讨论-1910002647296180680.md",
+        "fingerprint": "cb6c8fc0",
+        "deleted": false,
+        "lastSyncedAt": 1779115733466,
+        "localSequence": 26,
+        "stem": "0026-闪剪AI智能体产品介绍与大学生AI赛道创业规划讨论-1910002647296180680",
+        "sourceIds": {
+          "api": "1910002647296180680"
+        },
+        "type": "other",
+        "updatedAt": 1778762730000,
+        "title": "闪剪AI智能体产品介绍与大学生AI赛道创业规划讨论",
+        "assetPaths": {
+          "audios": [],
+          "images": [],
+          "files": []
+        }
+      },
+      "api:1909931961795841872": {
+        "canonicalId": "api:1909931961795841872",
+        "filePath": "00_Inbox/020 GetNotes/99 其他/0027-OPC时代AI智能获客线下沙龙分享-1909931961795841872.md",
+        "fingerprint": "e03ad8e4",
+        "deleted": false,
+        "lastSyncedAt": 1779115734451,
+        "localSequence": 27,
+        "stem": "0027-OPC时代AI智能获客线下沙龙分享-1909931961795841872",
+        "sourceIds": {
+          "api": "1909931961795841872"
+        },
+        "type": "other",
+        "updatedAt": 1778744486000,
+        "title": "OPC时代AI智能获客线下沙龙分享",
+        "assetPaths": {
+          "audios": [],
+          "images": [],
+          "files": []
+        }
+      },
+      "api:1909912375671453928": {
+        "canonicalId": "api:1909912375671453928",
+        "filePath": "00_Inbox/020 GetNotes/99 其他/0028-AI时代OPC分享会开场与视频获客分享-1909912375671453928.md",
+        "fingerprint": "356ded29",
+        "deleted": false,
+        "lastSyncedAt": 1779115735407,
+        "localSequence": 28,
+        "stem": "0028-AI时代OPC分享会开场与视频获客分享-1909912375671453928",
+        "sourceIds": {
+          "api": "1909912375671453928"
+        },
+        "type": "other",
+        "updatedAt": 1778739448000,
+        "title": "AI时代OPC分享会开场与视频获客分享",
+        "assetPaths": {
+          "audios": [],
+          "images": [],
+          "files": []
+        }
+      },
+      "api:1909556899482476272": {
+        "canonicalId": "api:1909556899482476272",
+        "filePath": "00_Inbox/020 GetNotes/99 其他/0029-全球化退潮下的区域集团化新发展分析-1909556899482476272.md",
+        "fingerprint": "d37f1418",
+        "deleted": false,
+        "lastSyncedAt": 1779115736399,
+        "localSequence": 29,
+        "stem": "0029-全球化退潮下的区域集团化新发展分析-1909556899482476272",
+        "sourceIds": {
+          "api": "1909556899482476272"
+        },
+        "type": "other",
+        "updatedAt": 1778329915000,
+        "title": "全球化退潮下的区域集团化新发展分析",
+        "assetPaths": {
+          "audios": [],
+          "images": [],
+          "files": []
+        }
+      },
+      "api:1910285991655295560": {
+        "canonicalId": "api:1910285991655295560",
+        "filePath": "00_Inbox/020 GetNotes/99 其他/0030-AI+文创OPC落地线下分享会记录-1910285991655295560.md",
+        "fingerprint": "a53da479",
+        "deleted": false,
+        "lastSyncedAt": 1779115731516,
+        "localSequence": 30,
+        "stem": "0030-AI+文创OPC落地线下分享会记录-1910285991655295560",
+        "sourceIds": {
+          "api": "1910285991655295560"
+        },
+        "type": "other",
+        "updatedAt": 1779001620000,
+        "title": "AI+文创OPC落地线下分享会记录",
+        "assetPaths": {
+          "audios": [],
+          "images": [],
+          "files": []
+        }
+      },
+      "api:1910294798487002824": {
+        "canonicalId": "api:1910294798487002824",
+        "filePath": "00_Inbox/020 GetNotes/03 纯文本记录/0031-OPC与AI赋能学校课程-1910294798487002824.md",
+        "fingerprint": "715d62e0",
+        "deleted": false,
+        "lastSyncedAt": 1779101285394,
+        "localSequence": 31,
+        "stem": "0031-OPC与AI赋能学校课程-1910294798487002824",
+        "sourceIds": {
+          "api": "1910294798487002824"
+        },
+        "type": "text",
+        "updatedAt": 1779100670000,
+        "title": "OPC与AI赋能学校课程",
+        "assetPaths": {
+          "audios": [],
+          "images": [],
+          "files": []
+        }
+      }
+    },
+    "lastSyncAt": "2026-05-18T14:49:19.380Z",
+    "lastSyncSummary": {
+      "mode": "openapi",
+      "startedAt": "2026-05-18T14:48:47.162Z",
+      "finishedAt": "2026-05-18T14:49:19.380Z",
+      "status": "success",
+      "added": 0,
+      "updated": 6,
+      "skipped": 24,
+      "failed": 0,
+      "total": 30,
+      "totalRemote": 30,
+      "outputFolder": "00_Inbox/020 GetNotes"
+    }
+  },
+  "legacyState": {
+    "schemaVersion": 1,
+    "syncedNoteIds": []
+  }
+}

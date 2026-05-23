@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "doc_id": "Ed5sdJRVdoTsW9x12ijc7Iolnj6",
+    "length": 1739,
+    "log_id": "20260507234441E19A508E660C6710575A",
+    "markdown": "# B02 选题决策\n\n灵感池、选题评分库、选题来源追踪。\n\n选题从四个地方来：热点监控、每日复盘里的灵感碎片（从A06流过来的）、粉丝私信和评论、爆款复盘反哺。每个选题过爆款元素评分，高分优先写。\n\n\u003ccallout emoji=\"💡\" background-color=\"light-blue\"\u003e\n\n**选题评分维度**：话题性（能否引发讨论）→ 相关性（和IP定位匹配度）→ 输出门槛（写的难度）→ 变现潜力（能否导流量到产品）\n\u003c/callout\u003e\n\n## 灵感池（待评分）\n\n\u003clark-table rows=\"2\" cols=\"3\" header-row=\"true\" column-widths=\"244,244,244\"\u003e\n\n  \u003clark-tr\u003e\n    \u003clark-td\u003e\n      选题来源\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n      选题内容\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n      记录日期\n    \u003c/lark-td\u003e\n  \u003c/lark-tr\u003e\n  \u003clark-tr\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n  \u003c/lark-tr\u003e\n\u003c/lark-table\u003e\n\n## 选题评分库（已评分待写/已写）\n\n\u003clark-table rows=\"2\" cols=\"7\" header-row=\"true\" column-widths=\"104,104,104,104,104,104,104\"\u003e\n\n  \u003clark-tr\u003e\n    \u003clark-td\u003e\n      选题\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n      话题性\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n      相关性\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n      门槛\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n      潜力\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n      总分\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n      状态\n    \u003c/lark-td\u003e\n  \u003c/lark-tr\u003e\n  \u003clark-tr\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n  \u003c/lark-tr\u003e\n\u003c/lark-table\u003e\n\n## 选题来源追踪\n\n- 热点监控：\n- 每日复盘流入：\n- 粉丝评论/私信：\n- 爆款复盘反哺：\n",
+    "message": "Document fetched successfully",
+    "offset": 0,
+    "title": "B02-选题决策",
+    "total_length": 1291
+  },
+  "_notice": {
+    "update": {
+      "current": "1.0.14",
+      "latest": "1.0.24",
+      "message": "lark-cli 1.0.24 available, current 1.0.14"
+    }
+  }
+}

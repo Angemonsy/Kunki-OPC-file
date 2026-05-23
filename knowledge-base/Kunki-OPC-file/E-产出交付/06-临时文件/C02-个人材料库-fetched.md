@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "doc_id": "JJJIdXIMqoSYe2xaYa0c5v6knQh",
+    "length": 2102,
+    "log_id": "2026050723454910EF72455DA2CD11B774",
+    "markdown": "# C02 个人材料库\n\n个人陈述（多版本）、推荐信状态、成绩单、论文、竞赛证明、研究计划。\n\n## 核心材料\n\n\u003clark-table rows=\"8\" cols=\"5\" header-row=\"true\" column-widths=\"146,146,146,146,146\"\u003e\n\n  \u003clark-tr\u003e\n    \u003clark-td\u003e\n      材料名称\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n      版本\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n      最后更新\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n      状态\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n      链接\n    \u003c/lark-td\u003e\n  \u003c/lark-tr\u003e\n  \u003clark-tr\u003e\n    \u003clark-td\u003e\n      个人陈述（通用版）\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n  \u003c/lark-tr\u003e\n  \u003clark-tr\u003e\n    \u003clark-td\u003e\n      个人陈述（数字经济）\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n  \u003c/lark-tr\u003e\n  \u003clark-tr\u003e\n    \u003clark-td\u003e\n      个人陈述（国际商务）\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n  \u003c/lark-tr\u003e\n  \u003clark-tr\u003e\n    \u003clark-td\u003e\n      自我介绍PPT\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n  \u003c/lark-tr\u003e\n  \u003clark-tr\u003e\n    \u003clark-td\u003e\n      论文讲解PPT\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n  \u003c/lark-tr\u003e\n  \u003clark-tr\u003e\n    \u003clark-td\u003e\n      个人简历\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n  \u003c/lark-tr\u003e\n  \u003clark-tr\u003e\n    \u003clark-td\u003e\n      研究计划\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n  \u003c/lark-tr\u003e\n\u003c/lark-table\u003e\n\n## 证明文件\n\n- 成绩单：\n- 获奖证书：\n- 论文录用/接收证明：\n- 英语证书（六级/雅思）：\n- 推荐信：\n\n## 版本管理\n\n- 每次修改保留版本记录\n- 不同学校可能需要微调，这里统一管理\n",
+    "message": "Document fetched successfully",
+    "offset": 0,
+    "title": "C02-个人材料库",
+    "total_length": 1764
+  },
+  "_notice": {
+    "update": {
+      "current": "1.0.14",
+      "latest": "1.0.24",
+      "message": "lark-cli 1.0.24 available, current 1.0.14"
+    }
+  }
+}
