@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kunqi Lin - Red Bird Portfolio</title>
+<style>
+  @page { size: letter; margin: 0; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: #e8edf3;
+    color: #172033;
+    font-family: Inter, "Helvetica Neue", Arial, sans-serif;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  a { color: inherit; text-decoration: none; }
+  .page {
+    width: 8.5in;
+    height: 11in;
+    margin: 18px auto;
+    padding: 0.44in 0.48in;
+    background: #fbfcfe;
+    position: relative;
+    overflow: hidden;
+    page-break-after: always;
+  }
+  .page:last-child { page-break-after: auto; }
+  .page:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background:
+      linear-gradient(90deg, rgba(210, 55, 55, 0.08), transparent 24%),
+      radial-gradient(circle at 86% 7%, rgba(16, 185, 129, 0.11), transparent 22%),
+      linear-gradient(180deg, rgba(28, 62, 121, 0.06), transparent 20%);
+  }
+  .content { position: relative; z-index: 1; height: 100%; display: flex; flex-direction: column; }
+  .topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d9e0ea;
+    margin-bottom: 18px;
+  }
+  .kicker {
+    color: #b62b36;
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+  .folio {
+    color: #68758a;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  h1, h2, h3, p { margin: 0; }
+  h1 {
+    font-size: 40px;
+    line-height: 0.98;
+    letter-spacing: 0;
+    max-width: 560px;
+  }
+  h2 {
+    font-size: 24px;
+    line-height: 1.05;
+    letter-spacing: 0;
+    margin-bottom: 10px;
+  }
+  h3 {
+    font-size: 12px;
+    line-height: 1.15;
+    letter-spacing: 0;
+    margin-bottom: 6px;
+  }
+  .lead {
+    font-size: 11.5px;
+    line-height: 1.45;
+    color: #3b4659;
+    max-width: 560px;
+  }
+  .subtle { color: #68758a; }
+  .strong { color: #172033; font-weight: 800; }
+  .split { display: grid; grid-template-columns: 1.04fr 0.96fr; gap: 20px; align-items: stretch; }
+  .split-wide { display: grid; grid-template-columns: 1.16fr 0.84fr; gap: 18px; align-items: stretch; }
+  .hero {
+    min-height: 300px;
+    display: grid;
+    grid-template-columns: 1.25fr 0.75fr;
+    gap: 22px;
+    align-items: center;
+  }
+  .portrait-wrap {
+    justify-self: end;
+    width: 176px;
+    height: 220px;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid #cbd5e1;
+    background: #fff;
+    box-shadow: 0 22px 45px rgba(22, 31, 49, 0.16);
+  }
+  .portrait-wrap img { width: 100%; height: 100%; object-fit: cover; object-position: center top; display: block; }
+  .identity {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin: 18px 0;
+  }
+  .pill {
+    border: 1px solid #ccd6e2;
+    background: #fff;
+    border-radius: 999px;
+    padding: 5px 9px;
+    font-size: 8.5px;
+    font-weight: 800;
+    color: #2b394f;
+    white-space: nowrap;
+  }
+  .pill.red { border-color: #f0b8bc; color: #9f2430; background: #fff5f5; }
+  .pill.green { border-color: #bae6d2; color: #0d7654; background: #f0fdf7; }
+  .pill.amber { border-color: #f8d68a; color: #8a5a00; background: #fffbeb; }
+  .metric-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 9px;
+    margin-top: 16px;
+  }
+  .metric {
+    background: #fff;
+    border: 1px solid #dde5ee;
+    border-radius: 10px;
+    padding: 10px 9px;
+    min-height: 58px;
+  }
+  .metric .num {
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 900;
+    color: #1d4ed8;
+  }
+  .metric .label {
+    margin-top: 5px;
+    font-size: 7.7px;
+    line-height: 1.25;
+    color: #566277;
+    font-weight: 700;
+  }
+  .achievement-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 18px;
+  }
+  .achievement {
+    background: #fff;
+    border: 1px solid #dde5ee;
+    border-radius: 12px;
+    padding: 12px;
+    min-height: 116px;
+  }
+  .achievement b { display: block; font-size: 11px; margin-bottom: 5px; color: #172033; }
+  .achievement span { display: block; font-size: 8.6px; line-height: 1.38; color: #536073; }
+  .tagline {
+    margin-top: auto;
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 10px;
+    align-items: end;
+  }
+  .statement {
+    background: #172033;
+    color: #fff;
+    border-radius: 14px;
+    padding: 13px 15px;
+    font-size: 11px;
+    line-height: 1.42;
+  }
+  .contact-card {
+    background: #fff;
+    border: 1px solid #dde5ee;
+    border-radius: 14px;
+    padding: 13px;
+    font-size: 8.8px;
+    line-height: 1.55;
+    color: #4a566b;
+  }
+  .section-head {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 16px;
+    align-items: start;
+    margin-bottom: 14px;
+  }
+  .section-head p {
+    max-width: 430px;
+    font-size: 9.5px;
+    line-height: 1.38;
+    color: #536073;
+  }
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 999px;
+    background: #172033;
+    color: #fff;
+    padding: 6px 10px;
+    font-size: 8px;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .visual-card {
+    background: #fff;
+    border: 1px solid #dce4ee;
+    border-radius: 14px;
+    padding: 13px;
+    box-shadow: 0 18px 34px rgba(23, 32, 51, 0.08);
+  }
+  .mini-title {
+    font-size: 8px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #b62b36;
+    margin-bottom: 8px;
+  }
+  .paper-card {
+    min-height: 222px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 12px;
+  }
+  .paper-title {
+    font-size: 12px;
+    line-height: 1.25;
+    font-weight: 900;
+  }
+  .journal {
+    border-left: 4px solid #b62b36;
+    padding-left: 9px;
+    font-size: 9px;
+    line-height: 1.4;
+    color: #49566a;
+  }
+  .network {
+    position: relative;
+    height: 205px;
+    border-radius: 12px;
+    background:
+      linear-gradient(135deg, rgba(29, 78, 216, 0.08), rgba(16, 185, 129, 0.12)),
+      repeating-linear-gradient(0deg, transparent, transparent 23px, rgba(100, 116, 139, 0.09) 24px),
+      repeating-linear-gradient(90deg, transparent, transparent 23px, rgba(100, 116, 139, 0.09) 24px);
+    overflow: hidden;
+  }
+  .network svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .note {
+    font-size: 8.4px;
+    line-height: 1.42;
+    color: #5a6678;
+  }
+  .evidence {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin-top: 10px;
+  }
+  .evidence div {
+    background: #f6f8fb;
+    border: 1px solid #e0e7f0;
+    border-radius: 9px;
+    padding: 9px;
+    min-height: 68px;
+  }
+  .evidence b {
+    display: block;
+    font-size: 10px;
+    margin-bottom: 4px;
+    color: #172033;
+  }
+  .evidence span {
+    display: block;
+    font-size: 7.8px;
+    line-height: 1.3;
+    color: #5b6779;
+  }
+  .bullets {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    gap: 7px;
+  }
+  .bullets li {
+    position: relative;
+    padding-left: 13px;
+    font-size: 9px;
+    line-height: 1.36;
+    color: #3f4b5f;
+  }
+  .bullets li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 5px;
+    height: 5px;
+    border-radius: 99px;
+    background: #b62b36;
+  }
+  .flow {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    align-items: stretch;
+  }
+  .flow-step {
+    border: 1px solid #dbe4ee;
+    border-radius: 12px;
+    padding: 10px;
+    min-height: 112px;
+    background: #fff;
+  }
+  .flow-step .idx {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: #172033;
+    color: #fff;
+    font-size: 9px;
+    font-weight: 900;
+    margin-bottom: 8px;
+  }
+  .flow-step b { display: block; font-size: 10px; line-height: 1.18; margin-bottom: 6px; }
+  .flow-step span { display: block; font-size: 7.8px; line-height: 1.32; color: #5a6678; }
+  .scoreboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9px;
+    margin-top: 12px;
+  }
+  .score {
+    border-radius: 12px;
+    padding: 11px;
+    background: #172033;
+    color: #fff;
+    min-height: 78px;
+  }
+  .score:nth-child(2) { background: #b62b36; }
+  .score:nth-child(3) { background: #0f766e; }
+  .score:nth-child(4) { background: #a16207; }
+  .score b { display: block; font-size: 17px; line-height: 1; margin-bottom: 6px; }
+  .score span { display: block; font-size: 8px; line-height: 1.3; color: rgba(255,255,255,0.86); }
+  .site-shot {
+    height: 250px;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #d6dfeb;
+    background: #fff;
+  }
+  .site-shot img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    display: block;
+  }
+  .qr-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 12px;
+  }
+  .qr {
+    display: grid;
+    grid-template-columns: 66px 1fr;
+    gap: 9px;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #dce4ee;
+    border-radius: 12px;
+    padding: 8px;
+  }
+  .qr img { width: 66px; height: 66px; object-fit: cover; border-radius: 7px; border: 1px solid #e4eaf2; }
+  .qr b { display: block; font-size: 9.5px; margin-bottom: 3px; }
+  .qr span { display: block; font-size: 7.5px; line-height: 1.25; color: #657084; }
+  .funnel {
+    display: grid;
+    gap: 7px;
+    margin-top: 10px;
+  }
+  .funnel div {
+    border-radius: 10px;
+    color: #fff;
+    padding: 8px 10px;
+    font-size: 8.5px;
+    font-weight: 800;
+  }
+  .funnel div:nth-child(1) { width: 100%; background: #1d4ed8; }
+  .funnel div:nth-child(2) { width: 82%; background: #0f766e; }
+  .funnel div:nth-child(3) { width: 62%; background: #b62b36; }
+  .phone {
+    width: 145px;
+    height: 275px;
+    border: 8px solid #172033;
+    border-radius: 24px;
+    background: #fff7ed;
+    padding: 12px 10px;
+    margin: 0 auto;
+    box-shadow: 0 20px 34px rgba(23,32,51,0.14);
+  }
+  .phone .screen-title {
+    font-size: 14px;
+    font-weight: 900;
+    color: #c2410c;
+    text-align: center;
+    margin: 10px 0 12px;
+  }
+  .food-chip {
+    background: #fff;
+    border: 1px solid #fed7aa;
+    border-radius: 999px;
+    padding: 6px 8px;
+    font-size: 8px;
+    font-weight: 800;
+    color: #9a3412;
+    margin-bottom: 7px;
+  }
+  .draw-btn {
+    margin: 14px auto 0;
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: #f97316;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 1.1;
+  }
+  .map {
+    position: relative;
+    height: 214px;
+    border-radius: 14px;
+    background: #f8fafc;
+    border: 1px solid #dce4ee;
+    overflow: hidden;
+  }
+  .map .node {
+    position: absolute;
+    width: 104px;
+    border-radius: 12px;
+    padding: 9px;
+    font-size: 8px;
+    line-height: 1.25;
+    background: #fff;
+    border: 1px solid #dae3ee;
+    box-shadow: 0 10px 20px rgba(23,32,51,0.07);
+  }
+  .map .node b { display: block; font-size: 9px; margin-bottom: 3px; }
+  .n1 { left: 18px; top: 22px; }
+  .n2 { right: 18px; top: 22px; }
+  .n3 { left: 50%; top: 76px; transform: translateX(-50%); background: #172033 !important; color: #fff; }
+  .n4 { left: 35px; bottom: 20px; }
+  .n5 { right: 35px; bottom: 20px; }
+  .map svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .summary-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 14px;
+  }
+  .summary {
+    border: 1px solid #dce4ee;
+    background: #fff;
+    border-radius: 13px;
+    padding: 12px;
+    min-height: 116px;
+  }
+  .summary b { display: block; font-size: 11px; margin-bottom: 6px; color: #172033; }
+  .summary span { display: block; font-size: 8.5px; line-height: 1.36; color: #566276; }
+  .fit {
+    margin-top: 14px;
+    background: #172033;
+    color: #fff;
+    border-radius: 15px;
+    padding: 16px;
+  }
+  .fit h3 { font-size: 13px; color: #fff; margin-bottom: 8px; }
+  .fit p { font-size: 9.5px; line-height: 1.45; color: rgba(255,255,255,0.84); }
+  .footer {
+    margin-top: auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #d9e0ea;
+    font-size: 8px;
+    color: #718096;
+  }
+  @media print {
+    body { background: #fff; }
+    .page { margin: 0; box-shadow: none; }
+  }
+</style>
+</head>
+<body>
+
+<section class="page">
+  <div class="content">
+    <div class="topbar">
+      <div class="kicker">Red Bird Challenge Camp 2026 Application</div>
+      <div class="folio">Portfolio 01 / 06</div>
+    </div>
+    <div class="hero">
+      <div>
+        <h1>Kunqi Lin builds across research, AI products, and real users.</h1>
+        <div class="identity">
+          <span class="pill red">Economics, Rank 1/227</span>
+          <span class="pill">SCI Q2 Co-first Author</span>
+          <span class="pill amber">National Scholarship</span>
+          <span class="pill green">AI Product Builder</span>
+          <span class="pill">Founder & Creator</span>
+        </div>
+        <p class="lead">I am an economics undergraduate who treats AI as both a research object and a practical tool. My strongest work sits at the intersection of quantitative research, AI-assisted product building, content entrepreneurship, and community operations.</p>
+        <div class="metric-row">
+          <div class="metric"><div class="num">3.98</div><div class="label">GPA / 4.0, top of major</div></div>
+          <div class="metric"><div class="num">SCI Q2</div><div class="label">Published energy economics paper</div></div>
+          <div class="metric"><div class="num">5,000+</div><div class="label">Followers for AI personal brand</div></div>
+          <div class="metric"><div class="num">3,000+</div><div class="label">Day-one opens for campus product</div></div>
+        </div>
+      </div>
+      <div class="portrait-wrap"><img src="profile-photo.jpg" alt="Kunqi Lin portrait"></div>
+    </div>
+
+    <div class="achievement-grid">
+      <div class="achievement"><b>01. Research from question to publication</b><span>Built an empirical study on critical mineral trade networks and NEV industry growth, linking economics, sustainability, and complex network analysis.</span></div>
+      <div class="achievement"><b>02. AI competition into usable solution</b><span>Worked on a low-resource language test generation system, connecting model capability with education scenarios and commercialization design.</span></div>
+      <div class="achievement"><b>03. AI creator brand from zero to traction</b><span>Built content workflows, audience growth, paid community logic, and external partnerships including Tencent IMA and an AI-focused MCN.</span></div>
+      <div class="achievement"><b>04. Small products, fast iteration, real users</b><span>Launched a campus mini-program, built feedback communities, explored merchant collaboration, and used AI coding to ship personal web products.</span></div>
+    </div>
+
+    <div class="tagline">
+      <div class="statement">Core portfolio thesis: I do not only study technology adoption; I build small systems that let people actually use new technology.</div>
+      <div class="contact-card">
+        <b>Kunqi Lin (KUNKI)</b><br>
+        Email: 3185233471@qq.com<br>
+        Phone: 18902684335<br>
+        Website: kunkiportfolio.site<br>
+        Guangzhou, Guangdong, China
+      </div>
+    </div>
+    <div class="footer"><span>Selected achievements: 4 core projects within 6 pages</span><span>Page 1</span></div>
+  </div>
+</section>
+
+<section class="page">
+  <div class="content">
+    <div class="topbar">
+      <div class="kicker">Achievement 01 / Academic Research</div>
+      <div class="folio">Portfolio 02 / 06</div>
+    </div>
+    <div class="section-head">
+      <div>
+        <h2>Published research on critical minerals, trade networks, and the NEV industry.</h2>
+        <p>This project shows my ability to turn a broad sustainability problem into a testable economic research design.</p>
+      </div>
+      <span class="badge">SCI Q2 | Co-first Author</span>
+    </div>
+    <div class="split-wide">
+      <div class="visual-card paper-card">
+        <div>
+          <div class="mini-title">Publication Evidence</div>
+          <div class="paper-title">How trading patterns of critical minerals affects the NEV industry? A complex network and multiple regression analysis approach</div>
+        </div>
+        <div class="journal">
+          <b>Energy for Sustainable Development</b><br>
+          Volume 85, 2025, Article 101655<br>
+          DOI: 10.1016/j.esd.2025.101655<br>
+          Role: Co-first Author, student contributor
+        </div>
+        <p class="note">Research focus: how critical mineral trade network positions influence new energy vehicle industry development through technological progress.</p>
+      </div>
+      <div class="visual-card">
+        <div class="mini-title">Method Visual</div>
+        <div class="network" aria-label="Critical mineral trade network diagram">
+          <svg viewBox="0 0 320 205" role="img">
+            <g stroke="#94a3b8" stroke-width="1.4" opacity="0.75">
+              <line x1="55" y1="45" x2="150" y2="82"/><line x1="150" y1="82" x2="265" y2="42"/>
+              <line x1="150" y1="82" x2="236" y2="150"/><line x1="150" y1="82" x2="70" y2="150"/>
+              <line x1="70" y1="150" x2="236" y2="150"/><line x1="55" y1="45" x2="70" y2="150"/>
+              <line x1="265" y1="42" x2="236" y2="150"/><line x1="100" y1="98" x2="210" y2="95"/>
+            </g>
+            <g>
+              <circle cx="150" cy="82" r="22" fill="#1d4ed8"/><circle cx="55" cy="45" r="14" fill="#b62b36"/>
+              <circle cx="265" cy="42" r="16" fill="#0f766e"/><circle cx="70" cy="150" r="17" fill="#a16207"/>
+              <circle cx="236" cy="150" r="18" fill="#7c3aed"/><circle cx="100" cy="98" r="9" fill="#334155"/>
+              <circle cx="210" cy="95" r="10" fill="#334155"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div class="evidence">
+      <div><b>Question</b><span>Do global critical mineral trade positions affect the growth of the NEV industry?</span></div>
+      <div><b>Approach</b><span>Constructed a 2013-2023 trade network and used econometric models to test mechanisms.</span></div>
+      <div><b>Finding</b><span>Trade centrality promotes NEV industry development, with technological progress as a full mediator.</span></div>
+    </div>
+    <div class="split" style="margin-top: 14px;">
+      <div class="visual-card">
+        <div class="mini-title">My Contribution</div>
+        <ul class="bullets">
+          <li>Participated in the complete research cycle: literature review, hypothesis development, variable design, empirical testing, and manuscript revision.</li>
+          <li>Processed global trade data and translated an industry problem into measurable network indicators.</li>
+          <li>Strengthened my ability to combine economic theory, data analysis, and sustainability policy questions.</li>
+        </ul>
+      </div>
+      <div class="visual-card">
+        <div class="mini-title">Skills Demonstrated</div>
+        <ul class="bullets">
+          <li>Complex network analysis and quantitative research design.</li>
+          <li>Econometric modeling, robustness thinking, and scientific writing.</li>
+          <li>Cross-domain thinking across energy transition, trade, and industrial innovation.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer"><span>Research signal: rigorous, interdisciplinary, publication-tested</span><span>Page 2</span></div>
+  </div>
+</section>
+
+<section class="page">
+  <div class="content">
+    <div class="topbar">
+      <div class="kicker">Achievement 02 / AI Competition & Edu-Tech</div>
+      <div class="folio">Portfolio 03 / 06</div>
+    </div>
+    <div class="section-head">
+      <div>
+        <h2>AI-powered low-resource language test generation system.</h2>
+        <p>From a real education shortage to a productized AI system, this project demonstrates my product framing, business design, and interdisciplinary teamwork.</p>
+      </div>
+      <span class="badge">National Gold | International Bronze</span>
+    </div>
+    <div class="flow">
+      <div class="flow-step"><div class="idx">1</div><b>User Pain</b><span>Teachers lack high-quality assessment materials for low-resource languages such as Lao, Burmese, and Khmer.</span></div>
+      <div class="flow-step"><div class="idx">2</div><b>AI System</b><span>Generated questions, evaluated difficulty, and supported standardized test paper construction.</span></div>
+      <div class="flow-step"><div class="idx">3</div><b>Product Logic</b><span>Applied Item Response Theory to make question difficulty more measurable and controllable.</span></div>
+      <div class="flow-step"><div class="idx">4</div><b>Business Model</b><span>Designed a three-part commercialization route: individual users, institutional clients, and data services.</span></div>
+    </div>
+    <div class="split" style="margin-top: 14px;">
+      <div class="visual-card">
+        <div class="mini-title">Competition Result</div>
+        <div class="scoreboard">
+          <div class="score"><b>Gold</b><span>National award in Asia Pacific ICT Competition</span></div>
+          <div class="score"><b>Bronze</b><span>International competition result in Brunei</span></div>
+          <div class="score"><b>81%</b><span>Reported model accuracy for low-resource languages</span></div>
+          <div class="score"><b>RMB 130K</b><span>Projected first-year revenue from 2 enterprise clients</span></div>
+        </div>
+      </div>
+      <div class="visual-card">
+        <div class="mini-title">My Role</div>
+        <ul class="bullets">
+          <li>Led product and commercialization thinking for the team: user scenarios, value proposition, pricing logic, and presentation structure.</li>
+          <li>Translated technical capability into an education solution that judges could understand and users could imagine using.</li>
+          <li>Helped connect the prototype with institutional demand, including GDUFS School of East Asian Languages.</li>
+          <li>Practiced international communication under pressure during the competition process.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="visual-card" style="margin-top: 14px;">
+      <div class="mini-title">What This Proves</div>
+      <p class="note">I am strongest when technical teams need someone to connect model capability with a real user problem, a convincing product narrative, and a feasible commercialization route. This is the same ability I hope to deepen at Red Bird: crossing boundaries between technology, market, and social need.</p>
+    </div>
+    <div class="footer"><span>AI application signal: problem framing, product sense, business validation</span><span>Page 3</span></div>
+  </div>
+</section>
+
+<section class="page">
+  <div class="content">
+    <div class="topbar">
+      <div class="kicker">Achievement 03 / AI Creator Brand & Web Product</div>
+      <div class="folio">Portfolio 04 / 06</div>
+    </div>
+    <div class="section-head">
+      <div>
+        <h2>Built a personal AI brand and shipped my own web presence with AI-assisted development.</h2>
+        <p>This is the most direct evidence of my zero-to-one execution: content, product, audience, and workflow all built by doing.</p>
+      </div>
+      <span class="badge">Founder & Creator</span>
+    </div>
+    <div class="split-wide">
+      <div class="visual-card">
+        <div class="mini-title">Website Screenshot</div>
+        <div class="site-shot"><img src="assets/kunkiportfolio-site-crop.png" alt="Screenshot of kunkiportfolio.site"></div>
+        <p class="note" style="margin-top: 8px;">Personal website: kunkiportfolio.site, built as a public entry point for articles, projects, and student-oriented AI resources.</p>
+      </div>
+      <div>
+        <div class="visual-card">
+          <div class="mini-title">Brand Metrics</div>
+          <div class="scoreboard" style="grid-template-columns: 1fr;">
+            <div class="score"><b>5,000+</b><span>Followers across WeChat Video Channel, Official Account, and Douyin</span></div>
+            <div class="score"><b>75%</b><span>Content production time reduction through human-AI workflows</span></div>
+            <div class="score"><b>2</b><span>External partnership signals: Tencent IMA campus partner and AI-focused MCN contract</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="split" style="margin-top: 13px;">
+      <div class="visual-card">
+        <div class="mini-title">Commercialization Funnel</div>
+        <div class="funnel">
+          <div>Free content: public AI learning and tool demos</div>
+          <div>Paid community: structured guidance and peer support</div>
+          <div>High-ticket consulting: practical AI adoption help</div>
+        </div>
+      </div>
+      <div class="visual-card">
+        <div class="mini-title">Skills Demonstrated</div>
+        <ul class="bullets">
+          <li>Identified a real user gap: many non-technical creators know AI matters but lack practical ways to use it.</li>
+          <li>Designed repeatable content workflows with local knowledge bases and AI agents.</li>
+          <li>Used AI-assisted web development to ship a personal site, not just describe an idea.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="qr-row">
+      <div class="qr"><img src="wechat-qrcode.jpg" alt="WeChat QR code"><div><b>WeChat Video Channel</b><span>Public evidence of the AI creator brand and content distribution channel.</span></div></div>
+      <div class="qr"><img src="chisha-qrcode.jpg" alt="ChiSha QR code"><div><b>Mini-Program QR</b><span>Product evidence for the campus decision tool shown on the next page.</span></div></div>
+    </div>
+    <div class="footer"><span>Entrepreneurship signal: audience, workflow, partnerships, shipped web product</span><span>Page 4</span></div>
+  </div>
+</section>
+
+<section class="page">
+  <div class="content">
+    <div class="topbar">
+      <div class="kicker">Achievement 04 / Product, Growth & Ecosystem Building</div>
+      <div class="folio">Portfolio 05 / 06</div>
+    </div>
+    <div class="section-head">
+      <div>
+        <h2>Small products, real users, fast feedback loops.</h2>
+        <p>This page gathers the projects that show my practical execution beyond papers and competitions: product launch, community operations, ecosystem design, and public communication.</p>
+      </div>
+      <span class="badge">Product & Growth</span>
+    </div>
+    <div class="split-wide">
+      <div class="visual-card">
+        <div class="mini-title">"ChiSha!" Campus Mini-Program</div>
+        <div class="split" style="grid-template-columns: 0.78fr 1.22fr; gap: 13px; align-items: center;">
+          <div class="phone">
+            <div class="screen-title">ChiSha!</div>
+            <div class="food-chip">School: GDUFS</div>
+            <div class="food-chip">Filter: rice / noodles / cafe</div>
+            <div class="food-chip">Exclude: too far</div>
+            <div class="draw-btn">What to eat?</div>
+          </div>
+          <div>
+            <ul class="bullets">
+              <li>Defined the core user problem: students waste attention deciding what to eat every day.</li>
+              <li>Led product strategy, launch messaging, community feedback, and merchant collaboration.</li>
+              <li>Initial launch reached 500+ users and 3,000+ opens on day one, with a 147-member user community.</li>
+              <li>Used an approachable product personality to make the tool feel light, local, and shareable.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="visual-card">
+        <div class="mini-title">Automation Tools</div>
+        <ul class="bullets">
+          <li>Xiaohongshu viral note generator: converts topic keywords into structured note drafts.</li>
+          <li>WeChat Official Account auto-formatter: improves publication consistency through automated typography.</li>
+          <li>These tools support my own creator workflow and help others lower the barrier to content production.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="split" style="margin-top: 14px;">
+      <div class="visual-card">
+        <div class="mini-title">OPC Ecosystem</div>
+        <div class="map">
+          <svg viewBox="0 0 320 214">
+            <g stroke="#94a3b8" stroke-width="1.4" opacity="0.65">
+              <line x1="70" y1="57" x2="160" y2="111"/><line x1="250" y1="57" x2="160" y2="111"/>
+              <line x1="160" y1="111" x2="87" y2="178"/><line x1="160" y1="111" x2="233" y2="178"/>
+            </g>
+          </svg>
+          <div class="node n1"><b>AI-skilled practitioners</b>Need projects, space, and direction.</div>
+          <div class="node n2"><b>Product owners</b>Need traffic and execution capacity.</div>
+          <div class="node n3"><b>OPC organizer</b>Match, coordinate, and host salons.</div>
+          <div class="node n4"><b>Revenue sharing</b>Distribute products through practitioner network.</div>
+          <div class="node n5"><b>Larger projects</b>Grow toward commercial collaboration.</div>
+        </div>
+      </div>
+      <div class="visual-card">
+        <div class="mini-title">Leadership & Speaking</div>
+        <ul class="bullets">
+          <li>Canton Fair VIP reception team leader: managed 16 volunteers serving 1,000+ international VIP buyers daily, with zero complaints.</li>
+          <li>Guangzhou AI Creator Salon speaker: shared practical frameworks for local knowledge bases, AI agents, and individual competitiveness.</li>
+          <li>These experiences trained me to communicate clearly with both technical and non-technical audiences.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer"><span>Execution signal: product launch, community operations, ecosystem design</span><span>Page 5</span></div>
+  </div>
+</section>
+
+<section class="page">
+  <div class="content">
+    <div class="topbar">
+      <div class="kicker">Red Bird Fit / Human-Machine Coexistence</div>
+      <div class="folio">Portfolio 06 / 06</div>
+    </div>
+    <div class="section-head">
+      <div>
+        <h2>Why this portfolio fits Red Bird.</h2>
+        <p>My strongest pattern is not one isolated achievement. It is the ability to move between rigorous analysis, AI-enabled making, business reality, and human-centered communication.</p>
+      </div>
+      <span class="badge">Summary</span>
+    </div>
+    <div class="summary-grid">
+      <div class="summary"><b>Academic Depth</b><span>Published SCI Q2 research, top academic ranking, and quantitative training in economics give me the discipline to ask precise questions and test claims carefully.</span></div>
+      <div class="summary"><b>AI Practice</b><span>I use AI as a working method: content workflows, automation scripts, AI-assisted web development, and education/product applications.</span></div>
+      <div class="summary"><b>Entrepreneurial Proof</b><span>My personal brand, mini-program, and OPC ecosystem show that I can build from zero, reach users, collect feedback, and iterate quickly.</span></div>
+      <div class="summary"><b>Communication Range</b><span>From scientific writing to international competition pitching, VIP reception leadership, and public AI salons, I practice translating complex ideas for different audiences.</span></div>
+    </div>
+    <div class="fit">
+      <h3>My Red Bird contribution</h3>
+      <p>I hope to bring a grounded builder's perspective to the 2026 theme of human-machine coexistence. My interest is not only in what AI can do technically, but in how AI changes incentives, workflows, communities, and value creation. With my background in economics, AI commercialization, and real product practice, I can contribute to Red Bird as someone who connects models with markets, research with users, and imagination with execution.</p>
+    </div>
+    <div class="split" style="margin-top: 14px;">
+      <div class="visual-card">
+        <div class="mini-title">Selected Evidence Links</div>
+        <ul class="bullets">
+          <li>Publication DOI: 10.1016/j.esd.2025.101655</li>
+          <li>Personal website: https://kunkiportfolio.site/</li>
+          <li>Public AI content channel and mini-program QR codes included on Page 4.</li>
+        </ul>
+      </div>
+      <div class="visual-card">
+        <div class="mini-title">Contact</div>
+        <p class="note"><b>Kunqi Lin (KUNKI)</b><br>Email: 3185233471@qq.com<br>Phone: 18902684335<br>Location: Guangzhou, Guangdong, China<br>Website: kunkiportfolio.site</p>
+      </div>
+    </div>
+    <div class="statement" style="margin-top: auto;">Portfolio in one sentence: I am a research-trained economics student who uses AI to build practical systems for creators, students, and organizations.</div>
+    <div class="footer"><span>End of portfolio</span><span>Page 6</span></div>
+  </div>
+</section>
+
+</body>
+</html>
