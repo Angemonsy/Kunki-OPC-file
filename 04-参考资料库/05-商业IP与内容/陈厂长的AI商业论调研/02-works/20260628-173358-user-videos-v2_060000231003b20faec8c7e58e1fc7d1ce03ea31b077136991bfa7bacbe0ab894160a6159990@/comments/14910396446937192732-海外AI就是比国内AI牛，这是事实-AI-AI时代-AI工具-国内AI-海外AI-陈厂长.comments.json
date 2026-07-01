@@ -1,0 +1,194 @@
+{
+  "object_id": "14910396446937192732",
+  "pages": [
+    {
+      "code": 200,
+      "request_id": "931dd702-c870-40cf-8516-00b63d55b1c5",
+      "message": "Request successful. This request will incur a charge.",
+      "message_zh": "请求成功，本次请求将被计费。",
+      "support": "Discord: https://discord.gg/aMEAS8Xsvz",
+      "time": "2026-06-28 02:38:05",
+      "time_stamp": 1782639485,
+      "time_zone": "America/Los_Angeles",
+      "docs": "https://api.tikhub.io/#/WeChat-Channels-V2-API/fetch_video_comments_api_v1_wechat_channels_v2_fetch_video_comments_post",
+      "cache_message": "This response is cached and accessible via the URL below for 24 hours at no extra cost. The cache is for request tracing only — it doesn't affect the API's data freshness and won't be returned through the API again.",
+      "cache_message_zh": "本次响应已缓存，可通过下方 URL 直接查看，有效期 24 小时，访问缓存链接无额外费用。缓存仅用于请求溯源，不影响接口数据的时效性，也不会再次通过接口返回。",
+      "cache_url": "https://cache.tikhub.io/api/v1/cache/public/931dd702-c870-40cf-8516-00b63d55b1c5?sign=ef5ce646f24aa227f4c27b1a8ab6a83efc4838d7bec7d5a999dc09c6b2b063d4",
+      "router": "/api/v1/wechat_channels/v2/fetch_video_comments",
+      "params": {
+        "object_id": "14910396446937192732",
+        "last_buffer": "",
+        "comment_id": "",
+        "raw": false
+      },
+      "data": {
+        "object_id": "14910396446937192732",
+        "comment_id": null,
+        "count": 7,
+        "comments": [
+          {
+            "comment_id": "14924938532525971805",
+            "nickname": "石海亮4694",
+            "username": "v2_060000231003b20faec8c7e18e10c2d0c800e833b077315808e4233506dc19764495ac362581@finder",
+            "content": "陈厂长太棒了[合十][合十][合十][合十][合十][爱心][爱心][爱心][爱心][爱心][爱心]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1779191319,
+            "head_url": "https://wx.qlogo.cn/finderhead/aUGOdcZzxIHndMVdWgGz07QaoL3icDtZIoMBSsvFPCjwthae2xqhxk7jn4eZBGO2EEibEfQyD98pE/0",
+            "ip_region": "江苏"
+          },
+          {
+            "comment_id": "14923593096637581447",
+            "nickname": "朝霞播种幸福",
+            "username": "v2_060000231003b20faec8c5e48a1dc0d2cb0cef37b077874fdeb91f047f5bcacd43383cb33357@finder",
+            "content": "学习ai哪家强？中国深圳陈厂长[强][强][强][爱心]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1779030930,
+            "head_url": "https://wx.qlogo.cn/finderhead/SXryYH6DzyYf9fciae9jlnDyhEwnP4RBdDMkS3hsZN620BUG04JmIQIQGPZw8WZKZIf1twgcesrQ/0",
+            "ip_region": "陕西"
+          },
+          {
+            "comment_id": "14923299820799004887",
+            "nickname": "景连振🇨🇭",
+            "username": "v5_020b0a16610401000000000046561a44511a18000000b1afa7d8728e3dd43ef4317a780e33c208f8b8f76ac075af22c33776f679c1d7a4c2500aaa86e0d68187c92c1df246f60cd96d1393a735b6cd41b34d05c8bc90aefe7fbbfa6f8b256a198eb083@stranger",
+            "content": "[强][强][强][强][爱心][爱心][爱心][爱心][合十][合十][合十][合十]感恩陈厂长[爱心][爱心][爱心][爱心]中国深圳陈厂长[强][强][强][强]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1778995969,
+            "head_url": "https://mmhead.c2c.wechat.com/mmhead/ver_1/EkiaEkAvaRnHyevRF4W8KbNhCgPoibweYdS7cQlzyWDWqCbTWo6DLf7YAOyLCbepxQfib1FeauhXJnknkY0xHq2iaRP8SRp8HJOD5JSH2icb0spk/132",
+            "ip_region": "瑞士"
+          },
+          {
+            "comment_id": "14914697339056167159",
+            "nickname": "巧仙爱商业干货",
+            "username": "v2_060000231003b20faec8c7e68d10c5d5c701ed3db07748a153ed537fa7fe88f47c14b47eecb6@finder",
+            "content": "谢谢老师分享",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1777970473,
+            "head_url": "https://wx.qlogo.cn/finderhead/UAb2n8w7fEeSRN40cH9Ry7DX3UJkiaXwq3iarp3RO0pwkf3FezSUDuBjzDjHIQPicL2kmnE3jnibLA4/0",
+            "ip_region": "重庆"
+          },
+          {
+            "comment_id": "14924644279319337229",
+            "nickname": "健康快乐幽兰",
+            "username": "v2_060000231003b20faec8c5e18a1cc7d1c60cee32b0777eddd663fc5363f20bcb47fd3b73371a@finder",
+            "content": "/:strong/:strong/:strong",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1779156241,
+            "head_url": "https://wx.qlogo.cn/finderhead/icF4iau8Sj7b2zdT4nPJxnCI3W4o6ib69unK8eL3MnOofXKbcBhdcjIZe1r70SADDfJP8CCBriaGXIY/0",
+            "ip_region": "北京"
+          },
+          {
+            "comment_id": "14921866262973913231",
+            "nickname": "健康+认知=财富",
+            "username": "v5_020b0a166104010000000000739e30bcf7b598000000b1afa7d8728e3dd43ef4317a780e33c208f8b8f76ac075af22c33776f611c7e4fd9a445fd782ba51f755ce81609148856a3000c7cf63c7cb4cb279efe4174387d4253abb1d034a18d972b37230@stranger",
+            "content": "[强][强][强]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1778825075,
+            "head_url": "https://wx.qlogo.cn/mmhead/ver_1/fO3XAYA7ia12g6OMxsz5w84JiaZepL0qibA8P8MWZ3efOMia843YvBaututC3td5dibLkx9hURWaFHrqs1okU8VctLdOg9e5BSkVnibqteHVfPJrQ/132",
+            "ip_region": "内蒙古"
+          },
+          {
+            "comment_id": "14920735992740843638",
+            "nickname": "温暖的春意3037",
+            "username": "v2_060000231003b20faec8c4ea8110c3ddcf06ef32b077e1897e58c5eb775843cc3a992b609db7@finder",
+            "content": "[强][强][强][强]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1778690337,
+            "head_url": "https://wx.qlogo.cn/finderhead/A4dejKzLCC5wbullvfficaKZpEgjxiaT04XQ5FHN3L60ZSUpiazAglgUu5IDJ0WGiaHabSxRYYj4ORI/0",
+            "ip_region": "巴拿马"
+          }
+        ],
+        "down_continue": 0,
+        "last_buffer": "CkII9qDQ1c/KxojPARjdsoCu0JCCkM8BGIeRuIylm9CNzwEY16GAu+vDjY3PARj3saDX1cbp/c4BOPag0NXPysaIzwE=",
+        "debug_id": "04d15d11",
+        "debug_info": "gAAAAABqQOt96cyH8fNy5fAw9Zyir7UhUdcB3hrKpw8suUc2UkassCP4oeVF0OqxOzDdrm6ppqkpaxxIXuiDt1Ryy9xQNJndUKmG1ZGh9yGtu4cVQaA27cJLojcp2u-C1wTAth9PlEiAHrmQ53LRTBgYmPpsOwMTMk8EoittO_93vNGCOSwrhLM27Prh7fLa_HTaMEqw2TpBk8q3AgQKmHajSg00U3E4O-I9YgI-diwBBpQiQRf0n0bv7NnvevcEkOWom8afPcbgYWFQwaShx3w-gTjnxL4Egw=="
+      }
+    }
+  ],
+  "comments": [
+    {
+      "comment_id": "14924938532525971805",
+      "nickname": "石海亮4694",
+      "username": "v2_060000231003b20faec8c7e18e10c2d0c800e833b077315808e4233506dc19764495ac362581@finder",
+      "content": "陈厂长太棒了[合十][合十][合十][合十][合十][爱心][爱心][爱心][爱心][爱心][爱心]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1779191319,
+      "head_url": "https://wx.qlogo.cn/finderhead/aUGOdcZzxIHndMVdWgGz07QaoL3icDtZIoMBSsvFPCjwthae2xqhxk7jn4eZBGO2EEibEfQyD98pE/0",
+      "ip_region": "江苏"
+    },
+    {
+      "comment_id": "14923593096637581447",
+      "nickname": "朝霞播种幸福",
+      "username": "v2_060000231003b20faec8c5e48a1dc0d2cb0cef37b077874fdeb91f047f5bcacd43383cb33357@finder",
+      "content": "学习ai哪家强？中国深圳陈厂长[强][强][强][爱心]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1779030930,
+      "head_url": "https://wx.qlogo.cn/finderhead/SXryYH6DzyYf9fciae9jlnDyhEwnP4RBdDMkS3hsZN620BUG04JmIQIQGPZw8WZKZIf1twgcesrQ/0",
+      "ip_region": "陕西"
+    },
+    {
+      "comment_id": "14923299820799004887",
+      "nickname": "景连振🇨🇭",
+      "username": "v5_020b0a16610401000000000046561a44511a18000000b1afa7d8728e3dd43ef4317a780e33c208f8b8f76ac075af22c33776f679c1d7a4c2500aaa86e0d68187c92c1df246f60cd96d1393a735b6cd41b34d05c8bc90aefe7fbbfa6f8b256a198eb083@stranger",
+      "content": "[强][强][强][强][爱心][爱心][爱心][爱心][合十][合十][合十][合十]感恩陈厂长[爱心][爱心][爱心][爱心]中国深圳陈厂长[强][强][强][强]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1778995969,
+      "head_url": "https://mmhead.c2c.wechat.com/mmhead/ver_1/EkiaEkAvaRnHyevRF4W8KbNhCgPoibweYdS7cQlzyWDWqCbTWo6DLf7YAOyLCbepxQfib1FeauhXJnknkY0xHq2iaRP8SRp8HJOD5JSH2icb0spk/132",
+      "ip_region": "瑞士"
+    },
+    {
+      "comment_id": "14914697339056167159",
+      "nickname": "巧仙爱商业干货",
+      "username": "v2_060000231003b20faec8c7e68d10c5d5c701ed3db07748a153ed537fa7fe88f47c14b47eecb6@finder",
+      "content": "谢谢老师分享",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1777970473,
+      "head_url": "https://wx.qlogo.cn/finderhead/UAb2n8w7fEeSRN40cH9Ry7DX3UJkiaXwq3iarp3RO0pwkf3FezSUDuBjzDjHIQPicL2kmnE3jnibLA4/0",
+      "ip_region": "重庆"
+    },
+    {
+      "comment_id": "14924644279319337229",
+      "nickname": "健康快乐幽兰",
+      "username": "v2_060000231003b20faec8c5e18a1cc7d1c60cee32b0777eddd663fc5363f20bcb47fd3b73371a@finder",
+      "content": "/:strong/:strong/:strong",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1779156241,
+      "head_url": "https://wx.qlogo.cn/finderhead/icF4iau8Sj7b2zdT4nPJxnCI3W4o6ib69unK8eL3MnOofXKbcBhdcjIZe1r70SADDfJP8CCBriaGXIY/0",
+      "ip_region": "北京"
+    },
+    {
+      "comment_id": "14921866262973913231",
+      "nickname": "健康+认知=财富",
+      "username": "v5_020b0a166104010000000000739e30bcf7b598000000b1afa7d8728e3dd43ef4317a780e33c208f8b8f76ac075af22c33776f611c7e4fd9a445fd782ba51f755ce81609148856a3000c7cf63c7cb4cb279efe4174387d4253abb1d034a18d972b37230@stranger",
+      "content": "[强][强][强]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1778825075,
+      "head_url": "https://wx.qlogo.cn/mmhead/ver_1/fO3XAYA7ia12g6OMxsz5w84JiaZepL0qibA8P8MWZ3efOMia843YvBaututC3td5dibLkx9hURWaFHrqs1okU8VctLdOg9e5BSkVnibqteHVfPJrQ/132",
+      "ip_region": "内蒙古"
+    },
+    {
+      "comment_id": "14920735992740843638",
+      "nickname": "温暖的春意3037",
+      "username": "v2_060000231003b20faec8c4ea8110c3ddcf06ef32b077e1897e58c5eb775843cc3a992b609db7@finder",
+      "content": "[强][强][强][强]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1778690337,
+      "head_url": "https://wx.qlogo.cn/finderhead/A4dejKzLCC5wbullvfficaKZpEgjxiaT04XQ5FHN3L60ZSUpiazAglgUu5IDJ0WGiaHabSxRYYj4ORI/0",
+      "ip_region": "巴拿马"
+    }
+  ],
+  "replies_by_comment": {}
+}

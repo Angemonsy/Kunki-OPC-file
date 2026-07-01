@@ -1,0 +1,234 @@
+[WARN] playwright-stealth未安装，反检测能力降低
+
+============================================================
+[INFO] 小红书账号爬取工具 - 终极版
+[INFO] 用户ID: 646f4ec9000000001c02af3f
+[INFO] 模式: 无头模式
+[INFO] Cookie: 已提供
+[INFO] Stealth: 未启用
+============================================================
+
+[INFO] 启动浏览器...
+[INFO] 已添加 7 个Cookie
+[INFO] 访问页面: https://www.xiaohongshu.com/user/profile/646f4ec9000000001c02af3f
+[INFO] 等待页面内容加载...
+[INFO] 页面标题: 清华鑫哥讲AI智能体 - 小红书
+[INFO] 提取用户信息...
+[DEBUG] 提取到的用户信息: {"nickname": "清华鑫哥讲AI智能体", "desc": "Stay Hungry，Stay Foolish\n清华工科硕士丨研究方向神经网络预测\n\U0001f6a9分享AI前沿玩法、国内外有意思的落地案例\n曾就职于中民投、昆吾九鼎等一线PE基金\nAgent公司创始人", "follower_count": "3.5万", "liked_count": "17.3万", "ip_location": "四川"}
+[INFO] 提取笔记列表...
+[DEBUG] 提取到 32 条笔记
+
+============================================================
+[SUCCESS] 数据爬取成功！
+[INFO] 账号: 清华鑫哥讲AI智能体
+[INFO] 粉丝: 3.5万
+[INFO] 笔记数: 32
+============================================================
+
+{
+  "success": true,
+  "user_id": "646f4ec9000000001c02af3f",
+  "user_info": {
+    "nickname": "\u6e05\u534e\u946b\u54e5\u8bb2AI\u667a\u80fd\u4f53",
+    "desc": "Stay Hungry\uff0cStay Foolish\n\u6e05\u534e\u5de5\u79d1\u7855\u58eb\u4e28\u7814\u7a76\u65b9\u5411\u795e\u7ecf\u7f51\u7edc\u9884\u6d4b\n\ud83d\udea9\u5206\u4eabAI\u524d\u6cbf\u73a9\u6cd5\u3001\u56fd\u5185\u5916\u6709\u610f\u601d\u7684\u843d\u5730\u6848\u4f8b\n\u66fe\u5c31\u804c\u4e8e\u4e2d\u6c11\u6295\u3001\u6606\u543e\u4e5d\u9f0e\u7b49\u4e00\u7ebfPE\u57fa\u91d1\nAgent\u516c\u53f8\u521b\u59cb\u4eba",
+    "follower_count": "3.5\u4e07",
+    "liked_count": "17.3\u4e07",
+    "ip_location": "\u56db\u5ddd"
+  },
+  "notes": [
+    {
+      "url": "https://www.xiaohongshu.com/explore/6913f5180000000005039f15",
+      "title": "\u98a0\u8986\u5f0f\u4f7f\u7528AI\u7684\u65b9\u6cd5\uff0c\u8ba9AI\u4e3b\u52a8\u8ffd\u95ee\u6548\u7387MAX",
+      "cover": "https://sns-webpic-qc.xhscdn.com/202601191856/53360244022f8e454c7b682f977f800b/spectrum/1040g34o31op5m7b1ku105p3f9r4n5bpv2grqano!nc_n_webp_mw_1",
+      "liked_count": "370"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/6912e0550000000004017cd8",
+      "title": "35\u5c81\uff0c\u5e72\u571f\u6728\u5de5\u7a0b\u7684\uff0c\u73b0\u5728\u60f3\u5b66AI\uff0c\u884c\u5417\uff1f",
+      "cover": "https://sns-webpic-qc.xhscdn.com/202601191856/c04f519bee701f496ceb57f7fb187b00/spectrum/1040g34o31oo3vfeol2005p3f9r4n5bpvq9p9k38!nc_n_webp_mw_1",
+      "liked_count": "35"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/691185160000000005033adc",
+      "title": "\u6df7\u6c8c\u671f\uff0c\u624d\u662f\u6700\u5927\u7684\u7ea2\u5229\u671f\u3002",
+      "cover": "https://sns-webpic-qc.xhscdn.com/202601191856/05708a5f430b9a195637619c0acac6e2/spectrum/1040g0k031ompi540ku0g5p3f9r4n5bpvbfluplg!nc_n_webp_mw_1",
+      "liked_count": "32"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/690f6c080000000004017967",
+      "title": "\u6709\u597d\u5947\u5fc3\u7684\u4eba\uff0c\u53ea\u9700\u4e09\u6b65\u8bad\u7ec3AI\u667a\u80fd\u4f53\u5206\u8eab",
+      "cover": "https://sns-webpic-qc.xhscdn.com/202601191856/b605dd42ad94e61101b43916051b0b38/spectrum/1040g0k031oknr2f6l0005p3f9r4n5bpv0jpunio!nc_n_webp_mw_1",
+      "liked_count": "47"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/690d9bcd00000000040283cd",
+      "title": "2025\u5e74\u5e95\u4e86\uff0cAI\u9886\u57df\u660e\u5e74\u7684\u673a\u4f1a\u5728\u54ea\u91cc\uff1f",
+      "cover": "https://sns-webpic-qc.xhscdn.com/202601191856/791574a9921ae90b44ae1c0333f3bbb5/spectrum/1040g34o31oivf40h4q1g5p3f9r4n5bpvv1efjro!nc_n_webp_mw_1",
+      "liked_count": "2025"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/690d6b880000000004011e8c",
+      "title": "1\u4e2a\u4eba\u6ca1\u6709\u56e2\u961f\uff0c\u5b66AI\u5148\u95ee\u4e09\u4e2a\u95ee\u9898",
+      "cover": "https://sns-webpic-qc.xhscdn.com/202601191856/709f0d670814a4c32ae5a54e88b82074/spectrum/1040g0k031oipd31v4s005p3f9r4n5bpvrfspsr8!nc_n_webp_mw_1",
+      "liked_count": "1"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/690b37ef0000000007032dad",
+      "title": "\u73b0\u5728AI\u8d5b\u9053\uff0c\u50cf\u6781\u4e862000\u5e74\u4e92\u8054\u7f51\u6ce1\u6cab\u524d\u591c?",
+      "cover": "https://sns-webpic-qc.xhscdn.com/202601191856/73d46f525d6bca84f0448d60a5163e01/spectrum/1040g34o31ogkil91ku105p3f9r4n5bpv5d1ecr8!nc_n_webp_mw_1",
+      "liked_count": "2000"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/690a0d3c000000000700ebc8",
+      "title": "1\u4e2a\u65b9\u6cd5\u77ac\u95f4\u770b\u6e05\u9009\u667a\u80fd\u4f53\u8fd8\u662f\u9009\u5de5\u4f5c\u6d41",
+      "cover": "https://sns-webpic-qc.xhscdn.com/202601191856/4df9c2484e66d1f3edb5ae4934a62f61/spectrum/1040g0k031ofg3hlm4u005p3f9r4n5bpvdo4g09g!nc_n_webp_mw_1",
+      "liked_count": "1"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/69088d4500000000070222a0",
+      "title": "Dan Koe \u6570\u767e\u4e07\u7c89\u4e1d\u7684\u4e94\u6b65\u5185\u5bb9\u521b\u4f5c\u5fc3\u6cd5",
+      "cover": "https://sns-webpic-qc.xhscdn.com/202601191856/d2ec90a5d5f676a4023d2f61c074a959/spectrum/1040g0k031oe1agkk4s005p3f9r4n5bpvn46m9tg!nc_n_webp_mw_1",
+      "liked_count": "49"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/69071b370000000007001bdd",
+      "title": "\u5982\u4f55\u8bad\u7ec3\u81ea\u5df1\u9a6c\u4e0a\u884c\u52a8\u7684\u8d85\u9ad8\u6267\u884c\u529b\uff1f",
+      "cover": "https://sns-webpic-qc.xhscdn.com/202601191856/992184a03b85334101b300e06a80a115/spectrum/1040g0k031ock3l8ll2005p3f9r4n5bpvvph3rtg!nc_n_webp_mw_1",
+      "liked_count": "27"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/690566ef000000000700ffc8",
+      "title": "\u5229\u7528AI\u80fd\u529b\u300c\u964d\u7ef4\u6253\u51fb\u300d\u4f60\u7684\u540c\u884c",
+      "cover": "https://sns-webpic-qc.xhscdn.com/202601191856/6f4b2671e05cf2406c7b3ed9a0217d07/spectrum/1040g0k031oauq8n550005p3f9r4n5bpvvk2168o!nc_n_webp_mw_1",
+      "liked_count": "32"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/690344ae000000000700317b",
+      "title": "\u73b0\u5728\u5f00\u59cb\u63d0\u524d\u89c4\u52122026\uff0c\u7528AI\u8d5a\u70b9\u5c0f\u94b1",
+      "cover": "https://sns-webpic-qc.xhscdn.com/202601191856/e1e3e0f986412fc8e1b23f75116aadef/spectrum/1040g0k031o8s6j7fkq005p3f9r4n5bpvmfrp2d8!nc_n_webp_prv_1",
+      "liked_count": "2026"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/6900c1d3000000000703b75e",
+      "title": "\u539f\u6765\u5b66 AI \u6700\u731b\u7684\u662f\u8001\u677f\uff0c\u5458\u5de5\u53cd\u800c\u63a8\u4e0d\u52a8",
+      "cover": "https://sns-webpic-qc.xhscdn.com/202601191856/46c57c32e214571d108d6ec18908f289/spectrum/1040g34o31o6dmj3n4u105p3f9r4n5bpvdlcbmpg!nc_n_webp_prv_1",
+      "liked_count": "32"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/68ff06270000000007036191",
+      "title": "\u4eba\u4eba\u90fd\u80fd\u7406\u89e3\u7684\u4e09\u4e2a\u5173\u952e\u8bcd\uff0c\u5f7b\u5e95\u62ff\u634fAI",
+      "cover": "https://sns-webpic-qc.xhscdn.com/202601191856/c5cd08863a03cb8864af064080fa2075/spectrum/1040g0k031o4nhkki4s005p3f9r4n5bpvfoqlqeg!nc_n_webp_prv_1",
+      "liked_count": "49"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/68fca07b000000000700a562",
+      "title": "\u6b63\u56e0\u4e3a\u4f60\u5728\u8349\u53f0\u73ed\u5b50\uff0c\u6240\u4ee5\u4f60\u624d\u80fd\u5b66\u4f1aAI",
+      "cover": "https://sns-webpic-qc.xhscdn.com/202601191856/06548e6b19f88812322d2339abba891e/spectrum/1040g34o31o2cjj0nl2105p3f9r4n5bpvs4kh3rg!nc_n_webp_prv_1",
+      "liked_count": "71"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/68fb62a8000000000301d57b",
+      "title": "NBS\u8c03\u7814\u62a5\u544a\uff1a\u521b\u9020\u6027\u4efb\u52a1\u7528AI\u4e4b\u540e\u6548\u7387\u6da858%",
+      "cover": "https://sns-webpic-qc.xhscdn.com/202601191856/2a9f85e913341db302773abaa0d415ac/spectrum/1040g34o31o15n7jn52105p3f9r4n5bpvvpta48g!nc_n_webp_prv_1",
+      "liked_count": "58"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/68f9afe4000000000302f0fa",
+      "title": "MIT\u62a5\u544a\uff1a95%\u4f01\u4e1aAI\u6295\u8d44\u5931\u8d25\uff0c\u7528\u597dAI\u6709\u8bc0\u7a8d",
+      "cover": "https://sns-webpic-qc.xhscdn.com/202601191856/93d3e2cd1ea4c2fa88b00498450f4334/spectrum/1040g34o31nvfvva452105p3f9r4n5bpvfsp3f50!nc_n_webp_prv_1",
+      "liked_count": "95"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/68f786db0000000003023706",
+      "title": "\u7845\u8c37AI\u5927\u4f6c\u70ae\u8f70\u667a\u80fd\u4f53\uff1a\u9057\u5fd8\u6bd4\u8bb0\u5fc6\u66f4\u91cd\u8981",
+      "cover": "https://sns-webpic-qc.xhscdn.com/202601191856/0de49e60698a531d483c3051a311f615/spectrum/1040g34o31ntd5dgr4u205p3f9r4n5bpv564dq88!nc_n_webp_prv_1",
+      "liked_count": "256"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/68f63a0d00000000030134b9",
+      "title": "\u654f\u9510\u7684\u4eba\u5df2\u7ecf\u5bdf\u89c9\u5230\u8fd9\u300c\u5341\u516b\u79cdAI\u65b0\u7ea2\u5229\u300d",
+      "cover": "https://sns-webpic-qc.xhscdn.com/202601191856/b0c3b7549ff5c625fea3475ba64e2e31/spectrum/1040g34o31ns4efm5ks005p3f9r4n5bpvol9k09o!nc_n_webp_prv_1",
+      "liked_count": "49"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/68f4867c0000000003037a7b",
+      "title": "\u4e00\u4e2a\u4eba\u81ea\u5b66\u667a\u80fd\u4f53\uff0c4\u79cd\u4fe1\u606f\u5dee\u548c\u5b8c\u6574\u8def\u7ebf\u56fe",
+      "cover": "https://sns-webpic-qc.xhscdn.com/202601191856/93af69bfd4b82443c78e128a5ff40aac/spectrum/1040g34o31nqf46k84u105p3f9r4n5bpvcu48efo!nc_n_webp_prv_1",
+      "liked_count": "4"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/68f332b70000000005033924",
+      "title": "\u6768\u632f\u5b81\u7684\u4eba\u751f\u5efa\u8bae\uff1a\u9009\u5bf9\u65b9\u5411\u624d\u662f\u51b3\u5b9a\u6027\u7684",
+      "cover": "https://sns-webpic-qc.xhscdn.com/202601191856/34f6ddb82930a77b39851e8ca16cccd0/1040g2sg31np62glnmge05p3f9r4n5bpvpci43s8!nc_n_webp_prv_1",
+      "liked_count": "126"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/68f2197a00000000050336ef",
+      "title": "Manus VS Langchain\uff1a\u4e0a\u4e0b\u6587\u5de5\u7a0b\u5b9e\u6218\u7ecf\u9a8c",
+      "cover": "https://sns-webpic-qc.xhscdn.com/202601191856/96f77b72960b0ebee9c52cc751cb4be0/spectrum/1040g0k031no3i2m1l2005p3f9r4n5bpv90atig0!nc_n_webp_prv_1",
+      "liked_count": "207"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/68f0fea90000000004007776",
+      "title": "\u7248\u56fe\u89e3\u5bc6\uff01\u9876\u7ea7VC\u7ea2\u6749\u7528\u767e\u4ebf\u8d4c\u8fd99\u4e2aAI\u65b9\u5411",
+      "cover": "https://sns-webpic-qc.xhscdn.com/202601191856/b17f302e812d2f665f79937c47335a49/spectrum/1040g0k031nn0lt58kq005p3f9r4n5bpvhhs2mt0!nc_n_webp_prv_1",
+      "liked_count": "9"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/68ef88650000000005002175",
+      "title": "\u666e\u901a\u4eba\u901a\u8fc7AI\u5b9e\u73b0\u300c\u964d\u7ef4\u6253\u51fb\u300d\u7684\u771f\u6b63\u8def\u5f84",
+      "cover": "https://sns-webpic-qc.xhscdn.com/202601191856/ed03c48ca0192a1c2606715768233e6c/spectrum/1040g34o31nljc74f4u105p3f9r4n5bpv83dtq70!nc_n_webp_prv_1",
+      "liked_count": "533"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/68ee5947000000000400269e",
+      "title": "\u9ea6\u80af\u9521\u667a\u80fd\u4f53\u62a5\u544a\uff0c\u5f52\u7eb3\u6210\u4e86\u516d\u4e2a\u642d\u5efa\u5173\u952e\u70b9",
+      "cover": "https://sns-webpic-qc.xhscdn.com/202601191856/1b6549604d5b771e3f66b1818162a16e/spectrum/1040g34o31nkee98eku105p3f9r4n5bpv6n898ro!nc_n_webp_prv_1",
+      "liked_count": "100"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/68ecf196000000000402095e",
+      "title": "\u4e00\u4e2a\u4eba\uff0c\u600e\u4e48\u4e00\u8fb9\u5b66AI\uff0c\u4e00\u8fb9\u628a\u94b1\u8d5a\u5230\u624b",
+      "cover": "https://sns-webpic-qc.xhscdn.com/202601191856/5b259789c1dd5d4e8e71acf4b611e233/spectrum/1040g0k031nj2mu7b52005p3f9r4n5bpvp0fl100!nc_n_webp_mw_1",
+      "liked_count": "61"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/68eb8bdf000000000700d42d",
+      "title": "\u4f1a\u7528\u7684\u4eba\u5728\u75af\u72c2\u4f7f\u7528AI\uff0c\u4e0d\u4f1a\u7684\u4eba\u4e00\u70b9\u4e0d\u7528",
+      "cover": "https://sns-webpic-qc.xhscdn.com/202601191856/a5594c444eafef586417e14ff8b5a2bd/spectrum/1040g0k031nhms7rb4u005p3f9r4n5bpvbse89gg!nc_n_webp_mw_1",
+      "liked_count": "53"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/68e9a136000000000700cfcb",
+      "title": "90%\u7684\u521b\u4e1a\u60f3\u6cd5\uff0c\u5728\u6295\u5165\u5e02\u573a\u524d\u5c31\u5df2\u6ce8\u5b9a\u5931\u8d25",
+      "cover": "https://sns-webpic-qc.xhscdn.com/202601191856/95c5d327e96122924cc73aff09f9174c/spectrum/1040g0k031nfr3d6hkq005p3f9r4n5bpvs035big!nc_n_webp_mw_1",
+      "liked_count": "90"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/68e886d300000000070085dd",
+      "title": "\u6bcf\u5929\u953b\u70bc600\u6b21\uff0cTelegram\u521b\u59cb\u4eba4\u5c0f\u65f6\u8bbf\u8c08",
+      "cover": "https://sns-webpic-qc.xhscdn.com/202601191856/e0852b5255f82b0017274ef24f24101d/spectrum/1040g0k031nentl4pkq005p3f9r4n5bpvnsuco8g!nc_n_webp_mw_1",
+      "liked_count": "600"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/68e73ba10000000007038fff",
+      "title": "\u4e00\u4eba\u516c\u53f8\uff0c\u7528AI\u6765\u5e2e\u4f60\u505a\u5b9a\u4f4d\uff0c\u601d\u8def\u77ac\u95f4\u6e05\u6670",
+      "cover": "https://sns-webpic-qc.xhscdn.com/202601191856/c61ad1d8f5af231a4885c4a20c4987ed/spectrum/1040g34o31ndg0o5m4s105p3f9r4n5bpvs5soeb8!nc_n_webp_mw_1",
+      "liked_count": "69"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/68e694ca000000000700b661",
+      "title": "\u5173\u4e8esora2\u7684\u5341\u4e2a\u201c\u51b7\u601d\u8003\u201d",
+      "cover": "https://sns-webpic-qc.xhscdn.com/202601191856/32a792c18a9e1497c79a0e0d5ff5f9e1/spectrum/1040g34o31ncrgscfku105p3f9r4n5bpveqg8hto!nc_n_webp_mw_1",
+      "liked_count": "2"
+    },
+    {
+      "url": "https://www.xiaohongshu.com/explore/68e50f980000000007000c23",
+      "title": "\u7845\u8c37\u5927\u4f6c\u4eb2\u6d4b\uff1a99%\u7684\u4eba\u90fd\u7528\u9519\u4e86AI\u521b\u4f5c",
+      "cover": "https://sns-webpic-qc.xhscdn.com/202601191856/60ff0f6fdd83813934ea7c2413d6fc34/spectrum/1040g34o31nbc1gb14u105p3f9r4n5bpvievpaqg!nc_n_webp_mw_1",
+      "liked_count": "99"
+    }
+  ],
+  "note_count": 32,
+  "method_used": "playwright_ultimate"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "conv-1780911494120-2uzgehk7j",
+  "providerId": "claude",
+  "title": "帮我安装",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1780911494124,
+  "updatedAt": 1780931138000,
+  "lastResponseAt": 1780930930684,
+  "sessionId": "bcfb0190-0fae-4b03-8b45-60c0c8e127e0",
+  "providerState": {
+    "providerSessionId": "bcfb0190-0fae-4b03-8b45-60c0c8e127e0",
+    "previousProviderSessionIds": [
+      "d2289347-424c-4992-bc18-bc820e1fadf7",
+      "b0f23695-7867-4981-9190-4c0c79b1b622"
+    ]
+  },
+  "usage": {
+    "model": "doubao-seed-2.0-lite",
+    "inputTokens": 932,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 38200,
+    "contextWindow": 200000,
+    "contextTokens": 39132,
+    "percentage": 20,
+    "contextWindowIsAuthoritative": true
+  }
+}

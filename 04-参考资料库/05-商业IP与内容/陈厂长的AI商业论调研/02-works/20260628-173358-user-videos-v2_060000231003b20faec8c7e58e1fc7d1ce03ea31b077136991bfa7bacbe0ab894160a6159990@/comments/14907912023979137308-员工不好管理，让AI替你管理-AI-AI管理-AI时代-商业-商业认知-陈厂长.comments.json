@@ -1,0 +1,128 @@
+{
+  "object_id": "14907912023979137308",
+  "pages": [
+    {
+      "code": 200,
+      "request_id": "fe04f25b-7888-44a5-bee8-fac0a530aca1",
+      "message": "Request successful. This request will incur a charge.",
+      "message_zh": "请求成功，本次请求将被计费。",
+      "support": "Discord: https://discord.gg/aMEAS8Xsvz",
+      "time": "2026-06-28 02:38:24",
+      "time_stamp": 1782639504,
+      "time_zone": "America/Los_Angeles",
+      "docs": "https://api.tikhub.io/#/WeChat-Channels-V2-API/fetch_video_comments_api_v1_wechat_channels_v2_fetch_video_comments_post",
+      "cache_message": "This response is cached and accessible via the URL below for 24 hours at no extra cost. The cache is for request tracing only — it doesn't affect the API's data freshness and won't be returned through the API again.",
+      "cache_message_zh": "本次响应已缓存，可通过下方 URL 直接查看，有效期 24 小时，访问缓存链接无额外费用。缓存仅用于请求溯源，不影响接口数据的时效性，也不会再次通过接口返回。",
+      "cache_url": "https://cache.tikhub.io/api/v1/cache/public/fe04f25b-7888-44a5-bee8-fac0a530aca1?sign=3a8471f241df8d04c254571c4c8d45b5ddebd3e87931e5193afa6dc4e19d1ab6",
+      "router": "/api/v1/wechat_channels/v2/fetch_video_comments",
+      "params": {
+        "object_id": "14907912023979137308",
+        "last_buffer": "",
+        "comment_id": "",
+        "raw": false
+      },
+      "data": {
+        "object_id": "14907912023979137308",
+        "comment_id": null,
+        "count": 4,
+        "comments": [
+          {
+            "comment_id": "14907950259705027105",
+            "nickname": "贾珍妮",
+            "username": "v5_020b0a166104010000000000ab151172901fb3000000b1afa7d8728e3dd43ef4317a780e33c2ee27dc4dbd70dc11f18a8d40649025f624c07e042a88484072af4ad91ee30ca4de1070d947f66e841d14d3da275f897490cab6be3c4d32732fd47063bb@stranger",
+            "content": "哇塞，太棒了，太棒了[合十][合十][合十]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1777166159,
+            "head_url": "https://wx.qlogo.cn/mmhead/ver_1/tiafZxJX4fpv3wOWeq6pVLHwVkhZnWmXvWvDEteGotviauZGHrPQta0K4fgC0err5DSGiaLWLTmaib4eGLfviaCkBgmNicgJAH6KwfDzbMgXlBMr0jLmGHEjZGX4VUgQKI3vm7/132",
+            "ip_region": "福建"
+          },
+          {
+            "comment_id": "14923311021205623013",
+            "nickname": "景连振🇨🇭",
+            "username": "v5_020b0a16610401000000000065401a0fe57e18000000b1afa7d8728e3dd43ef4317a780e33c2ee27dc4dbd70dc11f18a8d40640c130e3513afd7adc95b062ac24b5ea1b316a22af51d25748d140bbfbeaba8f5876bddcf5c24fd5142bce0930200180d@stranger",
+            "content": "AI管理[强][强][强][强][爱心][爱心][爱心][爱心][合十][合十][合十][合十]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1778997304,
+            "head_url": "https://mmhead.c2c.wechat.com/mmhead/ver_1/2yJFib2mZkIdHuWYpk73zIAEwhYs7osCold0CNgUAic9BGSmicYD6liaOnGaBU1QIKxibPLQ6nBKuRZcykXFeF2jLyiaXIsibnaFWs6DiaO1VcAhls0/132",
+            "ip_region": "瑞士"
+          },
+          {
+            "comment_id": "14924198717462944037",
+            "nickname": "海口缔造文化",
+            "username": "v2_060000231003b20faec8c4eb8911c4d6c901ec37b0777dca805ad369234da7af0018589cbb92@finder",
+            "content": "AI管理",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1779103126,
+            "head_url": "https://wx.qlogo.cn/finderhead/OFqFFdmPeAraWnSuKPPoLW74YVkicfiaPFVjIuk3ViaWGXMiaMCPE7jS7cdmjtCwOSV8BW92Z7aZ8icQ/0",
+            "ip_region": "广东"
+          },
+          {
+            "comment_id": "14934539164809037901",
+            "nickname": "小狐狸嚒嚒哒",
+            "username": "v2_060000231003b20faec8c6e08e1cc0d0ca01e434b07716788c056d052896215af82c597dda3a@finder",
+            "content": "牛逼 监狱式管理",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1780335803,
+            "head_url": "https://wx.qlogo.cn/finderhead/pQ36AmK7btMCXfVR4Vl33kp3MEjmOvmVshhXSLWWw0g/0",
+            "ip_region": "上海"
+          }
+        ],
+        "down_continue": 0,
+        "last_buffer": "CjcIzZDo1OaHiaHPARihtKS36Ljr8c4BGOWhiJ3oiZCNzwEYpbLgvZb12Y7PATjNkOjU5oeJoc8B",
+        "debug_id": "ab851f6e",
+        "debug_info": "gAAAAABqQOuQnxw4qMH_bN8KhqGzP27yiNNZjMCMgJQCu9SX3SK4bDQPl80k3O-8WVhvpbAol9nhgazCXCrOM5IagwPxgwxuwQaVfi53j8xNg_W6wC8sYl6D4Ehap_Rx9ewAzoAqtBAILkTj7Qu3TkoZBqCdmwAbf0qobLu3HEv4_ZxJhFtAurpklDdUGhB0TyaAXwQvfw7DF1rlaOd84TZhzuSzZMv-bn_DhKMvDpd3pN8SiP6Sqwu0ktmZuyPRc2rZjXLhHd6zn4dGAHJc6I2OpeAAirgJCA=="
+      }
+    }
+  ],
+  "comments": [
+    {
+      "comment_id": "14907950259705027105",
+      "nickname": "贾珍妮",
+      "username": "v5_020b0a166104010000000000ab151172901fb3000000b1afa7d8728e3dd43ef4317a780e33c2ee27dc4dbd70dc11f18a8d40649025f624c07e042a88484072af4ad91ee30ca4de1070d947f66e841d14d3da275f897490cab6be3c4d32732fd47063bb@stranger",
+      "content": "哇塞，太棒了，太棒了[合十][合十][合十]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1777166159,
+      "head_url": "https://wx.qlogo.cn/mmhead/ver_1/tiafZxJX4fpv3wOWeq6pVLHwVkhZnWmXvWvDEteGotviauZGHrPQta0K4fgC0err5DSGiaLWLTmaib4eGLfviaCkBgmNicgJAH6KwfDzbMgXlBMr0jLmGHEjZGX4VUgQKI3vm7/132",
+      "ip_region": "福建"
+    },
+    {
+      "comment_id": "14923311021205623013",
+      "nickname": "景连振🇨🇭",
+      "username": "v5_020b0a16610401000000000065401a0fe57e18000000b1afa7d8728e3dd43ef4317a780e33c2ee27dc4dbd70dc11f18a8d40640c130e3513afd7adc95b062ac24b5ea1b316a22af51d25748d140bbfbeaba8f5876bddcf5c24fd5142bce0930200180d@stranger",
+      "content": "AI管理[强][强][强][强][爱心][爱心][爱心][爱心][合十][合十][合十][合十]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1778997304,
+      "head_url": "https://mmhead.c2c.wechat.com/mmhead/ver_1/2yJFib2mZkIdHuWYpk73zIAEwhYs7osCold0CNgUAic9BGSmicYD6liaOnGaBU1QIKxibPLQ6nBKuRZcykXFeF2jLyiaXIsibnaFWs6DiaO1VcAhls0/132",
+      "ip_region": "瑞士"
+    },
+    {
+      "comment_id": "14924198717462944037",
+      "nickname": "海口缔造文化",
+      "username": "v2_060000231003b20faec8c4eb8911c4d6c901ec37b0777dca805ad369234da7af0018589cbb92@finder",
+      "content": "AI管理",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1779103126,
+      "head_url": "https://wx.qlogo.cn/finderhead/OFqFFdmPeAraWnSuKPPoLW74YVkicfiaPFVjIuk3ViaWGXMiaMCPE7jS7cdmjtCwOSV8BW92Z7aZ8icQ/0",
+      "ip_region": "广东"
+    },
+    {
+      "comment_id": "14934539164809037901",
+      "nickname": "小狐狸嚒嚒哒",
+      "username": "v2_060000231003b20faec8c6e08e1cc0d0ca01e434b07716788c056d052896215af82c597dda3a@finder",
+      "content": "牛逼 监狱式管理",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1780335803,
+      "head_url": "https://wx.qlogo.cn/finderhead/pQ36AmK7btMCXfVR4Vl33kp3MEjmOvmVshhXSLWWw0g/0",
+      "ip_region": "上海"
+    }
+  ],
+  "replies_by_comment": {}
+}

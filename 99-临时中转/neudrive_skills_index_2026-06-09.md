@@ -1,0 +1,260 @@
+# Skills 索引
+
+同步目标：更新 neuDrive 旧项目里的 Skills 认知。
+
+- `.agents/skills/AI工具手把手教学专家/SKILL.md`：**AI工具手把手教学专家**，专业的AI工具教学系统，从零开始手把手教会用户使用各类AI工具和插件，遵循"信息先行、渐进式教学、即时纠错、场景驱动"的原则。
+- `.agents/skills/Excel转Markdown/SKILL.md`：**Excel转Markdown**，将Excel表格原封不动转为Markdown文档，保留所有列和数据，方便AI直接读取。
+- `.agents/skills/GitHub深度调研/SKILL.md`：**GitHub深度调研**，当用户想找GitHub上的开源工具、MCP Server、Skills、插件、自动化方案时调用。多路并行搜索，输出按价值分级的调研报告，直接存档到知识库。触发词：找工具、搜GitHub、有没有现成的、避免造轮子、开源方案、MCP、Skills库。
+- `.agents/skills/IP线索挖掘/SKILL.md`：**IP线索挖掘**，通过11条线索的深度对话，挖掘你的人生经历，输出一份完整的人生自传和IP价值清单。
+- `.agents/skills/Mermaid图表绘制/SKILL.md`：**mermaid-diagrams**，Comprehensive guide for creating software diagrams using Mermaid syntax. Use when users need to create, visualize, or document software through diagrams including class diagrams (domain modeling, object-oriented design), sequence diagrams (application flows, API interactions, code execution), flowcharts (processes, algorithms, user journeys), entity relationship diagrams (database schemas), C4 architecture diagrams (system context, containers, components), state diagrams, git graphs, pie charts, gantt charts, or any other diagram type. Triggers include requests to "diagram", "visualize", "model", "map out", "show the flow", or when explaining system architecture, database design, code structure, or user/application flows.
+- `.agents/skills/TikTok研究分析/SKILL.md`：**tiktok-research**，|
+- `.agents/skills/Windows性能优化/SKILL.md`：**Windows性能优化**，系统化诊断 Windows 电脑卡顿原因，从内存、磁盘IO、进程三个维度定位问题，给出针对性解决方案，避免盲目优化。
+- `.agents/skills/Windows磁盘清理/SKILL.md`：**Windows磁盘清理**，引导用户用 PowerShell 或 CMD 安全清理 Windows C盘垃圾，逐步执行，每步有说明和反馈，适合 C盘爆满的紧急场景。
+- `.agents/skills/X平台研究分析/SKILL.md`：**x-research**，>
+- `.agents/skills/byted-ark-seedream-skill/SKILL.md`：**byted-ark-seedream-skill**，|
+- `.agents/skills/dbs/SKILL.md`：**dbs**，|
+- `.agents/skills/dbs-action/SKILL.md`：**dbs-action**，|
+- `.agents/skills/dbs-agent-migration/SKILL.md`：**dbs-agent-migration**，|
+- `.agents/skills/dbs-ai-check/SKILL.md`：**dbs-ai-check**，|
+- `.agents/skills/dbs-benchmark/SKILL.md`：**dbs-benchmark**，|
+- `.agents/skills/dbs-chatroom/SKILL.md`：**dbs-chatroom**，定向聊天室：根据话题推荐或接受用户指定的专家，模拟多角色对话。触发方式：/dbs-chatroom、/定向聊天室、「定向聊天室」
+- `.agents/skills/dbs-chatroom-austrian/SKILL.md`：**dbs-chatroom-austrian**，|
+- `.agents/skills/dbs-content/SKILL.md`：**dbs-content**，|
+- `.agents/skills/dbs-deconstruct/SKILL.md`：**dbs-deconstruct**，|
+- `.agents/skills/dbs-diagnosis/SKILL.md`：**dbs-diagnosis**，|
+- `.agents/skills/dbs-goal/SKILL.md`：**dbs-goal**，|
+- `.agents/skills/dbs-good-question/SKILL.md`：**dbs-good-question**，|
+- `.agents/skills/dbs-hook/SKILL.md`：**dbs-hook**，|
+- `.agents/skills/dbs-learning/SKILL.md`：**dbs-learning**，|
+- `.agents/skills/dbs-report/SKILL.md`：**dbs-report**，|
+- `.agents/skills/dbs-restore/SKILL.md`：**dbs-restore**，|
+- `.agents/skills/dbs-save/SKILL.md`：**dbs-save**，|
+- `.agents/skills/dbs-slowisfast/SKILL.md`：**dbs-slowisfast**，|
+- `.agents/skills/dbs-xhs-title/SKILL.md`：**dbs-xhs-title**，|
+- `.agents/skills/dbskill/SKILL.md`：**dbskill**，dontbesilent 商业诊断工具箱总入口，包含商业诊断、内容诊断、对标、标题、执行和学习等子 Skill。
+- `.agents/skills/dbskill/skills/dbs/SKILL.md`：**dbs**，|
+- `.agents/skills/dbskill/skills/dbs-action/SKILL.md`：**dbs-action**，|
+- `.agents/skills/dbskill/skills/dbs-agent-migration/SKILL.md`：**dbs-agent-migration**，|
+- `.agents/skills/dbskill/skills/dbs-ai-check/SKILL.md`：**dbs-ai-check**，|
+- `.agents/skills/dbskill/skills/dbs-benchmark/SKILL.md`：**dbs-benchmark**，|
+- `.agents/skills/dbskill/skills/dbs-chatroom/SKILL.md`：**dbs-chatroom**，定向聊天室：根据话题推荐或接受用户指定的专家，模拟多角色对话。触发方式：/dbs-chatroom、/定向聊天室、「定向聊天室」
+- `.agents/skills/dbskill/skills/dbs-chatroom-austrian/SKILL.md`：**dbs-chatroom-austrian**，|
+- `.agents/skills/dbskill/skills/dbs-content/SKILL.md`：**dbs-content**，|
+- `.agents/skills/dbskill/skills/dbs-deconstruct/SKILL.md`：**dbs-deconstruct**，|
+- `.agents/skills/dbskill/skills/dbs-diagnosis/SKILL.md`：**dbs-diagnosis**，|
+- `.agents/skills/dbskill/skills/dbs-goal/SKILL.md`：**dbs-goal**，|
+- `.agents/skills/dbskill/skills/dbs-good-question/SKILL.md`：**dbs-good-question**，|
+- `.agents/skills/dbskill/skills/dbs-hook/SKILL.md`：**dbs-hook**，|
+- `.agents/skills/dbskill/skills/dbs-learning/SKILL.md`：**dbs-learning**，|
+- `.agents/skills/dbskill/skills/dbs-report/SKILL.md`：**dbs-report**，|
+- `.agents/skills/dbskill/skills/dbs-restore/SKILL.md`：**dbs-restore**，|
+- `.agents/skills/dbskill/skills/dbs-save/SKILL.md`：**dbs-save**，|
+- `.agents/skills/dbskill/skills/dbs-slowisfast/SKILL.md`：**dbs-slowisfast**，|
+- `.agents/skills/dbskill/skills/dbs-xhs-title/SKILL.md`：**dbs-xhs-title**，|
+- `.agents/skills/find-skills/SKILL.md`：**find-skills**，Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.
+- `.agents/skills/frontend-slides/SKILL.md`：**Frontend Slides**，创建或转换动画丰富的 HTML 演示文稿、幻灯片和网页式 PPT。用户要求制作 presentation、slides、deck 或将 PPTX 转成网页演示时使用。
+- `.agents/skills/html-ppt/SKILL.md`：**html-ppt**，使用 HTML、CSS、JavaScript 和 reveal.js 创建现代网页 PPT，支持浏览器演示和导出。
+- `.agents/skills/huashu-nvwa/SKILL.md`：**huashu-nuwa**，|
+- `.agents/skills/huashu-nvwa/examples/andrej-karpathy-perspective/SKILL.md`：**andrej-karpathy-perspective**，|
+- `.agents/skills/huashu-nvwa/examples/elon-musk-perspective/SKILL.md`：**elon-musk-perspective**，|
+- `.agents/skills/huashu-nvwa/examples/feynman-perspective/SKILL.md`：**feynman-perspective**，|
+- `.agents/skills/huashu-nvwa/examples/ilya-sutskever-perspective/SKILL.md`：**ilya-sutskever-perspective**，|
+- `.agents/skills/huashu-nvwa/examples/mrbeast-perspective/SKILL.md`：**mrbeast-perspective**，|
+- `.agents/skills/huashu-nvwa/examples/munger-perspective/SKILL.md`：**munger-perspective**，|
+- `.agents/skills/huashu-nvwa/examples/naval-perspective/SKILL.md`：**naval-perspective**，|
+- `.agents/skills/huashu-nvwa/examples/paul-graham-perspective/SKILL.md`：**paul-graham-perspective**，|
+- `.agents/skills/huashu-nvwa/examples/steve-jobs-perspective/SKILL.md`：**steve-jobs-perspective**，|
+- `.agents/skills/huashu-nvwa/examples/sun-yuchen-perspective/SKILL.md`：**sun-yuchen-perspective**，|
+- `.agents/skills/huashu-nvwa/examples/taleb-perspective/SKILL.md`：**taleb-perspective**，|
+- `.agents/skills/huashu-nvwa/examples/x-mastery-mentor/SKILL.md`：**x-mastery-mentor**，|
+- `.agents/skills/huashu-nvwa/examples/zhangxuefeng-perspective/SKILL.md`：**zhangxuefeng-perspective**，|
+- `.agents/skills/hv-analysis/SKILL.md`：**hv-analysis**，使用纵向历史演变与横向竞品对比方法，对产品、公司、概念或人物进行深度研究并生成报告。
+- `.agents/skills/ima-skill/SKILL.md`：**ima-skill**，|
+- `.agents/skills/ima-skill/knowledge-base/SKILL.md`：**knowledge-base**，
+- `.agents/skills/ima-skill/notes/SKILL.md`：**notes**，
+- `.agents/skills/khazix-skills/SKILL.md`：**khazix-skills**，Khazix Skills 工具包总入口，包含横纵分析、写作和任务收尾同步等子 Skill。
+- `.agents/skills/khazix-skills/hv-analysis/SKILL.md`：**hv-analysis**，
+- `.agents/skills/khazix-skills/khazix-writer/SKILL.md`：**khazix-writer**，
+- `.agents/skills/khazix-skills/neat-freak/SKILL.md`：**neat-freak**，
+- `.agents/skills/khazix-writer/SKILL.md`：**khazix-writer**，按照数字生命卡兹克的表达风格和自检体系创作公众号长文。用户明确要求该风格时使用。
+- `.agents/skills/leong-perspective/SKILL.md`：**leong-perspective**，|
+- `.agents/skills/lobster-output-sync/SKILL.md`：**lobster-output-sync**，旧版 New Drive 产出回流与日报同步，仅在用户明确要求使用小龙虾或旧 New Drive 工作流时使用。
+- `.agents/skills/neat-freak/SKILL.md`：**neat-freak**，任务完成后同步项目文档、AGENTS.md、CLAUDE.md 与记忆，输出变更摘要。用户说整理一下、同步一下或 neat 时使用。
+- `.agents/skills/self-improving-agent/SKILL.md`：**self-improvement**，"Captures learnings, errors, and corrections to enable continuous improvement. Use when: (1) A command or operation fails unexpectedly, (2) User corrects Codex ('No, that's wrong...', 'Actually...'), (3) User requests a capability that doesn't exist, (4) An external API or tool fails, (5) Codex realizes its knowledge is outdated or incorrect, (6) A better approach is discovered for a recurring task. Also review learnings before major tasks."
+- `.agents/skills/xhs-video-subtitle-extractor/SKILL.md`：**xhs-video-subtitle-extractor**，提取小红书视频字幕或语音转写内容。
+- `.agents/skills/个人信息引导/SKILL.md`：**个人信息引导**，当用户说“帮我填个人信息”“AI还不认识我”“完善我的个人上下文”时，分步采集用户基础信息并写入个人上下文档案。
+- `.agents/skills/事实核查/SKILL.md`：**事实核查助手**，核查信息真实性、验证事实、查证数据、辟谣。
+- `.agents/skills/公众号排版/SKILL.md`：**公众号排版助手**，优化公众号文章排版、格式化、添加emoji、调整版式。
+- `.agents/skills/公众号爆款生产/SKILL.md`：**公众号爆款生产**，|
+- `.agents/skills/外部素材分析/SKILL.md`：**外部素材分析**，|
+- `.agents/skills/实战复盘转内容/SKILL.md`：**实战复盘转内容**，|
+- `.agents/skills/小红书图文/SKILL.md`：**小红书图文**，|
+- `.agents/skills/工具深度调研/SKILL.md`：**工具深度调研**，用户说一个工具名或软件名，自动深度调研该工具的功能、安装方式、优缺点、与用户系统的结合点。不限于GitHub，覆盖官网、文档、社区评价。触发词：调研一下XXX、研究一下XXX、XXX怎么样、XXX能干嘛、帮我看看XXX。
+- `.agents/skills/干货浓缩短视频/SKILL.md`：**干货浓缩短视频**，|
+- `.agents/skills/录音稿提炼选题专家/SKILL.md`：**录音稿提炼选题专家**，从整理好的录音稿、PDF文档、课程笔记中深度提炼爆款选题，基于13大爆款元素和用户画像生成精准选题，自动添加到灵感点子表，并提供TOP 5优先级推荐和归档建议。
+- `.agents/skills/录音稿整理/SKILL.md`：**录音稿整理专家**，整理录音文字稿为详细文章，支持二次详化。适用于课程学习、会议记录、访谈内容的结构化整理。
+- `.agents/skills/录音稿转文案/SKILL.md`：**录音稿转文案**，|
+- `.agents/skills/技能发现助手/SKILL.md`：**find-skills**，Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.
+- `.agents/skills/排版格式规范/SKILL.md`：**排版格式规范**，对长文章（拆解帖、产品介绍、行动营手册、对外发布文档等）统一标题层级编号格式。当用户说"按格式排版""统一标题格式""改成我们的格式""标题格式不对"时触发。短文案、朋友圈、社群消息不适用。
+- `.agents/skills/推特内容转换/SKILL.md`：**推特内容转换**，|
+- `.agents/skills/提示词转skills专家/SKILL.md`：**提示词转skills专家**，将任何提示词和知识库文档转换为标准的全局技能文件包,支持references文件夹和zip压缩输出。适用于将常用提示词、工作流程、专业角色提示词标准化为技能。
+- `.agents/skills/敏感词检测/SKILL.md`：**敏感词检测**，自动检测文案中的违规敏感词,覆盖小红书/抖音/视频号/公众号平台规则,给出替换建议,防止违规封禁。
+- `.agents/skills/教知识文案/SKILL.md`：**教知识文案**，帮你做出真正有获得感、用户愿意收藏转发的知识内容。
+- `.agents/skills/文案下游流水线/SKILL.md`：**文案下游流水线**，当用户已经生成文案并需要继续做标题、标签、配图、排版、敏感词检查、平台分发等下游处理时使用。
+- `.agents/skills/文案配图生成/SKILL.md`：**文案配图生成**，当用户需要为公众号文章、短视频口播稿、小红书图文等内容规划配图、生成配图提示词或插入配图标记时使用。
+- `.agents/skills/新用户开箱引导/SKILL.md`：**新用户开箱引导**，知识库开箱引导总调度器。扫描用户电脑环境，检测已安装/未安装的工具，生成带优先级和依赖关系的待办清单，全程引导用户完成所有工具安装和配置，让新用户从零到可用。
+- `.agents/skills/朋友圈文案生成/SKILL.md`：**朋友圈文案生成**，|
+- `.agents/skills/标签生成/SKILL.md`：**标签生成**，生成符合内容的标签
+- `.agents/skills/标题生成/SKILL.md`：**爆款标题生成助手**，|
+- `.agents/skills/桌面整理助手/SKILL.md`：**桌面整理助手**，自动扫描Windows桌面文件，按用户身份和工作场景智能分类，生成PowerShell整理脚本，一键归档。只移动不删除，安全可逆。
+- `.agents/skills/流程图格式规范/SKILL.md`：**流程图格式规范**，|
+- `.agents/skills/灵感碎片转文案/SKILL.md`：**灵感碎片转文案**，|
+- `.agents/skills/热点分析/SKILL.md`：**热点分析**，|
+- `.agents/skills/热点文案生成/SKILL.md`：**视频文案写作专家**，生成各类营销文案、产品文案、广告文案、推广文案。
+- `.agents/skills/热点追踪/SKILL.md`：**hotspot-analysis**，分析赛道热点并预测爆款潜力，支持联网搜索最近3天热点、依据13大爆款元素预测概率和推荐选题方向
+- `.agents/skills/热点采集助手/SKILL.md`：**热点采集助手**，对标博主内容采集助手。读取三个平台（视频号/抖音/小红书）的博主采集清单，通过 MCP 浏览器自动化依次执行采集，采集完成后自动回写游标到对应 coze工作流文件。
+- `.agents/skills/爆款内容选题策划师/SKILL.md`：**爆款内容选题策划师**，|
+- `.agents/skills/爆款复盘分析/SKILL.md`：**爆款复盘分析**，|
+- `.agents/skills/爆款拆解改写/SKILL.md`：**爆款拆解改写**，|
+- `.agents/skills/用户提问转文案/SKILL.md`：**用户提问转文案**，|
+- `.agents/skills/社群内容生成/SKILL.md`：**社群内容生成**，|
+- `.agents/skills/素人IP起步顾问/SKILL.md`：**素人IP起步顾问**，资深 IP 精准定位专家,**专门服务无现成商业产品的素人 / 0-1 阶段创作者**,基于人生自传文档运用「三圈交集法 + 独特性挖掘」做赛道定位,系统化输出 5 步完整方案:找赛道 → 市场调研 → 定位万能公式(赛道+产品+用户+内容+人设)→ 避坑 → 启动计划。一次只输出一步,等待用户确认后再进行下一步。
+- `.agents/skills/结尾钩子生成/SKILL.md`：**结尾钩子生成**，当用户需要为文章、短视频、朋友圈或社群文案生成结尾、互动引导、转化钩子或评论区引导时使用。
+- `.agents/skills/老板IP商业化顾问/SKILL.md`：**老板IP商业化顾问**，基于人生自传 + IP价值清单，通过 6 步定位法系统输出 IP 商业化战略方案（定位/产品/人设/内容/执行）。一次只输出一步，等用户确认再下一步。是「IP线索挖掘」的下游战略层 skill。触发场景：用户说"做 IP 商业化定位"、"IP 战略咨询"、"IP 怎么变现"、"做老板 IP 商业化"时自动调用。⚠️ 仅适用于已有商业产品/服务的老板/创始人（素人请用「素人IP起步顾问」）。
+- `.agents/skills/聊观点文案/SKILL.md`：**聊观点文案**，基于实战验证的观点型文案创作方法,帮你做出立场鲜明、论证有力、引发共鸣的观点内容
+- `.agents/skills/营销转化专家/SKILL.md`：**营销转化专家**，帮助用户分析客户情况并给出精准的转化话术和策略。
+- `.agents/skills/视频自检修复/SKILL.md`：**视频自检修复**，读取 Video Forge 生成的 HelloWorld.jsx 和 subtitles.srt，自动诊断并修复 slides 关键词与字幕重复、时间错位、topTitle 缺失、图片时间不准等问题，修复后自动同步到外部 Remotion 项目。
+- `.agents/skills/讲故事文案/SKILL.md`：**讲故事文案**，帮你把真实经历变成打动人心的故事内容，让用户在别人的故事里看到自己的影子。
+- `.agents/skills/选题匹配爆款模板/SKILL.md`：**选题匹配爆款模板**，从对标账号分析的筛选版中，自动匹配最佳爆款案例，提取文案类型、开篇方式、文案结构，提供可直接套用的市场验证模板。
+- `.agents/skills/选题生成/SKILL.md`：**选题生成**，|
+- `.agents/skills/选题验证评分/SKILL.md`：**选题验证评分**，|
+- `.agents/skills/长文转短视频文案/SKILL.md`：**长文转短视频文案**，|
+- `.agents/skills/风格萃取/SKILL.md`：**风格萃取**，当用户提供本人或对标账号的文章、口播稿、朋友圈等语料，要求分析写作风格、表达习惯、禁忌词和可复用风格模板时使用。
+- `.claude/skills/AI工具手把手教学专家/SKILL.md`：**AI工具手把手教学专家**，专业的AI工具教学系统，从零开始手把手教会用户使用各类AI工具和插件，遵循"信息先行、渐进式教学、即时纠错、场景驱动"的原则。
+- `.claude/skills/Excel转Markdown/SKILL.md`：**Excel转Markdown**，将Excel表格原封不动转为Markdown文档，保留所有列和数据，方便AI直接读取。
+- `.claude/skills/GitHub深度调研/SKILL.md`：**GitHub深度调研**，当用户想找GitHub上的开源工具、MCP Server、Skills、插件、自动化方案时调用。多路并行搜索，输出按价值分级的调研报告，直接存档到知识库。触发词：找工具、搜GitHub、有没有现成的、避免造轮子、开源方案、MCP、Skills库。
+- `.claude/skills/IP线索挖掘/SKILL.md`：**IP线索挖掘**，通过11条线索的深度对话，挖掘你的人生经历，输出一份完整的人生自传和IP价值清单。
+- `.claude/skills/Mermaid图表绘制/SKILL.md`：**mermaid-diagrams**，Comprehensive guide for creating software diagrams using Mermaid syntax. Use when users need to create, visualize, or document software through diagrams including class diagrams (domain modeling, object-oriented design), sequence diagrams (application flows, API interactions, code execution), flowcharts (processes, algorithms, user journeys), entity relationship diagrams (database schemas), C4 architecture diagrams (system context, containers, components), state diagrams, git graphs, pie charts, gantt charts, or any other diagram type. Triggers include requests to "diagram", "visualize", "model", "map out", "show the flow", or when explaining system architecture, database design, code structure, or user/application flows.
+- `.claude/skills/TikTok研究分析/SKILL.md`：**tiktok-research**，|
+- `.claude/skills/Windows性能优化/SKILL.md`：**Windows性能优化**，系统化诊断 Windows 电脑卡顿原因，从内存、磁盘IO、进程三个维度定位问题，给出针对性解决方案，避免盲目优化。
+- `.claude/skills/Windows磁盘清理/SKILL.md`：**Windows磁盘清理**，引导用户用 PowerShell 或 CMD 安全清理 Windows C盘垃圾，逐步执行，每步有说明和反馈，适合 C盘爆满的紧急场景。
+- `.claude/skills/X平台研究分析/SKILL.md`：**x-research**，>
+- `.claude/skills/byted-ark-seedream-skill/SKILL.md`：**byted-ark-seedream-skill**，|
+- `.claude/skills/dbs/SKILL.md`：**dbs**，|
+- `.claude/skills/dbs-action/SKILL.md`：**dbs-action**，|
+- `.claude/skills/dbs-agent-migration/SKILL.md`：**dbs-agent-migration**，|
+- `.claude/skills/dbs-ai-check/SKILL.md`：**dbs-ai-check**，|
+- `.claude/skills/dbs-benchmark/SKILL.md`：**dbs-benchmark**，|
+- `.claude/skills/dbs-chatroom/SKILL.md`：**dbs-chatroom**，定向聊天室：根据话题推荐或接受用户指定的专家，模拟多角色对话。触发方式：/dbs-chatroom、/定向聊天室、「定向聊天室」
+- `.claude/skills/dbs-chatroom-austrian/SKILL.md`：**dbs-chatroom-austrian**，|
+- `.claude/skills/dbs-content/SKILL.md`：**dbs-content**，|
+- `.claude/skills/dbs-deconstruct/SKILL.md`：**dbs-deconstruct**，|
+- `.claude/skills/dbs-diagnosis/SKILL.md`：**dbs-diagnosis**，|
+- `.claude/skills/dbs-goal/SKILL.md`：**dbs-goal**，|
+- `.claude/skills/dbs-good-question/SKILL.md`：**dbs-good-question**，|
+- `.claude/skills/dbs-hook/SKILL.md`：**dbs-hook**，|
+- `.claude/skills/dbs-learning/SKILL.md`：**dbs-learning**，|
+- `.claude/skills/dbs-report/SKILL.md`：**dbs-report**，|
+- `.claude/skills/dbs-restore/SKILL.md`：**dbs-restore**，|
+- `.claude/skills/dbs-save/SKILL.md`：**dbs-save**，|
+- `.claude/skills/dbs-slowisfast/SKILL.md`：**dbs-slowisfast**，|
+- `.claude/skills/dbs-xhs-title/SKILL.md`：**dbs-xhs-title**，|
+- `.claude/skills/dbskill/SKILL.md`：**dbskill**，dontbesilent 商业诊断工具箱总入口，包含商业诊断、内容诊断、对标、标题、执行和学习等子 Skill。
+- `.claude/skills/dbskill/skills/dbs/SKILL.md`：**dbs**，|
+- `.claude/skills/dbskill/skills/dbs-action/SKILL.md`：**dbs-action**，|
+- `.claude/skills/dbskill/skills/dbs-agent-migration/SKILL.md`：**dbs-agent-migration**，|
+- `.claude/skills/dbskill/skills/dbs-ai-check/SKILL.md`：**dbs-ai-check**，|
+- `.claude/skills/dbskill/skills/dbs-benchmark/SKILL.md`：**dbs-benchmark**，|
+- `.claude/skills/dbskill/skills/dbs-chatroom/SKILL.md`：**dbs-chatroom**，定向聊天室：根据话题推荐或接受用户指定的专家，模拟多角色对话。触发方式：/dbs-chatroom、/定向聊天室、「定向聊天室」
+- `.claude/skills/dbskill/skills/dbs-chatroom-austrian/SKILL.md`：**dbs-chatroom-austrian**，|
+- `.claude/skills/dbskill/skills/dbs-content/SKILL.md`：**dbs-content**，|
+- `.claude/skills/dbskill/skills/dbs-deconstruct/SKILL.md`：**dbs-deconstruct**，|
+- `.claude/skills/dbskill/skills/dbs-diagnosis/SKILL.md`：**dbs-diagnosis**，|
+- `.claude/skills/dbskill/skills/dbs-goal/SKILL.md`：**dbs-goal**，|
+- `.claude/skills/dbskill/skills/dbs-good-question/SKILL.md`：**dbs-good-question**，|
+- `.claude/skills/dbskill/skills/dbs-hook/SKILL.md`：**dbs-hook**，|
+- `.claude/skills/dbskill/skills/dbs-learning/SKILL.md`：**dbs-learning**，|
+- `.claude/skills/dbskill/skills/dbs-report/SKILL.md`：**dbs-report**，|
+- `.claude/skills/dbskill/skills/dbs-restore/SKILL.md`：**dbs-restore**，|
+- `.claude/skills/dbskill/skills/dbs-save/SKILL.md`：**dbs-save**，|
+- `.claude/skills/dbskill/skills/dbs-slowisfast/SKILL.md`：**dbs-slowisfast**，|
+- `.claude/skills/dbskill/skills/dbs-xhs-title/SKILL.md`：**dbs-xhs-title**，|
+- `.claude/skills/find-skills/SKILL.md`：**find-skills**，Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.
+- `.claude/skills/frontend-slides/SKILL.md`：**Frontend Slides**，创建或转换动画丰富的 HTML 演示文稿、幻灯片和网页式 PPT。用户要求制作 presentation、slides、deck 或将 PPTX 转成网页演示时使用。
+- `.claude/skills/html-ppt/SKILL.md`：**html-ppt**，使用 HTML、CSS、JavaScript 和 reveal.js 创建现代网页 PPT，支持浏览器演示和导出。
+- `.claude/skills/huashu-nvwa/SKILL.md`：**huashu-nuwa**，|
+- `.claude/skills/huashu-nvwa/examples/andrej-karpathy-perspective/SKILL.md`：**andrej-karpathy-perspective**，|
+- `.claude/skills/huashu-nvwa/examples/elon-musk-perspective/SKILL.md`：**elon-musk-perspective**，|
+- `.claude/skills/huashu-nvwa/examples/feynman-perspective/SKILL.md`：**feynman-perspective**，|
+- `.claude/skills/huashu-nvwa/examples/ilya-sutskever-perspective/SKILL.md`：**ilya-sutskever-perspective**，|
+- `.claude/skills/huashu-nvwa/examples/mrbeast-perspective/SKILL.md`：**mrbeast-perspective**，|
+- `.claude/skills/huashu-nvwa/examples/munger-perspective/SKILL.md`：**munger-perspective**，|
+- `.claude/skills/huashu-nvwa/examples/naval-perspective/SKILL.md`：**naval-perspective**，|
+- `.claude/skills/huashu-nvwa/examples/paul-graham-perspective/SKILL.md`：**paul-graham-perspective**，|
+- `.claude/skills/huashu-nvwa/examples/steve-jobs-perspective/SKILL.md`：**steve-jobs-perspective**，|
+- `.claude/skills/huashu-nvwa/examples/sun-yuchen-perspective/SKILL.md`：**sun-yuchen-perspective**，|
+- `.claude/skills/huashu-nvwa/examples/taleb-perspective/SKILL.md`：**taleb-perspective**，|
+- `.claude/skills/huashu-nvwa/examples/x-mastery-mentor/SKILL.md`：**x-mastery-mentor**，|
+- `.claude/skills/huashu-nvwa/examples/zhangxuefeng-perspective/SKILL.md`：**zhangxuefeng-perspective**，|
+- `.claude/skills/hv-analysis/SKILL.md`：**hv-analysis**，使用纵向历史演变与横向竞品对比方法，对产品、公司、概念或人物进行深度研究并生成报告。
+- `.claude/skills/ima-skill/SKILL.md`：**ima-skill**，|
+- `.claude/skills/ima-skill/knowledge-base/SKILL.md`：**knowledge-base**，
+- `.claude/skills/ima-skill/notes/SKILL.md`：**notes**，
+- `.claude/skills/khazix-skills/SKILL.md`：**khazix-skills**，Khazix Skills 工具包总入口，包含横纵分析、写作和任务收尾同步等子 Skill。
+- `.claude/skills/khazix-skills/hv-analysis/SKILL.md`：**hv-analysis**，
+- `.claude/skills/khazix-skills/khazix-writer/SKILL.md`：**khazix-writer**，
+- `.claude/skills/khazix-skills/neat-freak/SKILL.md`：**neat-freak**，
+- `.claude/skills/khazix-writer/SKILL.md`：**khazix-writer**，按照数字生命卡兹克的表达风格和自检体系创作公众号长文。用户明确要求该风格时使用。
+- `.claude/skills/leong-perspective/SKILL.md`：**leong-perspective**，|
+- `.claude/skills/lobster-output-sync/SKILL.md`：**lobster-output-sync**，旧版 New Drive 产出回流与日报同步，仅在用户明确要求使用小龙虾或旧 New Drive 工作流时使用。
+- `.claude/skills/neat-freak/SKILL.md`：**neat-freak**，任务完成后同步项目文档、AGENTS.md、CLAUDE.md 与记忆，输出变更摘要。用户说整理一下、同步一下或 neat 时使用。
+- `.claude/skills/self-improving-agent/SKILL.md`：**self-improvement**，"Captures learnings, errors, and corrections to enable continuous improvement. Use when: (1) A command or operation fails unexpectedly, (2) User corrects Claude ('No, that's wrong...', 'Actually...'), (3) User requests a capability that doesn't exist, (4) An external API or tool fails, (5) Claude realizes its knowledge is outdated or incorrect, (6) A better approach is discovered for a recurring task. Also review learnings before major tasks."
+- `.claude/skills/xhs-video-subtitle-extractor/SKILL.md`：**xhs-video-subtitle-extractor**，提取小红书视频字幕或语音转写内容。
+- `.claude/skills/个人信息引导/SKILL.md`：**个人信息引导**，当用户说“帮我填个人信息”“AI还不认识我”“完善我的个人上下文”时，分步采集用户基础信息并写入个人上下文档案。
+- `.claude/skills/事实核查/SKILL.md`：**事实核查助手**，核查信息真实性、验证事实、查证数据、辟谣。
+- `.claude/skills/公众号排版/SKILL.md`：**公众号排版助手**，优化公众号文章排版、格式化、添加emoji、调整版式。
+- `.claude/skills/公众号爆款生产/SKILL.md`：**公众号爆款生产**，|
+- `.claude/skills/外部素材分析/SKILL.md`：**外部素材分析**，|
+- `.claude/skills/实战复盘转内容/SKILL.md`：**实战复盘转内容**，|
+- `.claude/skills/小红书图文/SKILL.md`：**小红书图文**，|
+- `.claude/skills/工具深度调研/SKILL.md`：**工具深度调研**，用户说一个工具名或软件名，自动深度调研该工具的功能、安装方式、优缺点、与用户系统的结合点。不限于GitHub，覆盖官网、文档、社区评价。触发词：调研一下XXX、研究一下XXX、XXX怎么样、XXX能干嘛、帮我看看XXX。
+- `.claude/skills/干货浓缩短视频/SKILL.md`：**干货浓缩短视频**，|
+- `.claude/skills/录音稿提炼选题专家/SKILL.md`：**录音稿提炼选题专家**，从整理好的录音稿、PDF文档、课程笔记中深度提炼爆款选题，基于13大爆款元素和用户画像生成精准选题，自动添加到灵感点子表，并提供TOP 5优先级推荐和归档建议。
+- `.claude/skills/录音稿整理/SKILL.md`：**录音稿整理专家**，整理录音文字稿为详细文章，支持二次详化。适用于课程学习、会议记录、访谈内容的结构化整理。
+- `.claude/skills/录音稿转文案/SKILL.md`：**录音稿转文案**，|
+- `.claude/skills/技能发现助手/SKILL.md`：**find-skills**，Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.
+- `.claude/skills/排版格式规范/SKILL.md`：**排版格式规范**，对长文章（拆解帖、产品介绍、行动营手册、对外发布文档等）统一标题层级编号格式。当用户说"按格式排版""统一标题格式""改成我们的格式""标题格式不对"时触发。短文案、朋友圈、社群消息不适用。
+- `.claude/skills/推特内容转换/SKILL.md`：**推特内容转换**，|
+- `.claude/skills/提示词转skills专家/SKILL.md`：**提示词转skills专家**，将任何提示词和知识库文档转换为标准的全局技能文件包,支持references文件夹和zip压缩输出。适用于将常用提示词、工作流程、专业角色提示词标准化为技能。
+- `.claude/skills/敏感词检测/SKILL.md`：**敏感词检测**，自动检测文案中的违规敏感词,覆盖小红书/抖音/视频号/公众号平台规则,给出替换建议,防止违规封禁。
+- `.claude/skills/教知识文案/SKILL.md`：**教知识文案**，帮你做出真正有获得感、用户愿意收藏转发的知识内容。
+- `.claude/skills/文案下游流水线/SKILL.md`：**文案下游流水线**，当用户已经生成文案并需要继续做标题、标签、配图、排版、敏感词检查、平台分发等下游处理时使用。
+- `.claude/skills/文案配图生成/SKILL.md`：**文案配图生成**，当用户需要为公众号文章、短视频口播稿、小红书图文等内容规划配图、生成配图提示词或插入配图标记时使用。
+- `.claude/skills/新用户开箱引导/SKILL.md`：**新用户开箱引导**，知识库开箱引导总调度器。扫描用户电脑环境，检测已安装/未安装的工具，生成带优先级和依赖关系的待办清单，全程引导用户完成所有工具安装和配置，让新用户从零到可用。
+- `.claude/skills/朋友圈文案生成/SKILL.md`：**朋友圈文案生成**，|
+- `.claude/skills/标签生成/SKILL.md`：**标签生成**，生成符合内容的标签
+- `.claude/skills/标题生成/SKILL.md`：**爆款标题生成助手**，|
+- `.claude/skills/桌面整理助手/SKILL.md`：**桌面整理助手**，自动扫描Windows桌面文件，按用户身份和工作场景智能分类，生成PowerShell整理脚本，一键归档。只移动不删除，安全可逆。
+- `.claude/skills/流程图格式规范/SKILL.md`：**流程图格式规范**，|
+- `.claude/skills/灵感碎片转文案/SKILL.md`：**灵感碎片转文案**，|
+- `.claude/skills/热点分析/SKILL.md`：**热点分析**，|
+- `.claude/skills/热点文案生成/SKILL.md`：**视频文案写作专家**，生成各类营销文案、产品文案、广告文案、推广文案。
+- `.claude/skills/热点追踪/SKILL.md`：**hotspot-analysis**，分析赛道热点并预测爆款潜力，支持联网搜索最近3天热点、依据13大爆款元素预测概率和推荐选题方向
+- `.claude/skills/热点采集助手/SKILL.md`：**热点采集助手**，对标博主内容采集助手。读取三个平台（视频号/抖音/小红书）的博主采集清单，通过 MCP 浏览器自动化依次执行采集，采集完成后自动回写游标到对应 coze工作流文件。
+- `.claude/skills/爆款内容选题策划师/SKILL.md`：**爆款内容选题策划师**，|
+- `.claude/skills/爆款复盘分析/SKILL.md`：**爆款复盘分析**，|
+- `.claude/skills/爆款拆解改写/SKILL.md`：**爆款拆解改写**，|
+- `.claude/skills/用户提问转文案/SKILL.md`：**用户提问转文案**，|
+- `.claude/skills/社群内容生成/SKILL.md`：**社群内容生成**，|
+- `.claude/skills/素人IP起步顾问/SKILL.md`：**素人IP起步顾问**，资深 IP 精准定位专家,**专门服务无现成商业产品的素人 / 0-1 阶段创作者**,基于人生自传文档运用「三圈交集法 + 独特性挖掘」做赛道定位,系统化输出 5 步完整方案:找赛道 → 市场调研 → 定位万能公式(赛道+产品+用户+内容+人设)→ 避坑 → 启动计划。一次只输出一步,等待用户确认后再进行下一步。
+- `.claude/skills/结尾钩子生成/SKILL.md`：**结尾钩子生成**，当用户需要为文章、短视频、朋友圈或社群文案生成结尾、互动引导、转化钩子或评论区引导时使用。
+- `.claude/skills/老板IP商业化顾问/SKILL.md`：**老板IP商业化顾问**，基于人生自传 + IP价值清单，通过 6 步定位法系统输出 IP 商业化战略方案（定位/产品/人设/内容/执行）。一次只输出一步，等用户确认再下一步。是「IP线索挖掘」的下游战略层 skill。触发场景：用户说"做 IP 商业化定位"、"IP 战略咨询"、"IP 怎么变现"、"做老板 IP 商业化"时自动调用。⚠️ 仅适用于已有商业产品/服务的老板/创始人（素人请用「素人IP起步顾问」）。
+- `.claude/skills/聊观点文案/SKILL.md`：**聊观点文案**，基于实战验证的观点型文案创作方法,帮你做出立场鲜明、论证有力、引发共鸣的观点内容
+- `.claude/skills/营销转化专家/SKILL.md`：**营销转化专家**，帮助用户分析客户情况并给出精准的转化话术和策略。
+- `.claude/skills/视频自检修复/SKILL.md`：**视频自检修复**，读取 Video Forge 生成的 HelloWorld.jsx 和 subtitles.srt，自动诊断并修复 slides 关键词与字幕重复、时间错位、topTitle 缺失、图片时间不准等问题，修复后自动同步到外部 Remotion 项目。
+- `.claude/skills/讲故事文案/SKILL.md`：**讲故事文案**，帮你把真实经历变成打动人心的故事内容，让用户在别人的故事里看到自己的影子。
+- `.claude/skills/选题匹配爆款模板/SKILL.md`：**选题匹配爆款模板**，从对标账号分析的筛选版中，自动匹配最佳爆款案例，提取文案类型、开篇方式、文案结构，提供可直接套用的市场验证模板。
+- `.claude/skills/选题生成/SKILL.md`：**选题生成**，|
+- `.claude/skills/选题验证评分/SKILL.md`：**选题验证评分**，|
+- `.claude/skills/长文转短视频文案/SKILL.md`：**长文转短视频文案**，|
+- `.claude/skills/风格萃取/SKILL.md`：**风格萃取**，当用户提供本人或对标账号的文章、口播稿、朋友圈等语料，要求分析写作风格、表达习惯、禁忌词和可复用风格模板时使用。

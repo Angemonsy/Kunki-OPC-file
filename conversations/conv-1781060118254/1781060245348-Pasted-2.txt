@@ -1,0 +1,10 @@
+2. self-improving-agent（你说的 self-improvement-agent）
+位置​：
+.claude/skills/self-improving-agent/
+.agents/skills/self-improving-agent/
+功能​： 持续改进机制，记录学习、错误和用户纠正到 .learnings/ 目录，包括：
+命令失败 → 记录到 ERRORS.md
+用户纠正你 → 记录到 LEARNINGS.md
+用户需要缺失功能 → 记录到 FEATURE_REQUESTS.md
+重要经验可升级推广到 CLAUDE.md/AGENTS.md 成为项目规则
+触发场景​： 自动触发（遇到上述情况自动记录），也可以手动调用。

@@ -1,0 +1,122 @@
+{
+  "userName": "",
+  "permissionMode": "yolo",
+  "model": "doubao-seed-2.0-lite",
+  "thinkingBudget": "off",
+  "effortLevel": "high",
+  "serviceTier": "default",
+  "enableAutoTitleGeneration": true,
+  "titleGenerationModel": "",
+  "excludedTags": [],
+  "mediaFolder": "",
+  "systemPrompt": "",
+  "persistentExternalContextPaths": [],
+  "sharedEnvironmentVariables": "",
+  "envSnippets": [
+    {
+      "id": "snippet-1780913197760",
+      "name": "doubao-seed-2.0-pro",
+      "description": "",
+      "envVars": "ANTHROPIC_API_KEY=ark-c67cbb73-0478-4bdd-a13e-c00c09eb588a-26928\nANTHROPIC_BASE_URL=https://ark.cn-beijing.volces.com/api/plan\nANTHROPIC_MODEL=doubao-seed-2.0-pro",
+      "scope": "provider:claude",
+      "modelAliases": {}
+    },
+    {
+      "id": "snippet-1780913223947",
+      "name": "deepseek-v4-pro",
+      "description": "",
+      "envVars": "ANTHROPIC_API_KEY=ark-c67cbb73-0478-4bdd-a13e-c00c09eb588a-26928\nANTHROPIC_BASE_URL=https://ark.cn-beijing.volces.com/api/plan\nANTHROPIC_MODEL=deepseek-v4-pro",
+      "scope": "provider:claude",
+      "modelAliases": {}
+    }
+  ],
+  "customContextLimits": {},
+  "customModelAliases": {},
+  "keyboardNavigation": {
+    "scrollUpKey": "w",
+    "scrollDownKey": "s",
+    "focusInputKey": "i"
+  },
+  "requireCommandOrControlEnterToSend": false,
+  "locale": "zh-CN",
+  "providerConfigs": {
+    "claude": {
+      "safeMode": "acceptEdits",
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "loadUserSettings": true,
+      "enableChrome": false,
+      "enableBangBash": false,
+      "enableOpus1M": false,
+      "enableSonnet1M": false,
+      "customModels": "doubao-seed-2.0-lite\ndeepseek-v4-pro",
+      "lastModel": "haiku",
+      "environmentVariables": "ANTHROPIC_API_KEY=ark-c67cbb73-0478-4bdd-a13e-c00c09eb588a-26928\nANTHROPIC_BASE_URL=https://ark.cn-beijing.volces.com/api/plan\nANTHROPIC_MODEL=doubao-seed-2.0-lite",
+      "environmentHash": "ANTHROPIC_BASE_URL=https://ark.cn-beijing.volces.com/api/plan|ANTHROPIC_MODEL=doubao-seed-2.0-lite"
+    },
+    "codex": {
+      "enabled": true,
+      "safeMode": "workspace-write",
+      "cliPath": "",
+      "cliPathsByHost": {
+        "device:a1040fe8-1d1f-424a-b799-00f24706d912": "/Users/kunki/.local/bin/codex"
+      },
+      "customModels": "gpt-5.5\n",
+      "reasoningSummary": "detailed",
+      "environmentVariables": "",
+      "environmentHash": "",
+      "installationMethodsByHost": {
+        "device:a1040fe8-1d1f-424a-b799-00f24706d912": "native-windows"
+      },
+      "wslDistroOverridesByHost": {}
+    },
+    "opencode": {
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "enabled": false,
+      "environmentHash": "",
+      "environmentVariables": "OPENCODE_ENABLE_EXA=1",
+      "modelAliases": {},
+      "preferredThinkingByModel": {},
+      "selectedMode": "",
+      "thinkingOptionsByModel": {},
+      "visibleModels": []
+    },
+    "pi": {
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "discoveredModels": [],
+      "enabled": false,
+      "environmentHash": "",
+      "environmentVariables": "",
+      "modelAliases": {},
+      "preferredThinkingByModel": {},
+      "toolMode": "all",
+      "visibleModels": []
+    }
+  },
+  "settingsProvider": "claude",
+  "savedProviderModel": {
+    "claude": "doubao-seed-2.0-lite",
+    "codex": "gpt-5.5"
+  },
+  "savedProviderEffort": {
+    "claude": "high",
+    "codex": "medium"
+  },
+  "savedProviderServiceTier": {
+    "codex": "default"
+  },
+  "savedProviderThinkingBudget": {},
+  "savedProviderPermissionMode": {
+    "claude": "yolo",
+    "codex": "yolo"
+  },
+  "lastCustomModel": "doubao-seed-2.0-lite",
+  "maxTabs": 10,
+  "tabBarPosition": "input",
+  "enableAutoScroll": true,
+  "deferMathRenderingDuringStreaming": true,
+  "chatViewPlacement": "right-sidebar",
+  "hiddenProviderCommands": {}
+}

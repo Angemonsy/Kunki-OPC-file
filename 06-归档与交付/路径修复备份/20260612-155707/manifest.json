@@ -1,0 +1,717 @@
+{
+  "created": "2026-06-12T15:57:07.670264",
+  "changed_count": 114,
+  "changed": [
+    {
+      "file": "AGENTS.md",
+      "replacements": {
+        "01-记忆系统": 10,
+        "02.内容创作系统": 3
+      }
+    },
+    {
+      "file": "CLAUDE.md",
+      "replacements": {
+        "01-记忆系统": 12,
+        "02.内容创作系统": 7
+      }
+    },
+    {
+      "file": ".agents/skills/工具深度调研/SKILL.md",
+      "replacements": {
+        "03.参考资料库": 1
+      }
+    },
+    {
+      "file": ".agents/skills/lobster-output-sync/SKILL.md",
+      "replacements": {
+        "01-记忆系统": 9
+      }
+    },
+    {
+      "file": ".agents/skills/外部素材分析/SKILL.md",
+      "replacements": {
+        "01-记忆系统": 7,
+        "02.内容创作系统": 2
+      }
+    },
+    {
+      "file": ".agents/skills/文案下游流水线/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 1
+      }
+    },
+    {
+      "file": ".agents/skills/IP线索挖掘/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 2
+      }
+    },
+    {
+      "file": ".agents/skills/选题匹配爆款模板/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 1,
+        "03.参考资料库": 2
+      }
+    },
+    {
+      "file": ".agents/skills/个人信息引导/SKILL.md",
+      "replacements": {
+        "01-记忆系统": 1,
+        "02.内容创作系统": 2
+      }
+    },
+    {
+      "file": ".agents/skills/朋友圈文案生成/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 12
+      }
+    },
+    {
+      "file": ".agents/skills/热点文案生成/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 3
+      }
+    },
+    {
+      "file": ".agents/skills/新用户开箱引导/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 2
+      }
+    },
+    {
+      "file": ".agents/skills/老板IP商业化顾问/SKILL.md",
+      "replacements": {
+        "01-记忆系统": 1,
+        "02.内容创作系统": 11
+      }
+    },
+    {
+      "file": ".agents/skills/小红书图文/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 6
+      }
+    },
+    {
+      "file": ".agents/skills/长文转短视频文案/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 4
+      }
+    },
+    {
+      "file": ".agents/skills/标题生成/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 3
+      }
+    },
+    {
+      "file": ".agents/skills/热点采集助手/SKILL.md",
+      "replacements": {
+        "01-记忆系统": 1,
+        "02.内容创作系统": 6
+      }
+    },
+    {
+      "file": ".agents/skills/结尾钩子生成/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 3
+      }
+    },
+    {
+      "file": ".agents/skills/社群内容生成/SKILL.md",
+      "replacements": {
+        "01-记忆系统": 1,
+        "02.内容创作系统": 5
+      }
+    },
+    {
+      "file": ".agents/skills/风格萃取/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 1
+      }
+    },
+    {
+      "file": ".agents/skills/录音稿提炼选题专家/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 3
+      }
+    },
+    {
+      "file": ".agents/skills/聊观点文案/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 5
+      }
+    },
+    {
+      "file": ".agents/skills/讲故事文案/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 8
+      }
+    },
+    {
+      "file": ".agents/skills/用户提问转文案/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 18
+      }
+    },
+    {
+      "file": ".agents/skills/爆款复盘分析/SKILL.md",
+      "replacements": {
+        "03.参考资料库": 1
+      }
+    },
+    {
+      "file": ".agents/skills/kunki-knowledge-base/skill.md",
+      "replacements": {
+        "01-记忆系统": 39
+      }
+    },
+    {
+      "file": ".agents/skills/公众号爆款生产/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 50
+      }
+    },
+    {
+      "file": ".agents/skills/推特内容转换/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 4
+      }
+    },
+    {
+      "file": ".agents/skills/教知识文案/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 10
+      }
+    },
+    {
+      "file": ".agents/skills/录音稿转文案/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 23
+      }
+    },
+    {
+      "file": ".agents/skills/爆款拆解改写/SKILL.md",
+      "replacements": {
+        "01-记忆系统": 4,
+        "02.内容创作系统": 27
+      }
+    },
+    {
+      "file": ".agents/skills/干货浓缩短视频/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 21
+      }
+    },
+    {
+      "file": ".agents/skills/GitHub深度调研/SKILL.md",
+      "replacements": {
+        "03.参考资料库": 1
+      }
+    },
+    {
+      "file": ".agents/skills/灵感碎片转文案/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 16
+      }
+    },
+    {
+      "file": ".agents/skills/营销转化专家/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 1
+      }
+    },
+    {
+      "file": ".agents/skills/实战复盘转内容/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 28
+      }
+    },
+    {
+      "file": ".agents/skills/公众号爆款生产/references/知识库路径.md",
+      "replacements": {
+        "02.内容创作系统": 22
+      }
+    },
+    {
+      "file": ".claude/skills/工具深度调研/SKILL.md",
+      "replacements": {
+        "03.参考资料库": 1
+      }
+    },
+    {
+      "file": ".claude/skills/外部素材分析/SKILL.md",
+      "replacements": {
+        "01-记忆系统": 7,
+        "02.内容创作系统": 2
+      }
+    },
+    {
+      "file": ".claude/skills/文案下游流水线/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 1
+      }
+    },
+    {
+      "file": ".claude/skills/IP线索挖掘/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 2
+      }
+    },
+    {
+      "file": ".claude/skills/选题匹配爆款模板/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 1,
+        "03.参考资料库": 2
+      }
+    },
+    {
+      "file": ".claude/skills/个人信息引导/SKILL.md",
+      "replacements": {
+        "01-记忆系统": 1,
+        "02.内容创作系统": 2
+      }
+    },
+    {
+      "file": ".claude/skills/朋友圈文案生成/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 12
+      }
+    },
+    {
+      "file": ".claude/skills/热点文案生成/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 3
+      }
+    },
+    {
+      "file": ".claude/skills/新用户开箱引导/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 2
+      }
+    },
+    {
+      "file": ".claude/skills/老板IP商业化顾问/SKILL.md",
+      "replacements": {
+        "01-记忆系统": 1,
+        "02.内容创作系统": 11
+      }
+    },
+    {
+      "file": ".claude/skills/小红书图文/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 6
+      }
+    },
+    {
+      "file": ".claude/skills/长文转短视频文案/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 4
+      }
+    },
+    {
+      "file": ".claude/skills/标题生成/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 3
+      }
+    },
+    {
+      "file": ".claude/skills/热点采集助手/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 6
+      }
+    },
+    {
+      "file": ".claude/skills/结尾钩子生成/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 3
+      }
+    },
+    {
+      "file": ".claude/skills/社群内容生成/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 5
+      }
+    },
+    {
+      "file": ".claude/skills/风格萃取/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 1
+      }
+    },
+    {
+      "file": ".claude/skills/录音稿提炼选题专家/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 3
+      }
+    },
+    {
+      "file": ".claude/skills/聊观点文案/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 5
+      }
+    },
+    {
+      "file": ".claude/skills/讲故事文案/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 8
+      }
+    },
+    {
+      "file": ".claude/skills/用户提问转文案/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 18
+      }
+    },
+    {
+      "file": ".claude/skills/爆款复盘分析/SKILL.md",
+      "replacements": {
+        "03.参考资料库": 1
+      }
+    },
+    {
+      "file": ".claude/skills/kunki-knowledge-base/skill.md",
+      "replacements": {
+        "01-记忆系统": 34
+      }
+    },
+    {
+      "file": ".claude/skills/公众号爆款生产/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 50
+      }
+    },
+    {
+      "file": ".claude/skills/推特内容转换/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 4
+      }
+    },
+    {
+      "file": ".claude/skills/教知识文案/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 10
+      }
+    },
+    {
+      "file": ".claude/skills/录音稿转文案/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 23
+      }
+    },
+    {
+      "file": ".claude/skills/爆款拆解改写/SKILL.md",
+      "replacements": {
+        "01-记忆系统": 4,
+        "02.内容创作系统": 27
+      }
+    },
+    {
+      "file": ".claude/skills/干货浓缩短视频/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 21
+      }
+    },
+    {
+      "file": ".claude/skills/GitHub深度调研/SKILL.md",
+      "replacements": {
+        "03.参考资料库": 1
+      }
+    },
+    {
+      "file": ".claude/skills/灵感碎片转文案/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 16
+      }
+    },
+    {
+      "file": ".claude/skills/营销转化专家/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 1
+      }
+    },
+    {
+      "file": ".claude/skills/实战复盘转内容/SKILL.md",
+      "replacements": {
+        "02.内容创作系统": 28
+      }
+    },
+    {
+      "file": ".claude/skills/公众号爆款生产/references/知识库路径.md",
+      "replacements": {
+        "02.内容创作系统": 22
+      }
+    },
+    {
+      "file": "01-入口与总控/知识库总导航.md",
+      "replacements": {
+        "02.内容创作系统": 4
+      }
+    },
+    {
+      "file": "01-入口与总控/00-知识库新结构说明.md",
+      "replacements": {
+        "01-记忆系统": 3
+      }
+    },
+    {
+      "file": "01-入口与总控/系统配置/SOP-双向同步.md",
+      "replacements": {
+        "03.参考资料库": 1
+      }
+    },
+    {
+      "file": "01-入口与总控/系统配置/知识库路径注册表.md",
+      "replacements": {
+        "03.参考资料库": 1
+      }
+    },
+    {
+      "file": "01-入口与总控/系统配置/SOP-链接处理.md",
+      "replacements": {
+        "03.参考资料库": 2
+      }
+    },
+    {
+      "file": "01-入口与总控/系统配置/SOP-技能调用.md",
+      "replacements": {
+        "03.参考资料库": 1
+      }
+    },
+    {
+      "file": "01-入口与总控/系统配置/SYSTEM-架构.md",
+      "replacements": {
+        "03.参考资料库": 2
+      }
+    },
+    {
+      "file": "02-记忆系统/当前唯一真相.md",
+      "replacements": {
+        "01-记忆系统": 6,
+        "02.内容创作系统": 3
+      }
+    },
+    {
+      "file": "02-记忆系统/README.md",
+      "replacements": {
+        "01-记忆系统": 13,
+        "02.内容创作系统": 2
+      }
+    },
+    {
+      "file": "02-记忆系统/当下每时每刻（持续更新）.md",
+      "replacements": {
+        "01-记忆系统": 2,
+        "02.内容创作系统": 3,
+        "03.参考资料库": 1
+      }
+    },
+    {
+      "file": "02-记忆系统/长期记忆.md",
+      "replacements": {
+        "01-记忆系统": 6,
+        "02.内容创作系统": 3
+      }
+    },
+    {
+      "file": "02-记忆系统/归档/2026-06-08-记忆系统合并前旧结构/02内容创作系统-个人上下文旧运行记忆/当前唯一真相.md",
+      "replacements": {
+        "02.内容创作系统": 3
+      }
+    },
+    {
+      "file": "02-记忆系统/归档/2026-06-08-记忆系统合并前旧结构/02内容创作系统-个人上下文旧运行记忆/当下每时每刻（持续更新）.md",
+      "replacements": {
+        "02.内容创作系统": 1
+      }
+    },
+    {
+      "file": "02-记忆系统/归档/2026-06-08-记忆系统合并前旧结构/02内容创作系统-旧记忆系统/INVENTORY.md",
+      "replacements": {
+        "02.内容创作系统": 4
+      }
+    },
+    {
+      "file": "02-记忆系统/归档/2026-06-08-记忆系统合并前旧结构/02内容创作系统-旧记忆系统/MEMORY.md",
+      "replacements": {
+        "02.内容创作系统": 1
+      }
+    },
+    {
+      "file": "02-记忆系统/归档/2026-06-08-记忆系统合并前旧结构/02内容创作系统-旧记忆系统/周工作区/2026-W24.md",
+      "replacements": {
+        "02.内容创作系统": 2
+      }
+    },
+    {
+      "file": "05.内容创作系统/📋 内容看板.md",
+      "replacements": {
+        "02.内容创作系统": 28
+      }
+    },
+    {
+      "file": "05.内容创作系统/旧版资产整合说明.md",
+      "replacements": {
+        "02.内容创作系统": 8
+      }
+    },
+    {
+      "file": "05.内容创作系统/🔥01.选题决策/6大内容方向体系.md",
+      "replacements": {
+        "02.内容创作系统": 1
+      }
+    },
+    {
+      "file": "05.内容创作系统/🔥01.选题决策/_选题工作流.md",
+      "replacements": {
+        "02.内容创作系统": 9
+      }
+    },
+    {
+      "file": "05.内容创作系统/🛠️11.系统配置/领航计划母版规范.md",
+      "replacements": {
+        "01-记忆系统": 4,
+        "02.内容创作系统": 2
+      }
+    },
+    {
+      "file": "05.内容创作系统/🛠️11.系统配置/frontmatter规范.md",
+      "replacements": {
+        "02.内容创作系统": 3
+      }
+    },
+    {
+      "file": "05.内容创作系统/🛠️11.系统配置/知识库路径注册表.md",
+      "replacements": {
+        "01-记忆系统": 2,
+        "02.内容创作系统": 31,
+        "03.参考资料库": 1
+      }
+    },
+    {
+      "file": "05.内容创作系统/🔧05.用户画像/用户画像使用说明.md",
+      "replacements": {
+        "02.内容创作系统": 14
+      }
+    },
+    {
+      "file": "05.内容创作系统/🛠️10.记忆系统/README.md",
+      "replacements": {
+        "01-记忆系统": 7
+      }
+    },
+    {
+      "file": "05.内容创作系统/🔧06.我的档案/AI创作规范.md",
+      "replacements": {
+        "02.内容创作系统": 4,
+        "03.参考资料库": 2
+      }
+    },
+    {
+      "file": "05.内容创作系统/🛠️09.操作手册/系统使用手册.md",
+      "replacements": {
+        "02.内容创作系统": 29
+      }
+    },
+    {
+      "file": "05.内容创作系统/🛠️09.操作手册/新人第一天使用入口.md",
+      "replacements": {
+        "01-记忆系统": 3,
+        "02.内容创作系统": 6
+      }
+    },
+    {
+      "file": "05.内容创作系统/🔥01.选题决策/选题工具箱/选题模板库.md",
+      "replacements": {
+        "02.内容创作系统": 2
+      }
+    },
+    {
+      "file": "05.内容创作系统/🔥01.选题决策/选题工具箱/对标账号快速入口.md",
+      "replacements": {
+        "02.内容创作系统": 2,
+        "03.参考资料库": 12
+      }
+    },
+    {
+      "file": "05.内容创作系统/🔥01.选题决策/选题工具箱/热点快速入口.md",
+      "replacements": {
+        "02.内容创作系统": 2
+      }
+    },
+    {
+      "file": "05.内容创作系统/🔥01.选题决策/热点收集/X(推特)AI热点工作流.md",
+      "replacements": {
+        "02.内容创作系统": 2
+      }
+    },
+    {
+      "file": "05.内容创作系统/🔥01.选题决策/热点收集/抖音采集助手V6-SOP（MCP适配版）.md",
+      "replacements": {
+        "02.内容创作系统": 1
+      }
+    },
+    {
+      "file": "05.内容创作系统/🔥01.选题决策/热点收集/视频号采集助手V3-SOP（MCP适配版）.md",
+      "replacements": {
+        "02.内容创作系统": 1
+      }
+    },
+    {
+      "file": "05.内容创作系统/🔥01.选题决策/热点收集/小红书采集助手V5-SOP（MCP适配版）.md",
+      "replacements": {
+        "02.内容创作系统": 1
+      }
+    },
+    {
+      "file": "05.内容创作系统/🔥02.发布文案/2026年/草稿/公众号/2026年6月9日-AI写不好不是模型差是系统太乱.md",
+      "replacements": {
+        "01-记忆系统": 3,
+        "02.内容创作系统": 1
+      }
+    },
+    {
+      "file": "05.内容创作系统/🔥04.复盘与方法论/爆款方法论/可复用模板库.md",
+      "replacements": {
+        "02.内容创作系统": 15
+      }
+    },
+    {
+      "file": "05.内容创作系统/🔥04.复盘与方法论/旧版参考资料/文案框架/公众号文案风格萃取.md",
+      "replacements": {
+        "03.参考资料库": 1
+      }
+    },
+    {
+      "file": "05.内容创作系统/🔧06.我的档案/我的个人上下文/个人自传（持续更新）.md",
+      "replacements": {
+        "01-记忆系统": 2
+      }
+    },
+    {
+      "file": "05.内容创作系统/🔧06.我的档案/我的个人上下文/当前唯一真相.md",
+      "replacements": {
+        "01-记忆系统": 2
+      }
+    },
+    {
+      "file": "05.内容创作系统/🔧06.我的档案/我的个人上下文/当下每时每刻（持续更新）.md",
+      "replacements": {
+        "01-记忆系统": 2
+      }
+    },
+    {
+      "file": "05.内容创作系统/🔧06.我的档案/我的个人上下文/风格萃取/Kunki-IP写作风格指南.md",
+      "replacements": {
+        "01-记忆系统": 2,
+        "02.内容创作系统": 7
+      }
+    },
+    {
+      "file": "07-智能体协作与工具脚本/工具脚本/fetch_wechat.py",
+      "replacements": {
+        "03.参考资料库": 1
+      }
+    }
+  ]
+}

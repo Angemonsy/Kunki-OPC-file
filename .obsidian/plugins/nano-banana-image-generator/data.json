@@ -1,0 +1,11 @@
+{
+  "apiKey": "ark-c67cbb73-0478-4bdd-a13e-c00c09eb588a-26928",
+  "customApiBase": "https://ark.cn-beijing.volces.com/api/plan/v3",
+  "selectedModel": "nano-banana-pro",
+  "defaultAspectRatio": "16:9",
+  "defaultResolution": "1K",
+  "imageFolder": "nano-banana-images",
+  "theme": "light",
+  "colorPreset": "🔷 现代简约",
+  "systemPrompt": ""
+}

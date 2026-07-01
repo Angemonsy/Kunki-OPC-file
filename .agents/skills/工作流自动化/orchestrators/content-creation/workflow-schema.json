@@ -1,0 +1,135 @@
+{
+  "workflowName": "content-creation-pipeline",
+  "description": "从热点到公众号发布的完整内容创作流程",
+  "version": "1.0.0",
+  "executionMode": "sequential",
+  "skills": [
+    {
+      "id": "hotspot-analysis",
+      "name": "热点分析",
+      "skillPath": "热点分析",
+      "triggerKeywords": ["热点分析", "分析热点"],
+      "inputSchema": {
+        "type": "object",
+        "required": ["hotspotEvent"],
+        "properties": {
+          "hotspotEvent": {
+            "type": "string",
+            "description": "热点事件描述"
+          },
+          "duration": {
+            "type": "string",
+            "default": "6-8分钟",
+            "description": "期待视频时长"
+          },
+          "targetAudience": {
+            "type": "string",
+            "default": "创业者/职场人",
+            "description": "目标用户"
+          }
+        }
+      },
+      "outputSchema": {
+        "hotspotReport": {
+          "phase1": "速判报告",
+          "phase2": "创作大纲",
+          "phase3": "素材库"
+        }
+      },
+      "timeoutSeconds": 300
+    },
+    {
+      "id": "copywriting",
+      "name": "文案生成",
+      "skillPath": "文案生成",
+      "triggerKeywords": ["文案生成", "写文案"],
+      "inputSchema": {
+        "type": "object",
+        "required": ["hotspotReport"],
+        "properties": {
+          "hotspotReport": {
+            "type": "object",
+            "description": "热点分析报告"
+          }
+        }
+      },
+      "outputSchema": {
+        "copywriting": "视频文案内容"
+      },
+      "timeoutSeconds": 240
+    },
+    {
+      "id": "fact-check",
+      "name": "事实核查",
+      "skillPath": "事实核查",
+      "triggerKeywords": ["事实核查", "验证"],
+      "inputSchema": {
+        "type": "object",
+        "required": ["copywriting"],
+        "properties": {
+          "copywriting": {
+            "type": "string",
+            "description": "原始文案"
+          }
+        }
+      },
+      "outputSchema": {
+        "verifiedCopywriting": "核查后的文案",
+        "factCheckReport": "核查报告"
+      },
+      "timeoutSeconds": 180
+    },
+    {
+      "id": "title-generation",
+      "name": "爆款标题",
+      "skillPath": "爆款标题",
+      "triggerKeywords": ["标题", "爆款标题"],
+      "inputSchema": {
+        "type": "object",
+        "required": ["verifiedCopywriting"],
+        "properties": {
+          "verifiedCopywriting": {
+            "type": "string",
+            "description": "核查后的文案"
+          }
+        }
+      },
+      "outputSchema": {
+        "titles": ["标题列表"],
+        "platformRecommendations": {
+          "video": "推荐标题",
+          "douyin": "推荐标题",
+          "bilibili": "推荐标题",
+          "xiaohongshu": "推荐标题",
+          "wechat": "推荐标题"
+        }
+      },
+      "timeoutSeconds": 120
+    },
+    {
+      "id": "formatting",
+      "name": "公众号排版",
+      "skillPath": "公众号排版",
+      "triggerKeywords": ["排版", "公众号排版"],
+      "inputSchema": {
+        "type": "object",
+        "required": ["verifiedCopywriting"],
+        "properties": {
+          "verifiedCopywriting": {
+            "type": "string",
+            "description": "核查后的文案"
+          }
+        }
+      },
+      "outputSchema": {
+        "formattedContent": "排版后的内容"
+      },
+      "timeoutSeconds": 120
+    }
+  ],
+  "executionOrder": ["hotspot-analysis", "copywriting", "fact-check", "title-generation", "formatting"],
+  "checkpointPolicy": {
+    "enabled": true,
+    "steps": ["hotspot-analysis", "copywriting"]
+  }
+}

@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小红书卡片生成器 - 四六级考前攻略 优化版</title>
+    <!-- 引入 html-to-image 库：这是解决渲染差异的关键 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html-to-image/1.11.11/html-to-image.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"></script>
+    <style>
+        :root {
+            --bg-color: #f8f9fa;
+            --card-width: 375px;
+            --card-height: 500px;
+            --highlight-color: #fff176;
+            --brand-dark: #2c3e50;
+            --brand-blue: #667eea;
+            --brand-purple: #38bdf8;
+            --accent-color: #7dd3fc;
+            --success-green: #4ade80;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 45%, #7dd3fc 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            margin: 0;
+            padding-bottom: 300px;
+            user-select: none; 
+        }
+
+        /* --- 截图模式：隐藏无关元素 --- */
+        /* 截图时，我们会给 body 加这个类，用来隐藏所有按钮和编辑辅助线 */
+        body.snapshot-mode .action-bar,
+        body.snapshot-mode #rich-text-toolbar,
+        body.snapshot-mode #style-panel,
+        body.snapshot-mode .card-delete,
+        body.snapshot-mode .block-delete,
+        body.snapshot-mode #exportMsg {
+            display: none !important;
+        }
+
+        body.snapshot-mode .card {
+            box-shadow: none !important; /* 截图时不需要阴影 */
+            transform: none !important;
+            margin: 0 !important;
+            border-radius: 0 !important; /* 直角边缘 */
+            overflow: hidden !important; 
+        }
+
+        body.snapshot-mode .editable-element {
+            border: none !important;
+            outline: none !important;
+        }
+
+        /* --- 顶部操作栏 --- */
+        .action-bar {
+            position: fixed;
+            top: 20px;
+            z-index: 1000;
+            background: rgba(44, 62, 80, 0.95);
+            padding: 10px 20px;
+            border-radius: 50px;
+            display: flex;
+            gap: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+            backdrop-filter: blur(10px);
+            color: white;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .btn {
+            background-color: rgba(255,255,255,0.2);
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            white-space: nowrap;
+        }
+
+        .btn:hover { background-color: rgba(255,255,255,0.3); }
+        .btn.active { background-color: #fff176; color: #333; transform: scale(1.05); }
+        .btn-primary { background-color: #667eea; }
+        .btn-success { background-color: #2ecc71; } 
+        
+        /* --- 卡片容器 --- */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            justify-content: center;
+            margin-top: 100px;
+        }
+
+        .card {
+            width: var(--card-width);
+            height: var(--card-height);
+            background-color: #fff;
+            padding: 0 0 50px 0; 
+            box-sizing: border-box;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            border-radius: 16px;
+            overflow: hidden; 
+            background-clip: padding-box; 
+        }
+
+        .card::before {
+            content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 8px;
+            background: linear-gradient(90deg, #2563eb 0%, #38bdf8 100%);
+            z-index: 5; pointer-events: none;
+        }
+
+        /* --- 内容结构 --- */
+        .card-header {
+            margin-bottom: 0; border-bottom: 2px solid #f5f5f5;
+            padding: 22px 26px 8px 26px; flex-shrink: 0; background: #fff; z-index: 2; position: relative;
+        }
+
+        .card-tag {
+            display: inline-block; 
+            background: linear-gradient(135deg, #2563eb 0%, #38bdf8 100%);
+            color: #fff;
+            padding: 4px 12px; border-radius: 20px; 
+            font-size: 0.75rem; font-weight: bold; 
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+
+        .card-title {
+            font-size: 1.48rem; font-weight: 800; 
+            background: linear-gradient(135deg, #2563eb 0%, #38bdf8 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1.25; margin: 0;
+        }
+        
+        .card-subtitle {
+            font-size: 0.92rem; color: #666; font-weight: normal; margin-top: 6px; display: block;
+        }
+
+        .card-content {
+            font-size: 0.88rem; line-height: 1.46; color: #444;
+            flex-grow: 1; overflow: hidden; display: flex; flex-direction: column;
+            padding: 12px 26px 0 26px; position: relative; z-index: 1;
+        }
+
+        .spacer {
+            height: 28px; width: 100%; flex-shrink: 0; border: 1px dashed transparent;
+        }
+
+        .card-footer {
+            position: absolute; bottom: 0; left: 0; width: 100%; height: 50px;
+            display: flex; justify-content: center; align-items: center;
+            font-size: 0.85rem; 
+            background: linear-gradient(135deg, #2563eb 0%, #38bdf8 100%);
+            color: white; font-weight: bold; letter-spacing: 1px;
+            z-index: 10; pointer-events: none;
+        }
+
+        /* --- 元素样式 --- */
+        .editable-element {
+            position: relative; transition: all 0.1s; border: 1px dashed transparent;
+        }
+
+        /* 列表项 */
+        .list-item { padding-left: 22px; margin: 5px 0; }
+        .list-item::before {
+            content: '•'; position: absolute; left: 5px; top: 0.2em; color: var(--brand-blue); font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .numbered-item { padding-left: 28px; margin: 10px 0; }
+        .numbered-item::before {
+            position: absolute; left: 0; top: 0; 
+            background: linear-gradient(135deg, #2563eb 0%, #38bdf8 100%);
+            color: white;
+            width: 20px; height: 20px; 
+            border-radius: 50%; 
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.75rem;
+            font-weight: bold;
+        }
+
+        .section-title {
+            font-weight: 700; 
+            background: linear-gradient(135deg, #2563eb 0%, #38bdf8 100%);
+            color: white; 
+            font-size: 0.96rem; 
+            padding: 6px 10px;
+            border-radius: 8px;
+            display: flex; 
+            align-items: center;
+            margin: 8px 0;
+        }
+        .section-icon { margin-right: 8px; font-size: 1.2rem; }
+
+        .tip-box {
+            background: linear-gradient(135deg, rgba(37, 99, 235, 0.10) 0%, rgba(56, 189, 248, 0.16) 100%);
+            border-left: 4px solid var(--brand-blue);
+            padding: 8px 10px;
+            border-radius: 4px;
+            margin: 7px 0;
+        }
+
+        .danger-box {
+            background: rgba(239, 68, 68, 0.1);
+            border-left: 4px solid #ef4444;
+            padding: 8px 10px;
+            border-radius: 4px;
+            margin: 7px 0;
+        }
+
+        .check-item {
+            padding-left: 28px;
+            position: relative;
+            margin: 5px 0;
+        }
+        .check-item::before {
+            content: '✅';
+            position: absolute;
+            left: 0;
+            top: 0;
+            font-size: 0.9rem;
+        }
+
+        .cross-item {
+            padding-left: 28px;
+            position: relative;
+            margin: 4px 0;
+        }
+        .cross-item::before {
+            content: '❌';
+            position: absolute;
+            left: 0;
+            top: 0;
+            font-size: 0.9rem;
+        }
+
+        /* 高亮样式 - 现在可以放心地使用现代 CSS 了 */
+        .hl {
+            background-color: var(--highlight-color);
+            padding: 0 4px;
+            border-radius: 4px;
+            font-weight: bold;
+            color: #000;
+            display: inline;
+            /* 关键：box-decoration-break 确保换行时的背景切割效果 */
+            box-decoration-break: clone;
+            -webkit-box-decoration-break: clone;
+            line-height: 1.6;
+        }
+        .bold { font-weight: 800; color: #000; }
+        .color-purple { color: var(--brand-purple); font-weight: bold; }
+        .color-blue { color: var(--brand-blue); font-weight: bold; }
+
+        /* --- 模式样式 --- */
+        body.mode-text [contenteditable="true"] { cursor: text; user-select: text; }
+        body.mode-text [contenteditable="true"]:hover { background-color: rgba(0,0,0,0.02); }
+
+        body.mode-layout .card { overflow: visible; box-shadow: 0 0 0 2px var(--brand-blue); z-index: 100; }
+        body.mode-layout .editable-element { cursor: pointer; }
+        body.mode-layout .editable-element:hover { outline: 1px dashed var(--brand-blue); background-color: rgba(102, 126, 234, 0.05); }
+        body.mode-layout .editable-element.selected { outline: 2px solid var(--brand-blue); background-color: rgba(102, 126, 234, 0.1); z-index: 200; }
+
+        /* --- 控制面板 --- */
+        #style-panel {
+            position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
+            width: 90%; max-width: 600px; background: white; padding: 20px;
+            border-radius: 20px; box-shadow: 0 -10px 40px rgba(0,0,0,0.2); display: none; flex-direction: column; gap: 15px; z-index: 3000; border: 1px solid #ddd;
+        }
+        .panel-header { display: flex; justify-content: space-between; align-items: center; font-weight: bold; color: #333; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+        .panel-row { display: flex; align-items: center; gap: 15px; font-size: 0.9rem; color: #555; }
+        .panel-label { width: 70px; flex-shrink: 0; font-weight: bold;}
+        .panel-control { flex-grow: 1; display: flex; align-items: center; gap: 10px; }
+        input[type=range] { width: 100%; accent-color: var(--brand-blue); cursor: pointer; }
+        .control-group { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+
+        /* --- 富文本工具栏 --- */
+        #rich-text-toolbar {
+            position: absolute; display: none; background: #222; border-radius: 6px; padding: 4px; box-shadow: 0 4px 15px rgba(0,0,0,0.3); z-index: 4000;
+        }
+        #rich-text-toolbar::after {
+            content: ''; position: absolute; bottom: -5px; left: 50%; margin-left: -5px; border-width: 5px; border-style: solid; border-color: #222 transparent transparent transparent;
+        }
+        .rt-btn { background: none; border: none; color: white; padding: 4px 10px; cursor: pointer; font-weight: bold; font-size: 0.85rem; }
+        .rt-btn:hover { background: rgba(255,255,255,0.2); border-radius: 4px; }
+        .rt-btn-hl { color: #fff176; }
+
+        .card-delete {
+            position: absolute; right: 10px; top: 10px; background: #e74c3c; color: white; padding: 4px 10px; border-radius: 4px; font-size: 12px; cursor: pointer; z-index: 500; display: none;
+        }
+        body.mode-layout .card:hover .card-delete { display: block; }
+
+        .emoji-big {
+            font-size: 2.35rem;
+            text-align: center;
+            margin: 8px 0;
+            display: block;
+        }
+
+        .center-text {
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="mode-text">
+
+    <div class="action-bar">
+        <button class="btn active" id="btnModeText" onclick="switchMode('text')">✍️ 内容编辑</button>
+        <button class="btn" id="btnModeLayout" onclick="switchMode('layout')">🎨 排版微调</button>
+        <div style="width:1px; height:20px; background:rgba(255,255,255,0.3); margin:0 5px;"></div>
+        <button class="btn btn-success" onclick="addNewCard()">➕ 加一页</button>
+        <button class="btn btn-primary" onclick="exportAllImages()" id="exportBtn">📸 导出图片</button>
+        <span id="exportMsg" style="font-size:0.8rem;"></span>
+    </div>
+
+    <div id="rich-text-toolbar">
+        <button class="rt-btn" onclick="execCmd('bold')">B 加粗</button>
+        <button class="rt-btn rt-btn-hl" onclick="execCmd('highlight')">🖊️ 高亮</button>
+    </div>
+
+    <!-- 控制面板 -->
+    <div id="style-panel">
+        <div class="panel-header">
+            <span>🎛️ 样式与布局控制台</span>
+            <button class="btn btn-danger" style="padding:4px 10px; font-size:0.8rem;" onclick="deleteSelected()">🗑️ 删除</button>
+        </div>
+        <div class="control-group">
+            <div class="panel-row">
+                <span class="panel-label">字体大小</span>
+                <div class="panel-control"><input type="range" id="inputFontSize" min="10" max="60" oninput="updateStyle('fontSize', this.value + 'px')"></div>
+            </div>
+            <div class="panel-row">
+                <span class="panel-label">下边距</span>
+                <div class="panel-control"><input type="range" id="inputMb" min="0" max="100" oninput="updateStyle('marginBottom', this.value + 'px')"></div>
+            </div>
+        </div>
+        <div class="control-group">
+            <div class="panel-row">
+                <span class="panel-label">上边距</span>
+                <div class="panel-control"><input type="range" id="inputMt" min="0" max="100" oninput="updateStyle('marginTop', this.value + 'px')"></div>
+            </div>
+            <div class="panel-row">
+                <span class="panel-label" style="color:#667eea">↕️ 微调Y</span>
+                <div class="panel-control"><input type="range" id="inputTy" min="-50" max="50" value="0" oninput="updateTransform()"></div>
+            </div>
+        </div>
+        <div class="control-group">
+            <div class="panel-row"></div>
+            <div class="panel-row">
+                <span class="panel-label" style="color:#667eea">↔️ 微调X</span>
+                <div class="panel-control"><input type="range" id="inputTx" min="-50" max="50" value="0" oninput="updateTransform()"></div>
+            </div>
+        </div>
+        <div style="font-size:0.8rem; color:#999; text-align:center; margin-top:5px;">提示：点击任意文字激活面板，可自由拖拽微调位置。</div>
+    </div>
+
+    <!-- 卡片内容区域 -->
+    <div class="container" id="cardsContainer">
+        <!-- 第1页 封面 -->
+        <div class="card export-target">
+            <div class="card-delete" onclick="removeCard(this.parentElement)">删除本页</div>
+            <div class="card-header">
+                <div class="editable-element card-title" contenteditable="true">四六级考前<br>3小时临时抱佛脚</div>
+                <div class="editable-element card-subtitle" contenteditable="true">最后冲刺版｜能抢一分是一分 💯</div>
+            </div>
+            <div class="card-content sortable-area">
+                <span class="emoji-big">🚀</span>
+                <div class="editable-element block center-text" contenteditable="true" style="font-size: 1.05rem; color: #555; line-height: 1.75;">
+                    明天就考试？别慌。<br>
+                    这套不是“从零逆袭神话”，<br>
+                    是<span class="hl">最现实的抢分路线</span>。
+                </div>
+                <div class="editable-element block tip-box center-text" contenteditable="true" style="margin-top: 18px;">
+                    目标很简单：<br>
+                    听力不崩｜阅读多拿｜作文翻译稳住
+                </div>
+                <div class="spacer"></div>
+            </div>
+            <div class="card-footer">我是林kunki</div>
+        </div>
+
+        <!-- 第2页 时间安排 -->
+        <div class="card export-target">
+            <div class="card-delete" onclick="removeCard(this.parentElement)">删除本页</div>
+            <div class="card-header">
+                <div class="editable-element card-tag" contenteditable="true">01｜时间分配</div>
+                <div class="editable-element card-title" contenteditable="true">最后3小时<br>别乱刷题</div>
+            </div>
+            <div class="card-content sortable-area">
+                <div class="editable-element block tip-box" contenteditable="true">
+                    考前最忌讳：打开一堆资料，最后什么都没看完。
+                </div>
+                <div class="editable-element block check-item" contenteditable="true"><span class="bold">第1小时：</span>听力技巧 + 核心词</div>
+                <div class="editable-element block check-item" contenteditable="true"><span class="bold">第2小时：</span>阅读题型 + 同义替换</div>
+                <div class="editable-element block check-item" contenteditable="true"><span class="bold">第3小时：</span>作文模板 + 翻译热点 + 物品</div>
+                <div class="editable-element block danger-box" contenteditable="true" style="margin-top: 14px;">
+                    ❌ 不建议：临时完整做一套卷。<br>
+                    耗时，还容易搞崩心态。
+                </div>
+                <div class="spacer"></div>
+            </div>
+            <div class="card-footer">我是林kunki</div>
+        </div>
+
+        <!-- 第3页 词汇 -->
+        <div class="card export-target">
+            <div class="card-delete" onclick="removeCard(this.parentElement)">删除本页</div>
+            <div class="card-header">
+                <div class="editable-element card-tag" contenteditable="true">02｜词汇抢救</div>
+                <div class="editable-element card-title" contenteditable="true">单词别硬背<br>只抓高频</div>
+            </div>
+            <div class="card-content sortable-area">
+                <div class="editable-element block">
+                    <div class="section-title" contenteditable="true"><span class="section-icon">🔤</span>现在只看这3类词</div>
+                </div>
+                <div class="editable-element block check-item" contenteditable="true">听力场景词：校园、租房、交通、讲座、工作</div>
+                <div class="editable-element block check-item" contenteditable="true">阅读逻辑词：however / therefore / due to</div>
+                <div class="editable-element block check-item" contenteditable="true">作文替换：important → <span class="hl">significant</span></div>
+                <div class="editable-element block tip-box" contenteditable="true" style="margin-top: 12px;">
+                    记不住也没关系，至少混个眼熟，考场看到不慌。
+                </div>
+                <div class="spacer"></div>
+            </div>
+            <div class="card-footer">我是林kunki</div>
+        </div>
+
+        <!-- 第4页 听力原则 -->
+        <div class="card export-target">
+            <div class="card-delete" onclick="removeCard(this.parentElement)">删除本页</div>
+            <div class="card-header">
+                <div class="editable-element card-tag" contenteditable="true">03｜听力大头</div>
+                <div class="editable-element card-title" contenteditable="true">听力35%<br>别白白丢分</div>
+            </div>
+            <div class="card-content sortable-area">
+                <div class="editable-element block check-item" contenteditable="true"><span class="bold">开头原则：</span>开头三句集中，常出主旨/场景</div>
+                <div class="editable-element block check-item" contenteditable="true"><span class="bold">题文同序：</span>题目顺序基本跟录音顺序走，别回头恋战</div>
+                <div class="editable-element block check-item" contenteditable="true"><span class="bold">逻辑词后：</span>but / however / because 后重点听</div>
+                <div class="editable-element block check-item" contenteditable="true"><span class="bold">视听一致：</span>听到核心词，先标记</div>
+                <div class="editable-element block tip-box" contenteditable="true" style="margin-top: 12px;">
+                    听不懂整句很正常，抓<span class="hl">关键词、转折、态度</span>。
+                </div>
+                <div class="spacer"></div>
+            </div>
+            <div class="card-footer">我是林kunki</div>
+        </div>
+
+        <!-- 第5页 听力蒙题 -->
+        <div class="card export-target">
+            <div class="card-delete" onclick="removeCard(this.parentElement)">删除本页</div>
+            <div class="card-header">
+                <div class="editable-element card-tag" contenteditable="true">04｜听力不会也要会蒙</div>
+                <div class="editable-element card-title" contenteditable="true">听崩了<br>也别空着</div>
+            </div>
+            <div class="card-content sortable-area">
+                <div class="editable-element block danger-box" contenteditable="true">
+                    听力最怕：一道没听清，后面连续崩。没听到就果断过。
+                </div>
+                <div class="editable-element block cross-item" contenteditable="true">绝对化表达慎选：always / never / only</div>
+                <div class="editable-element block cross-item" contenteditable="true">无中生有慎选：选项很具体但录音没提</div>
+                <div class="editable-element block cross-item" contenteditable="true">信息拼接慎选：把两处信息硬凑在一起</div>
+                <div class="editable-element block check-item" contenteditable="true">选项里反复出现的主题词，大概率是文章主线</div>
+                <div class="editable-element block tip-box" contenteditable="true" style="margin-top: 12px;">
+                    实在不会：先排两个最离谱的，再凭主题词选。
+                </div>
+                <div class="spacer"></div>
+            </div>
+            <div class="card-footer">我是林kunki</div>
+        </div>
+
+        <!-- 第6页 阅读顺序 -->
+        <div class="card export-target">
+            <div class="card-delete" onclick="removeCard(this.parentElement)">删除本页</div>
+            <div class="card-header">
+                <div class="editable-element card-tag" contenteditable="true">05｜阅读策略</div>
+                <div class="editable-element card-title" contenteditable="true">阅读35%<br>先做高价值题</div>
+            </div>
+            <div class="card-content sortable-area">
+                <div class="editable-element block">
+                    <div class="section-title" contenteditable="true"><span class="section-icon">📖</span>推荐做题顺序</div>
+                </div>
+                <div class="editable-element block check-item" contenteditable="true"><span class="bold">先做仔细阅读：</span>分值高，方法最稳定</div>
+                <div class="editable-element block check-item" contenteditable="true"><span class="bold">再做长篇匹配：</span>关键词定位，能快速拿分</div>
+                <div class="editable-element block check-item" contenteditable="true"><span class="bold">最后选词填空：</span>分低且耗脑，不要一开始死磕</div>
+                <div class="editable-element block tip-box" contenteditable="true" style="margin-top: 14px;">
+                    核心原则：<span class="hl">先拿确定分，再碰玄学题</span>。
+                </div>
+                <div class="spacer"></div>
+            </div>
+            <div class="card-footer">我是林kunki</div>
+        </div>
+
+        <!-- 第7页 仔细阅读 -->
+        <div class="card export-target">
+            <div class="card-delete" onclick="removeCard(this.parentElement)">删除本页</div>
+            <div class="card-header">
+                <div class="editable-element card-tag" contenteditable="true">06｜仔细阅读</div>
+                <div class="editable-element card-title" contenteditable="true">答案通常<br>不是原词复现</div>
+            </div>
+            <div class="card-content sortable-area">
+                <div class="editable-element block check-item" contenteditable="true">先看题干，圈人名、数字、年份、专有名词</div>
+                <div class="editable-element block check-item" contenteditable="true">回原文定位，不要一上来从头精读全文</div>
+                <div class="editable-element block check-item" contenteditable="true">看定位句前后1-2句，答案常在附近</div>
+                <div class="editable-element block check-item" contenteditable="true">正确选项多是<span class="hl">同义替换</span>，不是照搬原句</div>
+                <div class="editable-element block danger-box" contenteditable="true" style="margin-top: 12px;">
+                    ❌ 看到同词别急选，要看意思是否一致。
+                </div>
+                <div class="spacer"></div>
+            </div>
+            <div class="card-footer">我是林kunki</div>
+        </div>
+
+        <!-- 第8页 长篇阅读 -->
+        <div class="card export-target">
+            <div class="card-delete" onclick="removeCard(this.parentElement)">删除本页</div>
+            <div class="card-header">
+                <div class="editable-element card-tag" contenteditable="true">07｜长篇匹配</div>
+                <div class="editable-element card-title" contenteditable="true">不要读全文<br>找定位词</div>
+            </div>
+            <div class="card-content sortable-area">
+                <div class="editable-element block check-item" contenteditable="true">先读10个题干，划关键词：数字、机构、人名优先</div>
+                <div class="editable-element block check-item" contenteditable="true">明显好找的题先做，别按顺序硬刚</div>
+                <div class="editable-element block check-item" contenteditable="true">同一个段落可能对应多题，不要默认“一段一题”</div>
+                <div class="editable-element block check-item" contenteditable="true">定位不到就先跳，最后用剩余段落排除</div>
+                <div class="editable-element block tip-box" contenteditable="true" style="margin-top: 14px;">
+                    这题拼的是搜索能力，不是阅读理解能力。
+                </div>
+                <div class="spacer"></div>
+            </div>
+            <div class="card-footer">我是林kunki</div>
+        </div>
+
+        <!-- 第9页 选词填空 -->
+        <div class="card export-target">
+            <div class="card-delete" onclick="removeCard(this.parentElement)">删除本页</div>
+            <div class="card-header">
+                <div class="editable-element card-tag" contenteditable="true">08｜选词填空</div>
+                <div class="editable-element card-title" contenteditable="true">分低但别乱蒙</div>
+            </div>
+            <div class="card-content sortable-area">
+                <div class="editable-element block">
+                    <div class="section-title" contenteditable="true"><span class="section-icon">🧩</span>三步走</div>
+                </div>
+                <div class="editable-element block check-item" contenteditable="true">第一步：给15个词标词性 n / v / adj / adv</div>
+                <div class="editable-element block check-item" contenteditable="true">第二步：看空格前后，判断缺什么词性</div>
+                <div class="editable-element block check-item" contenteditable="true">第三步：先填确定项，再处理剩下的</div>
+                <div class="editable-element block danger-box" contenteditable="true" style="margin-top: 12px;">
+                    时间少于5分钟：别纠结，按词性快速选。
+                </div>
+                <div class="spacer"></div>
+            </div>
+            <div class="card-footer">我是林kunki</div>
+        </div>
+
+        <!-- 第10页 作文模板 -->
+        <div class="card export-target">
+            <div class="card-delete" onclick="removeCard(this.parentElement)">删除本页</div>
+            <div class="card-header">
+                <div class="editable-element card-tag" contenteditable="true">09｜作文救命</div>
+                <div class="editable-element card-title" contenteditable="true">作文别裸写<br>套结构</div>
+            </div>
+            <div class="card-content sortable-area">
+                <div class="editable-element block tip-box" contenteditable="true">
+                    考前至少背：1个现象开头 + 1个观点句 + 1个结尾句。
+                </div>
+                <div class="editable-element block check-item" contenteditable="true"><span class="bold">开头：</span>In recent years, ... has become a heated topic.</div>
+                <div class="editable-element block check-item" contenteditable="true"><span class="bold">观点：</span>From my perspective, ... plays a significant role.</div>
+                <div class="editable-element block check-item" contenteditable="true"><span class="bold">结尾：</span>Only in this way can we ... in the long run.</div>
+                <div class="editable-element block tip-box" contenteditable="true" style="margin-top: 12px;">
+                    字迹工整、分段清楚，比炫复杂句更重要。
+                </div>
+                <div class="spacer"></div>
+            </div>
+            <div class="card-footer">我是林kunki</div>
+        </div>
+
+        <!-- 第11页 翻译 -->
+        <div class="card export-target">
+            <div class="card-delete" onclick="removeCard(this.parentElement)">删除本页</div>
+            <div class="card-header">
+                <div class="editable-element card-tag" contenteditable="true">10｜翻译热点</div>
+                <div class="editable-element card-title" contenteditable="true">翻译重点<br>看中国主题</div>
+            </div>
+            <div class="card-content sortable-area">
+                <div class="editable-element block check-item" contenteditable="true">传统文化：traditional culture / festival / custom</div>
+                <div class="editable-element block check-item" contenteditable="true">科技发展：technology / innovation / digital economy</div>
+                <div class="editable-element block check-item" contenteditable="true">社会生活：education / transportation / environment</div>
+                <div class="editable-element block check-item" contenteditable="true">中国特色：Chinese civilization / cultural heritage</div>
+                <div class="editable-element block danger-box" contenteditable="true" style="margin-top: 12px;">
+                    遇到不会的词：别空着，用简单词解释，保证句子完整。
+                </div>
+                <div class="spacer"></div>
+            </div>
+            <div class="card-footer">我是林kunki</div>
+        </div>
+
+        <!-- 第12页 考前物品 -->
+        <div class="card export-target">
+            <div class="card-delete" onclick="removeCard(this.parentElement)">删除本页</div>
+            <div class="card-header">
+                <div class="editable-element card-tag" contenteditable="true">11｜进考场前</div>
+                <div class="editable-element card-title" contenteditable="true">这些细节<br>千万别翻车</div>
+            </div>
+            <div class="card-content sortable-area">
+                <div class="editable-element block check-item" contenteditable="true">身份证、准考证、学生证按要求带齐</div>
+                <div class="editable-element block check-item" contenteditable="true">耳机提前试音，电量确认</div>
+                <div class="editable-element block check-item" contenteditable="true">黑笔、2B铅笔、橡皮多备一份</div>
+                <div class="editable-element block check-item" contenteditable="true">听力后立刻收卡，边做边涂别拖到最后</div>
+                <div class="editable-element block danger-box" contenteditable="true" style="margin-top: 12px;">
+                    考前别狂喝水，别熬夜。状态比多看两页更重要。
+                </div>
+                <div class="spacer"></div>
+            </div>
+            <div class="card-footer">我是林kunki</div>
+        </div>
+
+        <!-- 第13页 结尾 -->
+        <div class="card export-target">
+            <div class="card-delete" onclick="removeCard(this.parentElement)">删除本页</div>
+            <div class="card-header">
+                <div class="editable-element card-tag" contenteditable="true">最后｜心态稳住</div>
+                <div class="editable-element card-title" contenteditable="true">最后一晚<br>别自己吓自己</div>
+            </div>
+            <div class="card-content sortable-area">
+                <span class="emoji-big">😎</span>
+                <div class="editable-element block center-text" contenteditable="true" style="line-height: 1.75;">
+                    四六级真的没有想象中那么可怕。<br>
+                    你要做的不是满分，<br>
+                    是把<span class="hl">该拿的分稳稳拿到</span>。
+                </div>
+                <div class="editable-element block tip-box center-text" contenteditable="true" style="margin-top: 18px; font-size: 1.05rem;">
+                    明天考试的同学<br>
+                    评论区接好运 🍀<br>
+                    <span class="bold" style="font-size: 1.3rem;">必过！必过！</span>
+                </div>
+                <div class="spacer"></div>
+            </div>
+            <div class="card-footer">我是林kunki</div>
+        </div>
+
+    </div>
+
+    <!-- 模板 -->
+    <template id="cardTemplate">
+        <div class="card export-target">
+            <div class="card-delete" onclick="removeCard(this.parentElement)">删除本页</div>
+            <div class="card-header">
+                <div class="editable-element card-tag" contenteditable="true">新页面</div>
+                <div class="editable-element card-title" contenteditable="true">新页面标题</div>
+                <div class="editable-element card-subtitle" contenteditable="true">副标题</div>
+            </div>
+            <div class="card-content sortable-area">
+                <div class="editable-element block" contenteditable="true">点击输入内容...</div>
+                <div class="editable-element block list-item" contenteditable="true">列表项 1</div>
+                <div class="editable-element block list-item" contenteditable="true">列表项 2</div>
+                <div class="spacer"></div>
+            </div>
+            <div class="card-footer">我是林kunki</div>
+        </div>
+    </template>
+
+    <script>
+        let currentMode = 'text';
+        let sortables = [];
+        let selectedEl = null;
+        let currentTx = 0;
+        let currentTy = 0;
+
+        window.onload = function() {
+            initSortables();
+            switchMode('text');
+        };
+
+        function switchMode(mode) {
+            currentMode = mode;
+            document.body.className = 'mode-' + mode;
+            document.getElementById('btnModeText').className = mode === 'text' ? 'btn active' : 'btn';
+            document.getElementById('btnModeLayout').className = mode === 'layout' ? 'btn active' : 'btn';
+            const editables = document.querySelectorAll('[contenteditable]');
+            editables.forEach(el => el.setAttribute('contenteditable', mode === 'text'));
+            sortables.forEach(s => s.option('disabled', mode === 'text'));
+            if (mode === 'layout') {
+                hideRichTextToolbar();
+            } else {
+                document.getElementById('style-panel').style.display = 'none';
+                clearSelection();
+            }
+        }
+
+        function initSortables() {
+            sortables.forEach(s => s.destroy());
+            sortables = [];
+            const areas = document.querySelectorAll('.sortable-area');
+            areas.forEach(area => {
+                const s = new Sortable(area, {
+                    group: 'shared',
+                    animation: 150,
+                    ghostClass: 'sortable-ghost',
+                    disabled: currentMode === 'text',
+                    filter: '.spacer', 
+                    onStart: () => clearSelection()
+                });
+                sortables.push(s);
+            });
+            document.querySelectorAll('.editable-element').forEach(el => {
+                el.onclick = function(e) {
+                    if (currentMode === 'layout') {
+                        e.stopPropagation();
+                        selectElement(this);
+                    }
+                };
+            });
+        }
+
+        function addNewCard() {
+            const container = document.getElementById('cardsContainer');
+            const template = document.getElementById('cardTemplate');
+            const clone = template.content.cloneNode(true);
+            container.appendChild(clone);
+            initSortables();
+            switchMode(currentMode); 
+            window.scrollTo(0, document.body.scrollHeight);
+        }
+
+        function removeCard(card) { if(confirm('确定要删除这一页吗？')) card.remove(); }
+
+        function selectElement(el) {
+            document.querySelectorAll('.editable-element.selected').forEach(e => e.classList.remove('selected'));
+            selectedEl = el;
+            el.classList.add('selected');
+            const style = window.getComputedStyle(el);
+            document.getElementById('inputFontSize').value = parseInt(style.fontSize) || 16;
+            document.getElementById('inputMb').value = parseInt(style.marginBottom) || 0;
+            document.getElementById('inputMt').value = parseInt(style.marginTop) || 0;
+            if (el.dataset.tx) currentTx = parseInt(el.dataset.tx); else currentTx = 0;
+            if (el.dataset.ty) currentTy = parseInt(el.dataset.ty); else currentTy = 0;
+            document.getElementById('inputTx').value = currentTx;
+            document.getElementById('inputTy').value = currentTy;
+            document.getElementById('style-panel').style.display = 'flex';
+        }
+
+        function clearSelection() {
+            selectedEl = null;
+            document.querySelectorAll('.editable-element.selected').forEach(e => e.classList.remove('selected'));
+            document.getElementById('style-panel').style.display = 'none';
+        }
+
+        function updateStyle(prop, value) { if (selectedEl) selectedEl.style[prop] = value; }
+
+        function updateTransform() {
+            if (selectedEl) {
+                const tx = document.getElementById('inputTx').value;
+                const ty = document.getElementById('inputTy').value;
+                selectedEl.style.transform = `translate(${tx}px, ${ty}px)`;
+                selectedEl.dataset.tx = tx;
+                selectedEl.dataset.ty = ty;
+            }
+        }
+
+        function deleteSelected() { if (selectedEl) { selectedEl.remove(); clearSelection(); } }
+
+        document.addEventListener('click', function(e) {
+            if (currentMode === 'layout' && !e.target.closest('.editable-element') && !e.target.closest('#style-panel') && !e.target.closest('.card')) {
+                clearSelection();
+            }
+        });
+
+        const toolbar = document.getElementById('rich-text-toolbar');
+        document.addEventListener('selectionchange', () => {
+            if (currentMode !== 'text') return;
+            const selection = window.getSelection();
+            if (selection.isCollapsed || !selection.rangeCount) { hideRichTextToolbar(); return; }
+            const range = selection.getRangeAt(0);
+            if (!range.commonAncestorContainer.parentElement.closest('.card')) { hideRichTextToolbar(); return; }
+            const rect = range.getBoundingClientRect();
+            toolbar.style.top = `${rect.top + window.scrollY - 40}px`;
+            toolbar.style.left = `${rect.left + window.scrollX + (rect.width/2) - 50}px`;
+            toolbar.style.display = 'block';
+        });
+
+        function hideRichTextToolbar() { toolbar.style.display = 'none'; }
+
+        function execCmd(cmd) {
+            if (cmd === 'bold') document.execCommand('bold');
+            else if (cmd === 'highlight') {
+                const sel = window.getSelection();
+                if (sel.rangeCount) {
+                    const span = document.createElement('span');
+                    span.className = 'hl';
+                    try { sel.getRangeAt(0).surroundContents(span); } catch(e) { alert('请勿跨段落高亮'); }
+                }
+            }
+            hideRichTextToolbar();
+        }
+
+        // --- V13 导出逻辑 (使用 html-to-image) ---
+        async function exportAllImages() {
+            const prevMode = currentMode;
+            switchMode('text'); 
+            
+            // 进入“快照模式”：隐藏 UI
+            document.body.classList.add('snapshot-mode');
+            
+            const btn = document.getElementById('exportBtn');
+            const msg = document.getElementById('exportMsg');
+            const cards = document.querySelectorAll('.export-target');
+            
+            btn.disabled = true; 
+            msg.textContent = '生成中...';
+
+            await new Promise(resolve => setTimeout(resolve, 800)); // 等待样式稳定
+
+            try {
+                for (let i = 0; i < cards.length; i++) {
+                    const card = cards[i];
+                    
+                    // html-to-image 的关键 API：toJpeg
+                    // 它直接读取 DOM 的渲染样式，完美复刻 box-decoration-break
+                    const dataUrl = await htmlToImage.toJpeg(card, { 
+                        quality: 0.95,
+                        backgroundColor: '#ffffff',
+                        pixelRatio: 3, // 保持 3 倍高清
+                        filter: (node) => {
+                            // 导出时过滤掉不需要的元素
+                            return !node.classList?.contains('card-delete') && 
+                                   !node.classList?.contains('block-delete');
+                        }
+                    });
+
+                    const link = document.createElement('a');
+                    link.download = `四六级考前攻略_第${i + 1}页.jpg`;
+                    link.href = dataUrl;
+                    link.click();
+                    
+                    await new Promise(r => setTimeout(r, 200));
+                }
+                msg.textContent = '✅ 全部完成！';
+            } catch (err) {
+                console.error(err);
+                alert('导出失败，请尝试手动截图或更换浏览器');
+            }
+            
+            document.body.classList.remove('snapshot-mode');
+            if (prevMode === 'layout') switchMode('layout'); 
+            btn.disabled = false;
+            msg.textContent = '';
+        }
+    </script>
+</body>
+</html>

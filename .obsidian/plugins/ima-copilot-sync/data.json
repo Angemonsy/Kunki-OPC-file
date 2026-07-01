@@ -1,0 +1,25 @@
+{
+  "syncFolder": "00-inbox/ima",
+  "syncIntervalMinutes": 60,
+  "syncNotes": true,
+  "syncKnowledgeBase": true,
+  "personalKnowledgeBases": [
+    {
+      "kbId": "uMWY5ywck7rpSlAI32nTzYXHD6XK4COdSz5R_Ojt8eM=",
+      "name": "Kunki超级个体打造"
+    }
+  ],
+  "lastSyncTime": 1782745794573,
+  "enableDebugLog": false,
+  "linkFormat": "auto",
+  "syncDeleteMode": "delete",
+  "downloadImages": true,
+  "imageSizeLimit": 0,
+  "imageSizeLimitUnit": "MB",
+  "downloadFiles": true,
+  "fileSizeLimit": 0,
+  "fileSizeLimitUnit": "MB",
+  "publicKnowledgeBases": [],
+  "forceReadingMode": true,
+  "downloadEnhanced": true
+}

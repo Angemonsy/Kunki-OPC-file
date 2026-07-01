@@ -1,0 +1,193 @@
+
+=== Slide 1 ===
+Vocabulary: Types of international trade
+1. ______________: the act of selling goods or services produced domestically to foreign markets
+
+2. ______________: the act of bringing goods or services into a country from abroad for domestical sale or use
+ export [U, C, vt.] /ˈekspɔːt  ɪkˈspɔːt; /; exporter / ekˈspɔːtə(r) / 
+     import [U, C, vt.] / ˈɪmpɔːt  ɪmˈpɔːt /; importer / ɪmˈpɔːtə(r) /
+export
+import
+
+=== Slide 2 ===
+Vocabulary: Types of international trade
+3. ______________: the cross-border trade in which goods pass through a third country to their final destination, but ownership of the goods does not pass to the third country
+
+4. ______________:  the practice of importing goods from one country and re-exporting them to another country after adding some value, with or without undergoing additional processing and with no import duties imposed
+transit trade
+entrepot trade
+
+=== Slide 3 ===
+Vocabulary: Types of international trade
+ entrepot: / ˈɒntrəpəʊ /
+  - also called a transshipment port, is a trading post, port, city, or warehouse used for the import, storage, and subsequent re-export of goods with no customs duties imposed
+  - an intermediary in the global supply chain
+ bonded area/zone/warehouse
+
+=== Slide 4 ===
+Vocabulary: Types of international trade
+5. ________________: the exchange of goods and services between two nations through negotiated agreements
+
+6. ________________: the trading of goods and services among several countries, often under the auspices of an international agreement
+bilateral trade
+multilateral trade
+
+=== Slide 5 ===
+Vocabulary: Types of international trade
+7. ________________: the exchange of physical goods in every stage of production between countries
+8. ________________: the international exchange of physically intangible items such as services, income from foreign investment, intellectual property and patents
+ trade in services/services trade
+ tangible goods; intangible goods
+visible trade/trade in goods/goods trade/merchandise trade
+invisible trade
+
+=== Slide 6 ===
+Vocabulary: Types of international trade
+goods [n. plural]
+  - (a broad term) tangible items 
+  - in various stages of production, including raw materials, finished products, and commodities
+  - more commonly used in the legal and economic context
+merchandise [U]
+  - tangible items that are available for purchase by consumers 
+  - typically finished products and consumer goods
+  - more commonly used in the retail industry
+
+=== Slide 7 ===
+Vocabulary: Types of international trade
+commodity [C]
+  - a raw material or primary agricultural product
+  - such as gold, oil, wheat, grain, coffee, etc.
+product [C]
+  - items that are created, produced or manufactured, as a result of a specific process or activity 
+  - including both tangible and intangible items such as physical goods, services, software, or intellectual property, etc.
+
+=== Slide 8 ===
+Vocabulary: Types of international trade
+cargo [C, U]
+  - goods that are being transported by ships, aircrafts, or other large vehicles
+ cargo plane, cargo ship ( freight plane, freight ship)
+freight [U]
+  - goods that are being transported by trains, trucks or ships
+ freight truck, freight train ( cargo truck, cargo train)
+  - the payment or money charged for transporting goods
+CFR
+CIF
+
+=== Slide 9 ===
+Vocabulary: Types of international trade
+stock [U]
+  - the total supply of finished goods possessed by a business that is available for retail or wholesale
+article [C]
+  - a particular item or object, especially one of a set
+    e.g. article number (Art.No.)
+
+=== Slide 10 ===
+Vocabulary: Types of international trade
+9. ________________: a type of trade in which domestic firms import raw materials, auxiliary materials, parts and components, accessories, and packaging materials from abroad, and re-export finished products after processing or assembling these materials or parts
+ processing with imported materials (import-and-assembly)
+     processing with supplied materials (pure assembly)
+processing trade
+
+=== Slide 11 ===
+Vocabulary: Types of international trade
+10. __________________: a form of trade in which the supplier (exporter) of machinery, technology, manufacturing facilities or raw materials to a foreign enterprise agrees to be paid in the form of part of that enterprise’s output over an agreed-on period 
+11. ________________: a reciprocal form of international trade in which goods or services are exchanged for other goods or services rather than for hard currency
+compensation trade
+countertrade
+
+=== Slide 12 ===
+Vocabulary: Types of international trade
+12. __________________:  a type of trade in which two countries exchange goods that are similar to those produced in the other country
+     - the exchange of similar goods within the same industry between countries
+13. __________________: a type of trade in which a country exports goods from a completely different sector than those it imports from its trading partner
+     - the exchange of goods from different industries between countries
+intra-industry trade
+inter-industry trade
+
+=== Slide 13 ===
+Vocabulary: Trade barriers
+Trade barriers
+
+=== Slide 14 ===
+Vocabulary: Trade barriers
+tariff [C]
+    - duty [C] / customs duty 
+    - customs [plural]
+-  to impose/introduce/levy/put ~ on (goods)
+-  to pay ~
+-  to avoid/escape/evade ~
+-  to cut ~
+-  to eliminate/remove ~
+
+=== Slide 15 ===
+Reading
+Principles of the WTO multilateral trading system:
+
+=== Slide 16 ===
+Reading
+Most-favoured-nation (MFN): treating other people equally
+  - Grant someone a special favour (such as a lower customs duty rate for one of their products) and you have to do the same for all other WTO members.
+National treatment: treating foreigners and locals equally 
+  - Imported and locally-produced goods should be treated equally — at least after the foreign goods have entered the market. The same should apply to foreign and domestic services, and to foreign and local trademarks, copyrights and patents.
+
+=== Slide 17 ===
+Reading
+The multilateral trading system is an attempt by governments to make the business environment stable and predictable.
+ How?
+In the WTO, when countries agree to open their markets for goods or services, they “bind” their commitments.
+Another is to make countries’ trade rules as clear and public (“transparent”) as possible.
+
+=== Slide 18 ===
+Reading
+ Is the WTO a free trade system? 
+The system does allow tariffs and, in limited circumstances, other forms of protection. 
+     - for example to protect consumers, prevent the spread of disease or protect the environment.
+More accurately, it is a system of rules dedicated to open, fair and undistorted competition.
+
+=== Slide 19 ===
+Vocabulary
+trade conflicts/disputes/tensions/wars
+dispute settlement mechanism
+to file a WTO complaint against/over …
+to file a complaint with the WTO against/over …
+to complain to the WTO against/over …
+to bring/initiate the dispute to the WTO regarding …
+
+=== Slide 20 ===
+Vocabulary: Regional economic integration
+regional economic integration:
+  - the collaboration of two or more countries to lower or remove trade restrictions and create a shared market and business opportunities for one another
+Free trade area
+  - free movement of goods & services
+Customs union
+  - free trade area  common external tariff
+
+=== Slide 21 ===
+Vocabulary: regional economic integration
+Common market
+ - customs union  free mobility of production factors 
+Economic union
+ - common market  common economic policies
+
+=== Slide 22 ===
+Vocabulary: Types of international trade
+1. ______________: the act of selling goods or services produced domestically to foreign markets
+
+2. ______________: the act of bringing goods or services into a country from abroad for domestical sale or use
+ export [U, C, vt.] /ˈekspɔːt  ɪkˈspɔːt; /; exporter / ekˈspɔːtə(r) / 
+     import [U, C, vt.] / ˈɪmpɔːt  ɪmˈpɔːt /; importer / ɪmˈpɔːtə(r) /
+export
+import
+
+=== Slide 23 ===
+China’s foreign trade
+export diversification (出口多元化)
+ to keep the volume of foreign trade stable and refine its mix (外贸结构)
+to guide enterprises in optimizing resource allocation on the global market (引导企业优化全球市场布局)
+to facilitate the growth of the “cross-border e-commerce plus overseas warehouses” model (跨境电商加海外仓模式)
+
+=== Slide 24 ===
+China’s foreign trade
+to promote the development of logistics services for international delivery (国际寄递物流体系建设)
+to expand trade in intermediate goods, advance digital trade and green trade, and boost border trade
+ (拓展中间品贸易，发展数字贸易、绿色贸易，提升边境贸易)

@@ -1,0 +1,112 @@
+Last login: Sun Jun 14 00:06:21 on ttys001
+kunki@kunkideMacBook-Air ~ % sudo wechat-cli init
+Password:
+WeChat CLI 初始化
+========================================
+已初始化（配置: /Users/kunki/.wechat-cli/config.json）
+使用 --force 重新提取密钥
+kunki@kunkideMacBook-Air ~ % sudo wechat-cli init --force
+WeChat CLI 初始化
+========================================
+[!] 检测到多个微信数据目录:
+    1. /Users/kunki/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_xecfu2gfncjx22_aafb/db_storage
+    2. /Users/kunki/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_undrj49sa65x29_dab3/db_storage
+    3. /Users/kunki/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_n1bb38ckytkc22_cadd/db_storage
+    0. 跳过
+请选择 [0-3]: 1
+[+] 检测到微信数据目录: /Users/kunki/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_xecfu2gfncjx22_aafb/db_storage
+
+开始提取密钥...
+[+] 使用 C 二进制提取密钥: /tmp/_MEIDYSlrz/wechat_cli/bin/find_all_keys_macos.arm64
+[+] 工作目录: /Users/kunki/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_xecfu2gfncjx22_aafb
+============================================================
+  macOS WeChat Memory Key Scanner (C version)
+============================================================
+WeChat PID: 81741
+Got task port: 7683
+User home: /Users/kunki
+
+Scanning for DB files...
+  hardlink/hardlink.db: salt=e4e7df9f4f1357db509656ff4032ffee
+  head_image/head_image.db: salt=87a5ce439b43a660ff19cd325c155637
+  solitaire/solitaire.db: salt=c7144d093bab4575b18175e28a6b31ad
+  contact/contact_fts.db: salt=d3ffe5815468c37ce4bc2b021de38aa2
+  contact/contact.db: salt=56f76a762dffcdf2e5f44305e8e5bb09
+  sns/sns.db: salt=3223bc0e5a8d622d38f80ee7eea89a96
+  general/general.db: salt=cccb75b19bd3010b12d6211a25339fe4
+  message/message_fts.db: salt=bff099f3466e15b85e894cf8b2ca62d1
+  message/message_0.db: salt=4c82d4a2b2d351883a4af272bf8d06c3
+  message/media_0.db: salt=c935eee6a333b438147cd10ee4028fcb
+  message/message_resource.db: salt=03bf0e1c3a0c0e17b25c99218861700a
+  message/biz_message_0.db: salt=88ae892b5441e99998b5dd5633ce2b0e
+  favorite/favorite.db: salt=59b20c2cf092ade05d8aebf784ec06f2
+  favorite/favorite_fts.db: salt=5f7461274d137d85cda0a415010c01c0
+  emoticon/emoticon.db: salt=865c26cc625bd1ff69d09c0f17d88121
+  bizchat/bizchat.db: salt=a9dd0d70af89ad762a331166b9704f5a
+  session/session.db: salt=05b2191b5b0cf6b48108ba40fe1fffb7
+  hardlink/hardlink.db: salt=5bba64a45be9a73a4d43b1627f7ebc30
+  head_image/head_image.db: salt=be6598900ad0c4eb7a9b0e7e76e409cd
+  solitaire/solitaire.db: salt=52bbbc50da45a0bb8cd3f77cb7703824
+  contact/contact_fts.db: salt=e1e1a805bb02c9f92808965e776bf720
+  contact/contact.db: salt=dccb15e67a4f4388a65d652228841c23
+  sns/sns.db: salt=b0037d225f923afe41564a8731155117
+  general/general.db: salt=59c9499d0770534e2e9688e0639159a2
+  message/message_fts.db: salt=a0d5fe8f0b8926526ac8954be5d761a3
+  message/message_0.db: salt=a3f04956e15dcbe9cc22a69bf251596f
+  message/weclaw.db: salt=1fcf513389d5a69adfbd8b32fb9b18a1
+  message/message_resource.db: salt=eed97452877bdd580be7bbf9eef1d955
+  message/biz_message_0.db: salt=d92a8158686ac251d39819bfa5b85710
+  favorite/favorite.db: salt=5a593a82431fe061e205692fc86a9835
+  favorite/favorite_fts.db: salt=7bd8b84a43ecb981aa4a3f3e5b0f6697
+  emoticon/emoticon.db: salt=812733f95ed795ceabe5fa1df350b282
+  bizchat/bizchat.db: salt=03e9dc407add53e668883a38e91899ea
+  session/session.db: salt=b6d6c0393038fc8892b266b1486fd055
+  hardlink/hardlink.db: salt=a5b766a2a2c9d17e91d2423fa1b9ebc7
+  head_image/head_image.db: salt=baa5fe05b968c5923bae84378f38b6c7
+  solitaire/solitaire.db: salt=6f145441ca9b566a0b8844f3111d2582
+  contact/contact_fts.db: salt=0c376915346e63ee13819d14b315908c
+  contact/contact.db: salt=050e9545099114bb0dd15f8629c6bf1c
+  sns/sns.db: salt=58ab72aa16b0a35bd0ec49fa40595a5b
+  general/general.db: salt=1264ed00dfdee40c83db932d8a3218f1
+  message/message_1.db: salt=7fa835185ddf3ad1e337551438c53e45
+  message/message_fts.db: salt=2714b8a0c283f9765a3538d25857ce14
+  message/message_0.db: salt=ddba55dc7c934ae060737a8ae8e9f3f9
+  message/weclaw.db: salt=3818444101bd68a5d386390f6652481c
+  message/media_0.db: salt=6587055fc27e9b146bb57fd3bd697510
+  message/message_resource.db: salt=53460308b4edc4b0449ee020c9909577
+  message/biz_message_0.db: salt=27c1f54e1fd12a85a89a38303d377be5
+  message/message_3.db: salt=55f09b40c6fea9a69e34f773c5914f7e
+  message/message_2.db: salt=287d7644a0a0e32468b470309df2e045
+  favorite/favorite.db: salt=41b606044b1be5696a893a5f07dfa945
+  favorite/favorite_fts.db: salt=54fe8d67e73faef47ea102c111ec797e
+  emoticon/emoticon.db: salt=d2e2642f2e5cb0c8f612017f8c901362
+  bizchat/bizchat.db: salt=a63857b45edcf70f4903720445b7c497
+  session/session.db: salt=0fe63cde5fe52e67db541da6147a29b5
+Found 55 encrypted DBs
+
+Scanning memory for keys...
+
+Scan complete: 1207MB scanned, 720 regions, 0 unique keys
+
+Database                  Key                                                                Salt
+------------------------- ------------------------------------------------------------------ --------------------------------
+
+Matched 0/0 keys to known DBs
+Saved to all_keys.json
+
+
+[+] 提取到 0 个密钥，保存到: /Users/kunki/.wechat-cli/all_keys.json
+
+[+] 初始化完成!
+    配置: /Users/kunki/.wechat-cli/config.json
+    密钥: /Users/kunki/.wechat-cli/all_keys.json
+    提取到 0 个数据库密钥
+
+现在可以使用:
+  wechat-cli sessions
+  wechat-cli history "联系人"
+kunki@kunkideMacBook-Air ~ %  联系人
+zsh: command not found: 联系人
+kunki@kunkideMacBook-Air ~ % wechat-cli sessions
+错误: 无法解密 session.db
+kunki@kunkideMacBook-Air ~ % 

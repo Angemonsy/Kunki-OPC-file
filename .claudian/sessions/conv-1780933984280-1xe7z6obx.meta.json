@@ -1,0 +1,25 @@
+{
+  "id": "conv-1780933984280-1xe7z6obx",
+  "providerId": "codex",
+  "title": "Test content creation system and audit memory f...",
+  "titleGenerationStatus": "success",
+  "createdAt": 1780933984281,
+  "updatedAt": 1780985947012,
+  "lastResponseAt": 1780985947012,
+  "sessionId": "019ea7f0-151b-72d2-ac0f-db5df048e6e6",
+  "providerState": {
+    "threadId": "019ea7f0-151b-72d2-ac0f-db5df048e6e6",
+    "sessionFilePath": "/Users/kunki/.codex/sessions/2026/06/08/rollout-2026-06-08T23-53-09-019ea7f0-151b-72d2-ac0f-db5df048e6e6.jsonl",
+    "transcriptRootPath": "/Users/kunki/.codex/sessions"
+  },
+  "usage": {
+    "inputTokens": 214550,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 214400,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 214550,
+    "percentage": 83,
+    "model": "gpt-5.5"
+  }
+}

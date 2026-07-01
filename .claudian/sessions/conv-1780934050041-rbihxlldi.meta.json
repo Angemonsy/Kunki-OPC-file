@@ -1,0 +1,25 @@
+{
+  "id": "conv-1780934050041-rbihxlldi",
+  "providerId": "codex",
+  "title": "Add neudrive HTTP MCP server via Claude CLI",
+  "titleGenerationStatus": "success",
+  "createdAt": 1780934050041,
+  "updatedAt": 1781017485407,
+  "lastResponseAt": 1780935680542,
+  "sessionId": "019ea7f1-1508-71b3-b05c-dace2e3d26a7",
+  "providerState": {
+    "threadId": "019ea7f1-1508-71b3-b05c-dace2e3d26a7",
+    "sessionFilePath": "/Users/kunki/.codex/sessions/2026/06/08/rollout-2026-06-08T23-54-15-019ea7f1-1508-71b3-b05c-dace2e3d26a7.jsonl",
+    "transcriptRootPath": "/Users/kunki/.codex/sessions"
+  },
+  "usage": {
+    "inputTokens": 130759,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 130432,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 130759,
+    "percentage": 51,
+    "model": "gpt-5.5"
+  }
+}

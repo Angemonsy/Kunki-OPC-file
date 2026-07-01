@@ -1,0 +1,9 @@
+{
+	"id": "nano-banana-image-generator",
+	"name": "Nano Banana 🍌 手绘信息图生成器",
+	"version": "1.0.0",
+	"minAppVersion": "1.5.0",
+	"description": "使用 Google Nano Banana (Gemini 2.5 Flash Image) 和 Nano Banana Pro (Gemini 3 Pro Image) 在 Obsidian 中生成手绘风格信息图。支持文生图、图片编辑、多轮对话迭代。",
+	"author": "Edwiinci",
+	"isDesktopOnly": false
+}

@@ -1,0 +1,10 @@
+{
+	"id": "kobo-video-checker",
+	"name": "口播分析师",
+	"version": "0.3.2",
+	"minAppVersion": "1.5.0",
+	"description": "上传口播视频,AI 给完整质检报告(内容分析+爆款元素评估+优化建议)。林杰团队开发。",
+	"author": "林杰团队",
+	"authorUrl": "",
+	"isDesktopOnly": true
+}

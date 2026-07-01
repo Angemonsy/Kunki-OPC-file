@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "doc_id": "DkH3d26WqolhBoxNmckczW6inDe",
+    "length": 1180,
+    "log_id": "202605072345244658CB5721E96F125C32",
+    "markdown": "# B09 客户与社群运营\n\n学员管理、社群运营SOP、客户维护记录、常见问题及标准回答。\n\n你的\"学习助教\"AI员工从这里取答案。\n\n## 社群运营SOP\n\n### 新用户入群\n\n### 日常互动\n\n### 转化节奏\n\n## 常见问题标准回答\n\n\u003clark-table rows=\"2\" cols=\"3\" header-row=\"true\" column-widths=\"244,244,244\"\u003e\n\n  \u003clark-tr\u003e\n    \u003clark-td\u003e\n      问题\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n      标准回答\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n      更新时间\n    \u003c/lark-td\u003e\n  \u003c/lark-tr\u003e\n  \u003clark-tr\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n  \u003c/lark-tr\u003e\n\u003c/lark-table\u003e\n\n## 客户记录\n\n\u003clark-table rows=\"2\" cols=\"5\" header-row=\"true\" column-widths=\"146,146,146,146,146\"\u003e\n\n  \u003clark-tr\u003e\n    \u003clark-td\u003e\n      客户\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n      购买产品\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n      咨询时间\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n      核心需求\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n      跟进状态\n    \u003c/lark-td\u003e\n  \u003c/lark-tr\u003e\n  \u003clark-tr\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n    \u003clark-td\u003e\n    \u003c/lark-td\u003e\n  \u003c/lark-tr\u003e\n\u003c/lark-table\u003e\n",
+    "message": "Document fetched successfully",
+    "offset": 0,
+    "title": "B09-客户与社群运营",
+    "total_length": 968
+  },
+  "_notice": {
+    "update": {
+      "current": "1.0.14",
+      "latest": "1.0.24",
+      "message": "lark-cli 1.0.24 available, current 1.0.14"
+    }
+  }
+}

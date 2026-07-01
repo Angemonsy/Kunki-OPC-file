@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "exa": {
+      "baseUrl": "https://mcp.exa.ai/mcp"
+    },
+    "douyin": {
+      "command": "/bin/zsh",
+      "args": [
+        "-lc",
+        "cd '/Users/kunki/.agent-reach/tools/social-post-extractor-mcp' && source .env && exec '.venv/bin/python' -m social_post_extractor_mcp"
+      ]
+    }
+  }
+}

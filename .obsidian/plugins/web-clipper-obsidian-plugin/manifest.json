@@ -1,0 +1,9 @@
+{
+  "id": "web-clipper-screenshot",
+  "name": "Web Clipper 📸 网页截图助手",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "自动解析文章中的【截图】标记，截取网页截图并替换到对应位置",
+  "author": "Edwiinci",
+  "isDesktopOnly": true
+}

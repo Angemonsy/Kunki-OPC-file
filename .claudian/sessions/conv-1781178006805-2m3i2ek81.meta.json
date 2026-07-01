@@ -1,0 +1,25 @@
+{
+  "id": "conv-1781178006805-2m3i2ek81",
+  "providerId": "codex",
+  "title": "记录用户补充的家庭背景与父母职业收入情况",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781178006806,
+  "updatedAt": 1781187413795,
+  "lastResponseAt": 1781178269171,
+  "sessionId": "019eb67b-9f49-7081-873d-765af0b74f31",
+  "providerState": {
+    "threadId": "019eb67b-9f49-7081-873d-765af0b74f31",
+    "sessionFilePath": "/Users/kunki/.codex/sessions/2026/06/11/rollout-2026-06-11T19-40-15-019eb67b-9f49-7081-873d-765af0b74f31.jsonl",
+    "transcriptRootPath": "/Users/kunki/.codex/sessions"
+  },
+  "usage": {
+    "inputTokens": 46909,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 35712,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 46909,
+    "percentage": 18,
+    "model": "gpt-5.5"
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "main": {
+    "id": "73c3995fb2c8de9c",
+    "type": "split",
+    "children": [
+      {
+        "id": "b0e85928e8c786ca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "82d98f340f82c2c1",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "00-inbox/ima/手动导入/大学项目/attachment/3.webp"
+              },
+              "icon": "lucide-image",
+              "title": "3"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c0e281ad2411601e",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f0866a5d2c5766d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c05fe4b112f1cb59",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "080841001b9766f0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "2ddea54ee8a84ab1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 239.5
+  },
+  "right": {
+    "id": "91082b6ee7e68307",
+    "type": "split",
+    "children": [
+      {
+        "id": "6a8965ade97fb94a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "920865fe41454600",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "2a1851ecb1ce46ca",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "8963c4387f0a186b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "7cf1c0d45de374af",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "98fd92c168dfc90c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "786139c694709247",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
+          },
+          {
+            "id": "455450cac6ed9f3f",
+            "type": "leaf",
+            "state": {
+              "type": "nano-banana-view",
+              "state": {},
+              "icon": "image-plus",
+              "title": "Nano Banana 🍌"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 344.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "realclaudian:Open Claudian": false,
+      "obsidian42-brat:BRAT": false,
+      "notehelper:tongbuzhushou": false,
+      "kobo-video-checker:🔬 口播分析师": false,
+      "nano-banana-image-generator:Nano Banana 🍌": false,
+      "video-forge:Video Forge 🎬": false,
+      "web-clipper-screenshot:Web Clipper 📸": false,
+      "getnote-importer:同步得到大脑": false,
+      "ima-copilot-sync:ima.copilot Sync：立即同步": false
+    }
+  },
+  "active": "c05fe4b112f1cb59",
+  "lastOpenFiles": [
+    "projects/proj-1782629643686-klctn6/outputs/application_form_content.md",
+    "projects/proj-1782629643686-klctn6/outputs/chisha-qrcode.jpg",
+    "projects/proj-1782629643686-klctn6/outputs/wechat-qrcode.jpg",
+    "projects/proj-1782629643686-klctn6/outputs/profile-photo.jpg",
+    "projects/proj-1782629643686-klctn6/outputs/image3.png.png",
+    "projects/proj-1782629643686-klctn6/outputs/image2.png.png",
+    "projects/proj-1782629643686-klctn6/outputs/image.png.png",
+    "conversations/proj-conv-1782742945390/images/9b820ef4-2fc6-41a4-8cfa-88f0417414de.png",
+    "conversations/proj-conv-1782742945390/images/74f94a18-e37e-41b0-a79c-24b5f3761f1a.png",
+    "02-记忆系统/每日输入与素材/AI自动生成内容/微信高价值内容日报-2026-06-29.md",
+    "conversations/conv-1782745350609",
+    "conversations/proj-conv-1782742945390/images/ea198aad-a933-436b-8d56-ee3fb0fa7458.png",
+    "conversations/proj-conv-1782742945390/images/044a1728-4661-4f3e-82cc-3bdca544ec4d.png",
+    "04-参考资料库/03-外部课程复盘/栋哥AI一人公司俱乐部/群聊精华整理.md",
+    "04-参考资料库/03-外部课程复盘/生姜业务级AI知识库搭建闭门课/群聊精华整理.md",
+    "04-参考资料库/03-外部课程复盘/栋哥AI一人公司俱乐部",
+    "04-参考资料库/03-外部课程复盘/生姜业务级AI知识库搭建闭门课",
+    "04-参考资料库/03-外部课程复盘/破界青年OPC/学员复盘汇总.md",
+    "04-参考资料库/03-外部课程复盘/锦成自媒体AI课/课程文档汇总.md",
+    "04-参考资料库/03-外部课程复盘/锦成自媒体AI课",
+    "04-参考资料库/03-外部课程复盘/破界青年OPC",
+    "04-参考资料库/03-外部课程复盘",
+    "projects/proj-1782629643686-klctn6/outputs/personal_statement_en.md",
+    "conversations/proj-conv-1782742945390/images",
+    "conversations/proj-conv-1782742945390",
+    "conversations/conv-1782629459554/images",
+    "conversations/conv-1782629459554",
+    "00-inbox/ima/手动导入/大学项目/大学项目.md",
+    "00-inbox/ima/个人知识库/Kunki超级个体打造/保研线/项目、面试准备/项目/大学项目.md",
+    "00-inbox/ima/个人知识库/Kunki超级个体打造/保研线/项目、面试准备/项目/千问项目/千人千问_核心技术手册.docx.md",
+    "00-inbox/ima/个人知识库/Kunki超级个体打造/保研线/项目、面试准备/项目/ai低代码/痛点研究报告.docx.md",
+    "00-inbox/ima/个人知识库/Kunki超级个体打造/保研线/项目、面试准备/项目/ai低代码/低代码答辩.md",
+    "00-inbox/ima/个人知识库/Kunki超级个体打造/保研线/项目、面试准备/项目/ai低代码/大学生创新训练项目申报书-智链云铺”—AI低代码赋能中小电商智能决策研究-朱桂燕.pdf.md",
+    "00-inbox/ima/个人知识库/Kunki超级个体打造/保研线/项目、面试准备/项目/gq大创项目答辩.md",
+    "00-inbox/ima/个人知识库/Kunki超级个体打造/最核心经历：奇绩怪谈 AIQ 商业IP项目（个人超级个体的“.md",
+    "00-inbox/ima/个人知识库/Kunki超级个体打造/今天，我决定把「卡兹克风格创作.skill」开源了。.md",
+    "00-inbox/ima/个人知识库/Kunki超级个体打造/保研+商业+一切最详细个人配置.md",
+    "00-inbox/ima/个人知识库/Kunki超级个体打造/商业线/商业学习/数字科技集团参访12.4/好的，背调信息已经拿到了！现在给你整理一份行动指南，包括公司.md",
+    "00-inbox/ima/个人知识库/Kunki超级个体打造/保研背景整理+定位by闲鱼1（六级572分最终更新版）.md",
+    "00-inbox/ima/个人知识库/Kunki超级个体打造/各种登录信息.md",
+    "00-inbox/ima/个人知识库/Kunki超级个体打造/林总个人配置更新日期：2026-03-29.md",
+    "00-inbox/ima/个人知识库/Kunki超级个体打造/Skill其实就是分类学。.md",
+    "03-主题项目集/02-学习求职系统/考试复习/世界贸易组织概论_文字提取/世界贸易组织概论_A卷期末复习资料整理by kunki.md",
+    "projects/proj-1782629643686-klctn6/memory/long-term.md",
+    "projects/proj-1782629643686-klctn6/project.md",
+    "00-inbox/ima/个人知识库/Kunki超级个体打造/每日提升daily improvement/每日复盘/2026.5/2026.5.28～6.7.md"
+  ]
+}

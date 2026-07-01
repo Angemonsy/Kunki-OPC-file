@@ -1,0 +1,25 @@
+{
+  "id": "conv-1780912814480-w0fia50sw",
+  "providerId": "codex",
+  "title": "Greet user and initiate session",
+  "titleGenerationStatus": "success",
+  "createdAt": 1780912814481,
+  "updatedAt": 1780931605796,
+  "lastResponseAt": 1780931572492,
+  "sessionId": "019ea6ad-11ed-73d3-8ca3-e51443981e47",
+  "providerState": {
+    "threadId": "019ea6ad-11ed-73d3-8ca3-e51443981e47",
+    "sessionFilePath": "/Users/kunki/.codex/sessions/2026/06/08/rollout-2026-06-08T18-00-20-019ea6ad-11ed-73d3-8ca3-e51443981e47.jsonl",
+    "transcriptRootPath": "/Users/kunki/.codex/sessions"
+  },
+  "usage": {
+    "inputTokens": 180249,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 179072,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 180249,
+    "percentage": 70,
+    "model": "gpt-5.5"
+  }
+}

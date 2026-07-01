@@ -1,0 +1,260 @@
+{
+  "object_id": "14952473790871509432",
+  "pages": [
+    {
+      "code": 200,
+      "request_id": "b555b4f9-452b-43fc-95c2-82ee1e3617f2",
+      "message": "Request successful. This request will incur a charge.",
+      "message_zh": "请求成功，本次请求将被计费。",
+      "support": "Discord: https://discord.gg/aMEAS8Xsvz",
+      "time": "2026-06-28 02:30:26",
+      "time_stamp": 1782639026,
+      "time_zone": "America/Los_Angeles",
+      "docs": "https://api.tikhub.io/#/WeChat-Channels-V2-API/fetch_video_comments_api_v1_wechat_channels_v2_fetch_video_comments_post",
+      "cache_message": "This response is cached and accessible via the URL below for 24 hours at no extra cost. The cache is for request tracing only — it doesn't affect the API's data freshness and won't be returned through the API again.",
+      "cache_message_zh": "本次响应已缓存，可通过下方 URL 直接查看，有效期 24 小时，访问缓存链接无额外费用。缓存仅用于请求溯源，不影响接口数据的时效性，也不会再次通过接口返回。",
+      "cache_url": "https://cache.tikhub.io/api/v1/cache/public/b555b4f9-452b-43fc-95c2-82ee1e3617f2?sign=87b93fefda7b695a2fd9df30e7077aa92c0e2f5ef5adb7cd85922889da7212ad",
+      "router": "/api/v1/wechat_channels/v2/fetch_video_comments",
+      "params": {
+        "object_id": "14952473790871509432",
+        "last_buffer": "",
+        "comment_id": "",
+        "raw": false
+      },
+      "data": {
+        "object_id": "14952473790871509432",
+        "comment_id": null,
+        "count": 10,
+        "comments": [
+          {
+            "comment_id": "14953173090454477225",
+            "nickname": "吉星高照",
+            "username": "v5_020b0a166104010000000000340712eb5e5d7c000000b1afa7d8728e3dd43ef4317a780e33c208f8b8f76ac075af22c33776f6d51dfb0d04f9820c9bcf5520de2086dbaa55386d97eda2205df5801464b32310cd3b5d8064f1bbee831e12f206a9dc25@stranger",
+            "content": "老师，这两幅画面都是草稿。还没有定型。谢谢老师收看。[爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1782557140,
+            "head_url": "https://wx.qlogo.cn/mmhead/ver_1/ksf1vDeZCaEretMUAMV7rQZ7Zh4MVSynP1Pg1dIsCpw2vul46pNnmcfaYXiccaLIdJeXNLcFsry90dX6a2ZsHXCJAjOWQp97UOSlZU9spia2ltuLQGMxjWbCbkX8HibE5ibb/132",
+            "ip_region": "江苏"
+          },
+          {
+            "comment_id": "14953628480687511905",
+            "nickname": "李英",
+            "username": "v5_020b0a16610401000000000091f421e077f681000000b1afa7d8728e3dd43ef4317a780e33c208f8b8f76ac075af22c33776f6ab4f373ab88a77bd49f0805f195b0b26caf5de3a7f94e92e155aaf98a0c3964a0dfa992378ed9344335ad4d4a5536302@stranger",
+            "content": "世界陈厂长的分享[爱心][合十][强]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1782611427,
+            "head_url": "https://wx.qlogo.cn/mmhead/ver_1/TSRLSVxPkIlyDy5bNSrAbApCZiciaT6QB9uG9EpB1fsopuYQOWkqdX03fic5Fud8PQbnmGcZZRIKsB68QlA5QPpA0vrpuBIzwVZ660PYop6Nr94aq2K4J8EBUWEQt8pcYm6/132",
+            "ip_region": "河南"
+          },
+          {
+            "comment_id": "14953171970034506165",
+            "nickname": "吉星高照",
+            "username": "v5_020b0a166104010000000000340712eb5e5d7c000000b1afa7d8728e3dd43ef4317a780e33c208f8b8f76ac075af22c33776f6d51dfb0d04f9820c9bcf5520de2086dbaa55386d97eda2205df5801464b32310cd3b5d8064f1bbee831e12f206a9dc25@stranger",
+            "content": "老师，你讲的太好了。现在是AI时代。一定要老牢抓住AI做的封口。认真学习AI课程。我上次听了你的三个咒语。就像一道光。照亮了我的心。我从一个小白。现在做了。20集连续剧。传统神话剧。《孙悟空西行前记》。我已经做到17级。孙悟空大闹天宫。这都是基本上都是草稿。还未定型。老师，我太感激你了。再次表示感谢感恩。[合十][合十][合十][合十][合十][合十][合十][合十][合十][合十][合十][合十][合十][合十][合十][合十][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1782557007,
+            "head_url": "https://wx.qlogo.cn/mmhead/ver_1/ksf1vDeZCaEretMUAMV7rQZ7Zh4MVSynP1Pg1dIsCpw2vul46pNnmcfaYXiccaLIdJeXNLcFsry90dX6a2ZsHXCJAjOWQp97UOSlZU9spia2ltuLQGMxjWbCbkX8HibE5ibb/132",
+            "ip_region": "江苏"
+          },
+          {
+            "comment_id": "14952793799909251481",
+            "nickname": "战机神",
+            "username": "v2_060000231003b20faec8c5e4811fcbdcce0de93cb077302f38b2e1df2cdcdc2b24f9d6ed22a1@finder",
+            "content": "六条军规",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1782511925,
+            "head_url": "https://wx.qlogo.cn/finderhead/gaFUVQgU3RDqia8xoIoQkzjfE541AjvxdG4ypbTxLFPMjGxbHM4BOHSRkJIRNGDckNwC6v5vuuGk/0",
+            "ip_region": "湖北"
+          },
+          {
+            "comment_id": "14953188623789394506",
+            "nickname": "王湘文7147",
+            "username": "v2_060000231003b20faec8c6e58a10c6ddcf06e533b07721d13e1a4198d2f72da0b47f535a060f@finder",
+            "content": "六条军规",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1782558992,
+            "head_url": "https://wx.qlogo.cn/finderhead/4RXJxw3oKib0N5EfOnL8fedASqSMIYJ01r5VOFodEsibA/0",
+            "ip_region": "重庆"
+          },
+          {
+            "comment_id": "14953278853412100614",
+            "nickname": "家玲sophia",
+            "username": "v2_060000231003b20faec8c5e4801ac2d7cd0de936b077841d0a46fec4be7fe2ceb28e7833aab9@finder",
+            "content": "六条军规",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1782569748,
+            "head_url": "https://wx.qlogo.cn/finderhead/YiaVJ0foIiaeVTyILXUZfTVRVGuUibQPtfRFa7ctCdexIzdvvQFyVlbAdibM0zXAqpjvBtRiaAwaqmeQ/0",
+            "ip_region": "广东"
+          },
+          {
+            "comment_id": "14953762894930909359",
+            "nickname": "涂涂",
+            "username": "v5_020b0a166104010000000000cb91381b783010000000b1afa7d8728e3dd43ef4317a780e33c208f8b8f76ac075af22c33776f67050b4e22e91b96fcbc75d7e2aca266d8771f6c6e3f5bd48bb94674b57e5dab175c358edddad1e1ed38263f8d77477e5@stranger",
+            "content": "6条军规，谢谢陈厂长",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1782627450,
+            "head_url": "https://wx.qlogo.cn/mmhead/ver_1/NlLxOBaWvkouxt2P25LxibibFLbbOeyxAnpf1B6XYCTWCr0PngpG0x7ls7f6sSNI1c3TDXGuFicPfia6I0JCFic0qOfV02lAUGLzHNgABclSQiajk/132",
+            "ip_region": "重庆"
+          },
+          {
+            "comment_id": "14952636249364236759",
+            "nickname": "周先付",
+            "username": "v5_020b0a16610401000000000049972fd5b930d8000000b1afa7d8728e3dd43ef4317a780e33c208f8b8f76ac075af22c33776f67207a571c6857cb139a9ebb769425ab1c1d83b29f4433e316214e075331134fdccb0dea9a7bd3d9109143366ea078700@stranger",
+            "content": "[强][强][强]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1782493144,
+            "head_url": "https://wx.qlogo.cn/mmhead/ver_1/ZvlVpX2Kib4chaKBzdOoiaeBXblP9IXAa7QeE5LC1ESdC30ib6FYTiaknVgGsYypgecEySdJePByicsfGq0m5wmMiboQ/132",
+            "ip_region": "四川"
+          },
+          {
+            "comment_id": "14953045374482389462",
+            "nickname": "金美丽AI形体财神",
+            "username": "v2_060000231003b20faec8c6e58f1dc5d3c804e536b0779f51a62eaba21427ab9b28f4eadd974d@finder",
+            "content": "6条军规",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1782541915,
+            "head_url": "https://wx.qlogo.cn/finderhead/CttmTaYSYkTNp0ciavrHz2xc71LHyDRD60mLNufoP40FXcZl604qIJUcAhx46IhaXzqBLDic7BVTU/0",
+            "ip_region": "山东"
+          },
+          {
+            "comment_id": "14952944704900241583",
+            "nickname": "光头涛哥在海南",
+            "username": "v2_060000231003b20faec8c7e68c1ccbd5cf0ced30b077e5ac1347bba4cf6b5c829edb1d629da4@finder",
+            "content": "六条军规",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1782529914,
+            "head_url": "https://wx.qlogo.cn/finderhead/hy6jwcSiaISLI10TFg5TH2LBPPRbUleru486TPog2YkkCNKg5lEgeV7e9r3gpGVmJseNkm3Q0pMM/0",
+            "ip_region": "云南"
+          }
+        ],
+        "down_continue": 1,
+        "last_buffer": "CoYBCP///////////wEYqbPgi7X2lcLPARjhsqz0gbz9ws8BGLWz8Jnn1ZXCzwEYmbOE2s3Xv8HPARjKlISjv7qZws8BGIa09OfC/K3CzwEYr7GY/v2DnMPPARjXk/CXpO6bwc8BGNazyIKy8fjBzwEYr7GMzcL/4cHPATABOP///////////wE=",
+        "debug_id": "68a364c7",
+        "debug_info": "gAAAAABqQOmyP2ZVgtWoStKuXunOzorWaY_FiyKSDu3PNmedZ_JhV-l3_fu55-3ktunTYMGgBXJudyxx0hiCrPjbLcdfIaRo7nKp0OD0pNUChLKUT-Z5U-dd-BW8t0SVjZ7VaiDmnZMqIyxnCn0-lETg5FOUc4oh9kG6XQi116moH-arDzFYIE_OnG0G7AgOG4-OxEc6-tqAMvYqfphcJHc2NZN2ZVyfSd9kYCY9EN2-fS1la31sMxvLvY_psnLATiahqHQxFyaQ8LZH_lTmyJte2u4WcA_1PQ=="
+      }
+    }
+  ],
+  "comments": [
+    {
+      "comment_id": "14953173090454477225",
+      "nickname": "吉星高照",
+      "username": "v5_020b0a166104010000000000340712eb5e5d7c000000b1afa7d8728e3dd43ef4317a780e33c208f8b8f76ac075af22c33776f6d51dfb0d04f9820c9bcf5520de2086dbaa55386d97eda2205df5801464b32310cd3b5d8064f1bbee831e12f206a9dc25@stranger",
+      "content": "老师，这两幅画面都是草稿。还没有定型。谢谢老师收看。[爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1782557140,
+      "head_url": "https://wx.qlogo.cn/mmhead/ver_1/ksf1vDeZCaEretMUAMV7rQZ7Zh4MVSynP1Pg1dIsCpw2vul46pNnmcfaYXiccaLIdJeXNLcFsry90dX6a2ZsHXCJAjOWQp97UOSlZU9spia2ltuLQGMxjWbCbkX8HibE5ibb/132",
+      "ip_region": "江苏"
+    },
+    {
+      "comment_id": "14953628480687511905",
+      "nickname": "李英",
+      "username": "v5_020b0a16610401000000000091f421e077f681000000b1afa7d8728e3dd43ef4317a780e33c208f8b8f76ac075af22c33776f6ab4f373ab88a77bd49f0805f195b0b26caf5de3a7f94e92e155aaf98a0c3964a0dfa992378ed9344335ad4d4a5536302@stranger",
+      "content": "世界陈厂长的分享[爱心][合十][强]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1782611427,
+      "head_url": "https://wx.qlogo.cn/mmhead/ver_1/TSRLSVxPkIlyDy5bNSrAbApCZiciaT6QB9uG9EpB1fsopuYQOWkqdX03fic5Fud8PQbnmGcZZRIKsB68QlA5QPpA0vrpuBIzwVZ660PYop6Nr94aq2K4J8EBUWEQt8pcYm6/132",
+      "ip_region": "河南"
+    },
+    {
+      "comment_id": "14953171970034506165",
+      "nickname": "吉星高照",
+      "username": "v5_020b0a166104010000000000340712eb5e5d7c000000b1afa7d8728e3dd43ef4317a780e33c208f8b8f76ac075af22c33776f6d51dfb0d04f9820c9bcf5520de2086dbaa55386d97eda2205df5801464b32310cd3b5d8064f1bbee831e12f206a9dc25@stranger",
+      "content": "老师，你讲的太好了。现在是AI时代。一定要老牢抓住AI做的封口。认真学习AI课程。我上次听了你的三个咒语。就像一道光。照亮了我的心。我从一个小白。现在做了。20集连续剧。传统神话剧。《孙悟空西行前记》。我已经做到17级。孙悟空大闹天宫。这都是基本上都是草稿。还未定型。老师，我太感激你了。再次表示感谢感恩。[合十][合十][合十][合十][合十][合十][合十][合十][合十][合十][合十][合十][合十][合十][合十][合十][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1782557007,
+      "head_url": "https://wx.qlogo.cn/mmhead/ver_1/ksf1vDeZCaEretMUAMV7rQZ7Zh4MVSynP1Pg1dIsCpw2vul46pNnmcfaYXiccaLIdJeXNLcFsry90dX6a2ZsHXCJAjOWQp97UOSlZU9spia2ltuLQGMxjWbCbkX8HibE5ibb/132",
+      "ip_region": "江苏"
+    },
+    {
+      "comment_id": "14952793799909251481",
+      "nickname": "战机神",
+      "username": "v2_060000231003b20faec8c5e4811fcbdcce0de93cb077302f38b2e1df2cdcdc2b24f9d6ed22a1@finder",
+      "content": "六条军规",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1782511925,
+      "head_url": "https://wx.qlogo.cn/finderhead/gaFUVQgU3RDqia8xoIoQkzjfE541AjvxdG4ypbTxLFPMjGxbHM4BOHSRkJIRNGDckNwC6v5vuuGk/0",
+      "ip_region": "湖北"
+    },
+    {
+      "comment_id": "14953188623789394506",
+      "nickname": "王湘文7147",
+      "username": "v2_060000231003b20faec8c6e58a10c6ddcf06e533b07721d13e1a4198d2f72da0b47f535a060f@finder",
+      "content": "六条军规",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1782558992,
+      "head_url": "https://wx.qlogo.cn/finderhead/4RXJxw3oKib0N5EfOnL8fedASqSMIYJ01r5VOFodEsibA/0",
+      "ip_region": "重庆"
+    },
+    {
+      "comment_id": "14953278853412100614",
+      "nickname": "家玲sophia",
+      "username": "v2_060000231003b20faec8c5e4801ac2d7cd0de936b077841d0a46fec4be7fe2ceb28e7833aab9@finder",
+      "content": "六条军规",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1782569748,
+      "head_url": "https://wx.qlogo.cn/finderhead/YiaVJ0foIiaeVTyILXUZfTVRVGuUibQPtfRFa7ctCdexIzdvvQFyVlbAdibM0zXAqpjvBtRiaAwaqmeQ/0",
+      "ip_region": "广东"
+    },
+    {
+      "comment_id": "14953762894930909359",
+      "nickname": "涂涂",
+      "username": "v5_020b0a166104010000000000cb91381b783010000000b1afa7d8728e3dd43ef4317a780e33c208f8b8f76ac075af22c33776f67050b4e22e91b96fcbc75d7e2aca266d8771f6c6e3f5bd48bb94674b57e5dab175c358edddad1e1ed38263f8d77477e5@stranger",
+      "content": "6条军规，谢谢陈厂长",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1782627450,
+      "head_url": "https://wx.qlogo.cn/mmhead/ver_1/NlLxOBaWvkouxt2P25LxibibFLbbOeyxAnpf1B6XYCTWCr0PngpG0x7ls7f6sSNI1c3TDXGuFicPfia6I0JCFic0qOfV02lAUGLzHNgABclSQiajk/132",
+      "ip_region": "重庆"
+    },
+    {
+      "comment_id": "14952636249364236759",
+      "nickname": "周先付",
+      "username": "v5_020b0a16610401000000000049972fd5b930d8000000b1afa7d8728e3dd43ef4317a780e33c208f8b8f76ac075af22c33776f67207a571c6857cb139a9ebb769425ab1c1d83b29f4433e316214e075331134fdccb0dea9a7bd3d9109143366ea078700@stranger",
+      "content": "[强][强][强]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1782493144,
+      "head_url": "https://wx.qlogo.cn/mmhead/ver_1/ZvlVpX2Kib4chaKBzdOoiaeBXblP9IXAa7QeE5LC1ESdC30ib6FYTiaknVgGsYypgecEySdJePByicsfGq0m5wmMiboQ/132",
+      "ip_region": "四川"
+    },
+    {
+      "comment_id": "14953045374482389462",
+      "nickname": "金美丽AI形体财神",
+      "username": "v2_060000231003b20faec8c6e58f1dc5d3c804e536b0779f51a62eaba21427ab9b28f4eadd974d@finder",
+      "content": "6条军规",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1782541915,
+      "head_url": "https://wx.qlogo.cn/finderhead/CttmTaYSYkTNp0ciavrHz2xc71LHyDRD60mLNufoP40FXcZl604qIJUcAhx46IhaXzqBLDic7BVTU/0",
+      "ip_region": "山东"
+    },
+    {
+      "comment_id": "14952944704900241583",
+      "nickname": "光头涛哥在海南",
+      "username": "v2_060000231003b20faec8c7e68c1ccbd5cf0ced30b077e5ac1347bba4cf6b5c829edb1d629da4@finder",
+      "content": "六条军规",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1782529914,
+      "head_url": "https://wx.qlogo.cn/finderhead/hy6jwcSiaISLI10TFg5TH2LBPPRbUleru486TPog2YkkCNKg5lEgeV7e9r3gpGVmJseNkm3Q0pMM/0",
+      "ip_region": "云南"
+    }
+  ],
+  "replies_by_comment": {}
+}

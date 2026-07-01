@@ -1,0 +1,14 @@
+{
+  "ok": false,
+  "status": "failed",
+  "reason": "未知错误",
+  "url": "https://www.xiaohongshu.com/discovery/item/6a1519cb00000000060304b5",
+  "raw_input": "https://www.xiaohongshu.com/discovery/item/6a1519cb00000000060304b5",
+  "error_type": "ProviderError",
+  "error": "Usage: __main__.py [OPTIONS] URL [URL...]\n\n__main__.py: error: no such option: --js-runtimes",
+  "public_visitor_cookie_retry_attempted": false,
+  "output_dir": "/Users/kunki/ObsidianVaults/领航知识库/outputs/_failed/2026-6-10[xiaohongshu][未知错误]",
+  "report": "/Users/kunki/ObsidianVaults/领航知识库/outputs/_failed/2026-6-10[xiaohongshu][未知错误]/_meta/report.json",
+  "hint": "如果 provider 要求 fresh cookies，会先尝试公开访客态 cookie；仍失败时只接受用户显式提供的 --cookie-file。不要自动读取浏览器 Cookie。",
+  "created_at": "2026-06-10T12:03:49.337030+00:00"
+}

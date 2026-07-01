@@ -1,0 +1,304 @@
+{
+  "object_id": "14919847872118200618",
+  "pages": [
+    {
+      "code": 200,
+      "request_id": "fc9e4384-473b-4e19-9420-ddd065c9b0f4",
+      "message": "Request successful. This request will incur a charge.",
+      "message_zh": "请求成功，本次请求将被计费。",
+      "support": "Discord: https://discord.gg/aMEAS8Xsvz",
+      "time": "2026-06-28 02:37:19",
+      "time_stamp": 1782639439,
+      "time_zone": "America/Los_Angeles",
+      "docs": "https://api.tikhub.io/#/WeChat-Channels-V2-API/fetch_video_comments_api_v1_wechat_channels_v2_fetch_video_comments_post",
+      "cache_message": "This response is cached and accessible via the URL below for 24 hours at no extra cost. The cache is for request tracing only — it doesn't affect the API's data freshness and won't be returned through the API again.",
+      "cache_message_zh": "本次响应已缓存，可通过下方 URL 直接查看，有效期 24 小时，访问缓存链接无额外费用。缓存仅用于请求溯源，不影响接口数据的时效性，也不会再次通过接口返回。",
+      "cache_url": "https://cache.tikhub.io/api/v1/cache/public/fc9e4384-473b-4e19-9420-ddd065c9b0f4?sign=027056d73c976690013b9e1eb7453ce2889efc74a1fc2cd1bfd8d95a5182ed3c",
+      "router": "/api/v1/wechat_channels/v2/fetch_video_comments",
+      "params": {
+        "object_id": "14919847872118200618",
+        "last_buffer": "",
+        "comment_id": "",
+        "raw": false
+      },
+      "data": {
+        "object_id": "14919847872118200618",
+        "comment_id": null,
+        "count": 12,
+        "comments": [
+          {
+            "comment_id": "14931587708500842762",
+            "nickname": "财富自由",
+            "username": "v5_020b0a166104010000000000371014f3cd2bf9000000b1afa7d8728e3dd43ef4317a780e33c29027e6c464597ec6b629f87c17106d51f75caa4709aedb504caf4ef2ca08b1c981b97a9ec080bea81f5e1db6e3fd7eb87f016cd76e72ae775d87b1729d@stranger",
+            "content": "企业AI化。",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1779983962,
+            "head_url": "https://wx.qlogo.cn/mmhead/ver_1/K21aKIfTJ2wcM22E4dbWg3WNcOwqszsPEVOGDtM5vaR6ibwcBOTd1fzk4TpRysN6beAYpQTdGeo2niacXGIUEP9xj2bWVs5yMK30HLZ5HGAan2YkA4dJQchYeGDpGJrHF7/132",
+            "ip_region": "湖北"
+          },
+          {
+            "comment_id": "14924709424070658417",
+            "nickname": "感恩人生",
+            "username": "v5_020b0a166104010000000000f2b905489d175c000000b1afa7d8728e3dd43ef4317a780e33c29027e6c464597ec6b629f87c1751d0ccacb9eca9feccdb0b8a6df2894d94dc4591e14057577bb0790a367a9bb26b4c37a3f23845c3c3f18346fb18507f@stranger",
+            "content": "企业AI化",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1779164007,
+            "head_url": "https://wx.qlogo.cn/mmhead/ver_1/NQc4uUEXsU7XyUymtmXWVhk4qT7D8dTbESBEOmxAWs2urUqHyuZODPiaCoT3jB3ic1RYzUH2xn1VOBPbGJRfeSlN3JzKH0ISBtwT7kzlwiaTEGkbNza9fzjx4LeS1rHoA40/132",
+            "ip_region": "广东"
+          },
+          {
+            "comment_id": "14921347242303424627",
+            "nickname": "感悟觉醒未来",
+            "username": "v2_060000231003b20faec8c6e7891ac4d1c701e537b077e8298ed586bb993a780a76c9f8e31d91@finder",
+            "content": "陈长厂太牛了[强][强][强]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1778763203,
+            "head_url": "https://wx.qlogo.cn/finderhead/UDa9R1yl9UZeHKcCEEhGRQfKJ1EWk9zhzVj4WvJY7X7I3v06NtIxjib2RibI86BYBZ4ibZhV99SFAo/0",
+            "ip_region": "河南"
+          },
+          {
+            "comment_id": "14944265083317918204",
+            "nickname": "生姜聊AI企业落地",
+            "username": "v2_060000231003b20faec8c6eb8919cadccc07e936b077c181a92cfe66ea589a4c4532fcc36dae@finder",
+            "content": "企业AI化",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1781495223,
+            "head_url": "https://wx.qlogo.cn/finderhead/I1OPdTuWhE9UhPRUhZnlicMIYXDPaicPicqR2S9BWicF3FMG2IKnJYYzenoAbLcfmlHmWJicOKJibGJzo/0",
+            "ip_region": "浙江"
+          },
+          {
+            "comment_id": "14950171047574833616",
+            "nickname": "专业印刷1314",
+            "username": "v5_020b0a1661040100000000003c1c06ab70d836000000b1afa7d8728e3dd43ef4317a780e33c29027e6c464597ec6b629f87c1797ff610e3b4a84d894404000ab9ffa812d257225ba9ea545876f980ce91bb512dbc72b35ed607b3b7099839bb65643fb@stranger",
+            "content": "企业AI化",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1782199269,
+            "head_url": "https://wx.qlogo.cn/mmhead/ver_1/7Sm3sPNaN1OuCmrDgkdvZ6MhBaW3b2bYp5c25pTA3n8e8KmRibpzw8fgNllLxtqQNdnb3T2Hur84w03SGficib6WOQ2l1IWCBkfIs6hCC78uOY/132",
+            "ip_region": "上海"
+          },
+          {
+            "comment_id": "14931009855105800273",
+            "nickname": "郭治华",
+            "username": "v5_020b0a16610401000000000058ac2f258db3bf000000b1afa7d8728e3dd43ef4317a780e33c29027e6c464597ec6b629f87c17f4b18e196e591ebf679054b059c9400416cd82c9c6e014f07fa08a3949dd3fa1176a7ab7d3556c060a4c63a51c289faa@stranger",
+            "content": "企业AI化",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1779915077,
+            "head_url": "https://wx.qlogo.cn/mmhead/ver_1/TlRdtycn0gKLYbAy5MBP6SnzZ58baLHdPK7TTEr2FjZn5aEU88nraCibg3MyER9VFNkzibHHGxT8K2SESDcSjknXyOYP9gicxG4nyux2Y0PlJ8/132",
+            "ip_region": "安徽"
+          },
+          {
+            "comment_id": "14921216954299320590",
+            "nickname": "小钗幸福传承",
+            "username": "v2_060000231003b20faec8c4e3891dc5d1cf0de83db077a3ee46bb94dceb1b68f37960e168edf9@finder",
+            "content": "太牛了[强]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1778747672,
+            "head_url": "https://wx.qlogo.cn/finderhead/PFPUMLY8F77xGLEb8uAGB8AY7smmxftxJYCb8NbFZOk6yupQ5H7PqKvZPllIicBOG1O9ycrGW4V0/0",
+            "ip_region": "浙江"
+          },
+          {
+            "comment_id": "14921041960588937485",
+            "nickname": "老石的AI学习日记",
+            "username": "v2_060000231003b20faec8c4ea8110c3ddcf05eb32b07723a1ba2c9acf941c6e453eacfbea01d8@finder",
+            "content": "AI化老师太牛[合十][合十][合十][合十][合十][合十][合十][合十][爱心][爱心][爱心][爱心]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1778726811,
+            "head_url": "https://wx.qlogo.cn/finderhead/fFgUJknhibCwTNONgUTMaydgxf9pNaHMMHYBYXTv0ow60IicUf7oOXzfuic3F6DWDR1DGicv26bvEQo/0",
+            "ip_region": "江苏"
+          },
+          {
+            "comment_id": "14921051494366779693",
+            "nickname": "杨某人（河池永晋机电）",
+            "username": "v5_020b0a1661040100000000008c1504c25c818e000000b1afa7d8728e3dd43ef4317a780e33c29027e6c464597ec6b629f87c17252bc74ddbc5bcc53b5404105427959c05eddd5b2723ae010e4f3a87275d458934761b294c1fcd067aff4ae0b09dcb48@stranger",
+            "content": "陈厂长太牛逼了，有机会还想听你的课",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1778727947,
+            "head_url": "https://wx.qlogo.cn/mmhead/ver_1/UKLcYxMOVtmo6dkqqesIluXarMTbq1o6rIPDOzyau6xAXJ8AgCRn8c7OPib0MYVtb3TalufIrww4rqDotNIjEMwR6F0pmT2IXkZur7X4DrFWoNDIgn5OQQYAOH6f4vNt7/132",
+            "ip_region": "广西"
+          },
+          {
+            "comment_id": "14919963160980555947",
+            "nickname": "佳宝家居整家定制供应链",
+            "username": "v2_060000231003b20faec8c7e1801cc4dccb00eb3cb077ea927a830b56d18ef02607afc3359f1c@finder",
+            "content": "企业Ai化",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1778598208,
+            "head_url": "https://wx.qlogo.cn/finderhead/Q3auHgzwzM5kvVsOsibzwxzicj4Z5ZVzLtldN3Fxv78To2Jt77Fa7WAA/0",
+            "ip_region": "安徽"
+          },
+          {
+            "comment_id": "14920885597384350039",
+            "nickname": "张花叶富而喜悦",
+            "username": "v2_060000231003b20faec8c7e78911c3d2c807e830b077bdfb2d4339cf1cd628d750d068acd4ff@finder",
+            "content": "企业A1化",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1778708171,
+            "head_url": "https://wx.qlogo.cn/finderhead/rKBCaRcVshMO8aiaY9cSNbJ82fCJHJ5h5nEk4rLu2fUMxFk2PibFOI3zsQ9QYVGlYxOicjfZjQyM6c/0",
+            "ip_region": "浙江"
+          },
+          {
+            "comment_id": "14923301283452229893",
+            "nickname": "陈凌芬",
+            "username": "v2_060000231003b20faec8c5ea8e19c1dccd04ef34b077400a880b31d5ead2c3979ad9d06f16b1@finder",
+            "content": "感恩陈厂长分享[爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1778996143,
+            "head_url": "https://wx.qlogo.cn/finderhead/PiajxSqBRaEKktdNoiaO52QHrdgERqJrDm0Y7bm8B7jh8HzJjfFMZhVQ/0",
+            "ip_region": "浙江"
+          }
+        ],
+        "down_continue": 1,
+        "last_buffer": "CpwBCP///////////wEYirKgjo/96ZvPARjxkqDt2ITOj88BGPOQgN6pyNGJzwEY/LPAw6S9rLLPARjQk5zwu6vrvM8BGNGwwLuvy+aazwEYjpKwjLn4s4nPARiNkujcupOMic8BGK2yrOj2qI6JzwEYq5GkgaHulofPARjXstiy2MzoiM8BGIWytKK07o2NzwEwATj///////////8B",
+        "debug_id": "86ce9881",
+        "debug_info": "gAAAAABqQOtPor02qte4RJfFx3FgLtM7qZ-W6VBd53GcnEGiufepP-A82_8IVmXxUzzarnQ7bf-0H51zWIIGeaoWmqQdFkvhjpDbt4lqpiUgxhtd0ldEbP8MGpKaBlNB-RMUUnTlUHeDJKNAIn7Xquq5EYWI7yNe_VfrKz6d2un3XqfDlzdY1NDNFA-GVssG58Jeo2eysobCJ9xUTHWIdc97XvKTYbVViC7654hp_lVT3zvkELxvB5OAKz850jq2BIhnv0ItT1guigyXe7KtEWSmWas5Ntk6QQ=="
+      }
+    }
+  ],
+  "comments": [
+    {
+      "comment_id": "14931587708500842762",
+      "nickname": "财富自由",
+      "username": "v5_020b0a166104010000000000371014f3cd2bf9000000b1afa7d8728e3dd43ef4317a780e33c29027e6c464597ec6b629f87c17106d51f75caa4709aedb504caf4ef2ca08b1c981b97a9ec080bea81f5e1db6e3fd7eb87f016cd76e72ae775d87b1729d@stranger",
+      "content": "企业AI化。",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1779983962,
+      "head_url": "https://wx.qlogo.cn/mmhead/ver_1/K21aKIfTJ2wcM22E4dbWg3WNcOwqszsPEVOGDtM5vaR6ibwcBOTd1fzk4TpRysN6beAYpQTdGeo2niacXGIUEP9xj2bWVs5yMK30HLZ5HGAan2YkA4dJQchYeGDpGJrHF7/132",
+      "ip_region": "湖北"
+    },
+    {
+      "comment_id": "14924709424070658417",
+      "nickname": "感恩人生",
+      "username": "v5_020b0a166104010000000000f2b905489d175c000000b1afa7d8728e3dd43ef4317a780e33c29027e6c464597ec6b629f87c1751d0ccacb9eca9feccdb0b8a6df2894d94dc4591e14057577bb0790a367a9bb26b4c37a3f23845c3c3f18346fb18507f@stranger",
+      "content": "企业AI化",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1779164007,
+      "head_url": "https://wx.qlogo.cn/mmhead/ver_1/NQc4uUEXsU7XyUymtmXWVhk4qT7D8dTbESBEOmxAWs2urUqHyuZODPiaCoT3jB3ic1RYzUH2xn1VOBPbGJRfeSlN3JzKH0ISBtwT7kzlwiaTEGkbNza9fzjx4LeS1rHoA40/132",
+      "ip_region": "广东"
+    },
+    {
+      "comment_id": "14921347242303424627",
+      "nickname": "感悟觉醒未来",
+      "username": "v2_060000231003b20faec8c6e7891ac4d1c701e537b077e8298ed586bb993a780a76c9f8e31d91@finder",
+      "content": "陈长厂太牛了[强][强][强]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1778763203,
+      "head_url": "https://wx.qlogo.cn/finderhead/UDa9R1yl9UZeHKcCEEhGRQfKJ1EWk9zhzVj4WvJY7X7I3v06NtIxjib2RibI86BYBZ4ibZhV99SFAo/0",
+      "ip_region": "河南"
+    },
+    {
+      "comment_id": "14944265083317918204",
+      "nickname": "生姜聊AI企业落地",
+      "username": "v2_060000231003b20faec8c6eb8919cadccc07e936b077c181a92cfe66ea589a4c4532fcc36dae@finder",
+      "content": "企业AI化",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1781495223,
+      "head_url": "https://wx.qlogo.cn/finderhead/I1OPdTuWhE9UhPRUhZnlicMIYXDPaicPicqR2S9BWicF3FMG2IKnJYYzenoAbLcfmlHmWJicOKJibGJzo/0",
+      "ip_region": "浙江"
+    },
+    {
+      "comment_id": "14950171047574833616",
+      "nickname": "专业印刷1314",
+      "username": "v5_020b0a1661040100000000003c1c06ab70d836000000b1afa7d8728e3dd43ef4317a780e33c29027e6c464597ec6b629f87c1797ff610e3b4a84d894404000ab9ffa812d257225ba9ea545876f980ce91bb512dbc72b35ed607b3b7099839bb65643fb@stranger",
+      "content": "企业AI化",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1782199269,
+      "head_url": "https://wx.qlogo.cn/mmhead/ver_1/7Sm3sPNaN1OuCmrDgkdvZ6MhBaW3b2bYp5c25pTA3n8e8KmRibpzw8fgNllLxtqQNdnb3T2Hur84w03SGficib6WOQ2l1IWCBkfIs6hCC78uOY/132",
+      "ip_region": "上海"
+    },
+    {
+      "comment_id": "14931009855105800273",
+      "nickname": "郭治华",
+      "username": "v5_020b0a16610401000000000058ac2f258db3bf000000b1afa7d8728e3dd43ef4317a780e33c29027e6c464597ec6b629f87c17f4b18e196e591ebf679054b059c9400416cd82c9c6e014f07fa08a3949dd3fa1176a7ab7d3556c060a4c63a51c289faa@stranger",
+      "content": "企业AI化",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1779915077,
+      "head_url": "https://wx.qlogo.cn/mmhead/ver_1/TlRdtycn0gKLYbAy5MBP6SnzZ58baLHdPK7TTEr2FjZn5aEU88nraCibg3MyER9VFNkzibHHGxT8K2SESDcSjknXyOYP9gicxG4nyux2Y0PlJ8/132",
+      "ip_region": "安徽"
+    },
+    {
+      "comment_id": "14921216954299320590",
+      "nickname": "小钗幸福传承",
+      "username": "v2_060000231003b20faec8c4e3891dc5d1cf0de83db077a3ee46bb94dceb1b68f37960e168edf9@finder",
+      "content": "太牛了[强]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1778747672,
+      "head_url": "https://wx.qlogo.cn/finderhead/PFPUMLY8F77xGLEb8uAGB8AY7smmxftxJYCb8NbFZOk6yupQ5H7PqKvZPllIicBOG1O9ycrGW4V0/0",
+      "ip_region": "浙江"
+    },
+    {
+      "comment_id": "14921041960588937485",
+      "nickname": "老石的AI学习日记",
+      "username": "v2_060000231003b20faec8c4ea8110c3ddcf05eb32b07723a1ba2c9acf941c6e453eacfbea01d8@finder",
+      "content": "AI化老师太牛[合十][合十][合十][合十][合十][合十][合十][合十][爱心][爱心][爱心][爱心]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1778726811,
+      "head_url": "https://wx.qlogo.cn/finderhead/fFgUJknhibCwTNONgUTMaydgxf9pNaHMMHYBYXTv0ow60IicUf7oOXzfuic3F6DWDR1DGicv26bvEQo/0",
+      "ip_region": "江苏"
+    },
+    {
+      "comment_id": "14921051494366779693",
+      "nickname": "杨某人（河池永晋机电）",
+      "username": "v5_020b0a1661040100000000008c1504c25c818e000000b1afa7d8728e3dd43ef4317a780e33c29027e6c464597ec6b629f87c17252bc74ddbc5bcc53b5404105427959c05eddd5b2723ae010e4f3a87275d458934761b294c1fcd067aff4ae0b09dcb48@stranger",
+      "content": "陈厂长太牛逼了，有机会还想听你的课",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1778727947,
+      "head_url": "https://wx.qlogo.cn/mmhead/ver_1/UKLcYxMOVtmo6dkqqesIluXarMTbq1o6rIPDOzyau6xAXJ8AgCRn8c7OPib0MYVtb3TalufIrww4rqDotNIjEMwR6F0pmT2IXkZur7X4DrFWoNDIgn5OQQYAOH6f4vNt7/132",
+      "ip_region": "广西"
+    },
+    {
+      "comment_id": "14919963160980555947",
+      "nickname": "佳宝家居整家定制供应链",
+      "username": "v2_060000231003b20faec8c7e1801cc4dccb00eb3cb077ea927a830b56d18ef02607afc3359f1c@finder",
+      "content": "企业Ai化",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1778598208,
+      "head_url": "https://wx.qlogo.cn/finderhead/Q3auHgzwzM5kvVsOsibzwxzicj4Z5ZVzLtldN3Fxv78To2Jt77Fa7WAA/0",
+      "ip_region": "安徽"
+    },
+    {
+      "comment_id": "14920885597384350039",
+      "nickname": "张花叶富而喜悦",
+      "username": "v2_060000231003b20faec8c7e78911c3d2c807e830b077bdfb2d4339cf1cd628d750d068acd4ff@finder",
+      "content": "企业A1化",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1778708171,
+      "head_url": "https://wx.qlogo.cn/finderhead/rKBCaRcVshMO8aiaY9cSNbJ82fCJHJ5h5nEk4rLu2fUMxFk2PibFOI3zsQ9QYVGlYxOicjfZjQyM6c/0",
+      "ip_region": "浙江"
+    },
+    {
+      "comment_id": "14923301283452229893",
+      "nickname": "陈凌芬",
+      "username": "v2_060000231003b20faec8c5ea8e19c1dccd04ef34b077400a880b31d5ead2c3979ad9d06f16b1@finder",
+      "content": "感恩陈厂长分享[爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1778996143,
+      "head_url": "https://wx.qlogo.cn/finderhead/PiajxSqBRaEKktdNoiaO52QHrdgERqJrDm0Y7bm8B7jh8HzJjfFMZhVQ/0",
+      "ip_region": "浙江"
+    }
+  ],
+  "replies_by_comment": {}
+}

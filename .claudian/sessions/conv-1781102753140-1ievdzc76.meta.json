@@ -1,0 +1,25 @@
+{
+  "id": "conv-1781102753140-1ievdzc76",
+  "providerId": "codex",
+  "title": "准备10分钟广州线下分享 结合高考热点讲大学生OPC及跨AI经历",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781102753141,
+  "updatedAt": 1781102891234,
+  "lastResponseAt": 1781102891234,
+  "sessionId": "019eb1ff-58d8-7e12-a1ca-04c970340fab",
+  "providerState": {
+    "threadId": "019eb1ff-58d8-7e12-a1ca-04c970340fab",
+    "sessionFilePath": "/Users/kunki/.codex/sessions/2026/06/10/rollout-2026-06-10T22-46-02-019eb1ff-58d8-7e12-a1ca-04c970340fab.jsonl",
+    "transcriptRootPath": "/Users/kunki/.codex/sessions"
+  },
+  "usage": {
+    "inputTokens": 42994,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 18304,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 42994,
+    "percentage": 17,
+    "model": "gpt-5.5"
+  }
+}

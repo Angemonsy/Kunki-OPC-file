@@ -1,0 +1,277 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "我是林kunki Logo 我是林kunki" [ref=e5] [cursor=pointer]:
+          - /url: index.html
+          - img "我是林kunki Logo" [ref=e6]
+          - generic [ref=e7]: 我是林kunki
+        - generic [ref=e8]:
+          - link "首页" [ref=e9] [cursor=pointer]:
+            - /url: index.html
+          - link "文案" [ref=e10] [cursor=pointer]:
+            - /url: blog.html
+          - link "知识库" [ref=e11] [cursor=pointer]:
+            - /url: knowledge.html
+          - link "作品集" [ref=e12] [cursor=pointer]:
+            - /url: portfolio.html
+          - link "关于我" [ref=e13] [cursor=pointer]:
+            - /url: about.html
+  - generic:
+    - generic: 点我一下，我可以带你逛这个站。
+    - generic:
+      - generic:
+        - generic:
+          - paragraph: Kunki AI
+          - heading [level=2]: 问问这个站
+        - button: ×
+      - generic:
+        - generic: 你好，我会优先根据这个网站里的公开内容回答。
+      - generic:
+        - textbox:
+          - /placeholder: 问我大学经验、AI工具、作品集...
+        - button: 发送
+      - paragraph
+    - button "和 Kunki 小助手说话" [ref=e14] [cursor=pointer]
+  - main [ref=e17]:
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - paragraph [ref=e23]: 我是林kunki · 个人知识库 / 文案 / 数字资产门户
+        - heading "Hey，我是 Kunki" [level=1] [ref=e24]
+        - paragraph [ref=e25]: 一个普通文科生，正在用 AI 把大学内外的每一步都走得更值
+        - generic [ref=e26]:
+          - link "开始阅读" [ref=e27] [cursor=pointer]:
+            - /url: blog.html
+          - link "我的服务" [ref=e28] [cursor=pointer]:
+            - /url: about.html#services
+        - generic [ref=e29]:
+          - heading "我主要记录四件事：" [level=2] [ref=e30]
+          - paragraph [ref=e31]: 大学结果 · AI工具 · 一人公司实践 · 成长实验
+      - generic [ref=e32]:
+        - paragraph [ref=e33]: 我来自广东外语外贸大学，学国际经济与贸易。没有技术背景，也没有很强硬的家庭资源，很多事都是一边试、一边改、一边把结果慢慢做出来。
+        - paragraph [ref=e34]: 大学这几年，我比较认真地做过几件事：把课内学习做扎实，也把 AI、内容、私域和一人公司当成真实实验场。绩点 rank1、SCI 论文、国家奖学金、保研准备这些结果，对我来说更像是一套方法被验证过的痕迹。
+        - paragraph [ref=e35]: 这个网站不是用来装成很厉害的人，而是把我正在做的事、踩过的坑、验证过的方法放在这里。如果你也想把大学、AI 和个人成长走得更清楚一点，欢迎来逛逛，也欢迎找我交流。
+    - generic [ref=e40]:
+      - generic [ref=e41]: "GPA: 3.98/4"
+      - generic [ref=e42]: SCI二区论文发表
+      - generic [ref=e43]: 国家奖学金
+      - generic [ref=e44]: AI MCN签约
+      - generic [ref=e45]: 大学生AI商业博主
+    - generic [ref=e46]:
+      - generic [ref=e47]:
+        - heading "五类核心入口" [level=2] [ref=e48]
+        - paragraph [ref=e49]: 从文案、知识库和实验室快速进入你最关心的主题。
+      - generic [ref=e50]:
+        - link "大学结果 绩点方法、论文写作、竞赛复盘、保研路径与大学决策思考。 查看相关文案 →" [ref=e51] [cursor=pointer]:
+          - /url: blog.html?tab=%E5%A4%A7%E5%AD%A6%E7%BB%93%E6%9E%9C
+          - heading "大学结果" [level=3] [ref=e52]
+          - paragraph [ref=e53]: 绩点方法、论文写作、竞赛复盘、保研路径与大学决策思考。
+          - paragraph [ref=e54]: 查看相关文案 →
+        - link "AI工具 只写实战用过的工具、工作流和Prompt，聚焦可复用结果。 查看相关文案 →" [ref=e55] [cursor=pointer]:
+          - /url: blog.html?tab=AI%E5%B7%A5%E5%85%B7
+          - heading "AI工具" [level=3] [ref=e56]
+          - paragraph [ref=e57]: 只写实战用过的工具、工作流和Prompt，聚焦可复用结果。
+          - paragraph [ref=e58]: 查看相关文案 →
+        - link "一人公司实践 围绕内容、私域、产品与成交，记录从0到1的轻商业实验。 查看相关文案 →" [ref=e59] [cursor=pointer]:
+          - /url: blog.html?tab=%E4%B8%80%E4%BA%BA%E5%85%AC%E5%8F%B8
+          - heading "一人公司实践" [level=3] [ref=e60]
+          - paragraph [ref=e61]: 围绕内容、私域、产品与成交，记录从0到1的轻商业实验。
+          - paragraph [ref=e62]: 查看相关文案 →
+        - link "成长实验 把健身、表达、社交与自律当作长期项目，持续做复盘。 查看相关文案 →" [ref=e63] [cursor=pointer]:
+          - /url: blog.html?tab=%E6%88%90%E9%95%BF%E5%AE%9E%E9%AA%8C
+          - heading "成长实验" [level=3] [ref=e64]
+          - paragraph [ref=e65]: 把健身、表达、社交与自律当作长期项目，持续做复盘。
+          - paragraph [ref=e66]: 查看相关文案 →
+        - link "AI 实验室 AI 自动项目先在这里验证可玩性、转发率和复玩率，成熟后再晋级到公开作品集。 先看实验室 →" [ref=e67] [cursor=pointer]:
+          - /url: portfolio-items/autonomous-ai-lab.html
+          - heading "AI 实验室" [level=3] [ref=e68]
+          - paragraph [ref=e69]: AI 自动项目先在这里验证可玩性、转发率和复玩率，成熟后再晋级到公开作品集。
+          - paragraph [ref=e70]: 先看实验室 →
+    - generic [ref=e71]:
+      - generic [ref=e73]:
+        - generic [ref=e74]:
+          - heading "AI 时代，我们到底应该学什么？" [level=2] [ref=e75]
+          - paragraph [ref=e76]: 不是学更多工具，不是追更多热点，而是训练那些真正能让你拿到结果的现实能力。
+          - paragraph [ref=e77]: 这里记录的，是一个普通背景大学生从高考志愿填报开始，如何用 AI 和结构化系统，在校内外持续拿结果的完整路径。不是鸡汤，不是理论，是正在发生的真实实验。
+        - generic [ref=e78]:
+          - paragraph [ref=e79]: 540法则总纲
+          - heading "540学生法则" [level=3] [ref=e80]
+          - paragraph [ref=e81]: 课内用AI高效拿结果，课外做540——3个100搭系统，4个60练能力。
+          - paragraph [ref=e82]: 540 = 3×100 + 4×60。3个100是底层系统构建，解决方向和认知问题；4个60是现实能力训练场，解决执行和结果问题。这不是鸡汤口号，是一个普通文科大学生正在跑通的完整自救路径。
+      - generic [ref=e83]:
+        - generic [ref=e84]:
+          - article [ref=e85]:
+            - img [ref=e87]
+            - heading "真实路径，不是成功学" [level=3] [ref=e92]
+            - paragraph [ref=e93]: 起点普通，方法真实，结果可验证。不卖逆袭神话，只拆解每一步到底怎么走的。
+          - article [ref=e94]:
+            - img [ref=e96]
+            - heading "AI + 系统，不是鸡血" [level=3] [ref=e99]
+            - paragraph [ref=e100]: 不靠意志力硬撑，靠工具、流程和系统化迭代。把AI从聊天玩具变成真正的结果杠杆。
+          - article [ref=e101]:
+            - img [ref=e103]
+            - heading "可复用，不是只能看" [level=3] [ref=e106]
+            - paragraph [ref=e107]: 所有内容都指向一个目标：给你一套能拿走、能执行、能根据自己情况调整的行动框架。
+        - generic [ref=e108]:
+          - heading "光有方向不够，540帮你落到每一天。" [level=3] [ref=e109]
+          - paragraph [ref=e110]: 3个100解决"知道该往哪走"的问题——用AI搭效率系统、集中投入核心目标、持续输入优质信息。4个60解决"怎么真正动起来"的问题——健身练底盘、社交练链接、内容练杠杆、成交练闭环。
+          - generic [ref=e111]:
+            - generic: 3个100 · 先搭底层系统
+            - generic: 4个60 · 再进现实训练场
+            - img [ref=e112]
+            - generic [ref=e119]:
+              - generic [ref=e120]: "540"
+              - generic [ref=e121]: 学生法则
+            - generic [ref=e122]:
+              - text: 100小时
+              - text: AI工具使用
+            - generic [ref=e123]:
+              - text: 100小时
+              - text: 目标试错与推进
+            - generic [ref=e124]:
+              - text: 100小时
+              - text: 优质信息输入
+            - generic [ref=e125]:
+              - text: 60天
+              - text: 健身
+            - generic [ref=e126]:
+              - text: 60天
+              - text: 社交表达
+            - generic [ref=e127]:
+              - text: 60天
+              - text: 内容输出
+            - generic [ref=e128]:
+              - text: 60天
+              - text: 销售与成交
+        - generic [ref=e129]:
+          - generic [ref=e130]:
+            - heading "3个100 · 底层系统构建" [level=3] [ref=e131]
+            - paragraph [ref=e132]: 每个100小时都在解决一个根本问题：方向、工具、认知。
+          - article [ref=e133]:
+            - img "AI工具使用" [ref=e135]
+            - generic [ref=e136]:
+              - generic [ref=e137]: "01"
+              - heading "把AI从聊天对象变成效率操作系统" [level=4] [ref=e138]
+              - paragraph [ref=e139]: 不学理论，不看测评，真刀真枪用AI解决真实问题——写论文、做PPT、搭工作流、建知识库、做调研、做内容。100小时下来，AI就是你的核心杠杆。每天1小时，100天完成。
+              - paragraph [ref=e140]: 论文写作 / 工作流搭建 / 知识库构建
+          - article [ref=e141]:
+            - img "目标学习推进" [ref=e143]
+            - generic [ref=e144]:
+              - generic [ref=e145]: "02"
+              - heading "锁定方向，集中投入，拿一个可验证的结果" [level=4] [ref=e146]
+              - paragraph [ref=e147]: 大学生最大的问题不是不努力，是方向模糊、精力分散、什么都做一点什么都没结果。锁定你最重要的方向——绩点冲刺、论文产出、竞赛拿奖、保研准备、实习求职——然后投入100小时去试错、去推进。
+              - paragraph [ref=e148]: 目标锁定 / 集中突破 / 结果验证
+          - article [ref=e149]:
+            - img "优质信息输入" [ref=e151]
+            - generic [ref=e152]:
+              - generic [ref=e153]: "03"
+              - heading "停止低质量刷屏，开始刻意输入" [level=4] [ref=e154]
+              - paragraph [ref=e155]: 不是随便刷抖音刷小红书，而是想清楚自己需要输入什么，然后去优质渠道获取——X、公众号、即刻、B站、YouTube、播客、深度文章、行业报告。100小时的刻意输入，让你的认知水平远超同龄人。
+              - paragraph [ref=e156]: 信息筛选 / 认知升级 / 刻意输入
+          - generic [ref=e157]:
+            - heading "4个60 · 现实能力训练场" [level=3] [ref=e158]
+            - paragraph [ref=e159]: 每个60天都在锻炼一种学校不教、但真实世界决定胜负的能力。
+          - article [ref=e160]:
+            - img "健身训练" [ref=e162]
+            - generic [ref=e163]:
+              - generic [ref=e164]: "04"
+              - heading "训练身体资本与抗压能力" [level=4] [ref=e165]
+              - paragraph [ref=e166]: 规律训练不只是练肌肉，是在训练自律、耐受力、执行力和承载高强度输出的身体底盘。你的形象、精力、抗压阈值，全部从这里开始。
+              - paragraph [ref=e167]: 形象提升 / 精力管理 / 抗压训练
+          - article [ref=e168]:
+            - img "社交表达训练" [ref=e170]
+            - generic [ref=e171]:
+              - generic [ref=e172]: "05"
+              - heading "训练链接力与价值传递" [level=4] [ref=e173]
+              - paragraph [ref=e174]: 从"不敢开口"到"敢于连接"。训练的不只是说话，是你能不能在30秒内让对方感受到你的价值和真诚——这决定了你能链接什么层次的人、能打开什么样的圈子。
+              - paragraph [ref=e175]: 语言表达 / 价值传递 / 人脉破圈
+          - article [ref=e176]:
+            - img "短视频与写作输出" [ref=e178]
+            - generic [ref=e179]:
+              - generic [ref=e180]: "06"
+              - heading "训练内容杠杆与系统思维" [level=4] [ref=e181]
+              - paragraph [ref=e182]: 普通人能接触到的最低成本创业方式，就是内容。把输入转化为可传播的内容，形成选题、表达、复盘、迭代的飞轮，让能力可见、可放大、可积累。
+              - paragraph [ref=e183]: 内容生产 / 系统搭建 / 流量获客
+          - article [ref=e184]:
+            - img "销售与成交实践" [ref=e186]
+            - generic [ref=e187]:
+              - generic [ref=e188]: "07"
+              - heading "训练商业理解与结果闭环" [level=4] [ref=e189]
+              - paragraph [ref=e190]: 有流量没成交，等于零。学会发现需求、建立信任、完成成交，把"有价值"变成"有结果"。销售不是套路，是和真实世界交换价值的能力。
+              - paragraph [ref=e191]: 需求洞察 / 信任建立 / 成交闭环
+        - generic [ref=e192]:
+          - heading "540不是课外附加项，是和课内学习并入同一系统" [level=3] [ref=e193]
+          - paragraph [ref=e194]: 课内用AI和结构化方法高效拿结果（绩点、论文、奖学金），课外用540的3个100和4个60训练底层能力，最后在保研、实习、求职中验证成果。
+          - generic [ref=e195]:
+            - article [ref=e196]:
+              - heading "课内学习 · AI高效执行" [level=4] [ref=e197]
+              - paragraph [ref=e198]: 用AI工具和结构化方法做时间预算，以最低投入完成课程、绩点、论文、奖学金等关键任务。这是540体系里"100小时AI工具使用"的课内应用。
+            - article [ref=e199]:
+              - heading "课外主线 · 540能力训练" [level=4] [ref=e200]
+              - paragraph [ref=e201]: 3个100搭建底层系统（AI工具、目标推进、信息输入），4个60训练现实能力（健身、社交、内容、成交），长期积累可迁移的竞争力。
+            - article [ref=e202]:
+              - heading "结果验证 · 升学与就业" [level=4] [ref=e203]
+              - paragraph [ref=e204]: 把540训练出的能力投射到保研材料、实习项目、面试表达与真实成交场景，形成可验证的结果闭环。
+        - generic [ref=e205]:
+          - heading "从愿景到行动的递进路径" [level=3] [ref=e206]
+          - generic [ref=e207]:
+            - img
+            - article [ref=e208]:
+              - heading "宏观方向" [level=4] [ref=e209]
+              - paragraph [ref=e210]: AI时代，课内高效拿结果，课外训练真正决定胜负的现实能力
+            - article [ref=e211]:
+              - heading "3个100 · 搭系统" [level=4] [ref=e212]
+              - paragraph [ref=e213]: 100小时AI工具 / 100小时目标推进 / 100小时优质输入
+            - article [ref=e214]:
+              - heading "4个60 · 练能力" [level=4] [ref=e215]
+              - paragraph [ref=e216]: 60天健身 / 60天社交 / 60天内容 / 60天成交
+            - article [ref=e217]:
+              - heading "结果验证" [level=4] [ref=e218]
+              - paragraph [ref=e219]: 用保研、实习、求职与真实项目结果倒推方法是否有效，持续迭代
+          - paragraph [ref=e220]: 不是等准备好了再开始，是从今天能做的最小一步开始。
+    - generic [ref=e221]:
+      - generic [ref=e222]:
+        - heading "最新思考" [level=2] [ref=e223]
+        - paragraph [ref=e224]: 点击文案卡片会在新标签页打开，方便你保留当前浏览位置。
+      - generic [ref=e225]:
+        - link "短视频文案 AI 付费不是消费，是投资 把“每月花几百块用 AI”讲成一条短视频：成本、时间、判断力和长期复利。 2026-05-03" [ref=e226] [cursor=pointer]:
+          - /url: articles/ai-spend-as-investment-script.html
+          - paragraph [ref=e227]: 短视频文案
+          - heading "AI 付费不是消费，是投资" [level=3] [ref=e228]
+          - paragraph [ref=e229]: 把“每月花几百块用 AI”讲成一条短视频：成本、时间、判断力和长期复利。
+          - paragraph [ref=e230]: 2026-05-03
+        - link "AI工具 文科生零基础用AI把自己的个人网站做出来了 一个文科生，一行代码不会写，用AI把自己的个人网站做出来了。 2026-04-14" [ref=e231] [cursor=pointer]:
+          - /url: articles/post-20260414-224915.html
+          - paragraph [ref=e232]: AI工具
+          - heading "文科生零基础用AI把自己的个人网站做出来了" [level=3] [ref=e233]
+          - paragraph [ref=e234]: 一个文科生，一行代码不会写，用AI把自己的个人网站做出来了。
+          - paragraph [ref=e235]: 2026-04-14
+        - link "大学结果 我最近越来越不敢只走保研这条路了 不是因为我不重视保研。 2026-04-08" [ref=e236] [cursor=pointer]:
+          - /url: articles/post-20260408-234547.html
+          - paragraph [ref=e237]: 大学结果
+          - heading "我最近越来越不敢只走保研这条路了" [level=3] [ref=e238]
+          - paragraph [ref=e239]: 不是因为我不重视保研。
+          - paragraph [ref=e240]: 2026-04-08
+  - contentinfo [ref=e241]:
+    - generic [ref=e243]:
+      - paragraph [ref=e244]: 用 AI 和结构化系统，在校内外持续拿结果。
+      - generic [ref=e245]:
+        - button "微信" [ref=e246] [cursor=pointer]
+        - button "视频号" [ref=e247] [cursor=pointer]
+        - button "小红书" [ref=e248] [cursor=pointer]
+        - button "公众号" [ref=e249] [cursor=pointer]
+        - button "抖音" [ref=e250] [cursor=pointer]
+    - generic [ref=e252]:
+      - paragraph [ref=e253]: © 2026 我是林kunki
+      - paragraph [ref=e254]:
+        - link "工信部备案号：粤ICP备2026039646号" [ref=e255] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn
+  - generic:
+    - dialog "平台二维码":
+      - generic:
+        - heading "平台二维码" [level=3]
+        - button "×"
+      - generic:
+        - generic:
+          - img "二维码"
+        - paragraph

@@ -1,0 +1,46 @@
+{
+  "environmentVariables": [
+    {
+      "name": "HTTPS_PROXY",
+      "value": "http://127.0.0.1:1082"
+    },
+    {
+      "name": "HTTP_PROXY",
+      "value": "http://127.0.0.1:1082"
+    }
+  ],
+  "tabManagerState": {
+    "openTabs": [
+      {
+        "tabId": "tab-1780912877879-c8p6ykv",
+        "conversationId": "conv-1780931638082-dtqj4fpno"
+      },
+      {
+        "tabId": "tab-1780931149627-vfeeynf",
+        "conversationId": "conv-1780933984280-1xe7z6obx"
+      },
+      {
+        "draftModel": "gpt-5.5",
+        "tabId": "tab-1780933986195-xs2derk",
+        "conversationId": null
+      },
+      {
+        "tabId": "tab-1781017533003-nx2vnae",
+        "conversationId": "conv-1781017737985-k0duxs283"
+      },
+      {
+        "tabId": "tab-1781019922298-3lh9o11",
+        "conversationId": "conv-1781019964331-uafd7q2wh"
+      },
+      {
+        "tabId": "tab-1781022869123-8q93xod",
+        "conversationId": "conv-1781339631525-hl1zbuek8"
+      },
+      {
+        "tabId": "tab-1781102751109-z5dv9ad",
+        "conversationId": "conv-1781102753140-1ievdzc76"
+      }
+    ],
+    "activeTabId": "tab-1781102751109-z5dv9ad"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "conv-1780912026477-e5bw308j5",
+  "providerId": "claude",
+  "title": "帮我安装",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1780912026477,
+  "updatedAt": 1780912170476,
+  "lastResponseAt": 1780912027006,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "d37a4a88-ceec-40f7-9d28-d0164e7bef1c"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}

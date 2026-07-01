@@ -1,0 +1,260 @@
+{
+  "object_id": "14915484299211708675",
+  "pages": [
+    {
+      "code": 200,
+      "request_id": "6357c7e7-69b1-40c0-9b36-7351d7663d28",
+      "message": "Request successful. This request will incur a charge.",
+      "message_zh": "请求成功，本次请求将被计费。",
+      "support": "Discord: https://discord.gg/aMEAS8Xsvz",
+      "time": "2026-06-28 02:37:32",
+      "time_stamp": 1782639452,
+      "time_zone": "America/Los_Angeles",
+      "docs": "https://api.tikhub.io/#/WeChat-Channels-V2-API/fetch_video_comments_api_v1_wechat_channels_v2_fetch_video_comments_post",
+      "cache_message": "This response is cached and accessible via the URL below for 24 hours at no extra cost. The cache is for request tracing only — it doesn't affect the API's data freshness and won't be returned through the API again.",
+      "cache_message_zh": "本次响应已缓存，可通过下方 URL 直接查看，有效期 24 小时，访问缓存链接无额外费用。缓存仅用于请求溯源，不影响接口数据的时效性，也不会再次通过接口返回。",
+      "cache_url": "https://cache.tikhub.io/api/v1/cache/public/6357c7e7-69b1-40c0-9b36-7351d7663d28?sign=64bc4c2dd2e844101527644cfa865447c129b96e45a186b1465554ff8f29f3ad",
+      "router": "/api/v1/wechat_channels/v2/fetch_video_comments",
+      "params": {
+        "object_id": "14915484299211708675",
+        "last_buffer": "",
+        "comment_id": "",
+        "raw": false
+      },
+      "data": {
+        "object_id": "14915484299211708675",
+        "comment_id": null,
+        "count": 10,
+        "comments": [
+          {
+            "comment_id": "14921645814088337600",
+            "nickname": "开开心心",
+            "username": "v5_020b0a1661040100000000004a5e14c69b3c76000000b1afa7d8728e3dd43ef4317a780e33c208f8b8f76ac075af22c33776f6c7e5a0a8d439c7299fe46316db085254d8677f8c2310ef056676d4eec696108cbd3b434a232adc70d029ef567695b6fd@stranger",
+            "content": "感恩陈厂长的分享，您辛苦了[强][强][强][强][强][强][强][爱心][爱心]A1，",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1778798796,
+            "head_url": "https://wx.qlogo.cn/mmhead/ver_1/E0J46sp95HOJ16DqxDDUv7eRkHgRlX9lzM33v8JobgI7l9ibLpjt66fLEXIYeUxsAoxMG2HyJibMmaibibicVZichp5Y5eXmIJHnfsjX57586ib4kMvKVe78EAsGqAVg3RxO70kAa3QEZtekWiatvQH1HvIdWA/132",
+            "ip_region": "湖北"
+          },
+          {
+            "comment_id": "14924144422649333821",
+            "nickname": "程哥聊教育",
+            "username": "v2_060000231003b20faec8c7ea8b19c4d0c802ec36b077f90f09b838ac38bbfb794a66b734a3ca@finder",
+            "content": "感恩感谢遇见陈厂长，谢谢分享[合十][合十][合十][强][强][强]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1779096653,
+            "head_url": "https://wx.qlogo.cn/finderhead/iahdQicCC5VBShFbP0zvNd3COibdzwBGicOohaaUicsCDmWD99Tf1ERJkFMrniasmEz3hFr9r9wKWqChc/0",
+            "ip_region": "安徽"
+          },
+          {
+            "comment_id": "14931591007360522495",
+            "nickname": "财富自由",
+            "username": "v5_020b0a166104010000000000f8272efb9f6e89000000b1afa7d8728e3dd43ef4317a780e33c208f8b8f76ac075af22c33776f6b65904840e59959cae8a49efccae45834c10ba9603f3a1d18f39e40ca559e848fc02035dd8425916081dbf41ac14fb0b@stranger",
+            "content": "AI",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1779984355,
+            "head_url": "https://wx.qlogo.cn/mmhead/ver_1/iclcE4TB0v5pYAD5EeXeXDNYkYTOQ8374Gb7oTybm5TqFuZzepMWJiazfaMyMdJ7bdGT0UDoRybQ6KoclPcMC533eDtA8W2ibSbOfDMWlejok833QwsB0yC080oNzPnsOibR/132",
+            "ip_region": "湖北"
+          },
+          {
+            "comment_id": "14928589262520256664",
+            "nickname": "黎明8498",
+            "username": "v2_060000231003b20faec8c6e1881acad6c906e936b0778c2c14ff9b7dbaa043c6e275d9d4eaa4@finder",
+            "content": "感恩感谢陈厂长的分享[合十][合十][合十]陈厂长辛苦了[强][强][强][玫瑰][玫瑰][玫瑰]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1779626519,
+            "head_url": "https://wx.qlogo.cn/finderhead/jRoggJ2RF3AXIL8f7pRQhP9eateEhEWZCmjpLZXfbBsPZSMMOEk7rS42yeqBctiadneq0hvAVEvk/0",
+            "ip_region": "上海"
+          },
+          {
+            "comment_id": "14923918212115073146",
+            "nickname": "上官",
+            "username": "v5_020b0a1661040100000000005d90131d10493c000000b1afa7d8728e3dd43ef4317a780e33c208f8b8f76ac075af22c33776f66442517a03803b04117a5f50bcf342d8b24b7af222a0b8f5dd298a84970443f22b860e0931dd37bcf0cf9a046f81d35e@stranger",
+            "content": "AI",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1779069687,
+            "head_url": "https://wx.qlogo.cn/mmhead/ver_1/NhBcm6XiabhHJWOq7OUgM3tudL2xkwLJppQLZn6y0LofscuO8E7Pjv29s3ugSh97RTiaia1Rx6ZqT7icstamMyr8RkETWaHlfEbiaUuicLI6ElZMFoBCWRSSNnysiaLYpBcxfA8/132",
+            "ip_region": "山东"
+          },
+          {
+            "comment_id": "14916630090371438824",
+            "nickname": "FUYI",
+            "username": "v5_020b0a166104010000000000b54c3a37b6c794000000b1afa7d8728e3dd43ef4317a780e33c208f8b8f76ac075af22c33776f6b955fe0a38b533827b69b6642e932e1fb0c6f2456c0ffe5c8122e898166eabf34d9549295673bc1248d9a706519d6b25@stranger",
+            "content": "AI[抱拳]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1778200875,
+            "head_url": "https://wx.qlogo.cn/mmhead/ver_1/micVyxYdT7b6MVBCDo9SIuNsJvOapxwWyvlraAnNfewJeYQMXNObibTyZxhSiaqsVSV1RibBichfEouOvKJuyQneRWzAPSb8ZdMF7AB292dlR9kY/132",
+            "ip_region": "广东"
+          },
+          {
+            "comment_id": "14926390743186544944",
+            "nickname": "石海亮4694",
+            "username": "v2_060000231003b20faec8c7e18e10c2d0c800e833b077315808e4233506dc19764495ac362581@finder",
+            "content": "感思厂长老师",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1779364436,
+            "head_url": "https://wx.qlogo.cn/finderhead/aUGOdcZzxIHndMVdWgGz07QaoL3icDtZIoMBSsvFPCjwthae2xqhxk7jn4eZBGO2EEibEfQyD98pE/0",
+            "ip_region": "江苏"
+          },
+          {
+            "comment_id": "14926391069418592582",
+            "nickname": "石海亮4694",
+            "username": "v2_060000231003b20faec8c7e18e10c2d0c800e833b077315808e4233506dc19764495ac362581@finder",
+            "content": "Ai",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1779364474,
+            "head_url": "https://wx.qlogo.cn/finderhead/aUGOdcZzxIHndMVdWgGz07QaoL3icDtZIoMBSsvFPCjwthae2xqhxk7jn4eZBGO2EEibEfQyD98pE/0",
+            "ip_region": "江苏"
+          },
+          {
+            "comment_id": "14921598794386053136",
+            "nickname": "毛孩子仓库",
+            "username": "v2_060000231003b20faec8c4e4801ec2d4c805ef36b077289466095bd9ba6f0b82d59af0a725b3@finder",
+            "content": "AI",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1778793191,
+            "head_url": "https://wx.qlogo.cn/finderhead/naPHoFY2n5RoDCtIvBGeXKge8FGPyUJUicO1rdwEFsBGgLh89gOoxicze4MiaaO52KwXLEn1SZFya4/0",
+            "ip_region": "陕西"
+          },
+          {
+            "comment_id": "14915499990722943071",
+            "nickname": "深情不如久伴6514",
+            "username": "v2_060000231003b20faec8c5e58f1fc1ddcb0ce83db07722cadfba6f4176aa195799acea26d484@finder",
+            "content": "你说的太对了[强][强][强]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1778066157,
+            "head_url": "https://wx.qlogo.cn/finderhead/PiajxSqBRaEJkMicSWHZaUJ9nTQ01FDbmVUE6CAlsDib5we8q3KKO8vSw/0",
+            "ip_region": "河南"
+          }
+        ],
+        "down_continue": 0,
+        "last_buffer": "CoYBCP///////////wEYwJG4p/S5lYrPARi9kJDF/sjNjs8BGP+xkKmQ3eqbzwEYmJHsse2awJbPARj6kOjQspGajs8BGOix+LORgaGBzwEYsLLA0sKpzJLPARjGsoj6gbPMks8BGJCwnKK64YqKzwEY37CIk/SGoP/OATABOP///////////wE=",
+        "debug_id": "f1cb89b1",
+        "debug_info": "gAAAAABqQOtcu8gk_i2OIVjn1kYl2IHwZu-2Nce3zCufn0njGGPICxfBTLMhgmInjleMlCt5ey7LD1-cRh699it964nqLUeIpcvcxjcsWaxwJdRXp8rmfJWfkK5l-D2nBXCJLvmYQ1Qo0n7KmF3B-TtjworKGwHjsQcgGU4pzSTI9VwEanrQ4Pca0Zc7ceIYeMF7uByt0SphzdqjaBU_LVKxK7YtN1tH6A7sy2lNjITdZt078ktBZccZWDid3RQN_x9btbpiIxhv-2b5VzQ0Mx2VIVwVeqYbOw=="
+      }
+    }
+  ],
+  "comments": [
+    {
+      "comment_id": "14921645814088337600",
+      "nickname": "开开心心",
+      "username": "v5_020b0a1661040100000000004a5e14c69b3c76000000b1afa7d8728e3dd43ef4317a780e33c208f8b8f76ac075af22c33776f6c7e5a0a8d439c7299fe46316db085254d8677f8c2310ef056676d4eec696108cbd3b434a232adc70d029ef567695b6fd@stranger",
+      "content": "感恩陈厂长的分享，您辛苦了[强][强][强][强][强][强][强][爱心][爱心]A1，",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1778798796,
+      "head_url": "https://wx.qlogo.cn/mmhead/ver_1/E0J46sp95HOJ16DqxDDUv7eRkHgRlX9lzM33v8JobgI7l9ibLpjt66fLEXIYeUxsAoxMG2HyJibMmaibibicVZichp5Y5eXmIJHnfsjX57586ib4kMvKVe78EAsGqAVg3RxO70kAa3QEZtekWiatvQH1HvIdWA/132",
+      "ip_region": "湖北"
+    },
+    {
+      "comment_id": "14924144422649333821",
+      "nickname": "程哥聊教育",
+      "username": "v2_060000231003b20faec8c7ea8b19c4d0c802ec36b077f90f09b838ac38bbfb794a66b734a3ca@finder",
+      "content": "感恩感谢遇见陈厂长，谢谢分享[合十][合十][合十][强][强][强]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1779096653,
+      "head_url": "https://wx.qlogo.cn/finderhead/iahdQicCC5VBShFbP0zvNd3COibdzwBGicOohaaUicsCDmWD99Tf1ERJkFMrniasmEz3hFr9r9wKWqChc/0",
+      "ip_region": "安徽"
+    },
+    {
+      "comment_id": "14931591007360522495",
+      "nickname": "财富自由",
+      "username": "v5_020b0a166104010000000000f8272efb9f6e89000000b1afa7d8728e3dd43ef4317a780e33c208f8b8f76ac075af22c33776f6b65904840e59959cae8a49efccae45834c10ba9603f3a1d18f39e40ca559e848fc02035dd8425916081dbf41ac14fb0b@stranger",
+      "content": "AI",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1779984355,
+      "head_url": "https://wx.qlogo.cn/mmhead/ver_1/iclcE4TB0v5pYAD5EeXeXDNYkYTOQ8374Gb7oTybm5TqFuZzepMWJiazfaMyMdJ7bdGT0UDoRybQ6KoclPcMC533eDtA8W2ibSbOfDMWlejok833QwsB0yC080oNzPnsOibR/132",
+      "ip_region": "湖北"
+    },
+    {
+      "comment_id": "14928589262520256664",
+      "nickname": "黎明8498",
+      "username": "v2_060000231003b20faec8c6e1881acad6c906e936b0778c2c14ff9b7dbaa043c6e275d9d4eaa4@finder",
+      "content": "感恩感谢陈厂长的分享[合十][合十][合十]陈厂长辛苦了[强][强][强][玫瑰][玫瑰][玫瑰]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1779626519,
+      "head_url": "https://wx.qlogo.cn/finderhead/jRoggJ2RF3AXIL8f7pRQhP9eateEhEWZCmjpLZXfbBsPZSMMOEk7rS42yeqBctiadneq0hvAVEvk/0",
+      "ip_region": "上海"
+    },
+    {
+      "comment_id": "14923918212115073146",
+      "nickname": "上官",
+      "username": "v5_020b0a1661040100000000005d90131d10493c000000b1afa7d8728e3dd43ef4317a780e33c208f8b8f76ac075af22c33776f66442517a03803b04117a5f50bcf342d8b24b7af222a0b8f5dd298a84970443f22b860e0931dd37bcf0cf9a046f81d35e@stranger",
+      "content": "AI",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1779069687,
+      "head_url": "https://wx.qlogo.cn/mmhead/ver_1/NhBcm6XiabhHJWOq7OUgM3tudL2xkwLJppQLZn6y0LofscuO8E7Pjv29s3ugSh97RTiaia1Rx6ZqT7icstamMyr8RkETWaHlfEbiaUuicLI6ElZMFoBCWRSSNnysiaLYpBcxfA8/132",
+      "ip_region": "山东"
+    },
+    {
+      "comment_id": "14916630090371438824",
+      "nickname": "FUYI",
+      "username": "v5_020b0a166104010000000000b54c3a37b6c794000000b1afa7d8728e3dd43ef4317a780e33c208f8b8f76ac075af22c33776f6b955fe0a38b533827b69b6642e932e1fb0c6f2456c0ffe5c8122e898166eabf34d9549295673bc1248d9a706519d6b25@stranger",
+      "content": "AI[抱拳]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1778200875,
+      "head_url": "https://wx.qlogo.cn/mmhead/ver_1/micVyxYdT7b6MVBCDo9SIuNsJvOapxwWyvlraAnNfewJeYQMXNObibTyZxhSiaqsVSV1RibBichfEouOvKJuyQneRWzAPSb8ZdMF7AB292dlR9kY/132",
+      "ip_region": "广东"
+    },
+    {
+      "comment_id": "14926390743186544944",
+      "nickname": "石海亮4694",
+      "username": "v2_060000231003b20faec8c7e18e10c2d0c800e833b077315808e4233506dc19764495ac362581@finder",
+      "content": "感思厂长老师",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1779364436,
+      "head_url": "https://wx.qlogo.cn/finderhead/aUGOdcZzxIHndMVdWgGz07QaoL3icDtZIoMBSsvFPCjwthae2xqhxk7jn4eZBGO2EEibEfQyD98pE/0",
+      "ip_region": "江苏"
+    },
+    {
+      "comment_id": "14926391069418592582",
+      "nickname": "石海亮4694",
+      "username": "v2_060000231003b20faec8c7e18e10c2d0c800e833b077315808e4233506dc19764495ac362581@finder",
+      "content": "Ai",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1779364474,
+      "head_url": "https://wx.qlogo.cn/finderhead/aUGOdcZzxIHndMVdWgGz07QaoL3icDtZIoMBSsvFPCjwthae2xqhxk7jn4eZBGO2EEibEfQyD98pE/0",
+      "ip_region": "江苏"
+    },
+    {
+      "comment_id": "14921598794386053136",
+      "nickname": "毛孩子仓库",
+      "username": "v2_060000231003b20faec8c4e4801ec2d4c805ef36b077289466095bd9ba6f0b82d59af0a725b3@finder",
+      "content": "AI",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1778793191,
+      "head_url": "https://wx.qlogo.cn/finderhead/naPHoFY2n5RoDCtIvBGeXKge8FGPyUJUicO1rdwEFsBGgLh89gOoxicze4MiaaO52KwXLEn1SZFya4/0",
+      "ip_region": "陕西"
+    },
+    {
+      "comment_id": "14915499990722943071",
+      "nickname": "深情不如久伴6514",
+      "username": "v2_060000231003b20faec8c5e58f1fc1ddcb0ce83db07722cadfba6f4176aa195799acea26d484@finder",
+      "content": "你说的太对了[强][强][强]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1778066157,
+      "head_url": "https://wx.qlogo.cn/finderhead/PiajxSqBRaEJkMicSWHZaUJ9nTQ01FDbmVUE6CAlsDib5we8q3KKO8vSw/0",
+      "ip_region": "河南"
+    }
+  ],
+  "replies_by_comment": {}
+}

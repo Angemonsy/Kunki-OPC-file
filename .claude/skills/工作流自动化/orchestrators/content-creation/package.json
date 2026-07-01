@@ -1,0 +1,22 @@
+{
+  "name": "content-creation-workflow",
+  "version": "1.0.0",
+  "description": "从热点分析到公众号发布的自动化内容创作工作流",
+  "main": "orchestrator.js",
+  "scripts": {
+    "start": "node example.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "workflow",
+    "orchestrator",
+    "content-creation",
+    "automation"
+  ],
+  "author": "Claude Code",
+  "license": "MIT",
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

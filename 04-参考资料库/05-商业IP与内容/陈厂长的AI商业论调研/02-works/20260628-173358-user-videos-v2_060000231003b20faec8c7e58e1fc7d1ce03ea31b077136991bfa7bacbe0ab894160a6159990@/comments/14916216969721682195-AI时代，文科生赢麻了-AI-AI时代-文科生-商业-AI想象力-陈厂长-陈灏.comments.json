@@ -1,0 +1,238 @@
+{
+  "object_id": "14916216969721682195",
+  "pages": [
+    {
+      "code": 200,
+      "request_id": "acfe9f48-5bbe-42bb-97f1-17575bb912d1",
+      "message": "Request successful. This request will incur a charge.",
+      "message_zh": "请求成功，本次请求将被计费。",
+      "support": "Discord: https://discord.gg/aMEAS8Xsvz",
+      "time": "2026-06-28 02:37:30",
+      "time_stamp": 1782639450,
+      "time_zone": "America/Los_Angeles",
+      "docs": "https://api.tikhub.io/#/WeChat-Channels-V2-API/fetch_video_comments_api_v1_wechat_channels_v2_fetch_video_comments_post",
+      "cache_message": "This response is cached and accessible via the URL below for 24 hours at no extra cost. The cache is for request tracing only — it doesn't affect the API's data freshness and won't be returned through the API again.",
+      "cache_message_zh": "本次响应已缓存，可通过下方 URL 直接查看，有效期 24 小时，访问缓存链接无额外费用。缓存仅用于请求溯源，不影响接口数据的时效性，也不会再次通过接口返回。",
+      "cache_url": "https://cache.tikhub.io/api/v1/cache/public/acfe9f48-5bbe-42bb-97f1-17575bb912d1?sign=145f5616917ece64605d646f34cccfbfc8dec2a05533f3fa69cd23471f156bf7",
+      "router": "/api/v1/wechat_channels/v2/fetch_video_comments",
+      "params": {
+        "object_id": "14916216969721682195",
+        "last_buffer": "",
+        "comment_id": "",
+        "raw": false
+      },
+      "data": {
+        "object_id": "14916216969721682195",
+        "comment_id": null,
+        "count": 9,
+        "comments": [
+          {
+            "comment_id": "14916543835262032016",
+            "nickname": "顺其自然",
+            "username": "v5_020b0a166104010000000000ce933072810ab8000000b1afa7d8728e3dd43ef4317a780e33c21e1191b4cae3eb4b36cd9c818cc9aa2002421bd3b5463251080f2dba0f866fcb4df9240d3746748534088fd6240eda596d1b18ac22abee1d3f47a4031e@stranger",
+            "content": "[爱心][爱心][爱心]，[强][强][强]，[合十][合十][合十]，老师真厉害。",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1778190593,
+            "head_url": "https://wx.qlogo.cn/mmhead/ver_1/RsXhWTanJAUvyibPHRbpukOUD7PpGaJnhccEkoiaWurvnlhp9GsZvVse77H8MdOfVHNibV8SH7BdyCmYhuhjDpT9ibUvKUt8ic79LDFM0qmzfbgw/132",
+            "ip_region": "内蒙古"
+          },
+          {
+            "comment_id": "14924077844248270866",
+            "nickname": "锦澜（素颖）AI算力运营商",
+            "username": "v5_020b0a16610401000000000074210236e0c6ba000000b1afa7d8728e3dd43ef4317a780e33c21e1191b4cae3eb4b36cd9c818c3534838566b9912cfa3cfb2e40f9b6d4ffc83f3493c18288991969bb61cfaaf14bcd67c40fdff9d6dce188584e2780cb@stranger",
+            "content": "老师讲得，听得就兴奋，状态太好了",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1779088717,
+            "head_url": "https://wx.qlogo.cn/mmhead/ver_1/D7icEnYPXfAhsEm2eubQIHhjJZpLf4Fad7NeWibuiciaTXqhIKxebHNzU4T7QWEbIS665AJTOpevHplPpEKZ8sVhg6HebP4HicgZ07rTRE4bdTXQubT9OLOx7JXxXfTdFAFsWYJNibGwDvwERjKd0DOle4Ag/132",
+            "ip_region": "四川"
+          },
+          {
+            "comment_id": "14920320217103276364",
+            "nickname": "泉知Ai创业导师",
+            "username": "v2_060000231003b20faec8c7e58f11c2d5c801e537b07761f3bd091c77cb046d98664298f76201@finder",
+            "content": "/:heart感恩/:heart",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1778640772,
+            "head_url": "https://wx.qlogo.cn/finderhead/Cy9cMFbN6gibSd16BSOkk2wPXlcY7wibTULhmwNgPLlEt4s0ia2EJ3w5hNMdibnoTKpJjKU6PzN0EGA/0",
+            "ip_region": "广东"
+          },
+          {
+            "comment_id": "14916316248798795886",
+            "nickname": "醒来智慧传承",
+            "username": "v2_060000231003b20faec8c7e2811bc4d5ce06e83cb077a6a61d1c13c431eee3d17da78613eda9@finder",
+            "content": "把我迷呆了",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1778163462,
+            "head_url": "https://wx.qlogo.cn/finderhead/XfHkib6ZcUibeia0v3oNKIJS39b0rqoK0Pjg9QaYZYsmPx0tsd3yQqMj0qKIIJhRqDb1VibtvULmd1I/0",
+            "ip_region": "广东"
+          },
+          {
+            "comment_id": "14916567696016214124",
+            "nickname": "奇谭旧卷",
+            "username": "v5_020b0a16610401000000000062da00db974313000000b1afa7d8728e3dd43ef4317a780e33c21e1191b4cae3eb4b36cd9c818cb0c715766fa9ebd13d1d2869ae2a28b3740e8d06389d09c809e3e6bee9b196dac0079622cd655d1e8b9f621eb8a9b89a@stranger",
+            "content": "真是这样子的",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1778193437,
+            "head_url": "https://wx.qlogo.cn/mmhead/ver_1/tYu9uibUQepXdK6c3TDwhIMib5M6NocHx5ylkqYdGS1wS1dtxzyKFc8pCYbcNkJ5AvtbGxtwWXY7VWITpxCQ56txY38TMvTWmTGMZo48uL3BibXMZfR3jAshjFR5cNqhoib7yicf2icEvNZWHiaJUel46CU0A/132",
+            "ip_region": "河南"
+          },
+          {
+            "comment_id": "14916740181437843785",
+            "nickname": "茜茜频道",
+            "username": "v2_060000231003b20faec8c7e08e1dc6d6ca0ce936b077dd21f4ffd0280a91e7dbeda88395dfce@finder",
+            "content": "[强]前途无量",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1778213999,
+            "head_url": "https://wx.qlogo.cn/finderhead/2kpMNDYsSfCqmWo1Qr8EZ7r85BlicIA2QdjTAwoAvvSwj0ud9z4l2AvByjl2hgWIB84nvQRfuFBM/0",
+            "ip_region": "甘肃"
+          },
+          {
+            "comment_id": "14917432933384788116",
+            "nickname": "阿静实木家具板",
+            "username": "v2_060000231003b20faec8c5e78f1ec3d4ca00e536b0778a2832e7ab00d22ee3cde51d7ce3ded0@finder",
+            "content": "好有激情",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1778296581,
+            "head_url": "https://wx.qlogo.cn/finderhead/GpEfPYlgHta0W6xj1JLhWLUickvYjCEeAQw3Q1HWrt9o5RLuxGZaQ8cPKHTCp0KO5z5XLwiaB0ELk/0",
+            "ip_region": "重庆"
+          },
+          {
+            "comment_id": "14916315727998490744",
+            "nickname": "醒来智慧传承",
+            "username": "v2_060000231003b20faec8c7e2811bc4d5ce06e83cb077a6a61d1c13c431eee3d17da78613eda9@finder",
+            "content": "老师，你的想象力就是传奇",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1778163400,
+            "head_url": "https://wx.qlogo.cn/finderhead/XfHkib6ZcUibeia0v3oNKIJS39b0rqoK0Pjg9QaYZYsmPx0tsd3yQqMj0qKIIJhRqDb1VibtvULmd1I/0",
+            "ip_region": "广东"
+          },
+          {
+            "comment_id": "14921448363029633306",
+            "nickname": "平凡人生0103",
+            "username": "v2_060000231003b20faec8c5e58d18c3ddcd05e833b0775b428573f19dbcda91962ac0172a47d8@finder",
+            "content": "[强][强][强]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1778775258,
+            "head_url": "https://wx.qlogo.cn/finderhead/TD7RkM80jiaDC673HNjTibib8L84aZeeSKzIVXulIiagTx84wCyoKcXGWwU17knHbylzdTcuOOJInPM/0",
+            "ip_region": "广东"
+          }
+        ],
+        "down_continue": 0,
+        "last_buffer": "Cm4ImrLc5anH6InPARiQsdiK5LKNgc8BGJKwyNWmt76OzwEYzLKU3PqF6IfPARjusKi4ktPZgM8BGOyQ9Kic6ZKBzwEYyZKYy5qFuoHPARiUsfTY+MbXgs8BGPiwsKf+w9mAzwE4mrLc5anH6InPAQ==",
+        "debug_id": "01e33d7b",
+        "debug_info": "gAAAAABqQOtabQ9YYUuF1igV5vvJ-uQ_ohzGOfVwzqmYpIwUCHyL82ab_y2ZZ1xbxCQy2BOCpoCFE0Uh2uqn7dhTFcnct2KAZJVS6ZISpjKdeM-03N5yjksWn-SwIiZ11L6QAZt7BYgOXiGea4zVOMDl2_HmSzJIIsPLtHshQI7rrlAbL3AONZyz6CThw9kdRDFC_qTGpPV-o2YVPtqoVrdF4lXgB2WBDiK9IH41lRFps-bUnl-pXnVba_Vx4JHtySgzD2dSbOq3bJcITV6LnvZmTUofcO-05w=="
+      }
+    }
+  ],
+  "comments": [
+    {
+      "comment_id": "14916543835262032016",
+      "nickname": "顺其自然",
+      "username": "v5_020b0a166104010000000000ce933072810ab8000000b1afa7d8728e3dd43ef4317a780e33c21e1191b4cae3eb4b36cd9c818cc9aa2002421bd3b5463251080f2dba0f866fcb4df9240d3746748534088fd6240eda596d1b18ac22abee1d3f47a4031e@stranger",
+      "content": "[爱心][爱心][爱心]，[强][强][强]，[合十][合十][合十]，老师真厉害。",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1778190593,
+      "head_url": "https://wx.qlogo.cn/mmhead/ver_1/RsXhWTanJAUvyibPHRbpukOUD7PpGaJnhccEkoiaWurvnlhp9GsZvVse77H8MdOfVHNibV8SH7BdyCmYhuhjDpT9ibUvKUt8ic79LDFM0qmzfbgw/132",
+      "ip_region": "内蒙古"
+    },
+    {
+      "comment_id": "14924077844248270866",
+      "nickname": "锦澜（素颖）AI算力运营商",
+      "username": "v5_020b0a16610401000000000074210236e0c6ba000000b1afa7d8728e3dd43ef4317a780e33c21e1191b4cae3eb4b36cd9c818c3534838566b9912cfa3cfb2e40f9b6d4ffc83f3493c18288991969bb61cfaaf14bcd67c40fdff9d6dce188584e2780cb@stranger",
+      "content": "老师讲得，听得就兴奋，状态太好了",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1779088717,
+      "head_url": "https://wx.qlogo.cn/mmhead/ver_1/D7icEnYPXfAhsEm2eubQIHhjJZpLf4Fad7NeWibuiciaTXqhIKxebHNzU4T7QWEbIS665AJTOpevHplPpEKZ8sVhg6HebP4HicgZ07rTRE4bdTXQubT9OLOx7JXxXfTdFAFsWYJNibGwDvwERjKd0DOle4Ag/132",
+      "ip_region": "四川"
+    },
+    {
+      "comment_id": "14920320217103276364",
+      "nickname": "泉知Ai创业导师",
+      "username": "v2_060000231003b20faec8c7e58f11c2d5c801e537b07761f3bd091c77cb046d98664298f76201@finder",
+      "content": "/:heart感恩/:heart",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1778640772,
+      "head_url": "https://wx.qlogo.cn/finderhead/Cy9cMFbN6gibSd16BSOkk2wPXlcY7wibTULhmwNgPLlEt4s0ia2EJ3w5hNMdibnoTKpJjKU6PzN0EGA/0",
+      "ip_region": "广东"
+    },
+    {
+      "comment_id": "14916316248798795886",
+      "nickname": "醒来智慧传承",
+      "username": "v2_060000231003b20faec8c7e2811bc4d5ce06e83cb077a6a61d1c13c431eee3d17da78613eda9@finder",
+      "content": "把我迷呆了",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1778163462,
+      "head_url": "https://wx.qlogo.cn/finderhead/XfHkib6ZcUibeia0v3oNKIJS39b0rqoK0Pjg9QaYZYsmPx0tsd3yQqMj0qKIIJhRqDb1VibtvULmd1I/0",
+      "ip_region": "广东"
+    },
+    {
+      "comment_id": "14916567696016214124",
+      "nickname": "奇谭旧卷",
+      "username": "v5_020b0a16610401000000000062da00db974313000000b1afa7d8728e3dd43ef4317a780e33c21e1191b4cae3eb4b36cd9c818cb0c715766fa9ebd13d1d2869ae2a28b3740e8d06389d09c809e3e6bee9b196dac0079622cd655d1e8b9f621eb8a9b89a@stranger",
+      "content": "真是这样子的",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1778193437,
+      "head_url": "https://wx.qlogo.cn/mmhead/ver_1/tYu9uibUQepXdK6c3TDwhIMib5M6NocHx5ylkqYdGS1wS1dtxzyKFc8pCYbcNkJ5AvtbGxtwWXY7VWITpxCQ56txY38TMvTWmTGMZo48uL3BibXMZfR3jAshjFR5cNqhoib7yicf2icEvNZWHiaJUel46CU0A/132",
+      "ip_region": "河南"
+    },
+    {
+      "comment_id": "14916740181437843785",
+      "nickname": "茜茜频道",
+      "username": "v2_060000231003b20faec8c7e08e1dc6d6ca0ce936b077dd21f4ffd0280a91e7dbeda88395dfce@finder",
+      "content": "[强]前途无量",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1778213999,
+      "head_url": "https://wx.qlogo.cn/finderhead/2kpMNDYsSfCqmWo1Qr8EZ7r85BlicIA2QdjTAwoAvvSwj0ud9z4l2AvByjl2hgWIB84nvQRfuFBM/0",
+      "ip_region": "甘肃"
+    },
+    {
+      "comment_id": "14917432933384788116",
+      "nickname": "阿静实木家具板",
+      "username": "v2_060000231003b20faec8c5e78f1ec3d4ca00e536b0778a2832e7ab00d22ee3cde51d7ce3ded0@finder",
+      "content": "好有激情",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1778296581,
+      "head_url": "https://wx.qlogo.cn/finderhead/GpEfPYlgHta0W6xj1JLhWLUickvYjCEeAQw3Q1HWrt9o5RLuxGZaQ8cPKHTCp0KO5z5XLwiaB0ELk/0",
+      "ip_region": "重庆"
+    },
+    {
+      "comment_id": "14916315727998490744",
+      "nickname": "醒来智慧传承",
+      "username": "v2_060000231003b20faec8c7e2811bc4d5ce06e83cb077a6a61d1c13c431eee3d17da78613eda9@finder",
+      "content": "老师，你的想象力就是传奇",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1778163400,
+      "head_url": "https://wx.qlogo.cn/finderhead/XfHkib6ZcUibeia0v3oNKIJS39b0rqoK0Pjg9QaYZYsmPx0tsd3yQqMj0qKIIJhRqDb1VibtvULmd1I/0",
+      "ip_region": "广东"
+    },
+    {
+      "comment_id": "14921448363029633306",
+      "nickname": "平凡人生0103",
+      "username": "v2_060000231003b20faec8c5e58d18c3ddcd05e833b0775b428573f19dbcda91962ac0172a47d8@finder",
+      "content": "[强][强][强]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1778775258,
+      "head_url": "https://wx.qlogo.cn/finderhead/TD7RkM80jiaDC673HNjTibib8L84aZeeSKzIVXulIiagTx84wCyoKcXGWwU17knHbylzdTcuOOJInPM/0",
+      "ip_region": "广东"
+    }
+  ],
+  "replies_by_comment": {}
+}

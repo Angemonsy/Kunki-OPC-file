@@ -1,0 +1,172 @@
+{
+  "object_id": "14914034160000047372",
+  "pages": [
+    {
+      "code": 200,
+      "request_id": "f821baa6-8d23-4a06-82ab-26374b487d53",
+      "message": "Request successful. This request will incur a charge.",
+      "message_zh": "请求成功，本次请求将被计费。",
+      "support": "Discord: https://discord.gg/aMEAS8Xsvz",
+      "time": "2026-06-28 02:37:39",
+      "time_stamp": 1782639459,
+      "time_zone": "America/Los_Angeles",
+      "docs": "https://api.tikhub.io/#/WeChat-Channels-V2-API/fetch_video_comments_api_v1_wechat_channels_v2_fetch_video_comments_post",
+      "cache_message": "This response is cached and accessible via the URL below for 24 hours at no extra cost. The cache is for request tracing only — it doesn't affect the API's data freshness and won't be returned through the API again.",
+      "cache_message_zh": "本次响应已缓存，可通过下方 URL 直接查看，有效期 24 小时，访问缓存链接无额外费用。缓存仅用于请求溯源，不影响接口数据的时效性，也不会再次通过接口返回。",
+      "cache_url": "https://cache.tikhub.io/api/v1/cache/public/f821baa6-8d23-4a06-82ab-26374b487d53?sign=ebcb5d00b22bfa33a3c31ad81805d95cde8ee6418b0891c400d30ffd89da748c",
+      "router": "/api/v1/wechat_channels/v2/fetch_video_comments",
+      "params": {
+        "object_id": "14914034160000047372",
+        "last_buffer": "",
+        "comment_id": "",
+        "raw": false
+      },
+      "data": {
+        "object_id": "14914034160000047372",
+        "comment_id": null,
+        "count": 6,
+        "comments": [
+          {
+            "comment_id": "14927036538632018234",
+            "nickname": "石海亮4694",
+            "username": "v2_060000231003b20faec8c7e18e10c2d0c800e833b077315808e4233506dc19764495ac362581@finder",
+            "content": "陈老师[合十][合十][合十][合十][合十][合十][合十][合十][合十][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1779441420,
+            "head_url": "https://wx.qlogo.cn/finderhead/aUGOdcZzxIHndMVdWgGz07QaoL3icDtZIoMBSsvFPCjwthae2xqhxk7jn4eZBGO2EEibEfQyD98pE/0",
+            "ip_region": "江苏"
+          },
+          {
+            "comment_id": "14922884037623027975",
+            "nickname": "陈凌芬",
+            "username": "v2_060000231003b20faec8c5ea8e19c1dccd04ef34b077400a880b31d5ead2c3979ad9d06f16b1@finder",
+            "content": "陈老师太棒了！[强][强][强][强][强][强][强][强][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1778946404,
+            "head_url": "https://wx.qlogo.cn/finderhead/PiajxSqBRaEKktdNoiaO52QHrdgERqJrDm0Y7bm8B7jh8HzJjfFMZhVQ/0",
+            "ip_region": "浙江"
+          },
+          {
+            "comment_id": "14921687728195768915",
+            "nickname": "蔡丽连",
+            "username": "v2_060000231003b20faec8c6e58e11c7d7c802ef36b0778b4f572407a79a8ee605a6b39311f4d1@finder",
+            "content": "陈老师 真棒了[爱心][爱心][爱心][强][强][强]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1778803792,
+            "head_url": "https://wx.qlogo.cn/finderhead/icUsThF1icmibibmjY4C4Hhhiap2iaYia8GXpOaYID7YJmcSb9GdIQLf165HmnJxZa70MuhLLzLic09YDDA/0",
+            "ip_region": "菲律宾"
+          },
+          {
+            "comment_id": "14921749281049614465",
+            "nickname": "健康+认知=财富",
+            "username": "v5_020b0a1661040100000000007441305989f09f000000b1afa7d8728e3dd43ef4317a780e33c21e1191b4cae3eb4b36cd9c818c8f8dafde14a5b776b0274702272d36d2171d376b7afc3b821e70fd768daa9658ac394f03b2826b3ec52bc127d978a0da@stranger",
+            "content": "[强][强][强]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1778811130,
+            "head_url": "https://wx.qlogo.cn/mmhead/ver_1/jBc3LzDNmK1yvdzAXwXk2WOYltUmIA3b363qHgzYEblMObibCJWEJcxRL3U2TzHibmG9x0qmTKn5ZVhlPicibkA48wE0ou4FxoiaM2p54vic7D4Cg/132",
+            "ip_region": "内蒙古"
+          },
+          {
+            "comment_id": "14921449345645025575",
+            "nickname": "平凡人生0103",
+            "username": "v2_060000231003b20faec8c5e58d18c3ddcd05e833b0775b428573f19dbcda91962ac0172a47d8@finder",
+            "content": "[强][强][强]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1778775375,
+            "head_url": "https://wx.qlogo.cn/finderhead/TD7RkM80jiaDC673HNjTibib8L84aZeeSKzIVXulIiagTx84wCyoKcXGWwU17knHbylzdTcuOOJInPM/0",
+            "ip_region": "广东"
+          },
+          {
+            "comment_id": "14915261178625595456",
+            "nickname": "静姐在忙啥",
+            "username": "v2_060000231003b20faec8c5e08111c7dccc05ee3db0770b7bf9d554391d56a25e19c9e3edf1fc@finder",
+            "content": "[强][强][强][庆祝][庆祝][庆祝]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1778037688,
+            "head_url": "https://wx.qlogo.cn/finderhead/3oZaibpo7KmeqyGjhENo3W9ib3yfyuUfnhNH8yTp6sSH2T33INuDoUQJxoUgCJLpLscLxkJQTLaEc/0",
+            "ip_region": "云南"
+          }
+        ],
+        "down_continue": 0,
+        "last_buffer": "CjcIwLCc4cfg6f7OARi6ssCT0pTfk88BGIey+Lb6/q6MzwEY06Sow+L9norPATjAsJzhx+Dp/s4B",
+        "debug_id": "19ba6bf6",
+        "debug_info": "gAAAAABqQOtj6ms1w5dtImeihmaqYiTXPa6vaIEzEaDLzST3x2jSI8YfYCgfa_7WSpJf1RXIDv1UCTlWPkRgI5j8XFc5ZyESQP0KxY618XfUF3PXVNlfd75-ZJSC8FiIl7eIgvfdL05Lu9hvMkp9d8HgobslNO7FuKlmmFpQgTfclv_PgfBzV81L5DPB_cFnHw62zUv5cco8sx-I4iRbnt_dC9rVJJqH2un-vj_g30GmP7a6-ZIioNF-AZBjLdwqwHhM0cGaQfNhYvKyW6ZIuKgKpGdrDp1edA=="
+      }
+    }
+  ],
+  "comments": [
+    {
+      "comment_id": "14927036538632018234",
+      "nickname": "石海亮4694",
+      "username": "v2_060000231003b20faec8c7e18e10c2d0c800e833b077315808e4233506dc19764495ac362581@finder",
+      "content": "陈老师[合十][合十][合十][合十][合十][合十][合十][合十][合十][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1779441420,
+      "head_url": "https://wx.qlogo.cn/finderhead/aUGOdcZzxIHndMVdWgGz07QaoL3icDtZIoMBSsvFPCjwthae2xqhxk7jn4eZBGO2EEibEfQyD98pE/0",
+      "ip_region": "江苏"
+    },
+    {
+      "comment_id": "14922884037623027975",
+      "nickname": "陈凌芬",
+      "username": "v2_060000231003b20faec8c5ea8e19c1dccd04ef34b077400a880b31d5ead2c3979ad9d06f16b1@finder",
+      "content": "陈老师太棒了！[强][强][强][强][强][强][强][强][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1778946404,
+      "head_url": "https://wx.qlogo.cn/finderhead/PiajxSqBRaEKktdNoiaO52QHrdgERqJrDm0Y7bm8B7jh8HzJjfFMZhVQ/0",
+      "ip_region": "浙江"
+    },
+    {
+      "comment_id": "14921687728195768915",
+      "nickname": "蔡丽连",
+      "username": "v2_060000231003b20faec8c6e58e11c7d7c802ef36b0778b4f572407a79a8ee605a6b39311f4d1@finder",
+      "content": "陈老师 真棒了[爱心][爱心][爱心][强][强][强]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1778803792,
+      "head_url": "https://wx.qlogo.cn/finderhead/icUsThF1icmibibmjY4C4Hhhiap2iaYia8GXpOaYID7YJmcSb9GdIQLf165HmnJxZa70MuhLLzLic09YDDA/0",
+      "ip_region": "菲律宾"
+    },
+    {
+      "comment_id": "14921749281049614465",
+      "nickname": "健康+认知=财富",
+      "username": "v5_020b0a1661040100000000007441305989f09f000000b1afa7d8728e3dd43ef4317a780e33c21e1191b4cae3eb4b36cd9c818c8f8dafde14a5b776b0274702272d36d2171d376b7afc3b821e70fd768daa9658ac394f03b2826b3ec52bc127d978a0da@stranger",
+      "content": "[强][强][强]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1778811130,
+      "head_url": "https://wx.qlogo.cn/mmhead/ver_1/jBc3LzDNmK1yvdzAXwXk2WOYltUmIA3b363qHgzYEblMObibCJWEJcxRL3U2TzHibmG9x0qmTKn5ZVhlPicibkA48wE0ou4FxoiaM2p54vic7D4Cg/132",
+      "ip_region": "内蒙古"
+    },
+    {
+      "comment_id": "14921449345645025575",
+      "nickname": "平凡人生0103",
+      "username": "v2_060000231003b20faec8c5e58d18c3ddcd05e833b0775b428573f19dbcda91962ac0172a47d8@finder",
+      "content": "[强][强][强]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1778775375,
+      "head_url": "https://wx.qlogo.cn/finderhead/TD7RkM80jiaDC673HNjTibib8L84aZeeSKzIVXulIiagTx84wCyoKcXGWwU17knHbylzdTcuOOJInPM/0",
+      "ip_region": "广东"
+    },
+    {
+      "comment_id": "14915261178625595456",
+      "nickname": "静姐在忙啥",
+      "username": "v2_060000231003b20faec8c5e08111c7dccc05ee3db0770b7bf9d554391d56a25e19c9e3edf1fc@finder",
+      "content": "[强][强][强][庆祝][庆祝][庆祝]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1778037688,
+      "head_url": "https://wx.qlogo.cn/finderhead/3oZaibpo7KmeqyGjhENo3W9ib3yfyuUfnhNH8yTp6sSH2T33INuDoUQJxoUgCJLpLscLxkJQTLaEc/0",
+      "ip_region": "云南"
+    }
+  ],
+  "replies_by_comment": {}
+}

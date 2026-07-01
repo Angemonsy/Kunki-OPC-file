@@ -1,0 +1,304 @@
+{
+  "object_id": "14942366051946928573",
+  "pages": [
+    {
+      "code": 200,
+      "request_id": "a5a23642-cd68-43f9-b41e-6e4ce3b3c3ab",
+      "message": "Request successful. This request will incur a charge.",
+      "message_zh": "请求成功，本次请求将被计费。",
+      "support": "Discord: https://discord.gg/aMEAS8Xsvz",
+      "time": "2026-06-28 02:35:11",
+      "time_stamp": 1782639311,
+      "time_zone": "America/Los_Angeles",
+      "docs": "https://api.tikhub.io/#/WeChat-Channels-V2-API/fetch_video_comments_api_v1_wechat_channels_v2_fetch_video_comments_post",
+      "cache_message": "This response is cached and accessible via the URL below for 24 hours at no extra cost. The cache is for request tracing only — it doesn't affect the API's data freshness and won't be returned through the API again.",
+      "cache_message_zh": "本次响应已缓存，可通过下方 URL 直接查看，有效期 24 小时，访问缓存链接无额外费用。缓存仅用于请求溯源，不影响接口数据的时效性，也不会再次通过接口返回。",
+      "cache_url": "https://cache.tikhub.io/api/v1/cache/public/a5a23642-cd68-43f9-b41e-6e4ce3b3c3ab?sign=51eaa5ca8a4c9ae31e2d2afce1b16f903d5ca0ef0648fdc2a35829433a26d23a",
+      "router": "/api/v1/wechat_channels/v2/fetch_video_comments",
+      "params": {
+        "object_id": "14942366051946928573",
+        "last_buffer": "",
+        "comment_id": "",
+        "raw": false
+      },
+      "data": {
+        "object_id": "14942366051946928573",
+        "comment_id": null,
+        "count": 12,
+        "comments": [
+          {
+            "comment_id": "14943942998355020391",
+            "nickname": "兴锁姐悟人生",
+            "username": "v2_060000231003b20faec8c7eb8b1ec0ddcf0ce433b07791bf6acdeed029707bd1128a57ce9ba1@finder",
+            "content": "A|管理[强][强][强][爱心][爱心][爱心]",
+            "like_count": 1,
+            "reply_count": null,
+            "create_time": 1781456827,
+            "head_url": "https://wx.qlogo.cn/finderhead/zZSYtpeVianRVbBqTqyhvJnbuz9NBJuf4xhAuBr2DYNC2nvdJfZA2DfYvflWPaIzZNQnn6MvmgAY/0",
+            "ip_region": "北京"
+          },
+          {
+            "comment_id": "14943755270796417536",
+            "nickname": "固始匠心家装小余总聊透明装修",
+            "username": "v2_060000231003b20faec8c7eb8b10c7d0cb00ef37b0774beaf9205165b29f21948ea9c74305e4@finder",
+            "content": "AI管理",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1781434449,
+            "head_url": "https://wx.qlogo.cn/finderhead/gWicbXPiajJnicjLIlhu5WFtLxauFeibr86DWzmNTKwS0knSXicMZxy0IvQ/0",
+            "ip_region": "河南"
+          },
+          {
+            "comment_id": "14945648084216908179",
+            "nickname": "Elena789",
+            "username": "v2_060000231003b20faec8c7e18b11cbd5ce03e936b077c1cc769fe38c6b91f62820ae02724eac@finder",
+            "content": "企业AI化",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1781660089,
+            "head_url": "https://wx.qlogo.cn/finderhead/AhLk989Zrl2oa4hDUZUia53rWXfJLYO4xWwkzTS4SRIfcPtkpICPpvwibXlkQoIfAxibxe9RkNPPEk/0",
+            "ip_region": "安徽"
+          },
+          {
+            "comment_id": "14943418820973304260",
+            "nickname": "拾书漫读集",
+            "username": "v2_060000231003b20faec8cae38a1cc0d2cc05e53db077bcea65ab68566922df811ca3a584ad28@finder",
+            "content": "ai 管理",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1781394341,
+            "head_url": "https://wx.qlogo.cn/finderhead/DWVYzX5PloyISN6Pn37iaunqeFR398gbxPaUlycxU03m0k5qaQ9AreCctw6Mo1jAEk606UuM3Orc/0",
+            "ip_region": "广东"
+          },
+          {
+            "comment_id": "14943001388643846601",
+            "nickname": "怡冉姐健康达人+修行",
+            "username": "v5_020b0a166104010000000000287b205ab7913f000000b1afa7d8728e3dd43ef4317a780e33c21e1191b4cae3eb4b36cd9c818cba3850ce92cc49dacd0780e34469af6840db0975ddc94330cb6aea4a9e6eb1da7b6598fbcd4043f0192ab08976ef5bee@stranger",
+            "content": "AI管理",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1781344579,
+            "head_url": "https://wx.qlogo.cn/mmhead/ver_1/I40CemkGbAZcbIYjKqLXnm0sgzsH3ia39O8HYzwXldibOekdPsdX0ZUOicGNTqyDzZA4EduzBibLvIXW3g5Wdr3D61UMhzo1mTaib25r2TlQjyvAPPzQ3XiagBnwQqh02jI7VZ/132",
+            "ip_region": "浙江"
+          },
+          {
+            "comment_id": "14943826457514023304",
+            "nickname": "张胜安",
+            "username": "v5_020b0a166104010000000000ba5138d86caa8e000000b1afa7d8728e3dd43ef4317a780e33c21e1191b4cae3eb4b36cd9c818c9f6b768d597726cd1511d44ff682e2f19daed179db0b38fc2917fb86190b14580aaf81a25c2ad59515dae75a52dd535e@stranger",
+            "content": "Ai管理",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1781442935,
+            "head_url": "https://wx.qlogo.cn/mmhead/ver_1/PIPUgpwtnSAPQia56ibd4dM4IWczdE9jiaON7u0Qb1DaDXcozCMA84l4XPuGgQ6RQkpSg9x8RZ5fkicuCbCKk9NWhnJDKy2I1gibiaLYyLPLDDxVQjPoCsyibCdibV1YO6Hrngay0PHcERQgqMH9fY9jeEM6BQ/132",
+            "ip_region": "广东"
+          },
+          {
+            "comment_id": "14943420231208081836",
+            "nickname": "h志诚张",
+            "username": "v2_060000231003b20faec8c5e6801ec3d2c80cea31b0776207ffa11b76ddf2ec7acfe9c7f81cbe@finder",
+            "content": "Ai管理/:strong/:strong/:strong[Worship][Worship][Worship]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1781394509,
+            "head_url": "https://wx.qlogo.cn/finderhead/dxKEsjQBP4RJ8L4Fq3ibRtubypKlNiby806ib2uf5fHDLaUHJUJKM4Xns7HfCOKtT4ialjOmugSlAtQ/0",
+            "ip_region": "陕西"
+          },
+          {
+            "comment_id": "14943037617811364000",
+            "nickname": "水木年华",
+            "username": "v5_020b0a1661040100000000004f5332805b4078000000b1afa7d8728e3dd43ef4317a780e33c21e1191b4cae3eb4b36cd9c818c1c5b6e6582188297dbeb4a902262eee45373e87e431a5f81861c042f32ed176256a6b3a09ad5ba30da75aa8951641672@stranger",
+            "content": "陈老师太棒了[强][强][强]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1781348898,
+            "head_url": "https://wx.qlogo.cn/mmhead/ver_1/BiarTEd3MCO8xjjzxtTjFgJiaFmUzdfAuB7zJTLJV42U7meibvjicHLb6EcP0gsBIib9puz42B4q98iaPopyVB3ibbzriaNYj9r9h5OiaV5R1HibpOA5wy2VmgicfxvmwHlRsoZqnTE/132",
+            "ip_region": "江西"
+          },
+          {
+            "comment_id": "14942664468657805699",
+            "nickname": "一辛爱学习",
+            "username": "v2_060000231003b20faec8c5e68c1dc2d1c704ef33b077e6502446d29c2c1184991a942794af14@finder",
+            "content": "谢谢厂长[合十][合十][合十][微笑]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1781304415,
+            "head_url": "https://wx.qlogo.cn/finderhead/mhNpcHLwQjeLH7S2JKy00w5ubib6XS9a7UhnYFo1oENkolaeVUACwrr6iaZ8EnBObTrHGzDnKUoHc/0",
+            "ip_region": "广东"
+          },
+          {
+            "comment_id": "14943000048328575465",
+            "nickname": "怡冉姐健康达人+修行",
+            "username": "v5_020b0a166104010000000000287b205ab7913f000000b1afa7d8728e3dd43ef4317a780e33c21e1191b4cae3eb4b36cd9c818cba3850ce92cc49dacd0780e34469af6840db0975ddc94330cb6aea4a9e6eb1da7b6598fbcd4043f0192ab08976ef5bee@stranger",
+            "content": "感谢陈厂长分享",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1781344419,
+            "head_url": "https://wx.qlogo.cn/mmhead/ver_1/I40CemkGbAZcbIYjKqLXnm0sgzsH3ia39O8HYzwXldibOekdPsdX0ZUOicGNTqyDzZA4EduzBibLvIXW3g5Wdr3D61UMhzo1mTaib25r2TlQjyvAPPzQ3XiagBnwQqh02jI7VZ/132",
+            "ip_region": "浙江"
+          },
+          {
+            "comment_id": "14943416714592197015",
+            "nickname": "h志诚张",
+            "username": "v2_060000231003b20faec8c5e6801ec3d2c80cea31b0776207ffa11b76ddf2ec7acfe9c7f81cbe@finder",
+            "content": "AI管理[Worship][Worship][Worship][Worship][Worship][Worship]/:heart/:heart/:heart/:heart/:heart/:heart",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1781394090,
+            "head_url": "https://wx.qlogo.cn/finderhead/dxKEsjQBP4RJ8L4Fq3ibRtubypKlNiby806ib2uf5fHDLaUHJUJKM4Xns7HfCOKtT4ialjOmugSlAtQ/0",
+            "ip_region": "陕西"
+          },
+          {
+            "comment_id": "14945393716667357541",
+            "nickname": "李英",
+            "username": "v5_020b0a1661040100000000005da318ef17fb52000000b1afa7d8728e3dd43ef4317a780e33c21e1191b4cae3eb4b36cd9c818c7a046b6a3277dad5308c4e8ea1d850302622ea28d36ac1116319bbc4f26313f4db0e1bf4ddb5f44d0f1cd4fa0d330fb4@stranger",
+            "content": "赞了陈广长的分享太棒了[爱心][合十][强]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1781629767,
+            "head_url": "https://wx.qlogo.cn/mmhead/ver_1/CRMPWfTSlYsfiaKuwvNZMJtBnIyhhTmwUrPrax2asxySlEUda5ApeRLbStiaqMeqwwFhKic6lFtfENjiaH35717zh71m6ysrACFudJbicUfXQxLRYDM5292QIqk0t4ME1h9eZ/132",
+            "ip_region": "河南"
+          }
+        ],
+        "down_continue": 1,
+        "last_buffer": "CpwBCP///////////wEY55SMxbCf47HPARiAtMTx5Me4sc8BGJOT/K309+a0zwEYxLOA0OeH7LDPARjJk6SC95KNsM8BGIiz1InM38ixzwEYrLOslO2w7LDPARigsciXq7GVsM8BGIOzzKGixcCvzwEY6ZOU+vXrjLDPARiXs5zfwMrrsM8BGOWywLLrjK20zwEwATj///////////8B",
+        "debug_id": "f4f95c1d",
+        "debug_info": "gAAAAABqQOrPKCfdB0wJMiN5M2YpR8FUn6TkyeLNqsuHUF8I7WbUWSERHmarZxk5PrSRWNXLhkI5-fpxxpaQlOmfQSfL2ou1-Oua7WZXp116ibG6UWeXh6Jtkb0Wgwyh7AX1_R27cEbNyQJsPlC0Z0L8VqVgDVx4Hyi6yplBjMHjkOKTFOi7Zko4xGLJExVlv-9TrOaKQblmtxr892wdWPdP_m8qX7MsBGUwJKoaOIDCtDHUbdTVgWoeU5Tl3gAZ88bhdGyKa17wconH3euhx78zMWJeQb23gg=="
+      }
+    }
+  ],
+  "comments": [
+    {
+      "comment_id": "14943942998355020391",
+      "nickname": "兴锁姐悟人生",
+      "username": "v2_060000231003b20faec8c7eb8b1ec0ddcf0ce433b07791bf6acdeed029707bd1128a57ce9ba1@finder",
+      "content": "A|管理[强][强][强][爱心][爱心][爱心]",
+      "like_count": 1,
+      "reply_count": null,
+      "create_time": 1781456827,
+      "head_url": "https://wx.qlogo.cn/finderhead/zZSYtpeVianRVbBqTqyhvJnbuz9NBJuf4xhAuBr2DYNC2nvdJfZA2DfYvflWPaIzZNQnn6MvmgAY/0",
+      "ip_region": "北京"
+    },
+    {
+      "comment_id": "14943755270796417536",
+      "nickname": "固始匠心家装小余总聊透明装修",
+      "username": "v2_060000231003b20faec8c7eb8b10c7d0cb00ef37b0774beaf9205165b29f21948ea9c74305e4@finder",
+      "content": "AI管理",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1781434449,
+      "head_url": "https://wx.qlogo.cn/finderhead/gWicbXPiajJnicjLIlhu5WFtLxauFeibr86DWzmNTKwS0knSXicMZxy0IvQ/0",
+      "ip_region": "河南"
+    },
+    {
+      "comment_id": "14945648084216908179",
+      "nickname": "Elena789",
+      "username": "v2_060000231003b20faec8c7e18b11cbd5ce03e936b077c1cc769fe38c6b91f62820ae02724eac@finder",
+      "content": "企业AI化",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1781660089,
+      "head_url": "https://wx.qlogo.cn/finderhead/AhLk989Zrl2oa4hDUZUia53rWXfJLYO4xWwkzTS4SRIfcPtkpICPpvwibXlkQoIfAxibxe9RkNPPEk/0",
+      "ip_region": "安徽"
+    },
+    {
+      "comment_id": "14943418820973304260",
+      "nickname": "拾书漫读集",
+      "username": "v2_060000231003b20faec8cae38a1cc0d2cc05e53db077bcea65ab68566922df811ca3a584ad28@finder",
+      "content": "ai 管理",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1781394341,
+      "head_url": "https://wx.qlogo.cn/finderhead/DWVYzX5PloyISN6Pn37iaunqeFR398gbxPaUlycxU03m0k5qaQ9AreCctw6Mo1jAEk606UuM3Orc/0",
+      "ip_region": "广东"
+    },
+    {
+      "comment_id": "14943001388643846601",
+      "nickname": "怡冉姐健康达人+修行",
+      "username": "v5_020b0a166104010000000000287b205ab7913f000000b1afa7d8728e3dd43ef4317a780e33c21e1191b4cae3eb4b36cd9c818cba3850ce92cc49dacd0780e34469af6840db0975ddc94330cb6aea4a9e6eb1da7b6598fbcd4043f0192ab08976ef5bee@stranger",
+      "content": "AI管理",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1781344579,
+      "head_url": "https://wx.qlogo.cn/mmhead/ver_1/I40CemkGbAZcbIYjKqLXnm0sgzsH3ia39O8HYzwXldibOekdPsdX0ZUOicGNTqyDzZA4EduzBibLvIXW3g5Wdr3D61UMhzo1mTaib25r2TlQjyvAPPzQ3XiagBnwQqh02jI7VZ/132",
+      "ip_region": "浙江"
+    },
+    {
+      "comment_id": "14943826457514023304",
+      "nickname": "张胜安",
+      "username": "v5_020b0a166104010000000000ba5138d86caa8e000000b1afa7d8728e3dd43ef4317a780e33c21e1191b4cae3eb4b36cd9c818c9f6b768d597726cd1511d44ff682e2f19daed179db0b38fc2917fb86190b14580aaf81a25c2ad59515dae75a52dd535e@stranger",
+      "content": "Ai管理",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1781442935,
+      "head_url": "https://wx.qlogo.cn/mmhead/ver_1/PIPUgpwtnSAPQia56ibd4dM4IWczdE9jiaON7u0Qb1DaDXcozCMA84l4XPuGgQ6RQkpSg9x8RZ5fkicuCbCKk9NWhnJDKy2I1gibiaLYyLPLDDxVQjPoCsyibCdibV1YO6Hrngay0PHcERQgqMH9fY9jeEM6BQ/132",
+      "ip_region": "广东"
+    },
+    {
+      "comment_id": "14943420231208081836",
+      "nickname": "h志诚张",
+      "username": "v2_060000231003b20faec8c5e6801ec3d2c80cea31b0776207ffa11b76ddf2ec7acfe9c7f81cbe@finder",
+      "content": "Ai管理/:strong/:strong/:strong[Worship][Worship][Worship]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1781394509,
+      "head_url": "https://wx.qlogo.cn/finderhead/dxKEsjQBP4RJ8L4Fq3ibRtubypKlNiby806ib2uf5fHDLaUHJUJKM4Xns7HfCOKtT4ialjOmugSlAtQ/0",
+      "ip_region": "陕西"
+    },
+    {
+      "comment_id": "14943037617811364000",
+      "nickname": "水木年华",
+      "username": "v5_020b0a1661040100000000004f5332805b4078000000b1afa7d8728e3dd43ef4317a780e33c21e1191b4cae3eb4b36cd9c818c1c5b6e6582188297dbeb4a902262eee45373e87e431a5f81861c042f32ed176256a6b3a09ad5ba30da75aa8951641672@stranger",
+      "content": "陈老师太棒了[强][强][强]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1781348898,
+      "head_url": "https://wx.qlogo.cn/mmhead/ver_1/BiarTEd3MCO8xjjzxtTjFgJiaFmUzdfAuB7zJTLJV42U7meibvjicHLb6EcP0gsBIib9puz42B4q98iaPopyVB3ibbzriaNYj9r9h5OiaV5R1HibpOA5wy2VmgicfxvmwHlRsoZqnTE/132",
+      "ip_region": "江西"
+    },
+    {
+      "comment_id": "14942664468657805699",
+      "nickname": "一辛爱学习",
+      "username": "v2_060000231003b20faec8c5e68c1dc2d1c704ef33b077e6502446d29c2c1184991a942794af14@finder",
+      "content": "谢谢厂长[合十][合十][合十][微笑]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1781304415,
+      "head_url": "https://wx.qlogo.cn/finderhead/mhNpcHLwQjeLH7S2JKy00w5ubib6XS9a7UhnYFo1oENkolaeVUACwrr6iaZ8EnBObTrHGzDnKUoHc/0",
+      "ip_region": "广东"
+    },
+    {
+      "comment_id": "14943000048328575465",
+      "nickname": "怡冉姐健康达人+修行",
+      "username": "v5_020b0a166104010000000000287b205ab7913f000000b1afa7d8728e3dd43ef4317a780e33c21e1191b4cae3eb4b36cd9c818cba3850ce92cc49dacd0780e34469af6840db0975ddc94330cb6aea4a9e6eb1da7b6598fbcd4043f0192ab08976ef5bee@stranger",
+      "content": "感谢陈厂长分享",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1781344419,
+      "head_url": "https://wx.qlogo.cn/mmhead/ver_1/I40CemkGbAZcbIYjKqLXnm0sgzsH3ia39O8HYzwXldibOekdPsdX0ZUOicGNTqyDzZA4EduzBibLvIXW3g5Wdr3D61UMhzo1mTaib25r2TlQjyvAPPzQ3XiagBnwQqh02jI7VZ/132",
+      "ip_region": "浙江"
+    },
+    {
+      "comment_id": "14943416714592197015",
+      "nickname": "h志诚张",
+      "username": "v2_060000231003b20faec8c5e6801ec3d2c80cea31b0776207ffa11b76ddf2ec7acfe9c7f81cbe@finder",
+      "content": "AI管理[Worship][Worship][Worship][Worship][Worship][Worship]/:heart/:heart/:heart/:heart/:heart/:heart",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1781394090,
+      "head_url": "https://wx.qlogo.cn/finderhead/dxKEsjQBP4RJ8L4Fq3ibRtubypKlNiby806ib2uf5fHDLaUHJUJKM4Xns7HfCOKtT4ialjOmugSlAtQ/0",
+      "ip_region": "陕西"
+    },
+    {
+      "comment_id": "14945393716667357541",
+      "nickname": "李英",
+      "username": "v5_020b0a1661040100000000005da318ef17fb52000000b1afa7d8728e3dd43ef4317a780e33c21e1191b4cae3eb4b36cd9c818c7a046b6a3277dad5308c4e8ea1d850302622ea28d36ac1116319bbc4f26313f4db0e1bf4ddb5f44d0f1cd4fa0d330fb4@stranger",
+      "content": "赞了陈广长的分享太棒了[爱心][合十][强]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1781629767,
+      "head_url": "https://wx.qlogo.cn/mmhead/ver_1/CRMPWfTSlYsfiaKuwvNZMJtBnIyhhTmwUrPrax2asxySlEUda5ApeRLbStiaqMeqwwFhKic6lFtfENjiaH35717zh71m6ysrACFudJbicUfXQxLRYDM5292QIqk0t4ME1h9eZ/132",
+      "ip_region": "河南"
+    }
+  ],
+  "replies_by_comment": {}
+}

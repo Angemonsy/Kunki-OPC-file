@@ -1,0 +1,260 @@
+{
+  "object_id": "14945947256133392798",
+  "pages": [
+    {
+      "code": 200,
+      "request_id": "1b3fb056-eac1-46b1-b165-fb9263c793fe",
+      "message": "Request successful. This request will incur a charge.",
+      "message_zh": "请求成功，本次请求将被计费。",
+      "support": "Discord: https://discord.gg/aMEAS8Xsvz",
+      "time": "2026-06-28 02:30:53",
+      "time_stamp": 1782639053,
+      "time_zone": "America/Los_Angeles",
+      "docs": "https://api.tikhub.io/#/WeChat-Channels-V2-API/fetch_video_comments_api_v1_wechat_channels_v2_fetch_video_comments_post",
+      "cache_message": "This response is cached and accessible via the URL below for 24 hours at no extra cost. The cache is for request tracing only — it doesn't affect the API's data freshness and won't be returned through the API again.",
+      "cache_message_zh": "本次响应已缓存，可通过下方 URL 直接查看，有效期 24 小时，访问缓存链接无额外费用。缓存仅用于请求溯源，不影响接口数据的时效性，也不会再次通过接口返回。",
+      "cache_url": "https://cache.tikhub.io/api/v1/cache/public/1b3fb056-eac1-46b1-b165-fb9263c793fe?sign=4199b66cac36800b66764be4700d433a9412927161c9410624b3ec51dfe17448",
+      "router": "/api/v1/wechat_channels/v2/fetch_video_comments",
+      "params": {
+        "object_id": "14945947256133392798",
+        "last_buffer": "",
+        "comment_id": "",
+        "raw": false
+      },
+      "data": {
+        "object_id": "14945947256133392798",
+        "comment_id": null,
+        "count": 10,
+        "comments": [
+          {
+            "comment_id": "14947216098851555705",
+            "nickname": "诸海静",
+            "username": "v2_060000231003b20faec8c4e08911c5d4c601e836b077c0eb77488272502399017b6ac0a3a2b3@finder",
+            "content": "井学友分享海南\nAi创业时代谢谢[爱心]",
+            "like_count": 1,
+            "reply_count": null,
+            "create_time": 1781847011,
+            "head_url": "https://wx.qlogo.cn/finderhead/4SjnJg1tQdhG5wQUMesQicSLgG2n4CqHjtr4xhU9Dic9Y/0",
+            "ip_region": "浙江"
+          },
+          {
+            "comment_id": "14947309343315855921",
+            "nickname": "老石的AI学习日记",
+            "username": "v2_060000231003b20faec8c4ea8110c3ddcf05eb32b07723a1ba2c9acf941c6e453eacfbea01d8@finder",
+            "content": "[合十][合十][合十][合十][合十][爱心][爱心][爱心][爱心][爱心]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1781858127,
+            "head_url": "https://wx.qlogo.cn/finderhead/fFgUJknhibCwTNONgUTMaydgxf9pNaHMMHYBYXTv0ow60IicUf7oOXzfuic3F6DWDR1DGicv26bvEQo/0",
+            "ip_region": "江苏"
+          },
+          {
+            "comment_id": "14946671391097883266",
+            "nickname": "AI亲子创业黄淑萍",
+            "username": "v2_060000231003b20faec8cae78d19c3d1c602ec37b0778b5f96490b355840a7f055291eb1f3a7@finder",
+            "content": "感恩陈厂长的分享[合十][爱心]",
+            "like_count": 1,
+            "reply_count": null,
+            "create_time": 1781782077,
+            "head_url": "https://wx.qlogo.cn/finderhead/N8hPaSuyZD0k34TfaXUugQB630565r2b3IaMclv0WSlEt7ibwF5CryLOrEqwiaNoIqkPUIEXJia8Ko/0",
+            "ip_region": "广东"
+          },
+          {
+            "comment_id": "14946018434291014194",
+            "nickname": "学友爱分享",
+            "username": "v2_060000231003b20faec8c7e6881ec3dcc70de93cb0777f33028bd92f6e3e272e79e1f8d0b740@finder",
+            "content": "Ai创业",
+            "like_count": 1,
+            "reply_count": null,
+            "create_time": 1781704239,
+            "head_url": "https://wx.qlogo.cn/finderhead/ZhP7d2x8bUmt7zTEjhhqWVpfUloQZgLzQiaAicqrDmnXqy0icUHwboiaMxticO4ySVa7stytr0AH28WE/0",
+            "ip_region": "海南"
+          },
+          {
+            "comment_id": "14945965239281457338",
+            "nickname": "水木年华",
+            "username": "v5_020b0a1661040100000000004f5332805b4078000000b1afa7d8728e3dd43ef4317a780e33c21e1191b4cae3eb4b36cd9c818c1c5b6e6582188297dbeb4a902262eee45373e87e431a5f81861c042f32ed176256a6b3a09ad5ba30da75aa8951641672@stranger",
+            "content": "Al创业[强][强]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1781697897,
+            "head_url": "https://wx.qlogo.cn/mmhead/ver_1/HurpY1dI3FQCF4eh796wUUKQrw4NUoLy5XLfhud7vicOTwoBVToXKgsmZAwFoU3YqcK90ZicRk4L0JD0d1ibqMMj6B7kSjDfCCdAp8Xet3Y6JgMnrcLurRQ5Id0d4GNqMsv/132",
+            "ip_region": "江西"
+          },
+          {
+            "comment_id": "14946692900251830738",
+            "nickname": "周先付",
+            "username": "v5_020b0a166104010000000000cd270fe20e5a6e000000b1afa7d8728e3dd43ef4317a780e33c21e1191b4cae3eb4b36cd9c818c1334afe5555897e3a3db60316a2f9609b46fde424c06db196e0cc56791d2e5c6c9482e91c2c58960588f641a2f9e52ae@stranger",
+            "content": "[强][强][强][强][强]说得对",
+            "like_count": 1,
+            "reply_count": null,
+            "create_time": 1781784641,
+            "head_url": "https://wx.qlogo.cn/mmhead/ver_1/iaDibciaY7qQMWINVTvAH4KUgcebB9JJibh5MauThXVRcJyYUsyHicPFPDFyEnEPXyrfBGtNdkkl2LuDo7HgpnCPkug/132",
+            "ip_region": "四川"
+          },
+          {
+            "comment_id": "14945964368981268671",
+            "nickname": "水木年华",
+            "username": "v5_020b0a1661040100000000004f5332805b4078000000b1afa7d8728e3dd43ef4317a780e33c21e1191b4cae3eb4b36cd9c818c1c5b6e6582188297dbeb4a902262eee45373e87e431a5f81861c042f32ed176256a6b3a09ad5ba30da75aa8951641672@stranger",
+            "content": "感恩陈老师的分享[强][强][强]",
+            "like_count": 1,
+            "reply_count": null,
+            "create_time": 1781697794,
+            "head_url": "https://wx.qlogo.cn/mmhead/ver_1/HurpY1dI3FQCF4eh796wUUKQrw4NUoLy5XLfhud7vicOTwoBVToXKgsmZAwFoU3YqcK90ZicRk4L0JD0d1ibqMMj6B7kSjDfCCdAp8Xet3Y6JgMnrcLurRQ5Id0d4GNqMsv/132",
+            "ip_region": "江西"
+          },
+          {
+            "comment_id": "14946242663686670838",
+            "nickname": "武姐读书悟财商",
+            "username": "v2_060000231003b20faec8c7e18b10cbd7cc01e837b077b82fce16d32c96b1e70aca2157a4a984@finder",
+            "content": "AI创造[强][强][强][爱心][爱心][爱心][爱心]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1781730969,
+            "head_url": "https://wx.qlogo.cn/finderhead/ufVMVgCvafJwrYqBjtM5bB1EroI0fSrkCdWsOoSveWCibiaI1ZJ7XkKgbibEHPWfOzqIibL9vcXdricM/0",
+            "ip_region": "河北"
+          },
+          {
+            "comment_id": "14947213895240649083",
+            "nickname": "诸海静",
+            "username": "v2_060000231003b20faec8c4e08911c5d4c601e836b077c0eb77488272502399017b6ac0a3a2b3@finder",
+            "content": "井文珺奶奶河南1[爱心]\n感谢陈厂长[爱心]",
+            "like_count": 1,
+            "reply_count": null,
+            "create_time": 1781846749,
+            "head_url": "https://wx.qlogo.cn/finderhead/4SjnJg1tQdhG5wQUMesQicSLgG2n4CqHjtr4xhU9Dic9Y/0",
+            "ip_region": "浙江"
+          },
+          {
+            "comment_id": "14947211631288060279",
+            "nickname": "诸海静",
+            "username": "v2_060000231003b20faec8c4e08911c5d4c601e836b077c0eb77488272502399017b6ac0a3a2b3@finder",
+            "content": "井继云情感…河北恭喜[爱心]\nAI创造[强][强][强][爱心][爱心][爱心][爱心]",
+            "like_count": 1,
+            "reply_count": null,
+            "create_time": 1781846479,
+            "head_url": "https://wx.qlogo.cn/finderhead/4SjnJg1tQdhG5wQUMesQicSLgG2n4CqHjtr4xhU9Dic9Y/0",
+            "ip_region": "浙江"
+          }
+        ],
+        "down_continue": 1,
+        "last_buffer": "Cm4I95KMjI+5yrfPARj5krCIkrvLt88BGLGU4OH01OC3zwEYgpWIx4fOz7bPARiytOzywZK7tc8BGLqx1IWrhq+1zwEY0pP0sofA1LbPARi/sZj2gO2utc8BGPaT1L65kO61zwE495KMjI+5yrfPAQ==",
+        "debug_id": "4016f030",
+        "debug_info": "gAAAAABqQOnNm58H1RmgLWA2Mvt48OIoMEHdZOxRXVVDJqc-4TuW9SuG8DRNLt2V_R-h2ebcEizKdS8l2r_-TuNIZ2H5MOBdEQ8OC8wesJT50pUxbO00Gpz-IB2alg_Mmh-BBdL7-G4s-6rHWScoq1ed4BySKOJkgoz3nD0ZCCxX4f2MYk3hHJYJ8jqf3PhXwx_D1C7lRT0t-ug52pQiGM5ieJSAUknfozMctKtscn3z1vG6zygnrU1-CM7maiPu7VKoGAs3APz4Hedz8ZFuagaQetWNFiqttg=="
+      }
+    }
+  ],
+  "comments": [
+    {
+      "comment_id": "14947216098851555705",
+      "nickname": "诸海静",
+      "username": "v2_060000231003b20faec8c4e08911c5d4c601e836b077c0eb77488272502399017b6ac0a3a2b3@finder",
+      "content": "井学友分享海南\nAi创业时代谢谢[爱心]",
+      "like_count": 1,
+      "reply_count": null,
+      "create_time": 1781847011,
+      "head_url": "https://wx.qlogo.cn/finderhead/4SjnJg1tQdhG5wQUMesQicSLgG2n4CqHjtr4xhU9Dic9Y/0",
+      "ip_region": "浙江"
+    },
+    {
+      "comment_id": "14947309343315855921",
+      "nickname": "老石的AI学习日记",
+      "username": "v2_060000231003b20faec8c4ea8110c3ddcf05eb32b07723a1ba2c9acf941c6e453eacfbea01d8@finder",
+      "content": "[合十][合十][合十][合十][合十][爱心][爱心][爱心][爱心][爱心]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1781858127,
+      "head_url": "https://wx.qlogo.cn/finderhead/fFgUJknhibCwTNONgUTMaydgxf9pNaHMMHYBYXTv0ow60IicUf7oOXzfuic3F6DWDR1DGicv26bvEQo/0",
+      "ip_region": "江苏"
+    },
+    {
+      "comment_id": "14946671391097883266",
+      "nickname": "AI亲子创业黄淑萍",
+      "username": "v2_060000231003b20faec8cae78d19c3d1c602ec37b0778b5f96490b355840a7f055291eb1f3a7@finder",
+      "content": "感恩陈厂长的分享[合十][爱心]",
+      "like_count": 1,
+      "reply_count": null,
+      "create_time": 1781782077,
+      "head_url": "https://wx.qlogo.cn/finderhead/N8hPaSuyZD0k34TfaXUugQB630565r2b3IaMclv0WSlEt7ibwF5CryLOrEqwiaNoIqkPUIEXJia8Ko/0",
+      "ip_region": "广东"
+    },
+    {
+      "comment_id": "14946018434291014194",
+      "nickname": "学友爱分享",
+      "username": "v2_060000231003b20faec8c7e6881ec3dcc70de93cb0777f33028bd92f6e3e272e79e1f8d0b740@finder",
+      "content": "Ai创业",
+      "like_count": 1,
+      "reply_count": null,
+      "create_time": 1781704239,
+      "head_url": "https://wx.qlogo.cn/finderhead/ZhP7d2x8bUmt7zTEjhhqWVpfUloQZgLzQiaAicqrDmnXqy0icUHwboiaMxticO4ySVa7stytr0AH28WE/0",
+      "ip_region": "海南"
+    },
+    {
+      "comment_id": "14945965239281457338",
+      "nickname": "水木年华",
+      "username": "v5_020b0a1661040100000000004f5332805b4078000000b1afa7d8728e3dd43ef4317a780e33c21e1191b4cae3eb4b36cd9c818c1c5b6e6582188297dbeb4a902262eee45373e87e431a5f81861c042f32ed176256a6b3a09ad5ba30da75aa8951641672@stranger",
+      "content": "Al创业[强][强]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1781697897,
+      "head_url": "https://wx.qlogo.cn/mmhead/ver_1/HurpY1dI3FQCF4eh796wUUKQrw4NUoLy5XLfhud7vicOTwoBVToXKgsmZAwFoU3YqcK90ZicRk4L0JD0d1ibqMMj6B7kSjDfCCdAp8Xet3Y6JgMnrcLurRQ5Id0d4GNqMsv/132",
+      "ip_region": "江西"
+    },
+    {
+      "comment_id": "14946692900251830738",
+      "nickname": "周先付",
+      "username": "v5_020b0a166104010000000000cd270fe20e5a6e000000b1afa7d8728e3dd43ef4317a780e33c21e1191b4cae3eb4b36cd9c818c1334afe5555897e3a3db60316a2f9609b46fde424c06db196e0cc56791d2e5c6c9482e91c2c58960588f641a2f9e52ae@stranger",
+      "content": "[强][强][强][强][强]说得对",
+      "like_count": 1,
+      "reply_count": null,
+      "create_time": 1781784641,
+      "head_url": "https://wx.qlogo.cn/mmhead/ver_1/iaDibciaY7qQMWINVTvAH4KUgcebB9JJibh5MauThXVRcJyYUsyHicPFPDFyEnEPXyrfBGtNdkkl2LuDo7HgpnCPkug/132",
+      "ip_region": "四川"
+    },
+    {
+      "comment_id": "14945964368981268671",
+      "nickname": "水木年华",
+      "username": "v5_020b0a1661040100000000004f5332805b4078000000b1afa7d8728e3dd43ef4317a780e33c21e1191b4cae3eb4b36cd9c818c1c5b6e6582188297dbeb4a902262eee45373e87e431a5f81861c042f32ed176256a6b3a09ad5ba30da75aa8951641672@stranger",
+      "content": "感恩陈老师的分享[强][强][强]",
+      "like_count": 1,
+      "reply_count": null,
+      "create_time": 1781697794,
+      "head_url": "https://wx.qlogo.cn/mmhead/ver_1/HurpY1dI3FQCF4eh796wUUKQrw4NUoLy5XLfhud7vicOTwoBVToXKgsmZAwFoU3YqcK90ZicRk4L0JD0d1ibqMMj6B7kSjDfCCdAp8Xet3Y6JgMnrcLurRQ5Id0d4GNqMsv/132",
+      "ip_region": "江西"
+    },
+    {
+      "comment_id": "14946242663686670838",
+      "nickname": "武姐读书悟财商",
+      "username": "v2_060000231003b20faec8c7e18b10cbd7cc01e837b077b82fce16d32c96b1e70aca2157a4a984@finder",
+      "content": "AI创造[强][强][强][爱心][爱心][爱心][爱心]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1781730969,
+      "head_url": "https://wx.qlogo.cn/finderhead/ufVMVgCvafJwrYqBjtM5bB1EroI0fSrkCdWsOoSveWCibiaI1ZJ7XkKgbibEHPWfOzqIibL9vcXdricM/0",
+      "ip_region": "河北"
+    },
+    {
+      "comment_id": "14947213895240649083",
+      "nickname": "诸海静",
+      "username": "v2_060000231003b20faec8c4e08911c5d4c601e836b077c0eb77488272502399017b6ac0a3a2b3@finder",
+      "content": "井文珺奶奶河南1[爱心]\n感谢陈厂长[爱心]",
+      "like_count": 1,
+      "reply_count": null,
+      "create_time": 1781846749,
+      "head_url": "https://wx.qlogo.cn/finderhead/4SjnJg1tQdhG5wQUMesQicSLgG2n4CqHjtr4xhU9Dic9Y/0",
+      "ip_region": "浙江"
+    },
+    {
+      "comment_id": "14947211631288060279",
+      "nickname": "诸海静",
+      "username": "v2_060000231003b20faec8c4e08911c5d4c601e836b077c0eb77488272502399017b6ac0a3a2b3@finder",
+      "content": "井继云情感…河北恭喜[爱心]\nAI创造[强][强][强][爱心][爱心][爱心][爱心]",
+      "like_count": 1,
+      "reply_count": null,
+      "create_time": 1781846479,
+      "head_url": "https://wx.qlogo.cn/finderhead/4SjnJg1tQdhG5wQUMesQicSLgG2n4CqHjtr4xhU9Dic9Y/0",
+      "ip_region": "浙江"
+    }
+  ],
+  "replies_by_comment": {}
+}

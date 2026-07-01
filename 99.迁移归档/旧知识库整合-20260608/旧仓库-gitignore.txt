@@ -1,0 +1,61 @@
+# Claude 凭证（各电脑独立）
+.claude/settings.json
+.claude/local-config.json
+.claude/.oauth-tokens
+.claude/**/*.log
+.claude/.tmp/
+.claude/tmp/
+
+# Obsidian 本地工作区（各自保留窗口状态）
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/cache
+.obsidian/appearance.json
+.obsidian/graph.json
+.obsidian/hotkeys.json
+
+# Node modules / Python env
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.claudian/
+.learnings/
+.tmp/
+.D
+*.lnk
+
+# Local environment variables
+.env
+.env.local
+.env.*.local
+
+# 飞书CLI缓存
+.lark-cli/
+
+# 大文件/视频/二进制（可选，如果知识库很大可以保留这些不同步）
+# *.mp4
+# *.mov
+# *.zip
+# *.rar
+# *.7z

@@ -1,0 +1,39 @@
+✅ **完成！26个飞书AI skills全部安装成功**
+
+## 安装信息
+
+| 项目 | 位置/状态 |
+|------|----------|
+| **lark-cli 命令** | `/Users/kunki/.nvm/versions/node/v22.22.1/bin/lark-cli` |
+| **安装的 skills** | 共 **26个**，全部软链接到 OpenClaw 技能目录 |
+| **认证状态** | Bot 已就绪，User 身份正常（token过期会自动刷新） |
+
+## 解决"另一个窗口找不到飞书cli"
+
+在另一个窗口运行这行命令添加到 PATH：
+```bash
+export PATH="/Users/kunki/.nvm/versions/node/v22.22.1/bin:$PATH"
+```
+
+如果想永久生效，把上面那行加到你的 `~/.zshrc` 文件末尾即可。
+
+## 已安装的skills列表
+
+- `lark-approval` 审批任务管理
+- `lark-base` 多维表格
+- `lark-calendar` 日历
+- `lark-contact` 用户搜索
+- `lark-doc` 创建/更新文档 ✅（你一直在用）
+- `lark-drive` 云盘文件管理
+- `lark-im` 发送消息
+- `lark-mail` 邮件
+- `lark-markdown` Markdown管理
+- `lark-sheets` 电子表格
+- `lark-slides` 演示文稿
+- `lark-task` 任务管理
+- `lark-vc` 会议纪要
+- `lark-whiteboard` 白板
+- `lark-wiki` 知识库
+- ... 一共26个，全部可用了
+
+现在任何窗口只要加上PATH就能找到 `lark-cli`，所有skills也都能调用了！

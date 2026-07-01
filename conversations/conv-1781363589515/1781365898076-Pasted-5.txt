@@ -1,0 +1,21 @@
+Last login: Thu Jun 11 11:20:40 on console
+kunki@kunkideMacBook-Air ~ % sudo wechat-cli init
+Password:
+WeChat CLI 初始化
+========================================
+[!] 检测到多个微信数据目录:
+    1. /Users/kunki/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_xecfu2gfncjx22_aafb/db_storage
+    2. /Users/kunki/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_undrj49sa65x29_dab3/db_storage
+    3. /Users/kunki/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_n1bb38ckytkc22_cadd/db_storage
+    0. 跳过
+请选择 [0-3]: 
+
+
+
+
+
+
+
+
+
+

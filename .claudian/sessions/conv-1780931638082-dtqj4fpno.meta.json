@@ -1,0 +1,25 @@
+{
+  "id": "conv-1780931638082-dtqj4fpno",
+  "providerId": "codex",
+  "title": "Compare new and old content creation systems",
+  "titleGenerationStatus": "success",
+  "createdAt": 1780931638083,
+  "updatedAt": 1780932881123,
+  "lastResponseAt": 1780932881123,
+  "sessionId": "019ea7cc-47dd-7fa3-a1fc-243328bc8d98",
+  "providerState": {
+    "threadId": "019ea7cc-47dd-7fa3-a1fc-243328bc8d98",
+    "sessionFilePath": "/Users/kunki/.codex/sessions/2026/06/08/rollout-2026-06-08T23-14-03-019ea7cc-47dd-7fa3-a1fc-243328bc8d98.jsonl",
+    "transcriptRootPath": "/Users/kunki/.codex/sessions"
+  },
+  "usage": {
+    "inputTokens": 93330,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 92032,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 93330,
+    "percentage": 36,
+    "model": "gpt-5.5"
+  }
+}

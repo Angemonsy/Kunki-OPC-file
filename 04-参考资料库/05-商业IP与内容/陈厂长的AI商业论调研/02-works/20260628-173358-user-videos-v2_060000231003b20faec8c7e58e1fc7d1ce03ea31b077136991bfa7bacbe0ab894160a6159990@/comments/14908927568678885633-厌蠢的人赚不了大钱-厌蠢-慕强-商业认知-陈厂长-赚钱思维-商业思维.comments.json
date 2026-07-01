@@ -1,0 +1,106 @@
+{
+  "object_id": "14908927568678885633",
+  "pages": [
+    {
+      "code": 200,
+      "request_id": "3ab7eb0d-6044-428e-b643-636cb8f21e25",
+      "message": "Request successful. This request will incur a charge.",
+      "message_zh": "请求成功，本次请求将被计费。",
+      "support": "Discord: https://discord.gg/aMEAS8Xsvz",
+      "time": "2026-06-28 02:38:17",
+      "time_stamp": 1782639497,
+      "time_zone": "America/Los_Angeles",
+      "docs": "https://api.tikhub.io/#/WeChat-Channels-V2-API/fetch_video_comments_api_v1_wechat_channels_v2_fetch_video_comments_post",
+      "cache_message": "This response is cached and accessible via the URL below for 24 hours at no extra cost. The cache is for request tracing only — it doesn't affect the API's data freshness and won't be returned through the API again.",
+      "cache_message_zh": "本次响应已缓存，可通过下方 URL 直接查看，有效期 24 小时，访问缓存链接无额外费用。缓存仅用于请求溯源，不影响接口数据的时效性，也不会再次通过接口返回。",
+      "cache_url": "https://cache.tikhub.io/api/v1/cache/public/3ab7eb0d-6044-428e-b643-636cb8f21e25?sign=08203aaaaea6fc991a0c5f4bd0df9d1e8ddb7ec6861febfce56726a7dc461a5e",
+      "router": "/api/v1/wechat_channels/v2/fetch_video_comments",
+      "params": {
+        "object_id": "14908927568678885633",
+        "last_buffer": "",
+        "comment_id": "",
+        "raw": false
+      },
+      "data": {
+        "object_id": "14908927568678885633",
+        "comment_id": null,
+        "count": 3,
+        "comments": [
+          {
+            "comment_id": "14923308360862732534",
+            "nickname": "景连振🇨🇭",
+            "username": "v5_020b0a166104010000000000dff3387fd1138d000000b1afa7d8728e3dd43ef4317a780e33c21e1191b4cae3eb4b36cd9c818c636ebabba50ae7acad94e983fdf3414a25a5c3bda2e0d5a02345120e67251ebb08695781b191ea9a2e9309f428ea0236@stranger",
+            "content": "尊重众生[合十][合十][合十][合十][爱心][爱心][爱心][爱心][强][强][强][强]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1778996987,
+            "head_url": "https://mmhead.c2c.wechat.com/mmhead/ver_1/4ibHTxYBHDVFCYsCXhuJwaLiaKyWSFH8icnBsW7ZBUj6LDLKRIkObZ1gBKGcUXkP0jiaiceJduTsWgQT9zHbe3fgpic83YrWSbh4LDyh4iaXs4ZyGg/132",
+            "ip_region": "瑞士"
+          },
+          {
+            "comment_id": "14923308586599256300",
+            "nickname": "景连振🇨🇭",
+            "username": "v5_020b0a166104010000000000dff3387fd1138d000000b1afa7d8728e3dd43ef4317a780e33c21e1191b4cae3eb4b36cd9c818c636ebabba50ae7acad94e983fdf3414a25a5c3bda2e0d5a02345120e67251ebb08695781b191ea9a2e9309f428ea0236@stranger",
+            "content": "感恩陈厂长[爱心][爱心][爱心][爱心][合十][合十][合十][合十]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1778997014,
+            "head_url": "https://mmhead.c2c.wechat.com/mmhead/ver_1/4ibHTxYBHDVFCYsCXhuJwaLiaKyWSFH8icnBsW7ZBUj6LDLKRIkObZ1gBKGcUXkP0jiaiceJduTsWgQT9zHbe3fgpic83YrWSbh4LDyh4iaXs4ZyGg/132",
+            "ip_region": "瑞士"
+          },
+          {
+            "comment_id": "14909308344519100503",
+            "nickname": "王庆",
+            "username": "v5_020b0a166104010000000000f67e2bba5c1109000000b1afa7d8728e3dd43ef4317a780e33c21e1191b4cae3eb4b36cd9c818c18143bdfa7f00ba261f089e6992a7dbcca4254d0a6f94c9e1f19d461c84be76242eefa2b4e63c7a3d032edf82dcac4f7@stranger",
+            "content": "[强][强][强][强]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1777328055,
+            "head_url": "https://wx.qlogo.cn/mmhead/ver_1/nv2Ny5GszfJJYjxsrawafU9kZxfFYtYiaBqqIbiazNoeGsuCE3N0J75cdNnes7VqwX3V3mDUf9CNibrsVFFRxDiaia9yCUp5Zeapza3XFe7j0e0EjFEEibz18AtlstI3S3z1MY/132",
+            "ip_region": "新疆"
+          }
+        ],
+        "down_continue": 0,
+        "last_buffer": "CiwI15DQzqSeoPTOARj2odzWsbyPjc8BGOyhpM76wo+NzwE415DQzqSeoPTOAQ==",
+        "debug_id": "f9a87abb",
+        "debug_info": "gAAAAABqQOuJsquiJplOwPdWNB22q_WbfmkcyDLDtlsUHU4rAQaYt4oItO11Ae5w1cYZYQfZZj7iy7L46QVEMlCo0vi7TqCIa5rD_8x29l-qgHMouCuFz8AKDXkgER8SPQY3M7uA174XfdJtjMVbU9QjVxZ_sE-PKHnlOybwYftJFuwNolshPr2yXZFtGclwj9ZgZ01uIR5x1cJlVLWZESytuK1lTG_XReI3ZO_yNoPCRUZ8LuM7UWE-P0eron3PBOJl-RlXLddT9p52i1ufv0O3uqVkoy39zQ=="
+      }
+    }
+  ],
+  "comments": [
+    {
+      "comment_id": "14923308360862732534",
+      "nickname": "景连振🇨🇭",
+      "username": "v5_020b0a166104010000000000dff3387fd1138d000000b1afa7d8728e3dd43ef4317a780e33c21e1191b4cae3eb4b36cd9c818c636ebabba50ae7acad94e983fdf3414a25a5c3bda2e0d5a02345120e67251ebb08695781b191ea9a2e9309f428ea0236@stranger",
+      "content": "尊重众生[合十][合十][合十][合十][爱心][爱心][爱心][爱心][强][强][强][强]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1778996987,
+      "head_url": "https://mmhead.c2c.wechat.com/mmhead/ver_1/4ibHTxYBHDVFCYsCXhuJwaLiaKyWSFH8icnBsW7ZBUj6LDLKRIkObZ1gBKGcUXkP0jiaiceJduTsWgQT9zHbe3fgpic83YrWSbh4LDyh4iaXs4ZyGg/132",
+      "ip_region": "瑞士"
+    },
+    {
+      "comment_id": "14923308586599256300",
+      "nickname": "景连振🇨🇭",
+      "username": "v5_020b0a166104010000000000dff3387fd1138d000000b1afa7d8728e3dd43ef4317a780e33c21e1191b4cae3eb4b36cd9c818c636ebabba50ae7acad94e983fdf3414a25a5c3bda2e0d5a02345120e67251ebb08695781b191ea9a2e9309f428ea0236@stranger",
+      "content": "感恩陈厂长[爱心][爱心][爱心][爱心][合十][合十][合十][合十]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1778997014,
+      "head_url": "https://mmhead.c2c.wechat.com/mmhead/ver_1/4ibHTxYBHDVFCYsCXhuJwaLiaKyWSFH8icnBsW7ZBUj6LDLKRIkObZ1gBKGcUXkP0jiaiceJduTsWgQT9zHbe3fgpic83YrWSbh4LDyh4iaXs4ZyGg/132",
+      "ip_region": "瑞士"
+    },
+    {
+      "comment_id": "14909308344519100503",
+      "nickname": "王庆",
+      "username": "v5_020b0a166104010000000000f67e2bba5c1109000000b1afa7d8728e3dd43ef4317a780e33c21e1191b4cae3eb4b36cd9c818c18143bdfa7f00ba261f089e6992a7dbcca4254d0a6f94c9e1f19d461c84be76242eefa2b4e63c7a3d032edf82dcac4f7@stranger",
+      "content": "[强][强][强][强]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1777328055,
+      "head_url": "https://wx.qlogo.cn/mmhead/ver_1/nv2Ny5GszfJJYjxsrawafU9kZxfFYtYiaBqqIbiazNoeGsuCE3N0J75cdNnes7VqwX3V3mDUf9CNibrsVFFRxDiaia9yCUp5Zeapza3XFe7j0e0EjFEEibz18AtlstI3S3z1MY/132",
+      "ip_region": "新疆"
+    }
+  ],
+  "replies_by_comment": {}
+}

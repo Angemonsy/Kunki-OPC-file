@@ -1,0 +1,9 @@
+{
+  "id": "video-forge",
+  "name": "Video Forge 🎬 视频锻造",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "AI-powered video production: Gemini scene splitting → Fish Audio S1 voice clone → Whisper timestamps → Remotion render",
+  "author": "VideoForge",
+  "isDesktopOnly": true
+}

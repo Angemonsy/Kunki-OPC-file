@@ -1,0 +1,25 @@
+{
+  "id": "conv-1781017737985-k0duxs283",
+  "providerId": "codex",
+  "title": "统计对标博主小涵学姐视频数据并分析自媒体涨粉差距",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781017737986,
+  "updatedAt": 1781019335956,
+  "lastResponseAt": 1781019335955,
+  "sessionId": "019eacee-1d4d-7d31-87f4-0081a98221aa",
+  "providerState": {
+    "threadId": "019eacee-1d4d-7d31-87f4-0081a98221aa",
+    "sessionFilePath": "/Users/kunki/.codex/sessions/2026/06/09/rollout-2026-06-09T23-09-06-019eacee-1d4d-7d31-87f4-0081a98221aa.jsonl",
+    "transcriptRootPath": "/Users/kunki/.codex/sessions"
+  },
+  "usage": {
+    "inputTokens": 84679,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 84352,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 84679,
+    "percentage": 33,
+    "model": "gpt-5.5"
+  }
+}

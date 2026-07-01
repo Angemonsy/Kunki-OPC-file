@@ -1,0 +1,76 @@
+好的，我来把这个 **Agent Reach + Social Transcriber 组合工作流** 创建成一个专用 Skill，专门处理抖音小红书视频爬取+数据提取+逐字稿。</think_never_used_51bce0c785ca2f68081bfa7d91973934>✅ **Skill 创建完成！social-content-fetcher 已经安装到你的 Claude Code**
+
+## 安装位置
+```
+~/.claude/skills/social-content-fetcher/
+├── SKILL.md          # Skill说明
+└── scripts/
+    └── workflow.sh   # 工作流脚本
+```
+
+## 使用方式
+
+**以后直接调用：
+```
+/social-content-fetcher <链接>
+```
+
+就是你要的效果：**一键爬取抖音/小红书，自动拿到：
+1. ✅ 点赞、收藏、评论、转发数据（来自 Agent Reach / Jina Reader）
+2. ✅ 平台正文和话题标签
+3. ✅ 完整逐字稿（来自 Social Transcriber 本地转写）
+4. ✅ 自动清理原视频/音频，节省磁盘空间
+
+如果想保留原视频，可以加参数：
+```
+/social-content-fetcher --keep-media <链接>
+```
+
+## 支持格式
+
+| 平台 | 支持链接 |
+|------|----------|
+| 小红书 | `xiaohongshu.com/*`, `xhslink.com/*` |
+| 抖音 | `douyin.com/video/*`, `v.douyin.com/*` |
+
+我们刚才测试的链接，现在用新 Skill 再跑一次验证：</think_never_used_51bce0c785ca2f68081bfa7d91973934>
+测试运行中，请稍等... 完整工作流正在执行：
+
+1. 获取元数据和互动数据
+2. 下载视频+转写逐字稿
+3. 输出整合结果
+
+完成后会自动展示。✅ **测试通过！social-content-fetcher Skill 创建完成，工作流正常运行**
+
+## 最终结果
+
+| 项目 | 状态 |
+|------|------|
+| Skill 安装 | ✅ 已安装到 `~/.claude/skills/social-content-fetcher/` |
+| 脚本权限 | ✅ 可执行 |
+| 工作流测试 | ✅ 完整跑通（exit code 0） |
+| 依赖检查 | ✅ agent-reach + mrcarlsama-social-transcriber 都已就绪 |
+
+## 现在你可以这样用
+
+**获取内容+数据：**
+```
+/social-content-fetcher http://xhslink.com/o/9Be3xuaU13G
+```
+
+**保留原视频文件：**
+```
+/social-content-fetcher --keep-media http://xhslink.com/o/9Be3xuaU13G
+```
+
+## 技能功能总结
+
+- **输入**：抖音/小红书链接（支持长链接和短链接）
+- **输出**：
+  1. 互动数据表格（点赞、收藏、评论、转发、发布时间、作者）
+  2. 平台原文 + 话题标签
+  3. 完整逐字稿（已修正AI识别小错误）
+  4. 统计信息（时长、字数）
+- **空间优化**：默认自动删除原视频/音频，只保留文字内容，节省磁盘
+
+以后你需要爬取抖音小红书视频内容，直接调用这个 Skill 就行了，一站式搞定！

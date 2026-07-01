@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "skills": {
+    "find-skills": {
+      "name": "Find Skills",
+      "zip_url": "https://api.skillhub.cn/api/v1/download?slug=find-skills",
+      "source": "community",
+      "version": "0.1.0",
+      "installedAt": "2026-05-25T07:58:50Z"
+    },
+    "huashu-nvwa": {
+      "name": "女娲",
+      "zip_url": "https://api.skillhub.cn/api/v1/download?slug=huashu-nvwa",
+      "source": "community",
+      "version": "1.0.1",
+      "installedAt": "2026-05-25T08:02:50Z"
+    }
+  }
+}

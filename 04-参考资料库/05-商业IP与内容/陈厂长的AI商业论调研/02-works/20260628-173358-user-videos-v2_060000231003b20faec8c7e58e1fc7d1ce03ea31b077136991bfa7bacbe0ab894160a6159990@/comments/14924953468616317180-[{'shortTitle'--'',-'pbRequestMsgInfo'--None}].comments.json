@@ -1,0 +1,370 @@
+{
+  "object_id": "14924953468616317180",
+  "pages": [
+    {
+      "code": 200,
+      "request_id": "4bdc295e-8b81-4284-949a-bb7245449fc9",
+      "message": "Request successful. This request will incur a charge.",
+      "message_zh": "请求成功，本次请求将被计费。",
+      "support": "Discord: https://discord.gg/aMEAS8Xsvz",
+      "time": "2026-06-28 02:36:55",
+      "time_stamp": 1782639415,
+      "time_zone": "America/Los_Angeles",
+      "docs": "https://api.tikhub.io/#/WeChat-Channels-V2-API/fetch_video_comments_api_v1_wechat_channels_v2_fetch_video_comments_post",
+      "cache_message": "This response is cached and accessible via the URL below for 24 hours at no extra cost. The cache is for request tracing only — it doesn't affect the API's data freshness and won't be returned through the API again.",
+      "cache_message_zh": "本次响应已缓存，可通过下方 URL 直接查看，有效期 24 小时，访问缓存链接无额外费用。缓存仅用于请求溯源，不影响接口数据的时效性，也不会再次通过接口返回。",
+      "cache_url": "https://cache.tikhub.io/api/v1/cache/public/4bdc295e-8b81-4284-949a-bb7245449fc9?sign=e238f528c45f09324d3bc2d26c6f30beb02839ab3dec5af840a9b75345242346",
+      "router": "/api/v1/wechat_channels/v2/fetch_video_comments",
+      "params": {
+        "object_id": "14924953468616317180",
+        "last_buffer": "",
+        "comment_id": "",
+        "raw": false
+      },
+      "data": {
+        "object_id": "14924953468616317180",
+        "comment_id": null,
+        "count": 15,
+        "comments": [
+          {
+            "comment_id": "14927505539176012067",
+            "nickname": "陈凌芬",
+            "username": "v2_060000231003b20faec8c5ea8e19c1dccd04ef34b077400a880b31d5ead2c3979ad9d06f16b1@finder",
+            "content": "我认同陈老师的讲法。太棒了！[强][强][强][强][强][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心]",
+            "like_count": 1,
+            "reply_count": null,
+            "create_time": 1779497330,
+            "head_url": "https://wx.qlogo.cn/finderhead/PiajxSqBRaEKktdNoiaO52QHrdgERqJrDm0Y7bm8B7jh8HzJjfFMZhVQ/0",
+            "ip_region": "浙江"
+          },
+          {
+            "comment_id": "14935511992242145399",
+            "nickname": "生命最强音",
+            "username": "v2_060000231003b20faec8c5e78811cad7cd04ef35b07784613ed47ac680f6b6e4284f6c9b691a@finder",
+            "content": "感恩陈老师大爱分享[爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][强][强][强][强][强][强][强][强]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1780451773,
+            "head_url": "https://wx.qlogo.cn/finderhead/SCug0ESSOH9pb3WDiczkdmLhgm5353KmNvJETZDiaHxkcNzEwNkIzibUXO68CxpaprDs9micBUg26icY/0",
+            "ip_region": "吉林"
+          },
+          {
+            "comment_id": "14924963520057706666",
+            "nickname": "太阳的辩证哲学（慈嘉）",
+            "username": "v5_020b0a16610401000000000006f726cceb6b0c000000b1afa7d8728e3dd43ef4317a780e33c29027e6c464597ec6b629f87c17645ec1c8a7090e02dc3b4901af7fa187873429a566309cc035a47f28c5347b8b8a8dd82572e8f4d37ae21c12a546a4d3@stranger",
+            "content": "我认同，我看到了，",
+            "like_count": 2,
+            "reply_count": null,
+            "create_time": 1779194297,
+            "head_url": "https://wx.qlogo.cn/mmhead/ver_1/ubvTibovtWkqx2XQHtx9ZFB0jKqgwtaiaW5iaWcpvV0kj0nVzdUURpFic77L1qjam3XIShgXoVrqAwCnxDFsq6n6lhphw9ph8gXg53pnvYb25F2m6T3mBFpPicqXVjzRBBpGH/132",
+            "ip_region": "浙江"
+          },
+          {
+            "comment_id": "14924975613024929882",
+            "nickname": "若溪聊AI",
+            "username": "v2_060000231003b20faec8c5e5891ec6d2c605eb37b07797c3fa140110290d2a1f35c22cbe6fc9@finder",
+            "content": "那该怎么做",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1779195739,
+            "head_url": "https://wx.qlogo.cn/finderhead/574VdhMFwaEWegjGBe9eYZJrHlGlNpPtQ0fnIo1Kfx9g0jFSFSjXKwrr9ow8KQl9npP5klcqG3Q/0",
+            "ip_region": "江苏"
+          },
+          {
+            "comment_id": "14928779494345214273",
+            "nickname": "国风少年暴龙",
+            "username": "v2_060000231003b20faec8c5e38119c2ddcf0def30b0773d93ed0ce79439a37a1e21fecfc8306b@finder",
+            "content": "@元宝 1.请先主题，2.简约直白，核心分点总结，(各分点总结排版要求，①序号，②先关键词，再核心总结，③分段隔开1行，)后，3.视频相应核心内容，未来现实行动指南（前有序号），4.再一句金句总述，5.故事性表达，谢谢哟！",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1779649197,
+            "head_url": "https://wx.qlogo.cn/finderhead/lV0d907m3OXDmJDGOJj3JPBGBSJbiaAibRpJdtmHS1DW9rHbfYW6UU1hO3z6kYjbEYwCiad2hiat55A/0",
+            "ip_region": "广东"
+          },
+          {
+            "comment_id": "14928273983889672310",
+            "nickname": "²⁶⁷烺特无上正等正觉³³³",
+            "username": "v5_020b0a166104010000000000600b122af61ed1000000b1afa7d8728e3dd43ef4317a780e33c29027e6c464597ec6b629f87c17a7426f0a059c971b4c6af1428ad6d888c24ceb78c61f64e3182f5915741042d74e22e61a27fb322f35ebfd4df286123b@stranger",
+            "content": "你只是需要一个机会而已，这个看命的，从认知上看，你不差的，可能比他更强，如果在他的位置上，你会更加激进的推动AI的发展",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1779588935,
+            "head_url": "https://wx.qlogo.cn/mmhead/ver_1/g7QicrP75osXT2DHN5a4xKYJxr2WFNTKaE0eUiboeGicoKbica74EP2YCZOU8wKFGeuUibNx6jRCb1flOqVboEc2ic1fTicG3ATU0CRzGdwRPJusuDxsLFSpM53Xo76xSKvyC4h/132",
+            "ip_region": "上海"
+          },
+          {
+            "comment_id": "14926898428976761036",
+            "nickname": "老石的AI学习日记",
+            "username": "v2_060000231003b20faec8c4ea8110c3ddcf05eb32b07723a1ba2c9acf941c6e453eacfbea01d8@finder",
+            "content": "陈厂长[合十][合十][合十][合十][合十][合十][合十][爱心][爱心][爱心][爱心][爱心][爱心][爱心]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1779424956,
+            "head_url": "https://wx.qlogo.cn/finderhead/fFgUJknhibCwTNONgUTMaydgxf9pNaHMMHYBYXTv0ow60IicUf7oOXzfuic3F6DWDR1DGicv26bvEQo/0",
+            "ip_region": "江苏"
+          },
+          {
+            "comment_id": "14925993245047916893",
+            "nickname": "智慧觉醒妙音",
+            "username": "v2_060000231003b20faec8c6e58f1ecad7c603ee30b07728eb8cd7fb091edb3b6e159d391b094f@finder",
+            "content": "感恩老师慈悲大爱！精彩分享！为你点赞！[爱心][爱心][爱心][强][强][强][合十][合十][合十]🈵🈵🈵",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1779317050,
+            "head_url": "https://wx.qlogo.cn/finderhead/DYAIOgq83eqa5IVjH1Qlx7rDO7OFXaV2pNF9h2OsLMoV6gebulHgEFolYkb141ZiaBkNXPYjduzE/0",
+            "ip_region": "河北"
+          },
+          {
+            "comment_id": "14939797520802846977",
+            "nickname": "菩提",
+            "username": "v5_020b0a166104010000000000831e1999566c56000000b1afa7d8728e3dd43ef4317a780e33c29027e6c464597ec6b629f87c17c4293953328d28ea2c5714c45193baa645d37060a8f8e881e8667bca70fe18a33b68cfab2f5f998e2fe7f1a74ce79211@stranger",
+            "content": "感恩陈厂长的分享[合十][合十][合十][强][强][强][爱心][爱心][爱心]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1780962648,
+            "head_url": "https://wx.qlogo.cn/mmhead/ver_1/Y6zm5FJceWH1drYvVpibt07ich8Q6T6cn8G7RgexILuJJzibRtRxpXdHPjHOhT1TkbIT0iaRicCFniajPsVaHicmpMN40qJicKXM6nZdzTQBQKx3BoS9Pg2hRfkBxg8LM6G1mjBl/132",
+            "ip_region": "甘肃"
+          },
+          {
+            "comment_id": "14938526916159543332",
+            "nickname": "文珺奶奶",
+            "username": "v2_060000231003b20faec8c5e38f11c4d0c707ed3cb07709882aa12f5edb3a4d5079902d40d57c@finder",
+            "content": "愿恩陈厂长太爱分享！[强][强][强][合十][合十][合十][合十][爱心][爱心][爱心][爱心]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1780811180,
+            "head_url": "https://wx.qlogo.cn/finderhead/stAfByL8wyghtU2tVWKQswsF26ibKKwBS8Hj2iapQHZG0PDMofm1HTfibTzdVeYphfiaErn4iaPqrL4k/0",
+            "ip_region": "河南"
+          },
+          {
+            "comment_id": "14929312375165557008",
+            "nickname": "天道酬勤",
+            "username": "v5_020b0a166104010000000000854a00e930a8f6000000b1afa7d8728e3dd43ef4317a780e33c29027e6c464597ec6b629f87c17a520df25fce0cb23f2c17e1397ca9d771019b570752bf44ce82b231494369e7ef2710667c3a9d8fa19de1ddf7bf694d9@stranger",
+            "content": "我很认同陈厂长的理念[爱心][强]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1779712721,
+            "head_url": "https://wx.qlogo.cn/mmhead/ver_1/K9BicWux10C057kZjbDSYYxrWDDszYffyEHAoGW3JGmZE8ibLeDiaBwwBNgTDZPib9fPzQt3PAtDTQoWae5haBBNkicvXYia9f6zvN9Lgwz71iaCboiaYHXItyBzOfu84q3rsead/132",
+            "ip_region": "山东"
+          },
+          {
+            "comment_id": "14938526316520282153",
+            "nickname": "文珺奶奶",
+            "username": "v2_060000231003b20faec8c5e38f11c4d0c707ed3cb07709882aa12f5edb3a4d5079902d40d57c@finder",
+            "content": "陈厂长太牛了",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1780811109,
+            "head_url": "https://wx.qlogo.cn/finderhead/stAfByL8wyghtU2tVWKQswsF26ibKKwBS8Hj2iapQHZG0PDMofm1HTfibTzdVeYphfiaErn4iaPqrL4k/0",
+            "ip_region": "河南"
+          },
+          {
+            "comment_id": "14925589810161453138",
+            "nickname": "云舒暖心百货",
+            "username": "v2_060000231003b20faec8c4e58e11c4d6cb0ce830b077bcc052ff2d69ae70bdbf03d78fbfa29b@finder",
+            "content": "老师，我看了好多还是迷茫，AI 的趋势太强大了[强]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1779268957,
+            "head_url": "https://wx.qlogo.cn/finderhead/78EkX665csDlhjRY3mFPXVPqKCAUteebQqb4Tf0CLRvZMkvItDH8lmV2iaE7MyibrH2J6lA5D7KCk/0",
+            "ip_region": "江苏"
+          },
+          {
+            "comment_id": "14928895751633836278",
+            "nickname": "巧仙爱商业干货",
+            "username": "v2_060000231003b20faec8c7e68d10c5d5c701ed3db07748a153ed537fa7fe88f47c14b47eecb6@finder",
+            "content": "谢谢老师分享",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1779663056,
+            "head_url": "https://wx.qlogo.cn/finderhead/UAb2n8w7fEeSRN40cH9Ry7DX3UJkiaXwq3iarp3RO0pwkf3FezSUDuBjzDjHIQPicL2kmnE3jnibLA4/0",
+            "ip_region": "重庆"
+          },
+          {
+            "comment_id": "14924957834944186563",
+            "nickname": "AI数字化赋能",
+            "username": "v2_060000231003b20faec8c4e58011c5d0ca03e93cb0777f0d2166bbcd843825438fc1652984d9@finder",
+            "content": "真敢说，",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1779193620,
+            "head_url": "https://wx.qlogo.cn/finderhead/r48cSSlr7jia0FR5Z7n9mIIL0NJ1WGFJN4ibFvibrlJrtwA98cHu3mnK5lnGIsWvN5wdv3FicKQ6ZSg/0",
+            "ip_region": "江西"
+          }
+        ],
+        "down_continue": 1,
+        "last_buffer": "Cr0BCP///////////wEYo7KMqq3myZTPARj3kLih56Dmos8BGKqR0JXu54eQzwEY2pDg/efHipDPARjBktSUqrvrls8BGPaQzPuEw/iVzwEYzJH8y4/hv5PPARjdktjX5vjxkc8BGIGy3J2N1rSqzwEYpLC0itLik6jPARiQstj0mdDkl88BGKmwkKCY0ZOozwEY0pD0zqablpHPARj2seSn7vKFl88BGMORoLyzwoaQzwEwATj///////////8B",
+        "debug_id": "cefd51db",
+        "debug_info": "gAAAAABqQOs29F2RgiEE5KHfPhNnmLRUhRbW_oFHIMWa4WsCgKF59V3y5uONH0jvODCfC__4-NjnlqRgB7L0EnKzDHWjRY1GBkV12J4fxtfgeRtC-hBPUf1vCiYyYhiHpsS8AunBX2ctgPlYAGcpvbkxC8i5GzUFa5pGZ_pQgEeUX3kK-fNFtlx_v36ZP3s013NwmLkX1EIk2vOqFueujCz1UnadsO6VhO79S-7fh42RS95FpPYm-PVP9_Af5m1Xq18MSTB0kebMsRd3ErFbB5kYJt8CuTzVlQ=="
+      }
+    }
+  ],
+  "comments": [
+    {
+      "comment_id": "14927505539176012067",
+      "nickname": "陈凌芬",
+      "username": "v2_060000231003b20faec8c5ea8e19c1dccd04ef34b077400a880b31d5ead2c3979ad9d06f16b1@finder",
+      "content": "我认同陈老师的讲法。太棒了！[强][强][强][强][强][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心]",
+      "like_count": 1,
+      "reply_count": null,
+      "create_time": 1779497330,
+      "head_url": "https://wx.qlogo.cn/finderhead/PiajxSqBRaEKktdNoiaO52QHrdgERqJrDm0Y7bm8B7jh8HzJjfFMZhVQ/0",
+      "ip_region": "浙江"
+    },
+    {
+      "comment_id": "14935511992242145399",
+      "nickname": "生命最强音",
+      "username": "v2_060000231003b20faec8c5e78811cad7cd04ef35b07784613ed47ac680f6b6e4284f6c9b691a@finder",
+      "content": "感恩陈老师大爱分享[爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][强][强][强][强][强][强][强][强]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1780451773,
+      "head_url": "https://wx.qlogo.cn/finderhead/SCug0ESSOH9pb3WDiczkdmLhgm5353KmNvJETZDiaHxkcNzEwNkIzibUXO68CxpaprDs9micBUg26icY/0",
+      "ip_region": "吉林"
+    },
+    {
+      "comment_id": "14924963520057706666",
+      "nickname": "太阳的辩证哲学（慈嘉）",
+      "username": "v5_020b0a16610401000000000006f726cceb6b0c000000b1afa7d8728e3dd43ef4317a780e33c29027e6c464597ec6b629f87c17645ec1c8a7090e02dc3b4901af7fa187873429a566309cc035a47f28c5347b8b8a8dd82572e8f4d37ae21c12a546a4d3@stranger",
+      "content": "我认同，我看到了，",
+      "like_count": 2,
+      "reply_count": null,
+      "create_time": 1779194297,
+      "head_url": "https://wx.qlogo.cn/mmhead/ver_1/ubvTibovtWkqx2XQHtx9ZFB0jKqgwtaiaW5iaWcpvV0kj0nVzdUURpFic77L1qjam3XIShgXoVrqAwCnxDFsq6n6lhphw9ph8gXg53pnvYb25F2m6T3mBFpPicqXVjzRBBpGH/132",
+      "ip_region": "浙江"
+    },
+    {
+      "comment_id": "14924975613024929882",
+      "nickname": "若溪聊AI",
+      "username": "v2_060000231003b20faec8c5e5891ec6d2c605eb37b07797c3fa140110290d2a1f35c22cbe6fc9@finder",
+      "content": "那该怎么做",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1779195739,
+      "head_url": "https://wx.qlogo.cn/finderhead/574VdhMFwaEWegjGBe9eYZJrHlGlNpPtQ0fnIo1Kfx9g0jFSFSjXKwrr9ow8KQl9npP5klcqG3Q/0",
+      "ip_region": "江苏"
+    },
+    {
+      "comment_id": "14928779494345214273",
+      "nickname": "国风少年暴龙",
+      "username": "v2_060000231003b20faec8c5e38119c2ddcf0def30b0773d93ed0ce79439a37a1e21fecfc8306b@finder",
+      "content": "@元宝 1.请先主题，2.简约直白，核心分点总结，(各分点总结排版要求，①序号，②先关键词，再核心总结，③分段隔开1行，)后，3.视频相应核心内容，未来现实行动指南（前有序号），4.再一句金句总述，5.故事性表达，谢谢哟！",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1779649197,
+      "head_url": "https://wx.qlogo.cn/finderhead/lV0d907m3OXDmJDGOJj3JPBGBSJbiaAibRpJdtmHS1DW9rHbfYW6UU1hO3z6kYjbEYwCiad2hiat55A/0",
+      "ip_region": "广东"
+    },
+    {
+      "comment_id": "14928273983889672310",
+      "nickname": "²⁶⁷烺特无上正等正觉³³³",
+      "username": "v5_020b0a166104010000000000600b122af61ed1000000b1afa7d8728e3dd43ef4317a780e33c29027e6c464597ec6b629f87c17a7426f0a059c971b4c6af1428ad6d888c24ceb78c61f64e3182f5915741042d74e22e61a27fb322f35ebfd4df286123b@stranger",
+      "content": "你只是需要一个机会而已，这个看命的，从认知上看，你不差的，可能比他更强，如果在他的位置上，你会更加激进的推动AI的发展",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1779588935,
+      "head_url": "https://wx.qlogo.cn/mmhead/ver_1/g7QicrP75osXT2DHN5a4xKYJxr2WFNTKaE0eUiboeGicoKbica74EP2YCZOU8wKFGeuUibNx6jRCb1flOqVboEc2ic1fTicG3ATU0CRzGdwRPJusuDxsLFSpM53Xo76xSKvyC4h/132",
+      "ip_region": "上海"
+    },
+    {
+      "comment_id": "14926898428976761036",
+      "nickname": "老石的AI学习日记",
+      "username": "v2_060000231003b20faec8c4ea8110c3ddcf05eb32b07723a1ba2c9acf941c6e453eacfbea01d8@finder",
+      "content": "陈厂长[合十][合十][合十][合十][合十][合十][合十][爱心][爱心][爱心][爱心][爱心][爱心][爱心]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1779424956,
+      "head_url": "https://wx.qlogo.cn/finderhead/fFgUJknhibCwTNONgUTMaydgxf9pNaHMMHYBYXTv0ow60IicUf7oOXzfuic3F6DWDR1DGicv26bvEQo/0",
+      "ip_region": "江苏"
+    },
+    {
+      "comment_id": "14925993245047916893",
+      "nickname": "智慧觉醒妙音",
+      "username": "v2_060000231003b20faec8c6e58f1ecad7c603ee30b07728eb8cd7fb091edb3b6e159d391b094f@finder",
+      "content": "感恩老师慈悲大爱！精彩分享！为你点赞！[爱心][爱心][爱心][强][强][强][合十][合十][合十]🈵🈵🈵",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1779317050,
+      "head_url": "https://wx.qlogo.cn/finderhead/DYAIOgq83eqa5IVjH1Qlx7rDO7OFXaV2pNF9h2OsLMoV6gebulHgEFolYkb141ZiaBkNXPYjduzE/0",
+      "ip_region": "河北"
+    },
+    {
+      "comment_id": "14939797520802846977",
+      "nickname": "菩提",
+      "username": "v5_020b0a166104010000000000831e1999566c56000000b1afa7d8728e3dd43ef4317a780e33c29027e6c464597ec6b629f87c17c4293953328d28ea2c5714c45193baa645d37060a8f8e881e8667bca70fe18a33b68cfab2f5f998e2fe7f1a74ce79211@stranger",
+      "content": "感恩陈厂长的分享[合十][合十][合十][强][强][强][爱心][爱心][爱心]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1780962648,
+      "head_url": "https://wx.qlogo.cn/mmhead/ver_1/Y6zm5FJceWH1drYvVpibt07ich8Q6T6cn8G7RgexILuJJzibRtRxpXdHPjHOhT1TkbIT0iaRicCFniajPsVaHicmpMN40qJicKXM6nZdzTQBQKx3BoS9Pg2hRfkBxg8LM6G1mjBl/132",
+      "ip_region": "甘肃"
+    },
+    {
+      "comment_id": "14938526916159543332",
+      "nickname": "文珺奶奶",
+      "username": "v2_060000231003b20faec8c5e38f11c4d0c707ed3cb07709882aa12f5edb3a4d5079902d40d57c@finder",
+      "content": "愿恩陈厂长太爱分享！[强][强][强][合十][合十][合十][合十][爱心][爱心][爱心][爱心]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1780811180,
+      "head_url": "https://wx.qlogo.cn/finderhead/stAfByL8wyghtU2tVWKQswsF26ibKKwBS8Hj2iapQHZG0PDMofm1HTfibTzdVeYphfiaErn4iaPqrL4k/0",
+      "ip_region": "河南"
+    },
+    {
+      "comment_id": "14929312375165557008",
+      "nickname": "天道酬勤",
+      "username": "v5_020b0a166104010000000000854a00e930a8f6000000b1afa7d8728e3dd43ef4317a780e33c29027e6c464597ec6b629f87c17a520df25fce0cb23f2c17e1397ca9d771019b570752bf44ce82b231494369e7ef2710667c3a9d8fa19de1ddf7bf694d9@stranger",
+      "content": "我很认同陈厂长的理念[爱心][强]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1779712721,
+      "head_url": "https://wx.qlogo.cn/mmhead/ver_1/K9BicWux10C057kZjbDSYYxrWDDszYffyEHAoGW3JGmZE8ibLeDiaBwwBNgTDZPib9fPzQt3PAtDTQoWae5haBBNkicvXYia9f6zvN9Lgwz71iaCboiaYHXItyBzOfu84q3rsead/132",
+      "ip_region": "山东"
+    },
+    {
+      "comment_id": "14938526316520282153",
+      "nickname": "文珺奶奶",
+      "username": "v2_060000231003b20faec8c5e38f11c4d0c707ed3cb07709882aa12f5edb3a4d5079902d40d57c@finder",
+      "content": "陈厂长太牛了",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1780811109,
+      "head_url": "https://wx.qlogo.cn/finderhead/stAfByL8wyghtU2tVWKQswsF26ibKKwBS8Hj2iapQHZG0PDMofm1HTfibTzdVeYphfiaErn4iaPqrL4k/0",
+      "ip_region": "河南"
+    },
+    {
+      "comment_id": "14925589810161453138",
+      "nickname": "云舒暖心百货",
+      "username": "v2_060000231003b20faec8c4e58e11c4d6cb0ce830b077bcc052ff2d69ae70bdbf03d78fbfa29b@finder",
+      "content": "老师，我看了好多还是迷茫，AI 的趋势太强大了[强]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1779268957,
+      "head_url": "https://wx.qlogo.cn/finderhead/78EkX665csDlhjRY3mFPXVPqKCAUteebQqb4Tf0CLRvZMkvItDH8lmV2iaE7MyibrH2J6lA5D7KCk/0",
+      "ip_region": "江苏"
+    },
+    {
+      "comment_id": "14928895751633836278",
+      "nickname": "巧仙爱商业干货",
+      "username": "v2_060000231003b20faec8c7e68d10c5d5c701ed3db07748a153ed537fa7fe88f47c14b47eecb6@finder",
+      "content": "谢谢老师分享",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1779663056,
+      "head_url": "https://wx.qlogo.cn/finderhead/UAb2n8w7fEeSRN40cH9Ry7DX3UJkiaXwq3iarp3RO0pwkf3FezSUDuBjzDjHIQPicL2kmnE3jnibLA4/0",
+      "ip_region": "重庆"
+    },
+    {
+      "comment_id": "14924957834944186563",
+      "nickname": "AI数字化赋能",
+      "username": "v2_060000231003b20faec8c4e58011c5d0ca03e93cb0777f0d2166bbcd843825438fc1652984d9@finder",
+      "content": "真敢说，",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1779193620,
+      "head_url": "https://wx.qlogo.cn/finderhead/r48cSSlr7jia0FR5Z7n9mIIL0NJ1WGFJN4ibFvibrlJrtwA98cHu3mnK5lnGIsWvN5wdv3FicKQ6ZSg/0",
+      "ip_region": "江西"
+    }
+  ],
+  "replies_by_comment": {}
+}

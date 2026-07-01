@@ -1,0 +1,554 @@
+{
+  "authMode": "openapi",
+  "openApiToken": "gk_live_2c092d13eb1083ee.64cc692b3df50b5ac469c35190a57b35c68b59a60046e0fa",
+  "openApiClientId": "cli_a1b2c3d4e5f6789012345678abcdef90",
+  "webApiToken": "",
+  "apiToken": "gk_live_2c092d13eb1083ee.64cc692b3df50b5ac469c35190a57b35c68b59a60046e0fa",
+  "clientId": "cli_a1b2c3d4e5f6789012345678abcdef90",
+  "webCsrfToken": "",
+  "folderName": "00-inbox/得到大脑",
+  "filenamePrefix": "",
+  "maxDays": 30,
+  "syncStartDate": "2026-06-19",
+  "lastSyncEndTimestamp": "2026-06-29T15:32:29.775Z",
+  "scheduledSync": {
+    "enabled": true,
+    "intervalMinutes": 30,
+    "syncOnStart": true,
+    "syncKnowledgeBases": []
+  },
+  "reverseSync": {
+    "enabled": false
+  },
+  "attachmentImport": {
+    "image": true,
+    "audio": true,
+    "video": true,
+    "document": true
+  },
+  "tagMigrationVersion": 2,
+  "syncHistory": [
+    {
+      "id": "1782544714375-1782544715215-auto",
+      "startedAt": 1782544714375,
+      "finishedAt": 1782544715215,
+      "durationMs": 840,
+      "timestamp": 1782544715215,
+      "result": {
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "total": 0,
+        "items": []
+      },
+      "type": "auto",
+      "mode": "auto",
+      "scope": {
+        "maxDays": 0,
+        "syncStartDate": "2026-06-27T06:48:34.950Z"
+      },
+      "status": "success"
+    },
+    {
+      "id": "1782546514416-1782546515116-auto",
+      "startedAt": 1782546514416,
+      "finishedAt": 1782546515116,
+      "durationMs": 700,
+      "timestamp": 1782546515116,
+      "result": {
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "total": 0,
+        "items": []
+      },
+      "type": "auto",
+      "mode": "auto",
+      "scope": {
+        "maxDays": 0,
+        "syncStartDate": "2026-06-27T07:18:35.215Z"
+      },
+      "status": "success"
+    },
+    {
+      "id": "1782548314463-1782548315211-auto",
+      "startedAt": 1782548314463,
+      "finishedAt": 1782548315211,
+      "durationMs": 748,
+      "timestamp": 1782548315211,
+      "result": {
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "total": 0,
+        "items": []
+      },
+      "type": "auto",
+      "mode": "auto",
+      "scope": {
+        "maxDays": 0,
+        "syncStartDate": "2026-06-27T07:48:35.116Z"
+      },
+      "status": "success"
+    },
+    {
+      "id": "1782550114454-1782550115111-auto",
+      "startedAt": 1782550114454,
+      "finishedAt": 1782550115111,
+      "durationMs": 657,
+      "timestamp": 1782550115111,
+      "result": {
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "total": 0,
+        "items": []
+      },
+      "type": "auto",
+      "mode": "auto",
+      "scope": {
+        "maxDays": 0,
+        "syncStartDate": "2026-06-27T08:18:35.211Z"
+      },
+      "status": "success"
+    },
+    {
+      "id": "1782551914324-1782551915008-auto",
+      "startedAt": 1782551914324,
+      "finishedAt": 1782551915008,
+      "durationMs": 684,
+      "timestamp": 1782551915008,
+      "result": {
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "total": 0,
+        "items": []
+      },
+      "type": "auto",
+      "mode": "auto",
+      "scope": {
+        "maxDays": 0,
+        "syncStartDate": "2026-06-27T08:48:35.111Z"
+      },
+      "status": "success"
+    },
+    {
+      "id": "1782553714340-1782553715046-auto",
+      "startedAt": 1782553714340,
+      "finishedAt": 1782553715046,
+      "durationMs": 706,
+      "timestamp": 1782553715046,
+      "result": {
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "total": 0,
+        "items": []
+      },
+      "type": "auto",
+      "mode": "auto",
+      "scope": {
+        "maxDays": 0,
+        "syncStartDate": "2026-06-27T09:18:35.008Z"
+      },
+      "status": "success"
+    },
+    {
+      "id": "1782555514416-1782555515246-auto",
+      "startedAt": 1782555514416,
+      "finishedAt": 1782555515246,
+      "durationMs": 830,
+      "timestamp": 1782555515246,
+      "result": {
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "total": 0,
+        "items": []
+      },
+      "type": "auto",
+      "mode": "auto",
+      "scope": {
+        "maxDays": 0,
+        "syncStartDate": "2026-06-27T09:48:35.046Z"
+      },
+      "status": "success"
+    },
+    {
+      "id": "1782557314495-1782557315222-auto",
+      "startedAt": 1782557314495,
+      "finishedAt": 1782557315222,
+      "durationMs": 727,
+      "timestamp": 1782557315222,
+      "result": {
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "total": 0,
+        "items": []
+      },
+      "type": "auto",
+      "mode": "auto",
+      "scope": {
+        "maxDays": 0,
+        "syncStartDate": "2026-06-27T10:18:35.246Z"
+      },
+      "status": "success"
+    },
+    {
+      "id": "1782559114549-1782559115570-auto",
+      "startedAt": 1782559114549,
+      "finishedAt": 1782559115570,
+      "durationMs": 1021,
+      "timestamp": 1782559115570,
+      "result": {
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "total": 0,
+        "items": []
+      },
+      "type": "auto",
+      "mode": "auto",
+      "scope": {
+        "maxDays": 0,
+        "syncStartDate": "2026-06-27T10:48:35.222Z"
+      },
+      "status": "success"
+    },
+    {
+      "id": "1782566756924-1782566757784-auto",
+      "startedAt": 1782566756924,
+      "finishedAt": 1782566757784,
+      "durationMs": 860,
+      "timestamp": 1782566757784,
+      "result": {
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "total": 0,
+        "items": []
+      },
+      "type": "auto",
+      "mode": "auto",
+      "scope": {
+        "maxDays": 0,
+        "syncStartDate": "2026-06-27T11:18:35.570Z"
+      },
+      "status": "success"
+    },
+    {
+      "id": "1782575510578-1782575511462-auto",
+      "startedAt": 1782575510578,
+      "finishedAt": 1782575511462,
+      "durationMs": 884,
+      "timestamp": 1782575511462,
+      "result": {
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "total": 0,
+        "items": []
+      },
+      "type": "auto",
+      "mode": "auto",
+      "scope": {
+        "maxDays": 0,
+        "syncStartDate": "2026-06-27T13:25:57.784Z"
+      },
+      "status": "success"
+    },
+    {
+      "id": "1782580112720-1782580117883-auto",
+      "startedAt": 1782580112720,
+      "finishedAt": 1782580117883,
+      "durationMs": 5163,
+      "timestamp": 1782580117883,
+      "result": {
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "total": 0,
+        "items": []
+      },
+      "type": "auto",
+      "mode": "auto",
+      "scope": {
+        "maxDays": 0,
+        "syncStartDate": "2026-06-27T15:51:51.462Z"
+      },
+      "status": "success"
+    },
+    {
+      "id": "1782614755908-1782614756737-auto",
+      "startedAt": 1782614755908,
+      "finishedAt": 1782614756737,
+      "durationMs": 829,
+      "timestamp": 1782614756737,
+      "result": {
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "total": 0,
+        "items": []
+      },
+      "type": "auto",
+      "mode": "auto",
+      "scope": {
+        "maxDays": 0,
+        "syncStartDate": "2026-06-27T17:08:37.883Z"
+      },
+      "status": "success"
+    },
+    {
+      "id": "1782628334280-1782628336613-auto",
+      "startedAt": 1782628334280,
+      "finishedAt": 1782628336613,
+      "durationMs": 2333,
+      "timestamp": 1782628336613,
+      "result": {
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "total": 0,
+        "items": []
+      },
+      "type": "auto",
+      "mode": "auto",
+      "scope": {
+        "maxDays": 0,
+        "syncStartDate": "2026-06-28T02:45:56.737Z"
+      },
+      "status": "success"
+    },
+    {
+      "id": "1782634741975-1782635726046-auto",
+      "startedAt": 1782634741975,
+      "finishedAt": 1782635726046,
+      "durationMs": 984071,
+      "timestamp": 1782635726046,
+      "result": {
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "total": 0,
+        "items": []
+      },
+      "type": "auto",
+      "mode": "auto",
+      "scope": {
+        "maxDays": 0,
+        "syncStartDate": "2026-06-28T06:32:16.613Z"
+      },
+      "status": "success"
+    },
+    {
+      "id": "1782637723241-1782637725393-auto",
+      "startedAt": 1782637723241,
+      "finishedAt": 1782637725393,
+      "durationMs": 2152,
+      "timestamp": 1782637725393,
+      "result": {
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "total": 0,
+        "items": []
+      },
+      "type": "auto",
+      "mode": "auto",
+      "scope": {
+        "maxDays": 0,
+        "syncStartDate": "2026-06-28T08:35:26.046Z"
+      },
+      "status": "success"
+    },
+    {
+      "id": "1782741748594-1782741749795-auto",
+      "startedAt": 1782741748594,
+      "finishedAt": 1782741749795,
+      "durationMs": 1201,
+      "timestamp": 1782741749795,
+      "result": {
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "total": 0,
+        "items": []
+      },
+      "type": "auto",
+      "mode": "auto",
+      "scope": {
+        "maxDays": 0,
+        "syncStartDate": "2026-06-28T09:08:45.393Z"
+      },
+      "status": "success"
+    },
+    {
+      "id": "1782743548697-1782743549816-auto",
+      "startedAt": 1782743548697,
+      "finishedAt": 1782743549816,
+      "durationMs": 1119,
+      "timestamp": 1782743549816,
+      "result": {
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "total": 0,
+        "items": []
+      },
+      "type": "auto",
+      "mode": "auto",
+      "scope": {
+        "maxDays": 0,
+        "syncStartDate": "2026-06-29T14:02:29.795Z"
+      },
+      "status": "success"
+    },
+    {
+      "id": "1782745348730-1782745349481-auto",
+      "startedAt": 1782745348730,
+      "finishedAt": 1782745349481,
+      "durationMs": 751,
+      "timestamp": 1782745349481,
+      "result": {
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "total": 0,
+        "items": []
+      },
+      "type": "auto",
+      "mode": "auto",
+      "scope": {
+        "maxDays": 0,
+        "syncStartDate": "2026-06-29T14:32:29.816Z"
+      },
+      "status": "success"
+    },
+    {
+      "id": "1782747148793-1782747149775-auto",
+      "startedAt": 1782747148793,
+      "finishedAt": 1782747149775,
+      "durationMs": 982,
+      "timestamp": 1782747149775,
+      "result": {
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "total": 0,
+        "items": []
+      },
+      "type": "auto",
+      "mode": "auto",
+      "scope": {
+        "maxDays": 0,
+        "syncStartDate": "2026-06-29T15:02:29.481Z"
+      },
+      "status": "success"
+    }
+  ],
+  "tagCache": {
+    "tags": [
+      "保险",
+      "创业",
+      "创业分享",
+      "创业交流",
+      "创业者经验分享",
+      "大模型",
+      "大模型搜索优化",
+      "大学生创业",
+      "大学生社群",
+      "抖音博主",
+      "复习指导",
+      "个人成长",
+      "个人转型",
+      "个人IP",
+      "个人IP打造",
+      "国际服务贸易",
+      "国际贸易",
+      "火山引擎",
+      "获客",
+      "考试安排",
+      "考试题型",
+      "科技助残",
+      "课程筹备",
+      "录音笔记",
+      "录音卡笔记",
+      "贸易创造",
+      "内容创作",
+      "内容创作者",
+      "破局成长",
+      "期末考试",
+      "企业数字化转型",
+      "企业转型",
+      "区域集团化",
+      "全球化",
+      "人工智能",
+      "商业落地",
+      "社交媒体账号",
+      "数字人",
+      "私域流量",
+      "私域社群",
+      "文创",
+      "小程序开发",
+      "校园成长",
+      "校园生活",
+      "校园项目",
+      "行业重塑",
+      "一人公司",
+      "英语考试",
+      "增长方法论",
+      "知识付费",
+      "知识库",
+      "职场管理",
+      "AI",
+      "AI编程出海",
+      "AI变现",
+      "AI超级个体",
+      "AI出版",
+      "AI创业",
+      "AI创作",
+      "AI短视频",
+      "AI获客",
+      "AI链接笔记",
+      "AI培训",
+      "AI破局俱乐部",
+      "AI企业服务",
+      "AI商业化",
+      "AI时代红利",
+      "AI应用",
+      "AI员工",
+      "AI知识库",
+      "AI智能体",
+      "IP孵化",
+      "OPC",
+      "OPC一人公司",
+      "PPT设计",
+      "Skills",
+      "WTO"
+    ],
+    "lastUpdated": 1782197235694
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "prompt": "穿白色吊带的女生拿到了一张奖状，站在校园讲台上，非常高兴的笑容，阳光从窗外照进来，写实风格，电影风，高清摄影，自然光影，层次感丰富，16:9构图, 电影质感, 高分辨率, 细节丰富, 专业摄影, 构图精美, 色彩协调, 好莱坞大片质感, 电影级光影, 杜比视界, 宽画幅, 极致细节",
+  "original_prompt": "穿白色吊带的女生拿到了一张奖状，站在校园讲台上，非常高兴的笑容，阳光从窗外照进来，写实风格，电影风，高清摄影，自然光影，层次感丰富，16:9构图",
+  "mode": "text-to-image",
+  "size": "2K",
+  "count": 1,
+  "stream": false,
+  "watermark": false,
+  "generation_time": 33.607,
+  "image_count": 1,
+  "optimize": true,
+  "detected_style": "电影风",
+  "images": [
+    {
+      "url": "https://ark-acg-cn-beijing.tos-cn-beijing.volces.com/doubao-seedream-5-0/021781933982681132969bd05ac943fb2473c371a3df88fce9fe9_0.png?X-Tos-Algorithm=TOS4-HMAC-SHA256&X-Tos-Credential=AKLTYWJkZTExNjA1ZDUyNDc3YzhjNTM5OGIyNjBhNDcyOTQ%2F20260620%2Fcn-beijing%2Ftos%2Frequest&X-Tos-Date=20260620T054014Z&X-Tos-Expires=86400&X-Tos-Signature=f2d57ad553571b5e0f033f33aa35c816625733e1f1599ff5a6fe83f5ad6cb9da&X-Tos-SignedHeaders=host",
+      "file_name": "seedream_1781933982_1.png",
+      "download_success": true,
+      "download_error": null,
+      "index": 1
+    }
+  ]
+}

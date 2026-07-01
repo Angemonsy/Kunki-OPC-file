@@ -1,0 +1,8 @@
+Last login: Sun Jun 14 00:06:21 on ttys001
+kunki@kunkideMacBook-Air ~ % sudo wechat-cli init
+Password:
+WeChat CLI 初始化
+========================================
+已初始化（配置: /Users/kunki/.wechat-cli/config.json）
+使用 --force 重新提取密钥
+kunki@kunkideMacBook-Air ~ % 

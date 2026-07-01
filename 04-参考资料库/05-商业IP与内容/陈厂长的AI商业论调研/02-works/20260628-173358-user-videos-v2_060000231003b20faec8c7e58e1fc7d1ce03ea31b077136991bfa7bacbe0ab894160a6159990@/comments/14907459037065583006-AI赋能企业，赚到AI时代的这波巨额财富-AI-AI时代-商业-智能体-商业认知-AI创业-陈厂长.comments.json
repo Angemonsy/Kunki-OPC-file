@@ -1,0 +1,106 @@
+{
+  "object_id": "14907459037065583006",
+  "pages": [
+    {
+      "code": 200,
+      "request_id": "7220af82-5262-4410-b796-61b251e24ee7",
+      "message": "Request successful. This request will incur a charge.",
+      "message_zh": "请求成功，本次请求将被计费。",
+      "support": "Discord: https://discord.gg/aMEAS8Xsvz",
+      "time": "2026-06-28 02:38:30",
+      "time_stamp": 1782639510,
+      "time_zone": "America/Los_Angeles",
+      "docs": "https://api.tikhub.io/#/WeChat-Channels-V2-API/fetch_video_comments_api_v1_wechat_channels_v2_fetch_video_comments_post",
+      "cache_message": "This response is cached and accessible via the URL below for 24 hours at no extra cost. The cache is for request tracing only — it doesn't affect the API's data freshness and won't be returned through the API again.",
+      "cache_message_zh": "本次响应已缓存，可通过下方 URL 直接查看，有效期 24 小时，访问缓存链接无额外费用。缓存仅用于请求溯源，不影响接口数据的时效性，也不会再次通过接口返回。",
+      "cache_url": "https://cache.tikhub.io/api/v1/cache/public/7220af82-5262-4410-b796-61b251e24ee7?sign=c985d83caa4c78abdbc47c6cd8c8e8f88953b99c79a08fe34d56a3a5034c058e",
+      "router": "/api/v1/wechat_channels/v2/fetch_video_comments",
+      "params": {
+        "object_id": "14907459037065583006",
+        "last_buffer": "",
+        "comment_id": "",
+        "raw": false
+      },
+      "data": {
+        "object_id": "14907459037065583006",
+        "comment_id": null,
+        "count": 3,
+        "comments": [
+          {
+            "comment_id": "14923317078928527593",
+            "nickname": "景连振🇨🇭",
+            "username": "v5_020b0a16610401000000000076a7025a868eb8000000b1afa7d8728e3dd43ef4317a780e33c29027e6c464597ec6b629f87c17b9df9b7ec5e355e60fa549117824e3c5671e14ca344449d6fb09ffd3707864a67e414f73ec7c3ae7d9df81f6a37acdb4@stranger",
+            "content": "AI诚挚真心服务帮助需要帮助的人\n[爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1778998026,
+            "head_url": "https://mmhead.c2c.wechat.com/mmhead/ver_1/sKDAicldiaKH8JTZ14D2KgNFWPPFz6lmNpYzzspYJRBL3yY7rnZR06NN8a3jm3v7HFbiaQBN1vuia6wknibl4TOwVoKia67FabKsRUDMmJCcvCF7c/132",
+            "ip_region": "瑞士"
+          },
+          {
+            "comment_id": "14923313115818758348",
+            "nickname": "景连振🇨🇭",
+            "username": "v5_020b0a16610401000000000076a7025a868eb8000000b1afa7d8728e3dd43ef4317a780e33c29027e6c464597ec6b629f87c17b9df9b7ec5e355e60fa549117824e3c5671e14ca344449d6fb09ffd3707864a67e414f73ec7c3ae7d9df81f6a37acdb4@stranger",
+            "content": "AI [爱心][爱心][爱心][爱心][合十][合十][合十][合十][强][强][强][强]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1778997554,
+            "head_url": "https://mmhead.c2c.wechat.com/mmhead/ver_1/sKDAicldiaKH8JTZ14D2KgNFWPPFz6lmNpYzzspYJRBL3yY7rnZR06NN8a3jm3v7HFbiaQBN1vuia6wknibl4TOwVoKia67FabKsRUDMmJCcvCF7c/132",
+            "ip_region": "瑞士"
+          },
+          {
+            "comment_id": "14912299475885561870",
+            "nickname": "松姐Ai成长",
+            "username": "v2_060000231003b20faec8c4e5891fc0d1c605ed32b077ae7a317023160034508339be77fd7963@finder",
+            "content": "Ai[强]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1777684626,
+            "head_url": "https://wx.qlogo.cn/finderhead/jRoggJ2RF3Bt8nzVau5eXyFiaYmWxfjgJ5s9BRhJFlkqbJD61ziaaM1f3qJ9teV55RRLhCvvhrmOM/0",
+            "ip_region": "湖北"
+          }
+        ],
+        "down_continue": 0,
+        "last_buffer": "CjcI////////////ARjpobiAj7qRjc8BGMyhuKLjxpCNzwEYjrCco9WryPnOATj///////////8B",
+        "debug_id": "4c30347b",
+        "debug_info": "gAAAAABqQOuWLAeLkBRpyr3V-K4PVIY-V5GS4uGDELnPoThEZlduHd6qQpw8Wcog96Xd3RpHHEB60gRcXvix2GWYDNuXU3oIvjqf1Dsu881xKd9PxD7bidXQmUMS_jAmAhznRu6aBIFSIdwsMd_CQuPKFu99_0cW68WIW8XnRnsELin3P0WVk4PnUOlUG2HuoKv-mzb2Vjgx7H2Y8htZU3Ecz6S3MggYehFxk-qHalgktKE0eCseu4_1SrzC4WIQZA2_Q2IvmYFfPHjPA082lx9NP2ama6VEsA=="
+      }
+    }
+  ],
+  "comments": [
+    {
+      "comment_id": "14923317078928527593",
+      "nickname": "景连振🇨🇭",
+      "username": "v5_020b0a16610401000000000076a7025a868eb8000000b1afa7d8728e3dd43ef4317a780e33c29027e6c464597ec6b629f87c17b9df9b7ec5e355e60fa549117824e3c5671e14ca344449d6fb09ffd3707864a67e414f73ec7c3ae7d9df81f6a37acdb4@stranger",
+      "content": "AI诚挚真心服务帮助需要帮助的人\n[爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心][爱心]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1778998026,
+      "head_url": "https://mmhead.c2c.wechat.com/mmhead/ver_1/sKDAicldiaKH8JTZ14D2KgNFWPPFz6lmNpYzzspYJRBL3yY7rnZR06NN8a3jm3v7HFbiaQBN1vuia6wknibl4TOwVoKia67FabKsRUDMmJCcvCF7c/132",
+      "ip_region": "瑞士"
+    },
+    {
+      "comment_id": "14923313115818758348",
+      "nickname": "景连振🇨🇭",
+      "username": "v5_020b0a16610401000000000076a7025a868eb8000000b1afa7d8728e3dd43ef4317a780e33c29027e6c464597ec6b629f87c17b9df9b7ec5e355e60fa549117824e3c5671e14ca344449d6fb09ffd3707864a67e414f73ec7c3ae7d9df81f6a37acdb4@stranger",
+      "content": "AI [爱心][爱心][爱心][爱心][合十][合十][合十][合十][强][强][强][强]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1778997554,
+      "head_url": "https://mmhead.c2c.wechat.com/mmhead/ver_1/sKDAicldiaKH8JTZ14D2KgNFWPPFz6lmNpYzzspYJRBL3yY7rnZR06NN8a3jm3v7HFbiaQBN1vuia6wknibl4TOwVoKia67FabKsRUDMmJCcvCF7c/132",
+      "ip_region": "瑞士"
+    },
+    {
+      "comment_id": "14912299475885561870",
+      "nickname": "松姐Ai成长",
+      "username": "v2_060000231003b20faec8c4e5891fc0d1c605ed32b077ae7a317023160034508339be77fd7963@finder",
+      "content": "Ai[强]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1777684626,
+      "head_url": "https://wx.qlogo.cn/finderhead/jRoggJ2RF3Bt8nzVau5eXyFiaYmWxfjgJ5s9BRhJFlkqbJD61ziaaM1f3qJ9teV55RRLhCvvhrmOM/0",
+      "ip_region": "湖北"
+    }
+  ],
+  "replies_by_comment": {}
+}

@@ -1,0 +1,25 @@
+{
+  "id": "conv-1781339631525-hl1zbuek8",
+  "providerId": "codex",
+  "title": "分析冲动消费与自我复盘",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781339631525,
+  "updatedAt": 1781340445492,
+  "lastResponseAt": 1781340445492,
+  "sessionId": "019ec01d-cfe7-7822-bb18-2ce1937624c1",
+  "providerState": {
+    "threadId": "019ec01d-cfe7-7822-bb18-2ce1937624c1",
+    "sessionFilePath": "/Users/kunki/.codex/sessions/2026/06/13/rollout-2026-06-13T16-33-59-019ec01d-cfe7-7822-bb18-2ce1937624c1.jsonl",
+    "transcriptRootPath": "/Users/kunki/.codex/sessions"
+  },
+  "usage": {
+    "inputTokens": 48666,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 37248,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 48666,
+    "percentage": 19,
+    "model": "gpt-5.5"
+  }
+}

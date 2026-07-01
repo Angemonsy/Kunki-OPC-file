@@ -1,0 +1,22 @@
+{
+  "prompt": "写实电影风照片，一位成年中国大学女同学，穿简洁得体的白色吊带上衣，站在大学礼堂讲台上，双手拿着一张获奖证书和奖状，表情非常开心和自豪，背景是柔和舞台灯光和蓝色颁奖背景板，浅景深，真实摄影质感，电影级光影，35mm lens，natural skin texture，warm smile，modest composition，non-sexualized，award ceremony，professional photography，16:9 horizontal composition, 电影质感, 高分辨率, 细节丰富, 专业摄影, 构图精美, 色彩协调, 好莱坞大片质感, 电影级光影, 杜比视界, 宽画幅, 极致细节",
+  "original_prompt": "写实电影风照片，一位成年中国大学女同学，穿简洁得体的白色吊带上衣，站在大学礼堂讲台上，双手拿着一张获奖证书和奖状，表情非常开心和自豪，背景是柔和舞台灯光和蓝色颁奖背景板，浅景深，真实摄影质感，电影级光影，35mm lens，natural skin texture，warm smile，modest composition，non-sexualized，award ceremony，professional photography，16:9 horizontal composition",
+  "mode": "text-to-image",
+  "size": "2K",
+  "count": 1,
+  "stream": false,
+  "watermark": false,
+  "generation_time": 39.395,
+  "image_count": 1,
+  "optimize": true,
+  "detected_style": "电影风",
+  "images": [
+    {
+      "url": "https://ark-acg-cn-beijing.tos-cn-beijing.volces.com/doubao-seedream-5-0/021781932299446952cd98d4cbfe14737b7b0cd3357391b76315d_0.png?X-Tos-Algorithm=TOS4-HMAC-SHA256&X-Tos-Credential=AKLTYWJkZTExNjA1ZDUyNDc3YzhjNTM5OGIyNjBhNDcyOTQ%2F20260620%2Fcn-beijing%2Ftos%2Frequest&X-Tos-Date=20260620T051216Z&X-Tos-Expires=86400&X-Tos-Signature=a84d581c1ae678c46e6751bec0db2ce26e7ed88f203cbd233761c5f778571a3a&X-Tos-SignedHeaders=host",
+      "file_name": "seedream_1781932299_1.png",
+      "download_success": true,
+      "download_error": null,
+      "index": 1
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "conv-1781019964331-uafd7q2wh",
+  "providerId": "codex",
+  "title": "咨询插件使用功能与高考主题口播稿赋能内容",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781019964332,
+  "updatedAt": 1781020118311,
+  "lastResponseAt": 1781020118311,
+  "sessionId": "019ead10-1daa-7b11-b62a-688d8c2243d3",
+  "providerState": {
+    "threadId": "019ead10-1daa-7b11-b62a-688d8c2243d3",
+    "sessionFilePath": "/Users/kunki/.codex/sessions/2026/06/09/rollout-2026-06-09T23-46-15-019ead10-1daa-7b11-b62a-688d8c2243d3.jsonl",
+    "transcriptRootPath": "/Users/kunki/.codex/sessions"
+  },
+  "usage": {
+    "inputTokens": 50836,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 22912,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 50836,
+    "percentage": 20,
+    "model": "gpt-5.5"
+  }
+}

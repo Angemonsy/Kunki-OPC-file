@@ -1,0 +1,172 @@
+{
+  "object_id": "14933581168142457116",
+  "pages": [
+    {
+      "code": 200,
+      "request_id": "59d17e68-b8d6-4d3a-a797-ad64b13d64c2",
+      "message": "Request successful. This request will incur a charge.",
+      "message_zh": "请求成功，本次请求将被计费。",
+      "support": "Discord: https://discord.gg/aMEAS8Xsvz",
+      "time": "2026-06-28 02:36:13",
+      "time_stamp": 1782639373,
+      "time_zone": "America/Los_Angeles",
+      "docs": "https://api.tikhub.io/#/WeChat-Channels-V2-API/fetch_video_comments_api_v1_wechat_channels_v2_fetch_video_comments_post",
+      "cache_message": "This response is cached and accessible via the URL below for 24 hours at no extra cost. The cache is for request tracing only — it doesn't affect the API's data freshness and won't be returned through the API again.",
+      "cache_message_zh": "本次响应已缓存，可通过下方 URL 直接查看，有效期 24 小时，访问缓存链接无额外费用。缓存仅用于请求溯源，不影响接口数据的时效性，也不会再次通过接口返回。",
+      "cache_url": "https://cache.tikhub.io/api/v1/cache/public/59d17e68-b8d6-4d3a-a797-ad64b13d64c2?sign=1736eb85ca3534e522776fb7cfea5f87e7a05581cad3064fbb510dacc3ab5ad7",
+      "router": "/api/v1/wechat_channels/v2/fetch_video_comments",
+      "params": {
+        "object_id": "14933581168142457116",
+        "last_buffer": "",
+        "comment_id": "",
+        "raw": false
+      },
+      "data": {
+        "object_id": "14933581168142457116",
+        "comment_id": null,
+        "count": 6,
+        "comments": [
+          {
+            "comment_id": "14937938904991144207",
+            "nickname": "菩提",
+            "username": "v5_020b0a1661040100000000006db908229e8fac000000b1afa7d8728e3dd43ef4317a780e33c208f8b8f76ac075af22c33776f66d52a11b9e5f9192b52425b0f1cf2e7e26f24b84ef810f1349eb758aac29f9ac7d50b7777774e627021c107ecc18f17c@stranger",
+            "content": "感恩陈厂长的分享[强][强][强][强][强][强][爱心][爱心][爱心][爱心][爱心][爱心]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1780741084,
+            "head_url": "https://wx.qlogo.cn/mmhead/ver_1/VhgV7QPOHk0GSxAticBEKyrnjFiap925LT5T4EwZeYSueEjCic7RRviaOw7mFYt05OB7Vq07bgHCNEBdeMAmibq0lk3HTiaaaEOoicUvcM0ffowh9m0zibHtVeSrIHvbCicw7zmTd/132",
+            "ip_region": "甘肃"
+          },
+          {
+            "comment_id": "14940136919922710981",
+            "nickname": "文珺奶奶",
+            "username": "v5_020b0a166104010000000000e89f21913a6b13000000b1afa7d8728e3dd43ef4317a780e33c208f8b8f76ac075af22c33776f629d18053a4183f77bbd569587918e0c547b6970c8dc7f1a53dd3bf32c4c78f0e2dc8e21c77f0fe7718073d3e6fe9a1b5@stranger",
+            "content": "感恩陈厂长分享[强][强][强][强][强][强]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1781003108,
+            "head_url": "https://wx.qlogo.cn/mmhead/ver_1/X6B3qSeibpg9QBpHtrtTXjV3pbaXpDYk1vWaFuzib3koAoicxxf4zpPsPK2b7Pic4hsac2biaa3UMLfp61JvicXkQanreP6aCDoYFyl2HeepHjfiafkerD1bUA8Iib5Utd66ic14e/132",
+            "ip_region": "河南"
+          },
+          {
+            "comment_id": "14933712521608894484",
+            "nickname": "松姐Ai成长",
+            "username": "v2_060000231003b20faec8c4e5891fc0d1c605ed32b077ae7a317023160034508339be77fd7963@finder",
+            "content": "[强][强][强]喜欢听陈厂长分享，能提高我的思维高度，想得到陈厂长真传！",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1780237260,
+            "head_url": "https://wx.qlogo.cn/finderhead/jRoggJ2RF3Bt8nzVau5eXyFiaYmWxfjgJ5s9BRhJFlkqbJD61ziaaM1f3qJ9teV55RRLhCvvhrmOM/0",
+            "ip_region": "湖北"
+          },
+          {
+            "comment_id": "14934222947929954524",
+            "nickname": "巧仙爱商业干货",
+            "username": "v2_060000231003b20faec8c7e68d10c5d5c701ed3db07748a153ed537fa7fe88f47c14b47eecb6@finder",
+            "content": "谢谢老师分享",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1780298107,
+            "head_url": "https://wx.qlogo.cn/finderhead/UAb2n8w7fEeSRN40cH9Ry7DX3UJkiaXwq3iarp3RO0pwkf3FezSUDuBjzDjHIQPicL2kmnE3jnibLA4/0",
+            "ip_region": "重庆"
+          },
+          {
+            "comment_id": "14937874006330640469",
+            "nickname": "伊通于姐高端穿搭男女装",
+            "username": "v2_060000231003b20faec8c6e18c19c5d5c802eb37b0774c815edb080bd489be1365b8853e791b@finder",
+            "content": "服装",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1780733347,
+            "head_url": "https://wx.qlogo.cn/finderhead/X4XEGYefSBTnsISPZbSiaAF5Qky6y2DgGfkPXRjicgMvxEibGxt4oibADibBmkIOyBAz9Qf62QVNdBIE/0",
+            "ip_region": "吉林"
+          },
+          {
+            "comment_id": "14934770761527986513",
+            "nickname": "一一辛",
+            "username": "v5_020b0a1661040100000000002e942a34b697dd000000b1afa7d8728e3dd43ef4317a780e33c208f8b8f76ac075af22c33776f6a05ddc3a93aaee9d8fc907342504a10c72c8c3425fcc5646a930d40bab7091f295d3ddaa9dee40c663576064ceb0acd0@stranger",
+            "content": "多谢厂长的关照[合十][合十][微笑]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1780363412,
+            "head_url": "https://wx.qlogo.cn/mmhead/ver_1/Q0Ud6WJMicica2tDCtMP31NFdTeMCSBOY09TFg6fVZ2yKznEoCy8HaL2MghtE7MvtTVsQWLJvicicNfZFcHRgveia5rbhkRiasV0Ipzv1hH02H72nZqrCP830PI2UQxks7vdCC/132",
+            "ip_region": "广东"
+          }
+        ],
+        "down_continue": 0,
+        "last_buffer": "ClgI////////////ARiPsvDjoYmOp88BGMWzxL3164GrzwEYlLC04qiNzZ/PARjcsej+1pTBoM8BGNWQhLe7qP+mzwEY0ZKQ1pPcvaHPATj///////////8B",
+        "debug_id": "98fc1f93",
+        "debug_info": "gAAAAABqQOsNv0B7VxsApJxh5txeVXKhXQpeLlaPxSSYvMAfBGg95Na12hWb248yFaNJPq9_BwplaKCI_tQgGQngg4kkxMeTW3RPlFgUtbb21PChfv49L3VXxLoCtOuwDqRbhrC30vUM1naHEjA-cWIuqxZKLUXdWUH-me_JxCO7bOrKJPo34Mc-b0PsXgYdaMBrHIZ2qo3M1ppLzCa4FFo14e8pnOaJFcOYcJwh1pgU7gJXJWT9spa9N0hfVduGkjbLEczJjSRkV09QTg6xdmNvfBWGHb2c-Q=="
+      }
+    }
+  ],
+  "comments": [
+    {
+      "comment_id": "14937938904991144207",
+      "nickname": "菩提",
+      "username": "v5_020b0a1661040100000000006db908229e8fac000000b1afa7d8728e3dd43ef4317a780e33c208f8b8f76ac075af22c33776f66d52a11b9e5f9192b52425b0f1cf2e7e26f24b84ef810f1349eb758aac29f9ac7d50b7777774e627021c107ecc18f17c@stranger",
+      "content": "感恩陈厂长的分享[强][强][强][强][强][强][爱心][爱心][爱心][爱心][爱心][爱心]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1780741084,
+      "head_url": "https://wx.qlogo.cn/mmhead/ver_1/VhgV7QPOHk0GSxAticBEKyrnjFiap925LT5T4EwZeYSueEjCic7RRviaOw7mFYt05OB7Vq07bgHCNEBdeMAmibq0lk3HTiaaaEOoicUvcM0ffowh9m0zibHtVeSrIHvbCicw7zmTd/132",
+      "ip_region": "甘肃"
+    },
+    {
+      "comment_id": "14940136919922710981",
+      "nickname": "文珺奶奶",
+      "username": "v5_020b0a166104010000000000e89f21913a6b13000000b1afa7d8728e3dd43ef4317a780e33c208f8b8f76ac075af22c33776f629d18053a4183f77bbd569587918e0c547b6970c8dc7f1a53dd3bf32c4c78f0e2dc8e21c77f0fe7718073d3e6fe9a1b5@stranger",
+      "content": "感恩陈厂长分享[强][强][强][强][强][强]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1781003108,
+      "head_url": "https://wx.qlogo.cn/mmhead/ver_1/X6B3qSeibpg9QBpHtrtTXjV3pbaXpDYk1vWaFuzib3koAoicxxf4zpPsPK2b7Pic4hsac2biaa3UMLfp61JvicXkQanreP6aCDoYFyl2HeepHjfiafkerD1bUA8Iib5Utd66ic14e/132",
+      "ip_region": "河南"
+    },
+    {
+      "comment_id": "14933712521608894484",
+      "nickname": "松姐Ai成长",
+      "username": "v2_060000231003b20faec8c4e5891fc0d1c605ed32b077ae7a317023160034508339be77fd7963@finder",
+      "content": "[强][强][强]喜欢听陈厂长分享，能提高我的思维高度，想得到陈厂长真传！",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1780237260,
+      "head_url": "https://wx.qlogo.cn/finderhead/jRoggJ2RF3Bt8nzVau5eXyFiaYmWxfjgJ5s9BRhJFlkqbJD61ziaaM1f3qJ9teV55RRLhCvvhrmOM/0",
+      "ip_region": "湖北"
+    },
+    {
+      "comment_id": "14934222947929954524",
+      "nickname": "巧仙爱商业干货",
+      "username": "v2_060000231003b20faec8c7e68d10c5d5c701ed3db07748a153ed537fa7fe88f47c14b47eecb6@finder",
+      "content": "谢谢老师分享",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1780298107,
+      "head_url": "https://wx.qlogo.cn/finderhead/UAb2n8w7fEeSRN40cH9Ry7DX3UJkiaXwq3iarp3RO0pwkf3FezSUDuBjzDjHIQPicL2kmnE3jnibLA4/0",
+      "ip_region": "重庆"
+    },
+    {
+      "comment_id": "14937874006330640469",
+      "nickname": "伊通于姐高端穿搭男女装",
+      "username": "v2_060000231003b20faec8c6e18c19c5d5c802eb37b0774c815edb080bd489be1365b8853e791b@finder",
+      "content": "服装",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1780733347,
+      "head_url": "https://wx.qlogo.cn/finderhead/X4XEGYefSBTnsISPZbSiaAF5Qky6y2DgGfkPXRjicgMvxEibGxt4oibADibBmkIOyBAz9Qf62QVNdBIE/0",
+      "ip_region": "吉林"
+    },
+    {
+      "comment_id": "14934770761527986513",
+      "nickname": "一一辛",
+      "username": "v5_020b0a1661040100000000002e942a34b697dd000000b1afa7d8728e3dd43ef4317a780e33c208f8b8f76ac075af22c33776f6a05ddc3a93aaee9d8fc907342504a10c72c8c3425fcc5646a930d40bab7091f295d3ddaa9dee40c663576064ceb0acd0@stranger",
+      "content": "多谢厂长的关照[合十][合十][微笑]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1780363412,
+      "head_url": "https://wx.qlogo.cn/mmhead/ver_1/Q0Ud6WJMicica2tDCtMP31NFdTeMCSBOY09TFg6fVZ2yKznEoCy8HaL2MghtE7MvtTVsQWLJvicicNfZFcHRgveia5rbhkRiasV0Ipzv1hH02H72nZqrCP830PI2UQxks7vdCC/132",
+      "ip_region": "广东"
+    }
+  ],
+  "replies_by_comment": {}
+}

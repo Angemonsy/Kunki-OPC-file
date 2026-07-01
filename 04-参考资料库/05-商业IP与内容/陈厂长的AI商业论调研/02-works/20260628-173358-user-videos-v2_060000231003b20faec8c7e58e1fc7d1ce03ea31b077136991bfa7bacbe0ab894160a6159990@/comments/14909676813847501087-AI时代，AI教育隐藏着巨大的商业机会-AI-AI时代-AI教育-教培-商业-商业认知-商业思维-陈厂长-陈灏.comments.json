@@ -1,0 +1,128 @@
+{
+  "object_id": "14909676813847501087",
+  "pages": [
+    {
+      "code": 200,
+      "request_id": "a625a2bb-3770-49ee-b5d1-d22fd55b5cea",
+      "message": "Request successful. This request will incur a charge.",
+      "message_zh": "请求成功，本次请求将被计费。",
+      "support": "Discord: https://discord.gg/aMEAS8Xsvz",
+      "time": "2026-06-28 02:38:11",
+      "time_stamp": 1782639491,
+      "time_zone": "America/Los_Angeles",
+      "docs": "https://api.tikhub.io/#/WeChat-Channels-V2-API/fetch_video_comments_api_v1_wechat_channels_v2_fetch_video_comments_post",
+      "cache_message": "This response is cached and accessible via the URL below for 24 hours at no extra cost. The cache is for request tracing only — it doesn't affect the API's data freshness and won't be returned through the API again.",
+      "cache_message_zh": "本次响应已缓存，可通过下方 URL 直接查看，有效期 24 小时，访问缓存链接无额外费用。缓存仅用于请求溯源，不影响接口数据的时效性，也不会再次通过接口返回。",
+      "cache_url": "https://cache.tikhub.io/api/v1/cache/public/a625a2bb-3770-49ee-b5d1-d22fd55b5cea?sign=54b66d4c1f39a39e501dc9bb3f3b35553d6dad68289866d9d2bac5cd5f666619",
+      "router": "/api/v1/wechat_channels/v2/fetch_video_comments",
+      "params": {
+        "object_id": "14909676813847501087",
+        "last_buffer": "",
+        "comment_id": "",
+        "raw": false
+      },
+      "data": {
+        "object_id": "14909676813847501087",
+        "comment_id": null,
+        "count": 4,
+        "comments": [
+          {
+            "comment_id": "14923303193878728923",
+            "nickname": "景连振🇨🇭",
+            "username": "v5_020b0a16610401000000000046561a44511a18000000b1afa7d8728e3dd43ef4317a780e33c208f8b8f76ac075af22c33776f679c1d7a4c2500aaa86e0d68187c92c1df246f60cd96d1393a735b6cd41b34d05c8bc90aefe7fbbfa6f8b256a198eb083@stranger",
+            "content": "生存与进化[爱心][爱心][爱心][爱心][合十][合十][合十][合十][强][强][强][强]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1778996371,
+            "head_url": "https://mmhead.c2c.wechat.com/mmhead/ver_1/l4ziaoYyPnCoV02eT73DNHZRZq3t5ZadDb8mvJ0ArD9sIiasgVD9ff9icdmGXzlXPjJgdRSpvg1N79ibWuVVDZqy7jvD41nibicJLwF81MWTPXXzM/132",
+            "ip_region": "瑞士"
+          },
+          {
+            "comment_id": "14927879025202174236",
+            "nickname": "温光叙余生",
+            "username": "v2_060000231003b20faec8cae28c18c5d4c803ec31b0772719b22704a4ca93958fdcbdfaed39d3@finder",
+            "content": "感谢老师精彩分享[强][强][强][强][强]",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1779541853,
+            "head_url": "https://wx.qlogo.cn/finderhead/FtAUIT61OcCzS4fbn5A8L7R5ZCicMLYibibj1K26vCJEJh3ZD6c4A1iap0wHUeJFkcNTc0g6qFLbvfw/0",
+            "ip_region": "湖南"
+          },
+          {
+            "comment_id": "14942780774762351040",
+            "nickname": "澄怀观道1036",
+            "username": "v2_060000231003b20faec8c4eb8e1bc4d4cf03e532b0772ccea7a1046c9e4c7e0133c0784d214c@finder",
+            "content": "感谢陈厂长",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1781318280,
+            "head_url": "https://wx.qlogo.cn/finderhead/oYwP0cFmRU3kIqbwuibSnWOLibTjTcpw2AMlIeTbwc4Gq5tSFVBf7NVXfJxJ7GqTDASgiaQ7Xvlnmg/0",
+            "ip_region": "新疆"
+          },
+          {
+            "comment_id": "14922366929802828007",
+            "nickname": "巧仙爱商业干货",
+            "username": "v2_060000231003b20faec8c7e68d10c5d5c701ed3db07748a153ed537fa7fe88f47c14b47eecb6@finder",
+            "content": "谢谢老师分享",
+            "like_count": 0,
+            "reply_count": null,
+            "create_time": 1778884760,
+            "head_url": "https://wx.qlogo.cn/finderhead/UAb2n8w7fEeSRN40cH9Ry7DX3UJkiaXwq3iarp3RO0pwkf3FezSUDuBjzDjHIQPicL2kmnE3jnibLA4/0",
+            "ip_region": "重庆"
+          }
+        ],
+        "down_continue": 0,
+        "last_buffer": "CkII////////////ARjboeCUgaaOjc8BGJyyuJmd3J6VzwEYwJP8oZz+2q/PARjnsbzXkbW5i88BOP///////////wE=",
+        "debug_id": "c65817c3",
+        "debug_info": "gAAAAABqQOuDprQaIcuWZw3a1cC18N0AGB_KQs8VcmpFN52XBrGoFvsqbUUN7dl2Wi5lyhdqgG32W3Crdl7c-yItOwAhMbcn1hAU7B7jWsCI7lNySJgh1MNuKhr4UgG5Epl12vx17Z3idMEKLzlqihDFHYTl3Q27FRAttGM0Pt_zlGru3oYBcwo6ouD4KD5FczWCeefTc4kniYHkICYc5657iDCSZcNh22kMJ7LIPHnkAA4-XZcKpUDWaZuBNO5_8IcV9pG70f2KdC3QJGlUPwHx9y7chFMVlw=="
+      }
+    }
+  ],
+  "comments": [
+    {
+      "comment_id": "14923303193878728923",
+      "nickname": "景连振🇨🇭",
+      "username": "v5_020b0a16610401000000000046561a44511a18000000b1afa7d8728e3dd43ef4317a780e33c208f8b8f76ac075af22c33776f679c1d7a4c2500aaa86e0d68187c92c1df246f60cd96d1393a735b6cd41b34d05c8bc90aefe7fbbfa6f8b256a198eb083@stranger",
+      "content": "生存与进化[爱心][爱心][爱心][爱心][合十][合十][合十][合十][强][强][强][强]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1778996371,
+      "head_url": "https://mmhead.c2c.wechat.com/mmhead/ver_1/l4ziaoYyPnCoV02eT73DNHZRZq3t5ZadDb8mvJ0ArD9sIiasgVD9ff9icdmGXzlXPjJgdRSpvg1N79ibWuVVDZqy7jvD41nibicJLwF81MWTPXXzM/132",
+      "ip_region": "瑞士"
+    },
+    {
+      "comment_id": "14927879025202174236",
+      "nickname": "温光叙余生",
+      "username": "v2_060000231003b20faec8cae28c18c5d4c803ec31b0772719b22704a4ca93958fdcbdfaed39d3@finder",
+      "content": "感谢老师精彩分享[强][强][强][强][强]",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1779541853,
+      "head_url": "https://wx.qlogo.cn/finderhead/FtAUIT61OcCzS4fbn5A8L7R5ZCicMLYibibj1K26vCJEJh3ZD6c4A1iap0wHUeJFkcNTc0g6qFLbvfw/0",
+      "ip_region": "湖南"
+    },
+    {
+      "comment_id": "14942780774762351040",
+      "nickname": "澄怀观道1036",
+      "username": "v2_060000231003b20faec8c4eb8e1bc4d4cf03e532b0772ccea7a1046c9e4c7e0133c0784d214c@finder",
+      "content": "感谢陈厂长",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1781318280,
+      "head_url": "https://wx.qlogo.cn/finderhead/oYwP0cFmRU3kIqbwuibSnWOLibTjTcpw2AMlIeTbwc4Gq5tSFVBf7NVXfJxJ7GqTDASgiaQ7Xvlnmg/0",
+      "ip_region": "新疆"
+    },
+    {
+      "comment_id": "14922366929802828007",
+      "nickname": "巧仙爱商业干货",
+      "username": "v2_060000231003b20faec8c7e68d10c5d5c701ed3db07748a153ed537fa7fe88f47c14b47eecb6@finder",
+      "content": "谢谢老师分享",
+      "like_count": 0,
+      "reply_count": null,
+      "create_time": 1778884760,
+      "head_url": "https://wx.qlogo.cn/finderhead/UAb2n8w7fEeSRN40cH9Ry7DX3UJkiaXwq3iarp3RO0pwkf3FezSUDuBjzDjHIQPicL2kmnE3jnibLA4/0",
+      "ip_region": "重庆"
+    }
+  ],
+  "replies_by_comment": {}
+}

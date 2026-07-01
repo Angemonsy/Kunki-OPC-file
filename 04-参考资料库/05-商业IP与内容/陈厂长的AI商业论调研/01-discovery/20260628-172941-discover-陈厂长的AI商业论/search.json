@@ -1,0 +1,321 @@
+{
+  "code": 200,
+  "request_id": "04bd459e-61b9-4d67-8576-fc2d5af6f4c9",
+  "message": "Request successful. This request will incur a charge.",
+  "message_zh": "请求成功，本次请求将被计费。",
+  "support": "Discord: https://discord.gg/aMEAS8Xsvz",
+  "time": "2026-06-28 02:29:40",
+  "time_stamp": 1782638980,
+  "time_zone": "America/Los_Angeles",
+  "docs": "https://api.tikhub.io/#/WeChat-Search-V2-API/fetch_search_api_v1_wechat_search_v2_fetch_search_post",
+  "cache_message": "This response is cached and accessible via the URL below for 24 hours at no extra cost. The cache is for request tracing only — it doesn't affect the API's data freshness and won't be returned through the API again.",
+  "cache_message_zh": "本次响应已缓存，可通过下方 URL 直接查看，有效期 24 小时，访问缓存链接无额外费用。缓存仅用于请求溯源，不影响接口数据的时效性，也不会再次通过接口返回。",
+  "cache_url": "https://cache.tikhub.io/api/v1/cache/public/04bd459e-61b9-4d67-8576-fc2d5af6f4c9?sign=ff63600bb4c570962a82001377b9e95cae30352a18cc5d3c273571d492fe1a8f",
+  "router": "/api/v1/wechat_search/v2/fetch_search",
+  "params": {
+    "keyword": "陈厂长的AI商业论",
+    "business_type": "video",
+    "sort": "default",
+    "publish_time": "all",
+    "offset": 0,
+    "raw": false
+  },
+  "data": {
+    "keyword": "陈厂长的AI商业论",
+    "business_type": 7,
+    "total": 2,
+    "continue_flag": 1,
+    "offset": 10,
+    "count": 11,
+    "items": [
+      {
+        "authInfo": "深圳市中隐会教育咨询有限公司",
+        "desc": "我用<em class=\"highlight\">AI</em>创业，一年一个亿，每天工作两小时。\n70人公司，深圳，全员<em class=\"highlight\">AI</em>化。\n大师感IP + <em class=\"highlight\">AI</em>化交付 = 一年一亿。\n我教两件事：\n<em class=\"highlight\">AI</em>创业方法论——获客、销售、交付、管理，100%交给<em class=\"highlight\">AI</em>。\n好IP，像大师——思想即流量，干货即收入。让普通人点赞，让有钱人追随。\n每月开课｜私董会｜企业<em class=\"highlight\">AI</em>智能体定制",
+        "docID": "finderacctv0oMxLEsxwV2WVx2tqxqIsMq0O5HN93qdpAVeSXCyp90Q=",
+        "jumpInfo": {
+          "commentScene": 6,
+          "jumpType": 7,
+          "userName": "v2_060000231003b20faec8c7e58e1fc7d1ce03ea31b077136991bfa7bacbe0ab894160a6159990@finder"
+        },
+        "needAsyncGetFinderAcctAbs": 1,
+        "needAsyncUpdateLiveNotice": 1,
+        "noticeParam": {
+          "encryptFinderuin": "finderacctv0oMxLEsxwV2WVx2tqxqIsMq0O5HN93qdpAVeSXCyp90Q=",
+          "finderUsername": "v2_060000231003b20faec8c7e58e1fc7d1ce03ea31b077136991bfa7bacbe0ab894160a6159990@finder",
+          "themeType": 2
+        },
+        "thumbUrl": "https://wx.qlogo.cn/finderhead/ver_1/dTMJQHnuOkep10neUMdDApNROVjCy1gkCIpAArz5rCFtsTibZCmUbnBk066Yp7dor0IK38JFx2XfDhzQt0DjOMoedpPMmjTYZZcjjQk1TplnjkAKw7qXoQqPDXRFhOmL0/132",
+        "title": "<em class=\"highlight\">陈厂长的AI商业论</em>",
+        "titleTag": {
+          "append": [
+            {
+              "iconUrl": "https://dldir1v6.qq.com/weixin/checkresupdate/icons_filled_channels_authentication_enterprise_a2658032368245639e666fb11533a600.png"
+            }
+          ]
+        }
+      },
+      {
+        "dateTime": "21小时前",
+        "docID": "finderobjv0nNUuJtG1TlcOut7LeOsuGRfFdvrZmApMAbj1HfEjdy8=",
+        "duration": "02:15",
+        "exportId": "export/UzFfBgAAxPSAREQQE0GnjMzT4DCK2IwDzjA6pA5cFdJykqFQQQ",
+        "hashDocID": "17178669814202766487",
+        "height": 1920,
+        "image": "https://findermp.video.qq.com/251/20304/stodownload?encfilekey=KGDRibp2wkicJ8IwghO4VoP0fICbVdERqDovebm5rKB2wFyxSubQ4wGibmXouNNLVXiaXPjbpQQoM6ZlnAO8jWibwzA&hy=SZ&idx=1&m=&scene=2&uzid=1&wxampicformat=503&picformat=200&token=ic1n0xDG6awibeibNT6YKKHyWEcbXicbeH2OoP4IZ2Gmv61NWekYU7KTauav5eicNdWUUibGODMOcLrks9fgicQxy85txVFEjEGCpAquahDwS54ia2xHICgnMK3icskiawLKUia7WEUloiadjm6gmCYBw4cDdxt7EhWaStbPicGnpUkicnbibZWO1c8QicWExmtF4ia9ZXTdUJicNWkce7TKXwrZUXJrYZnqibQuA",
+        "jumpInfo": {
+          "extInfo": "{\"behavior\":[\"report_feed_read\"],\"encryptedObjectId\":\"export/UzFfBgAAxPSAREQQE0GnjMzT4DCK2IwDzjA6pA5cFdJykqFQQQ\",\"feedFocusChangeNotify\":true,\"feedNonceId\":\"2104082471637819726\",\"getRelatedList\":true,\"reportExtraInfo\":\"{\\\"promotion_report_info\\\":{\\\"promotion_recommend_request_id\\\":\\\"1782638979156551\\\"},\\\"report_json\\\":\\\"\\\"}\\n\",\"reportScene\":14,\"requestScene\":13,\"sessionId\":\"CKCztPqA_5vCzwEIuLPwkY_29sDPAQiQs5yYx6bPv88BCJizzMbxwbK-zwEIpLPknPeGjL3PAQiZs_Tr2ILku88BCISQvJq97PGKzwEInrOs9MTKq6zPAQiUsuDc1rWlo88BCKazkJTnjIC7zgEIoLK4vci0g6LPARCtnLKNlYeq3RIqF-mZiOWOgumVv-eahGFp5ZWG5Lia6K66MAA4gICAgICAAkABSABQv5rilQ6AARSIAQeYAQCoAceU9tjPqZUDyAGnlIHAAdABAN0BT4zyPg..\"}\n",
+          "jumpType": 9
+        },
+        "likeNum": "34",
+        "noPlayIcon": true,
+        "pubTime": 1782560321,
+        "showType": 1,
+        "source": {
+          "iconUrl": "https://wx.qlogo.cn/finderhead/ver_1/codhOZP8zusmlB672u4HeE7CHzjYDNswOOwle7f2A2SBBLKtgWIB70HvRbG1XHhfNxtibP1icRcUnYOL3vLUBMAqpnHnnQrx0nRYQczibBWhqEL3rfwmj0UB8h49aXMl2jb/132",
+          "mark": [
+            "https://dldir1v6.qq.com/weixin/checkresupdate/icons_filled_channels_authentication_enterprise_a2658032368245639e666fb11533a600.png"
+          ],
+          "title": "<em class=\"highlight\">陈厂长的AI商业论</em>"
+        },
+        "title": "<em class=\"highlight\">AI</em>获客的顶级玩法 送才是最高级的卖#<em class=\"highlight\">AI</em>#<em class=\"highlight\">AI</em>获客#<em class=\"highlight\">AI</em>时代#企业<em class=\"highlight\">AI</em>化改造#企业智能体#企业<em class=\"highlight\">AI</em>全案落地#<em class=\"highlight\">陈厂长</em>#陈灏",
+        "width": 1080
+      },
+      {
+        "dateTime": "前天",
+        "docID": "finderobjv08g97TUKDccOozc/4IWbibKHgt7I51u03e7bOpmWkbXY=",
+        "duration": "02:10",
+        "exportId": "export/UzFfBgAAxOyAAC8fGiyljMzT4DCKmEsU5iwzFWIbybDWU0Y0Sg",
+        "hashDocID": "2476232162420429334",
+        "height": 1920,
+        "image": "https://findermp.video.qq.com/251/20304/stodownload?encfilekey=KGDRibp2wkicIwdBK8iccDr21KByJxL7584ib5ceePEheg2p1mB52ia8UYQUicASiajm0a4H04xg9Y1W2EwR6HuOq8fng&hy=SZ&idx=1&m=&scene=2&uzid=1&wxampicformat=503&picformat=200&token=ic1n0xDG6aw8SOToVM5R8C7iaDiczXiav9RGAz399vNUiciaxapja7YDo5MfQ3AiazZpQDDL9zibLwCPRTpeclWticsnuIOu8Rnlj779l7QV68ibMYqorwdHKtRcLX5wicNURhvzY1ebmdGXND7kZzjLOGmicvPIHUxNB5UhyQ8A3UUt8duAjJXUdtjcmxjBrtU8AbPTicJ3CQCNbvIIpwQeWz0U4hSaqDQ",
+        "jumpInfo": {
+          "extInfo": "{\"behavior\":[\"report_feed_read\"],\"encryptedObjectId\":\"export/UzFfBgAAxOyAAC8fGiyljMzT4DCKmEsU5iwzFWIbybDWU0Y0Sg\",\"feedFocusChangeNotify\":true,\"feedNonceId\":\"16795898157577316447\",\"getRelatedList\":true,\"reportExtraInfo\":\"{\\\"promotion_report_info\\\":{\\\"promotion_recommend_request_id\\\":\\\"1782638979156551\\\"},\\\"report_json\\\":\\\"\\\"}\\n\",\"reportScene\":14,\"requestScene\":13,\"sessionId\":\"CKCztPqA_5vCzwEIuLPwkY_29sDPAQiQs5yYx6bPv88BCJizzMbxwbK-zwEIpLPknPeGjL3PAQiZs_Tr2ILku88BCISQvJq97PGKzwEInrOs9MTKq6zPAQiUsuDc1rWlo88BCKazkJTnjIC7zgEIoLK4vci0g6LPARCtnLKNlYeq3RIqF-mZiOWOgumVv-eahGFp5ZWG5Lia6K66MAA4gICAgICAAkABSABQv5rilQ6AARSIAQeYAQCoAceU9tjPqZUDyAGnlIHAAdABAN0BT4zyPg..\"}\n",
+          "jumpType": 9
+        },
+        "likeNum": "20",
+        "noPlayIcon": true,
+        "pubTime": 1782473777,
+        "showType": 1,
+        "source": {
+          "iconUrl": "https://wx.qlogo.cn/finderhead/ver_1/codhOZP8zusmlB672u4HeE7CHzjYDNswOOwle7f2A2SBBLKtgWIB70HvRbG1XHhfNxtibP1icRcUnYOL3vLUBMAqpnHnnQrx0nRYQczibBWhqEL3rfwmj0UB8h49aXMl2jb/132",
+          "mark": [
+            "https://dldir1v6.qq.com/weixin/checkresupdate/icons_filled_channels_authentication_enterprise_a2658032368245639e666fb11533a600.png"
+          ],
+          "title": "<em class=\"highlight\">陈厂长的AI商业论</em>"
+        },
+        "title": "<em class=\"highlight\">AI</em>时代，普通人的赚钱认知#<em class=\"highlight\">AI</em>#<em class=\"highlight\">AI</em>时代#赚钱思维#<em class=\"highlight\">商业</em>认知#企业<em class=\"highlight\">AI</em>化改造#企业智能体#企业<em class=\"highlight\">AI</em>全案落地#<em class=\"highlight\">陈厂长</em>",
+        "width": 1080
+      },
+      {
+        "dateTime": "3天前",
+        "docID": "finderobjv0ESWstytB3zzyx/AmXfxYo+ZI7FiZMlojghV7QwzEjxc=",
+        "duration": "01:38",
+        "exportId": "export/UzFfBgAAxMSAbCZXShXajMzT4DCKrYpAPbhXrS1NF9UG4-dFAA",
+        "hashDocID": "13365631750540417817",
+        "height": 1920,
+        "image": "https://findermp.video.qq.com/251/20304/stodownload?encfilekey=KGDRibp2wkicJxc4Hf8RvAycibcZHXHrVic3ug4dJpmhmUTmSicGQ4rDB9NzXSvduicUaEhK571kZp2zb61dPw6DsWBQ&hy=SZ&idx=1&m=&scene=2&uzid=1&wxampicformat=503&picformat=200&token=AxricY7RBHdVdU7Gn7iczBDO1tDgvzDP6icvhbA5ibVtBvqdpcKyRSuGfv4vjnrb6XFPfthYzL85brrxtv4Tiaavib0sib09cLhL2oqPibjpiaIlvqywMibccMcmatJ1l1ibSlfGxP3MhL1zwGtfyrl1rLg03IjxejSKicWqrxMO5uiaJAThicfQJMBSWAh9p4bVQxvztrjrkwibbpSnfhqICPH89IujtQmqQ",
+        "jumpInfo": {
+          "extInfo": "{\"behavior\":[\"report_feed_read\"],\"encryptedObjectId\":\"export/UzFfBgAAxMSAbCZXShXajMzT4DCKrYpAPbhXrS1NF9UG4-dFAA\",\"feedFocusChangeNotify\":true,\"feedNonceId\":\"16113340328011464087\",\"getRelatedList\":true,\"reportExtraInfo\":\"{\\\"promotion_report_info\\\":{\\\"promotion_recommend_request_id\\\":\\\"1782638979156551\\\"},\\\"report_json\\\":\\\"\\\"}\\n\",\"reportScene\":14,\"requestScene\":13,\"sessionId\":\"CKCztPqA_5vCzwEIuLPwkY_29sDPAQiQs5yYx6bPv88BCJizzMbxwbK-zwEIpLPknPeGjL3PAQiZs_Tr2ILku88BCISQvJq97PGKzwEInrOs9MTKq6zPAQiUsuDc1rWlo88BCKazkJTnjIC7zgEIoLK4vci0g6LPARCtnLKNlYeq3RIqF-mZiOWOgumVv-eahGFp5ZWG5Lia6K66MAA4gICAgICAAkABSABQv5rilQ6AARSIAQeYAQCoAceU9tjPqZUDyAGnlIHAAdABAN0BT4zyPg..\"}\n",
+          "jumpType": 9
+        },
+        "likeNum": "57",
+        "noPlayIcon": true,
+        "pubTime": 1782385895,
+        "showType": 1,
+        "source": {
+          "iconUrl": "https://wx.qlogo.cn/finderhead/ver_1/codhOZP8zusmlB672u4HeE7CHzjYDNswOOwle7f2A2SBBLKtgWIB70HvRbG1XHhfNxtibP1icRcUnYOL3vLUBMAqpnHnnQrx0nRYQczibBWhqEL3rfwmj0UB8h49aXMl2jb/132",
+          "mark": [
+            "https://dldir1v6.qq.com/weixin/checkresupdate/icons_filled_channels_authentication_enterprise_a2658032368245639e666fb11533a600.png"
+          ],
+          "title": "<em class=\"highlight\">陈厂长的AI商业论</em>"
+        },
+        "title": "<em class=\"highlight\">AI</em>时代的赚钱认知#<em class=\"highlight\">AI</em>#<em class=\"highlight\">AI</em>时代#赚钱思维#<em class=\"highlight\">商业</em>认知#智能体#企业<em class=\"highlight\">AI</em>化改造#企业智能体#企业<em class=\"highlight\">AI</em>全案落地#<em class=\"highlight\">陈厂长</em>#陈灏",
+        "width": 1080
+      },
+      {
+        "dateTime": "4天前",
+        "docID": "finderobjv0xxFCBY1oBEnxvPZnLXGEuxvcEk8dqR/zma70DG2u1gQ=",
+        "duration": "01:46",
+        "exportId": "export/UzFfBgAAxMyAPHhhLWjbjMzT4DCKJ3gM_FhOfF46BI9ni2p8fg",
+        "hashDocID": "9742497523314233640",
+        "height": 1920,
+        "image": "https://findermp.video.qq.com/251/20304/stodownload?encfilekey=KGDRibp2wkicKUcITvjibTmVFOf9vd80UV2zvZo0oFdHGdRpxJ4VNOvpq10PZ9tpXQ9tcvV7BrwwLO2KRacmiaE23A&hy=SZ&idx=1&m=&scene=2&uzid=1&wxampicformat=503&picformat=200&token=AxricY7RBHdXQD0saQCS7wxibCn6Z2icnXSvyeWmk8IzkZsxFetn7oVzqqanunXDKOXfeuGYiaTE33wibKs244ibAH3iaInW3YSqIok0FzaWNmiaSrMm2BZKpflXlCFfMUAogAic84XQUCKHJwPrP3oqAuYvUzfeHj3rBft2Ocfqm7FwuTVYvelq6qGnWcRG8e8TMXK483ZaRyejGJPPb4Werm5nKWw",
+        "jumpInfo": {
+          "extInfo": "{\"behavior\":[\"report_feed_read\"],\"encryptedObjectId\":\"export/UzFfBgAAxMyAPHhhLWjbjMzT4DCKJ3gM_FhOfF46BI9ni2p8fg\",\"feedFocusChangeNotify\":true,\"feedNonceId\":\"16956191721433666540\",\"getRelatedList\":true,\"reportExtraInfo\":\"{\\\"promotion_report_info\\\":{\\\"promotion_recommend_request_id\\\":\\\"1782638979156551\\\"},\\\"report_json\\\":\\\"\\\"}\\n\",\"reportScene\":14,\"requestScene\":13,\"sessionId\":\"CKCztPqA_5vCzwEIuLPwkY_29sDPAQiQs5yYx6bPv88BCJizzMbxwbK-zwEIpLPknPeGjL3PAQiZs_Tr2ILku88BCISQvJq97PGKzwEInrOs9MTKq6zPAQiUsuDc1rWlo88BCKazkJTnjIC7zgEIoLK4vci0g6LPARCtnLKNlYeq3RIqF-mZiOWOgumVv-eahGFp5ZWG5Lia6K66MAA4gICAgICAAkABSABQv5rilQ6AARSIAQeYAQCoAceU9tjPqZUDyAGnlIHAAdABAN0BT4zyPg..\"}\n",
+          "jumpType": 9
+        },
+        "likeNum": "94",
+        "noPlayIcon": true,
+        "pubTime": 1782303694,
+        "showType": 1,
+        "source": {
+          "iconUrl": "https://wx.qlogo.cn/finderhead/ver_1/codhOZP8zusmlB672u4HeE7CHzjYDNswOOwle7f2A2SBBLKtgWIB70HvRbG1XHhfNxtibP1icRcUnYOL3vLUBMAqpnHnnQrx0nRYQczibBWhqEL3rfwmj0UB8h49aXMl2jb/132",
+          "mark": [
+            "https://dldir1v6.qq.com/weixin/checkresupdate/icons_filled_channels_authentication_enterprise_a2658032368245639e666fb11533a600.png"
+          ],
+          "title": "<em class=\"highlight\">陈厂长的AI商业论</em>"
+        },
+        "title": "<em class=\"highlight\">AI</em>时代，普通人赚钱最快的方式#<em class=\"highlight\">AI</em>#<em class=\"highlight\">AI</em>智能体#赚钱思维#<em class=\"highlight\">AI</em>创业#<em class=\"highlight\">商业</em>认知#企业<em class=\"highlight\">AI</em>化改造#企业智能体#企业<em class=\"highlight\">AI</em>全案落地#<em class=\"highlight\">陈厂长</em>",
+        "width": 1080
+      },
+      {
+        "dateTime": "5天前",
+        "docID": "finderobjv0Dt6U5Jq6g9Ys2gg3h84r0De36dlE12SaVgA7DlziWD4=",
+        "duration": "03:12",
+        "exportId": "export/UzFfBgAAxPCAFCJnalbYjMzT4DCKsSKzhBfmru3C7MG398tCwA",
+        "hashDocID": "6589343306791820103",
+        "height": 1920,
+        "image": "https://findermp.video.qq.com/251/20304/stodownload?encfilekey=KGDRibp2wkicIqSibcOjVAOialXnOfQib6T5sallEfRp5pVDGojiaSNzACCNibm1NvialZxbkRCBIkWv8oLtA29SiaibqH1g&hy=SZ&idx=1&m=&scene=2&uzid=1&wxampicformat=503&picformat=200&token=AxricY7RBHdUccGjnfxVDYCh9h1BNTRlFrR0p7v5FMmWa1MRmuqaEcFCyIFib9rJb871DZc9XUpRYqZVWrCWodv23ZNtoD9kaSRv10D5VD07OrfzzibWLBIZFjgGl3QlXO8OK8jIcfn0iaaASlVHGskMe2sSIXib9z8D6cKicF0VXRVMlngxOp31HJd8YkP6hN5odBLWqB9ic8JniaSbKSnwv0L37Q",
+        "jumpInfo": {
+          "extInfo": "{\"behavior\":[\"report_feed_read\"],\"encryptedObjectId\":\"export/UzFfBgAAxPCAFCJnalbYjMzT4DCKsSKzhBfmru3C7MG398tCwA\",\"feedFocusChangeNotify\":true,\"feedNonceId\":\"10741743959570377230\",\"getRelatedList\":true,\"reportExtraInfo\":\"{\\\"promotion_report_info\\\":{\\\"promotion_recommend_request_id\\\":\\\"1782638979156551\\\"},\\\"report_json\\\":\\\"\\\"}\\n\",\"reportScene\":14,\"requestScene\":13,\"sessionId\":\"CKCztPqA_5vCzwEIuLPwkY_29sDPAQiQs5yYx6bPv88BCJizzMbxwbK-zwEIpLPknPeGjL3PAQiZs_Tr2ILku88BCISQvJq97PGKzwEInrOs9MTKq6zPAQiUsuDc1rWlo88BCKazkJTnjIC7zgEIoLK4vci0g6LPARCtnLKNlYeq3RIqF-mZiOWOgumVv-eahGFp5ZWG5Lia6K66MAA4gICAgICAAkABSABQv5rilQ6AARSIAQeYAQCoAceU9tjPqZUDyAGnlIHAAdABAN0BT4zyPg..\"}\n",
+          "jumpType": 9
+        },
+        "likeNum": "28",
+        "noPlayIcon": true,
+        "pubTime": 1782216421,
+        "showType": 1,
+        "source": {
+          "iconUrl": "https://wx.qlogo.cn/finderhead/ver_1/codhOZP8zusmlB672u4HeE7CHzjYDNswOOwle7f2A2SBBLKtgWIB70HvRbG1XHhfNxtibP1icRcUnYOL3vLUBMAqpnHnnQrx0nRYQczibBWhqEL3rfwmj0UB8h49aXMl2jb/132",
+          "mark": [
+            "https://dldir1v6.qq.com/weixin/checkresupdate/icons_filled_channels_authentication_enterprise_a2658032368245639e666fb11533a600.png"
+          ],
+          "title": "<em class=\"highlight\">陈厂长的AI商业论</em>"
+        },
+        "title": "低级的<em class=\"highlight\">商业</em>：解决痛点；高级的<em class=\"highlight\">商业</em>：贩卖向往#知识付费#<em class=\"highlight\">商业</em>认知#<em class=\"highlight\">商业</em>思维#<em class=\"highlight\">AI</em>#卖课#个人ip#<em class=\"highlight\">AI</em>时代#企业<em class=\"highlight\">AI</em>化改造#企业智能体#企业<em class=\"highlight\">AI</em>全案落地#<em class=\"highlight\">陈厂长</em>#陈灏",
+        "width": 1080
+      },
+      {
+        "dateTime": "6天前",
+        "docID": "finderobjv0spsYLFZq0eCYi52OlPVZdNmzlAkdNug1SsY4g5TxifI=",
+        "duration": "03:05",
+        "exportId": "export/UzFfBgAAxM2ABFVIbj7ejMzT4DCK6n5qB0b7MNwFmLee-6O_xg",
+        "hashDocID": "8112854154770048951",
+        "height": 1920,
+        "image": "https://findermp.video.qq.com/251/20304/stodownload?encfilekey=KGDRibp2wkicKG7GlSpVKTny8dl0hticF6mtjibJPePeyGOuD5ezLByGt6zTeiaz3CgCQnpYibNDdLYMtqYVL2JKbZUw&hy=SZ&idx=1&m=&scene=2&uzid=1&wxampicformat=503&picformat=200&token=AxricY7RBHdWY9yNVeYDkyVSX0f0s0iaD4CYITxoOlRu8VHxCq0e2QLQ7Ng9F4dF3jGKHpebVU8xLiaUialtX3WEVqauxPaMvOHJp6VDXygIn5ibE4kMg7EI6w1XcPWAQjxryjMsrSD95Z3Y4ZAiaiaujWJ4cd2RcKLiaZdpyQ3sMn10nzJOVApsPUcHeM1bibUttu2abR62ZibhWKXH4iaFNGcZMLggQ",
+        "jumpInfo": {
+          "extInfo": "{\"behavior\":[\"report_feed_read\"],\"encryptedObjectId\":\"export/UzFfBgAAxM2ABFVIbj7ejMzT4DCK6n5qB0b7MNwFmLee-6O_xg\",\"feedFocusChangeNotify\":true,\"feedNonceId\":\"16378218643953105975\",\"getRelatedList\":true,\"reportExtraInfo\":\"{\\\"promotion_report_info\\\":{\\\"promotion_recommend_request_id\\\":\\\"1782638979156551\\\"},\\\"report_json\\\":\\\"\\\"}\\n\",\"reportScene\":14,\"requestScene\":13,\"sessionId\":\"CKCztPqA_5vCzwEIuLPwkY_29sDPAQiQs5yYx6bPv88BCJizzMbxwbK-zwEIpLPknPeGjL3PAQiZs_Tr2ILku88BCISQvJq97PGKzwEInrOs9MTKq6zPAQiUsuDc1rWlo88BCKazkJTnjIC7zgEIoLK4vci0g6LPARCtnLKNlYeq3RIqF-mZiOWOgumVv-eahGFp5ZWG5Lia6K66MAA4gICAgICAAkABSABQv5rilQ6AARSIAQeYAQCoAceU9tjPqZUDyAGnlIHAAdABAN0BT4zyPg..\"}\n",
+          "jumpType": 9
+        },
+        "likeNum": "22",
+        "noPlayIcon": true,
+        "pubTime": 1782128323,
+        "showType": 1,
+        "source": {
+          "iconUrl": "https://wx.qlogo.cn/finderhead/ver_1/codhOZP8zusmlB672u4HeE7CHzjYDNswOOwle7f2A2SBBLKtgWIB70HvRbG1XHhfNxtibP1icRcUnYOL3vLUBMAqpnHnnQrx0nRYQczibBWhqEL3rfwmj0UB8h49aXMl2jb/132",
+          "mark": [
+            "https://dldir1v6.qq.com/weixin/checkresupdate/icons_filled_channels_authentication_enterprise_a2658032368245639e666fb11533a600.png"
+          ],
+          "title": "<em class=\"highlight\">陈厂长的AI商业论</em>"
+        },
+        "title": "公司越大，老板听到的真话越少，一套<em class=\"highlight\">AI</em>，四块屏幕，彻底解决#<em class=\"highlight\">AI</em>#企业<em class=\"highlight\">AI</em>化改造#企业智能体#企业<em class=\"highlight\">AI</em>全案落地#<em class=\"highlight\">陈厂长</em>#陈灏#<em class=\"highlight\">AI</em>时代#CEO驾驶舱",
+        "width": 1080
+      },
+      {
+        "dateTime": "1个月前",
+        "docID": "finderobjv0hcfEmYGdDdFYgRvrkKMvyqFFufK08SBZ3WC1csthpD8=",
+        "duration": "02:29",
+        "exportId": "export/UzFfBgAAxNCjTCQtACvvjMzT4DCKcWhqNjWMr4PS-jMSOhuwpA",
+        "hashDocID": "6695656661282456391",
+        "height": 1920,
+        "image": "https://findermp.video.qq.com/251/20304/stodownload?encfilekey=rjD5jyTuFrIpZ2ibE8T7Ym3K77SEULgkiaqoJmu2R4rO4N7ADLr7gszJc9EHbOfSp41Afo8L1fdhEPZUlCXo5d4NMmhwGMr75HMb0UzI3jiaK4zFXIKjqA9lQ&hy=SZ&idx=1&m=&scene=2&uzid=1&wxampicformat=503&picformat=200&token=ic1n0xDG6aw8pibOheKliaXXVeoj7NbyvFnoDeurbdUFaekBVOGnyDKTic6xBfj4ibib89MCrwUHicRMzc99QfA0KZSgNpgTXibuupZxMQkzicvwrEN067UHqyssLaDlL2j4g995lUCSR0ib83SPgBsBQMjibpwaTQ1bBQ7ogOvYK4w2CV2jTTRMeCoicQ3GYxHjUelt1BJzuYy8k95HcMJzUe9PvibxBWQ",
+        "jumpInfo": {
+          "extInfo": "{\"behavior\":[\"report_feed_read\"],\"encryptedObjectId\":\"export/UzFfBgAAxNCjTCQtACvvjMzT4DCKcWhqNjWMr4PS-jMSOhuwpA\",\"feedFocusChangeNotify\":true,\"feedNonceId\":\"1841534178557370734\",\"getRelatedList\":true,\"reportExtraInfo\":\"{\\\"promotion_report_info\\\":{\\\"promotion_recommend_request_id\\\":\\\"1782638979156551\\\"},\\\"report_json\\\":\\\"\\\"}\\n\",\"reportScene\":14,\"requestScene\":13,\"sessionId\":\"CLiz8JGP9vbAzwEIkLOcmMemz7_PAQiYs8zG8cGyvs8BCKSz5Jz3hoy9zwEImbP069iC5LvPAQiEkLyavezxis8BCJ6zrPTEyquszwEIlLLg3Na1paPPAQims5CU54yAu84BCKCyuL3ItIOizwEIqLLozsSJmJXPARCtnLKNlYeq3RIqF-mZiOWOgumVv-eahGFp5ZWG5Lia6K66MAA4gICAgICAAkABSABQv5rilQ6AARSIAQeYAQCoAceU9tjPqZUDyAGnlIHAAdABAN0BT4zyPg..\"}\n",
+          "jumpType": 9
+        },
+        "likeNum": "807",
+        "noPlayIcon": true,
+        "pubTime": 1778847238,
+        "showType": 1,
+        "source": {
+          "iconUrl": "https://wx.qlogo.cn/finderhead/ver_1/C0AxBCM53qibudnJh3ApBB8pneZeZuFn56Dhg15eibBAciaicl1icwDCHdYsR5Rrv8MpVYmNHdRcIGJ0Gu6W75QreKeib5b9HT29yXrQNjYbia5BwKLP4Nrk5R4xjgBpcE7eyk4A8DmkBIq4j5spf6m3cKSXA/132",
+          "mark": [
+            "https://dldir1v6.qq.com/weixin/checkresupdate/auth_icon_level3_2e2f94615c1e4651a25a7e0446f63135.png"
+          ],
+          "title": "陈灏的商业修行"
+        },
+        "title": "Codex是<em class=\"highlight\">AI</em>之王，彻底改变了企业的工作模式#Codex#<em class=\"highlight\">AI</em>#<em class=\"highlight\">AI</em>时代#<em class=\"highlight\">商业</em>#<em class=\"highlight\">商业</em>认知#<em class=\"highlight\">陈厂长</em>",
+        "width": 1080
+      },
+      {
+        "dateTime": "18天前",
+        "docID": "finderobjv0AivFZ7Sbg2R8PJ6ewuGwOnGW9jS69yrZlPxhpRVsU6c=",
+        "duration": "02:23",
+        "exportId": "export/UzFfBgAAxMqAXEpUJnHJjMzT4DCKIxuuvg8U8Vwo2tdffmdJng",
+        "hashDocID": "5311457525283436213",
+        "height": 1920,
+        "image": "https://findermp.video.qq.com/251/20304/stodownload?encfilekey=KGDRibp2wkicKUsvZXH1iaCrOzDC8U6Zw4VLibQtvSea66YAC5dgdXD8FYgO6T9YYWAavfwNkZCvpmN2jC0nnsZETA&hy=SZ&idx=1&m=&scene=2&uzid=1&wxampicformat=503&picformat=200&token=ic1n0xDG6aw9S4zhazO9mssO6kRkjrNaDxSPwFdG4LuxDSpG4EUH1eAic38RDZ3Yo0TNmnpoD8l8IKvas5iaUs39zuib5PTRHcHmLJe3VGj1wQjfDOdUvU5iamI8yrq8h52AKhV3OoCKrLcCVAjBP7yNOr8C6pQ9xPgNGG8Bp1TiaFZ0grnryrNRbZIMhcqy0fxgkfc5EofR1MnKiaM18ttJNFdng",
+        "jumpInfo": {
+          "extInfo": "{\"behavior\":[\"report_feed_read\"],\"encryptedObjectId\":\"export/UzFfBgAAxMqAXEpUJnHJjMzT4DCKIxuuvg8U8Vwo2tdffmdJng\",\"feedFocusChangeNotify\":true,\"feedNonceId\":\"1368539211076476298\",\"getRelatedList\":true,\"reportExtraInfo\":\"{\\\"promotion_report_info\\\":{\\\"promotion_recommend_request_id\\\":\\\"1782638979156551\\\"},\\\"report_json\\\":\\\"\\\"}\\n\",\"reportScene\":14,\"requestScene\":13,\"sessionId\":\"CJCznJjHps-_zwEImLPMxvHBsr7PAQiks-Sc94aMvc8BCJmz9OvYguS7zwEIhJC8mr3s8YrPAQies6z0xMqrrM8BCJSy4NzWtaWjzwEIprOQlOeMgLvOAQigsri9yLSDos8BCKiy6M7EiZiVzwEQrZyyjZWHqt0SKhfpmYjljoLplb_nmoRhaeWVhuS4muiuujAAOICAgICAgAJAAUgAUL-a4pUOgAEUiAEHmAEAqAHHlPbYz6mVA8gBp5SBwAHQAQDdAU-M8j4.\"}\n",
+          "jumpType": 9
+        },
+        "likeNum": "218",
+        "noPlayIcon": true,
+        "pubTime": 1781092100,
+        "showType": 1,
+        "source": {
+          "iconUrl": "https://wx.qlogo.cn/finderhead/ver_1/codhOZP8zusmlB672u4HeE7CHzjYDNswOOwle7f2A2SBBLKtgWIB70HvRbG1XHhfNxtibP1icRcUnYOL3vLUBMAqpnHnnQrx0nRYQczibBWhqEL3rfwmj0UB8h49aXMl2jb/132",
+          "mark": [
+            "https://dldir1v6.qq.com/weixin/checkresupdate/icons_filled_channels_authentication_enterprise_a2658032368245639e666fb11533a600.png"
+          ],
+          "title": "<em class=\"highlight\">陈厂长的AI商业论</em>"
+        },
+        "title": "AI小白如何快速搭建自己<em class=\"highlight\">的AI</em>系统#AI#AI小白#AI时代#企业AI化改造#企业智能体#企业AI全案落地#<em class=\"highlight\">陈厂长</em>",
+        "width": 1080
+      },
+      {
+        "dateTime": "25天前",
+        "docID": "finderobjv0rI8Hma9kQYN9Xp2IGjUnlkihT3IJSgCDA9Fxhz/NmJM=",
+        "duration": "02:23",
+        "exportId": "export/UzFfBgAAxMCBEGJGWX_GjMzT4DCKnZBfDL2JOaN1axRjtO-RPQ",
+        "hashDocID": "14296805475726134084",
+        "height": 1920,
+        "image": "https://findermp.video.qq.com/251/20304/stodownload?encfilekey=KGDRibp2wkicIVIuUfvv1SglB9FuorTxVgSNxwTPkvcPnzuE1TwgibyFx4avEaMibQM3jF6uNtqISvVBiamJeaq135g&hy=SZ&idx=1&m=&scene=2&uzid=1&wxampicformat=503&picformat=200&token=x5Y29zUxcibAIYgJm5rFC3D4Zicicav0cknWVbibjVib9Lk3JvBF0qS81ZdDRB4sVoVjFia0DUMdhSQH9nPCjGVkENvibyv0PRqyvffnQStfpDYibYmW6VRibicEKjaefp7Ygs0uxSjW3lXhqB772WribPb2u37ck8NGCubQKxiamLnwBAwO0UmhD1oUNafvIxfO39twlpE1xR5obxnTssygMIVDto2Xiaw",
+        "jumpInfo": {
+          "extInfo": "{\"behavior\":[\"report_feed_read\"],\"encryptedObjectId\":\"export/UzFfBgAAxMCBEGJGWX_GjMzT4DCKnZBfDL2JOaN1axRjtO-RPQ\",\"feedFocusChangeNotify\":true,\"feedNonceId\":\"12131453758876155263\",\"getRelatedList\":true,\"reportExtraInfo\":\"{\\\"promotion_report_info\\\":{\\\"promotion_recommend_request_id\\\":\\\"1782638979156551\\\"},\\\"report_json\\\":\\\"\\\"}\\n\",\"reportScene\":14,\"requestScene\":13,\"sessionId\":\"CJizzMbxwbK-zwEIpLPknPeGjL3PAQiZs_Tr2ILku88BCISQvJq97PGKzwEInrOs9MTKq6zPAQiUsuDc1rWlo88BCKazkJTnjIC7zgEIoLK4vci0g6LPAQiosujOxImYlc8BEK2cso2Vh6rdEioX6ZmI5Y6C6ZW_55qEYWnllYbkuJrorrowADiAgICAgIACQAFIAFC_muKVDoABFIgBB5gBAKgBx5T22M-plQPIAaeUgcAB0AEA3QFPjPI-\"}\n",
+          "jumpType": 9
+        },
+        "likeNum": "149",
+        "noPlayIcon": true,
+        "pubTime": 1780484889,
+        "showType": 1,
+        "source": {
+          "iconUrl": "https://wx.qlogo.cn/finderhead/ver_1/codhOZP8zusmlB672u4HeE7CHzjYDNswOOwle7f2A2SBBLKtgWIB70HvRbG1XHhfNxtibP1icRcUnYOL3vLUBMAqpnHnnQrx0nRYQczibBWhqEL3rfwmj0UB8h49aXMl2jb/132",
+          "mark": [
+            "https://dldir1v6.qq.com/weixin/checkresupdate/icons_filled_channels_authentication_enterprise_a2658032368245639e666fb11533a600.png"
+          ],
+          "title": "<em class=\"highlight\">陈厂长的AI商业论</em>"
+        },
+        "title": "通过<em class=\"highlight\">AI</em>修行自己，只需要一支录音笔#<em class=\"highlight\">AI</em>#修行#企业<em class=\"highlight\">AI</em>化改造#企业智能体#企业<em class=\"highlight\">AI</em>全案落地#<em class=\"highlight\">陈厂长</em>#<em class=\"highlight\">商业</em>",
+        "width": 1080
+      },
+      {
+        "dateTime": "3个月前",
+        "docID": "finderobjv00pQZO3JaMGmOO0bqo9SmTe2tqTJuOD5pw171WUQDAN4=",
+        "duration": "07:22",
+        "exportId": "export/UzFfBgAAxPKAYCp3YFrejczT4DCKK7z7V_ATxggolSoRGah0-Q",
+        "hashDocID": "11937769694352315658",
+        "height": 1920,
+        "image": "https://findermp.video.qq.com/251/20304/stodownload?encfilekey=rjD5jyTuFrIpZ2ibE8T7YmwgiahniaXswqz0VYLozbibibZFibzac5W8q3iaMsYqr6CQicj6dtxSF5Q5PyZz1gPh7q37YVFTRlzKJcE5EsiafagZchYln372osxzOEg&hy=SH&idx=1&m=&scene=2&uzid=1&wxampicformat=503&picformat=200&token=ic1n0xDG6awic4pFHzBWXXRiaGZ0vJoZg9HrwibVRvnAABOUE1vfgDFvo7S9Uc7Gk0HywO6ryOHopV3mHu3lK6cvkZ3O38rWDNHOnV3c60iaxtEgkspywcPDzaj3icib5cibiaYzicSVia2kINWaCPDnAwXt90qPgV09QMsy8VZ6AjeOXZPFplbEcfGwaQqianh4VccSiaug6OIlC6mXwqVmEIPbibhfRfVA",
+        "jumpInfo": {
+          "extInfo": "{\"behavior\":[\"report_feed_read\"],\"encryptedObjectId\":\"export/UzFfBgAAxPKAYCp3YFrejczT4DCKK7z7V_ATxggolSoRGah0-Q\",\"feedFocusChangeNotify\":true,\"feedNonceId\":\"3878297003570896265\",\"getRelatedList\":true,\"reportExtraInfo\":\"{\\\"promotion_report_info\\\":{\\\"promotion_recommend_request_id\\\":\\\"1782638979156551\\\"},\\\"report_json\\\":\\\"\\\"}\\n\",\"reportScene\":14,\"requestScene\":13,\"sessionId\":\"CKSz5Jz3hoy9zwEImbP069iC5LvPAQiEkLyavezxis8BCJ6zrPTEyquszwEIlLLg3Na1paPPAQims5CU54yAu84BCKCyuL3ItIOizwEIqLLozsSJmJXPARCtnLKNlYeq3RIqF-mZiOWOgumVv-eahGFp5ZWG5Lia6K66MAA4gICAgICAAkABSABQv5rilQ6AARSIAQeYAQCoAceU9tjPqZUDyAGnlIHAAdABAN0BT4zyPg..\"}\n",
+          "jumpType": 9
+        },
+        "likeNum": "469",
+        "noPlayIcon": true,
+        "pubTime": 1773486001,
+        "showType": 1,
+        "source": {
+          "iconUrl": "https://wx.qlogo.cn/finderhead/ver_1/codhOZP8zusmlB672u4HeE7CHzjYDNswOOwle7f2A2SBBLKtgWIB70HvRbG1XHhfNxtibP1icRcUnYOL3vLUBMAqpnHnnQrx0nRYQczibBWhqEL3rfwmj0UB8h49aXMl2jb/132",
+          "mark": [
+            "https://dldir1v6.qq.com/weixin/checkresupdate/icons_filled_channels_authentication_enterprise_a2658032368245639e666fb11533a600.png"
+          ],
+          "title": "<em class=\"highlight\">陈厂长的AI商业论</em>"
+        },
+        "title": "<em class=\"highlight\">AI</em>水平进阶，只需掌握七层能力！#<em class=\"highlight\">商业</em>思维 #<em class=\"highlight\">ai</em> #<em class=\"highlight\">ai</em>智能体 #gpt #openclaw",
+        "width": 1080
+      }
+    ],
+    "debug_id": "81ae848d",
+    "debug_info": "gAAAAABqQOmEBSCiGd2KY_VoUGL07dm-f9VsJkaPJLbR9HR97nq52oCwobnQkQSRyIbJIH1q-x_-QB_719fVjHHklsSlZjeFWMK_AnW3Immpiygfdt4QkUA28uOHVct3NdnlBbvMAVeCaE120R9Jzg1dIvJmtO9hDbus8fDO_VE5IeZcITnBAA-r7I7V_0gDz3VAZ0FCU9GEF37U-RJhFGk6jpOCERez4juJKRm5F1UhpkK36GBoOJZ03Bz0GAO445dpcVGogNA1"
+  }
+}
