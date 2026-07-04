@@ -1,0 +1,216 @@
+
+
+Personal Portfolio
+For 2026 Red Bird Challenge Camp
+Applicant: Kunqi Lin (KUNKI)
+Economics · AI Products · Workflow Design
+SCI Q2 second authorAI competition project
+Creator brand + toolsOPC + AI FDE direction
+THEME · HUMAN-AI SYMBIOSIS
+Designing with AI as a second
+self, not just a tool.
+This portfolio presents five evidence-backed projects: research rigor,
+international AI competition, shipped products, creator practice, and an
+OPC-oriented AI workflow.
+Research
+SCI Q2 paper with quantitative evidence.
+Competition
+APICTA Brunei 2nd Runner-up.
+Product
+Mini-program launch and AI workflow practice.
+Future
+AI FDE and one-person company practice.
+CONTENTS
+1 Profile2 Research3 AI Competition4 Product5 OPC / Future
+1
+香港科技大学（广州）
+THE HONG KONG UNIVERSITY OF SCIENCE AND
+TECHNOLOGY (GUANGZHOU)
+
+1
+Personal Profile
+Kunqi Lin
+KUNKI · Economics student
+AI product builder / creator / researcher
+kunkiportfolio.site
+GPA
+3.98 / 4.0, ranked 1 / 227 in major.
+SCI
+SCI Q2 publication; first student author,
+second author overall.
+AI
+Products, content, workflow, and OPC
+exploration.
+I turn economic questions and AI tools
+into things people can actually use.
+My strongest edge is not a single label. It is the ability to move between research, product, public communication, and workflow
+design, then turn that movement into visible outputs.
+3.98
+GPA / 4.0, ranked first in International Economics and Trade.
+IF 4.4
+SCI Q2 journal evidence from Energy for
+Sustainable Development.
+APICTA
+Brunei 2024 international ICT award evidence.
+5,000+
+AI content audience and user-facing workflow practice.
+Red Bird fit: I study AI as a new
+relationship, not only a new tool.
+Research gives me rigor. Products give me feedback loops. Content entrepreneurship gives me audience
+sensitivity. OPC practice gives me a live field for human-AI collaboration.
+Researcher
+Frame variables, read systems, test evidence.
+Builder
+Ship small products and let users correct the idea.
+Creator
+Translate AI workflows into public-facing content.
+Selected evidence for this portfolio: SCI paper, APICTA project, AI brand,
+campus product, OPC direction.
+One throughline: human value is amplified when a person can ask better questions, judge
+outputs, organize workflows, and build with AI.
+2
+香港科技大学（广州）
+THE HONG KONG UNIVERSITY OF SCIENCE AND
+TECHNOLOGY (GUANGZHOU)
+
+2
+Research Project
+SCI Q2 Publication · Energy Economics
+Published SCI paper on critical minerals
+and NEV industry development.
+Article: How trading patterns of critical minerals affects the NEV industry? A complex network and
+multiple regression analysis approach.
+Role: First student author · Second author overall
+Journal: Energy for Sustainable Development, Vol. 85, 2025, Article 101655
+IF 4.4
+Impact factor evidence for the journal.
+SCI Q2
+Published journal ranking signal.
+1st
+First student author; second author
+overall.
+DOI · 10.1016/j.esd.2025.101655
+Published Evidence + Method
+Regression + Mediation Evidence
+VariableNEVDNEVTSobel z
+Weighted in-degree0.144***0.019**4.174
+Weighted out-degree0.278***0.031***3.677
+Weighted degree0.395***0.050***4.235
+EGC0.5470.525***2.325
+Finding
+Trade network centrality significantly promotes NEV industry growth, with technological progress as a full mediator.
+RESEARCH PIPELINE
+CENTRALITY RANKING
+PUBLISHED PAPER + NETWORK EVIDENCE
+QUESTION FRAMEWORKTRADE NETWORK
+3
+香港科技大学（广州）
+THE HONG KONG UNIVERSITY OF SCIENCE AND
+TECHNOLOGY (GUANGZHOU)
+
+3
+AI Competition Project
+Qianwen · Low-Resource Language Assessment
+Turning a team outcome into a
+defensible product story.
+Project: “Qianwen”, a multimodal AI system for low-resource language learning and assessment.
+Competition evidence: APICTA Awards 2024 in Brunei, 2nd Runner-up in Tertiary Student Projects:
+Solutions, with Foreign Ministry and school media coverage.
+My ownership path: reconstructed the project logic from code, paper, proposal, and pitch deck,
+then rebuilt the product narrative, demo explanation, and commercialization story.
+APICTA
+Asia Pacific ICT Alliance Awards 2024
+2nd
+Runner-up, Tertiary Student Projects
+Brunei
+International presentation and award scene
+Media
+Foreign Ministry and school recognition
+Product framing: from “AI can generate questions” to reliable low-resource language assessment.
+Evidence framing: connect product demo, certificate, award scene, and official recognition into one defensible
+story.
+APICTA Visual Evidence
+AWARD STAGEPRODUCT DEMO
+OFFICIAL COVERAGE
+CERTIFICATE
+4
+香港科技大学（广州）
+THE HONG KONG UNIVERSITY OF SCIENCE AND
+TECHNOLOGY (GUANGZHOU)
+
+4
+AI Brand, Website, and Campus Product
+Personal AI Brand + Website
+kunkiportfolio.site
+Personal website as a public portfolio hub for AI practice, writing, and project
+evidence.
+80
+Original videos on AI application
+4,177
+Likes across video channel
+Campus Product Launch: “ChiSha!” Mini-Program
+Small product, real
+launch.
+Helps students decide what to eat or drink through quick
+random draws.
+Includes food, beverage, and DIY menu scenarios.
+Reached 500+ users and 3,000+ opens on day one.
+Built a 147-member user feedback community.
+500+
+Users on launch day
+3,000+
+Opens on day one
+147
+Feedback group
+members
+English poster message
+“Stuck at mealtime? One draw decides what to eat.” The Chinese
+launch poster is used as product evidence before the final English
+visual translation.
+Mini-Program QR
+Scan evidence for the ChiSha campus dining
+decision tool.
+WECHAT CHANNELPERSONAL WEBSITE
+CONTENT GRID
+5
+香港科技大学（广州）
+THE HONG KONG UNIVERSITY OF SCIENCE AND
+TECHNOLOGY (GUANGZHOU)
+
+5
+OPC Ecosystem & AI FDE Direction
+OPC: One-Person Company Ecosystem
+Joining the Guangzhou OPC circle.
+OPC is not just “working alone”. I hope to become part of the Guangzhou OPC community, using AI agents, knowledge bases, content distribution, and
+collaboration networks to carry a larger business surface.
+People
+Creators, students, operators, service providers.
+Workflow
+Knowledge base, agent collaboration, delivery.
+Market
+From consumer-facing enablement to enterprise
+AI projects.
+Human-AI Symbiosis · Into the Unknown
+From consumer-facing AI enablement to
+enterprise workflow transformation.
+At present, I help individual users build a personal digital brain and second-self workflow with Obsidian knowledge bases,
+Claude Code, Codex, and local agent collaboration.
+The longer-term direction is AI FDE and enterprise process redesign: mapping workflows, embedding agents, and turning
+AI from a tool into an operating system.
+Tools
+Claude Code, Codex, Obsidian, local agents.
+Users
+Learners, creators, and knowledge workers.
+Method
+Capture knowledge, orchestrate agents, redesign processes.
+Next Step
+Enterprise AI enablement when project access matures.
+Human value is not replaced by AI; it is redefined by the
+ability to ask, judge, organize, and build with AI.
+Why Red Bird: I want to study not only what AI can do, but how AI changes incentives, workflows, communities, and value
+creation.
+OPC offline salon · AI exploration after Gaokao
+6
+香港科技大学（广州）
+THE HONG KONG UNIVERSITY OF SCIENCE AND
+TECHNOLOGY (GUANGZHOU)

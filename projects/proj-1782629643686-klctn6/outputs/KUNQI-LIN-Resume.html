@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset=utf-8>
+<meta charset="utf-8">
 <title>Kunqi Lin - Resume</title>
 <style>
 @media print {
@@ -9,159 +9,233 @@
   .page-break { page-break-after: always; }
 }
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  margin: 40px;
-  line-height: 1.5;
-  color: #2c3e50;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   max-width: 8.5in;
   margin: 0 auto;
-  padding: 30px 20px;
-  background-color: #ffffff;
+  padding: 22px 20px;
+  color: #23364f;
+  background: #fff;
+  font-size: 14.2px;
+  line-height: 1.32;
 }
 h1 {
-  font-size: 26px;
-  margin-bottom: 10px;
+  margin: 0 0 8px;
   padding-bottom: 6px;
   border-bottom: 3px solid #2c5aa0;
-  color: #1a365d;
+  color: #16355f;
+  font-size: 24px;
+  letter-spacing: 0;
 }
 h2 {
-  font-size: 17px;
-  margin-top: 15px;
-  margin-bottom: 6px;
-  color: #1a365d;
-  border-bottom: 1px solid #87a0bd;
-  background-color: #f8fafc;
-  padding: 3px 6px;
+  margin: 10px 0 5px;
+  padding: 2px 6px;
+  border-bottom: 1px solid #8aa3bf;
+  background: #f5f8fb;
+  color: #16355f;
+  font-size: 16px;
 }
 h3 {
-  font-size: 15px;
-  margin-bottom: 3px;
-  color: #2c5aa0;
+  margin: 8px 0 2px;
+  color: #1f5597;
+  font-size: 14.4px;
 }
-ul { margin: 5px 0; padding-left: 22px; }
-li { margin: 3px 0; }
-strong { font-weight: 700; color: #1a365d; }
-.contact { font-size: 14px; margin-bottom: 15px; }
-em { color: #4a5568; }
-hr {
-  border: none;
-  height: 1px;
-  background-color: #87a0bd;
-  margin: 10px 0;
+p { margin: 4px 0 6px; }
+ul {
+  margin: 3px 0 6px;
+  padding-left: 19px;
+  list-style-type: disc;
 }
-.qr-placeholder-small {
-  border: 1px dashed #87a0bd;
-  padding: 6px;
-  text-align: center;
-  color: #4a5568;
-  border-radius: 4px;
-  display: inline-block;
-  font-size: 12px;
-}
+li { margin: 1.5px 0; }
 a {
   color: #2c5aa0;
   text-decoration: none;
-  border-bottom: 1px solid #87a0bd;
+  border-bottom: 1px solid #8aa3bf;
 }
-a:hover {
-  background-color: #f8fafc;
+strong { color: #16355f; font-weight: 700; }
+em { color: #4b5d73; }
+.top { overflow: hidden; }
+.photo {
+  float: right;
+  width: 110px;
+  height: 140px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 4px;
+  border: 1px solid #8aa3bf;
 }
+.contact {
+  font-size: 13.4px;
+  line-height: 1.35;
+}
+.header-row {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr auto;
+  column-gap: 12px;
+  align-items: baseline;
+  margin-top: 5px;
+}
+.header-row .title {
+  color: #16355f;
+  font-weight: 700;
+}
+.header-row .role {
+  color: #4b5d73;
+  font-style: italic;
+}
+.header-row .date {
+  color: #2f4057;
+  text-align: right;
+  white-space: nowrap;
+}
+.compact-row {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr auto;
+  column-gap: 10px;
+  align-items: baseline;
+  margin: 2px 0;
+}
+.compact-row .title { font-weight: 700; color: #16355f; }
+.compact-row .meta { color: #2f4057; }
+.compact-row .date { text-align: right; white-space: nowrap; }
+.skills p { margin: 2px 0; }
 </style>
 </head>
 <body>
-<div style="overflow: hidden;">
-<div style="float: right;">
-<img src="profile-photo.jpg" alt="Kunqi Lin" style="width: 110px; height: 140px; object-fit: cover; object-position: center top; border-radius: 4px; border: 1px solid #87a0bd;" />
-</div>
-<h1>KUNQI LIN (KUNKI)</h1>
-<div class="contact">
-<p><strong>Phone:</strong> 18902684335<br />
-<strong>Email:</strong> 3185233471@qq.com<br />
-<strong>Location:</strong> Guangzhou, Guangdong, China<br />
-<strong>Website:</strong> <a href="https://kunkiportfolio.site/" target="_blank">https://kunkiportfolio.site/</a></p>
-</div>
+<div class="top">
+  <img class="photo" src="profile-photo.jpg" alt="Kunqi Lin">
+  <h1>KUNQI LIN, KUNKI</h1>
+  <div class="contact">
+    <strong>Phone:</strong> 18902684335<br>
+    <strong>Email:</strong> 3185233471@qq.com<br>
+    <strong>Location:</strong> Guangzhou, Guangdong, China<br>
+    <strong>Website:</strong> <a href="https://kunkiportfolio.site/" target="_blank">https://kunkiportfolio.site/</a>
+  </div>
 </div>
 
 <h2>EDUCATION</h2>
-<p><strong>Guangdong University of Foreign Studies</strong> | Guangzhou, China<br />
-<em>Bachelor of Economics</em> | Expected Graduation: June 2027<br />
-- Program Duration: 4 years (Full-time) | September 2023 - June 2027<br />
-- Minor: None<br />
-- GPA: <strong>3.98/4.0 (94.5/100)</strong> | <strong>Rank: 1/227</strong> (Top 0.44% in Major)<br />
-- English: CET-6 572, CET-4 644<br />
-- Technical Skills: Python, STATA, MS Office, AI-assisted development and data analysis<br />
-- Relevant Coursework: Digital Economy, Macroeconomics, Microeconomics, International Trade</p>
+<div class="header-row">
+  <div class="title">Guangdong University of Foreign Studies</div>
+  <div class="role">B.A. in International Economics and Trade</div>
+  <div class="date">Sep 2023 - Jun 2027</div>
+</div>
+<ul>
+  <li><strong>GPA: 3.98/4.0, 94.5/100</strong>; <strong>Rank: 1/227</strong>, top 0.44% in major</li>
+  <li>English: CET-6 572, CET-4 644; coursework in Digital Economy, Macroeconomics, Microeconomics and International Trade</li>
+</ul>
 
 <h2>COMPETITION & AWARDS</h2>
 <ul>
-<li><strong>National Scholarship</strong> | Ministry of Education, China (Top 0.2% Nationally) | 2024</li>
-<li><strong>Model Student of the Year</strong> | Provincial-Level Honor, Guangdong | 2025</li>
-<li><strong>First-Class Academic Scholarship</strong> | Guangdong University of Foreign Studies | 2023, 2024, 2025 (Three Consecutive Years)</li>
-<li><strong>Asia Pacific Information and Communication Technology Competition</strong> | National Gold Medal, International Bronze Medal | 2025</li>
-<li><strong>Guangdong Provincial Innovation & Entrepreneurship Training Program</strong> | Project Lead, Provincial-Level Grant | 2025</li>
+  <li><strong>National Scholarship</strong>, Ministry of Education, China, top 0.2% nationally, 2024</li>
+  <li><strong>Model Student of the Year</strong>, Provincial-Level Honor, Guangdong, 2025</li>
+  <li><strong>First-Class Academic Scholarship</strong>, Guangdong University of Foreign Studies, 2023, 2024, 2025</li>
+  <li><strong>Asia Pacific ICT Alliance Awards</strong>, National Gold Medal and International Bronze Medal, 2024</li>
+  <li><strong>Guangdong Provincial Innovation & Entrepreneurship Training Program</strong>, Project Lead, Provincial-Level Grant, 2025</li>
 </ul>
 
 <h2>PUBLICATIONS</h2>
-<p><strong>How trading patterns of critical minerals affects the NEV industry? A complex network and multiple regression analysis approach</strong><br />
-<em>With Qing Guo</em><br />
-<em>Energy for Sustainable Development</em> | Volume 85, 2025, 101655 | ISSN 0973-0826 | <strong>SCI Q2</strong>, IF = 4.4 | <strong>Co-first Author</strong> | Published 2025<br />
-DOI: <a href="https://doi.org/10.1016/j.esd.2025.101655" target="_blank">https://doi.org/10.1016/j.esd.2025.101655</a><br />
-- Constructed a global critical minerals trade network spanning 2013–2023 using complex network analysis<br />
-- Found that trade network centrality significantly drives NEV industry growth, fully mediated by technological progress</p>
+<div class="header-row">
+  <div class="title">How trading patterns of critical minerals affects the NEV industry?</div>
+  <div class="role">Second Author</div>
+  <div class="date">Published 2025</div>
+</div>
+<p><em>Energy for Sustainable Development</em>, Volume 85, 101655, ISSN 0973-0826, <strong>SCI Q2</strong>, IF 4.4<br>
+DOI: <a href="https://doi.org/10.1016/j.esd.2025.101655" target="_blank">https://doi.org/10.1016/j.esd.2025.101655</a></p>
+<ul>
+  <li>Completed the core empirical work, including UN Comtrade data processing, critical-minerals network construction and quantitative analysis</li>
+  <li>Found that trade network centrality significantly drives NEV industry growth, with technological progress as a full mediator</li>
+</ul>
+
+<h2>ENTREPRENEURSHIP & PRODUCTS</h2>
+<div class="header-row">
+  <div class="title">"ChiSha!" Campus Dining Mini-Program</div>
+  <div class="role">Product & Growth Lead</div>
+  <div class="date">2026 - Present</div>
+</div>
+<ul>
+  <li>Co-founded a campus dining mini-program addressing daily meal-choice friction among students</li>
+  <li>Led product experience and launch, reaching <strong>500+ users and 3,000+ opens on day one</strong>; built a 147-member user community</li>
+</ul>
+
+<div class="header-row">
+  <div class="title">Lin Kunqi Personal AI Brand</div>
+  <div class="role">Founder & Creator</div>
+  <div class="date">Jan 2025 - Present</div>
+</div>
+<ul>
+  <li>Built an AI-focused personal brand from scratch, growing to <strong>5,000+ followers</strong> across multiple platforms</li>
+  <li>Designed a free-content, paid-community and consulting model; generated <strong>RMB 10,000+</strong> in AI-related revenue</li>
+  <li>Built human-AI content workflows that <strong>cut production time by 75%</strong>; secured official cooperation with Tencent ima and signed with an AI-focused MCN</li>
+</ul>
 
 <div class="page-break"></div>
 
-<h2>ENTREPRENEURSHIP & PRODUCTS</h2>
-<h3>"ChiSha!" What to Eat WeChat Mini-Program</h3>
-<em>Product & Growth Lead</em> | 2026 - Present<br />
-<p>- Co-founded with teammates, solves the classic campus problem of "I don't know what to eat"<br />
-- Designed product experience, led initial launch: <strong>500+ users, 3,000+ opens on day one</strong>, built 147-member user community<br />
-- Secured first merchant cooperation for cross-promotion with on-campus businesses</p>
+<div class="header-row">
+  <div class="title">OPC Ecosystem, Open Product Collaboration</div>
+  <div class="role">Ecosystem Builder</div>
+  <div class="date">2025 - Present</div>
+</div>
+<ul>
+  <li>Helped build a two-sided collaboration ecosystem connecting AI-skilled practitioners with product owners who need traffic and execution capacity</li>
+  <li>Organized practitioner community operations through membership, co-working space, project direction and offline salons</li>
+</ul>
 
-<h3>Wo Shi Lin Kunqi (Personal AI Brand)</h3>
-<em>Founder & Creator</em> | January 2025 - Present<br />
-<p>- Built an AI-focused personal brand from scratch, growing to <strong>5,000+ followers</strong> across multiple platforms<br />
-- Developed a three-tier product model: <strong>free content → paid community → high-ticket consulting</strong>, driving organic growth<br />
-- Built automated content workflows that <strong>cut production time by 75%</strong> through human-AI collaboration<br />
-- Secured <strong>official partnership with Tencent IMA</strong> and signed with an AI-focused MCN</p>
+<div class="header-row">
+  <div class="title">AI-Powered Small Language Test Generation System</div>
+  <div class="role">Commercialization Lead</div>
+  <div class="date">2024</div>
+</div>
+<ul>
+  <li>Led product and commercialization for an AI question-generation system serving low-resource languages</li>
+  <li>Won <strong>National Gold Medal and International Bronze Medal</strong>; signed 2 enterprise clients with RMB 130,000 in projected revenue</li>
+</ul>
 
-<h3>OPC Ecosystem - Open Product Collaboration</h3>
-<em>Ecosystem Builder & Local Chapter Organizer</em> | 2025 - Present<br />
-<p>- Built a two-sided ecosystem matching <strong>AI-skilled practitioners on the supply side</strong> with <strong>product owners who lack traffic and execution capacity on the demand side</strong><br />
-- Organized a practitioner community through monthly membership, offering co-working space, project direction, and regular offline salons<br />
-- Members distribute products from demand-side suppliers under a revenue-sharing model<br />
-- The OPC ecosystem model is government-supported, with long-term potential to collectively take on larger commercial projects</p>
-
-<h3>AI-Powered Small Language Test Generation System</h3>
-<em>Asia Pacific Information and Communication Technology Competition</em> | 2025<br />
-<p>- Led the product and commercialization track for the competition team<br />
-- Designed an AI question generation system serving low-resource languages to support "Belt and Road" education<br />
-- Competed with teams across China and globally, won <strong>National Gold Medal & International Bronze Medal</strong><br />
-- Designed a three-tier business model during the competition, signed 2 enterprise clients with 130,000 RMB in projected revenue</p>
-
-<h3>Hangzhou Ming'an Technology</h3>
-<em>Partner</em> | 2024 - Present<br />
-<p>- Collaborate on AI project incubation and business development for early-stage startups<br />
-- Bridge university AI talent with industry opportunities</p>
+<div class="header-row">
+  <div class="title">Hangzhou Ming'an Technology</div>
+  <div class="role">Partner</div>
+  <div class="date">2024 - Present</div>
+</div>
+<ul>
+  <li>Collaborate on AI project incubation and early-stage business development, bridging university AI talent with industry opportunities</li>
+</ul>
 
 <h2>PRACTICE & SPEAKING</h2>
-<p><strong>Canton Fair (China Import and Export Fair)</strong> | VIP Reception Lounge Team Leader | October 2024 - November 2024<br />
-- Managed a team of <strong>16 volunteers</strong> serving over <strong>1,000 international VIP buyers daily</strong> during the entire event<br />
-- Coordinated reception processes, designed peak-hour queuing system, handled emergency responses<br />
-- Delivered high-quality service experience to international guests, achieved <strong>zero complaints throughout the event</strong></p>
+<div class="header-row">
+  <div class="title">Tencent ima Knowledge Base Product</div>
+  <div class="role">Campus Ambassador & Product Creator</div>
+  <div class="date">2025</div>
+</div>
+<ul>
+  <li>Built a GDUFS freshman onboarding AI knowledge base, turning fragmented administrative information into an interactive product experience</li>
+  <li>Recognized by the Tencent ima team as a campus use case, invited to official collaboration and offline interview opportunities</li>
+</ul>
 
-<p><strong>Guangzhou AI Creator Salon</strong> | Guest Speaker | 2026<br />
-- Delivered a talk on <em>"How Ordinary People Can Stay Competitive in the AI Era"</em><br />
-- Shared practical frameworks for boosting productivity with local knowledge bases and AI agents</p>
+<div class="header-row">
+  <div class="title">Canton Fair</div>
+  <div class="role">VIP Reception Lounge Team Leader</div>
+  <div class="date">Oct 2024 - Nov 2024</div>
+</div>
+<ul>
+  <li>Led a 16-member volunteer team serving international buyers in the VIP reception lounge of the 136th Canton Fair</li>
+  <li>Managed daily operations for 1,000+ high-value visitors, optimized peak-hour queuing, standardized reception protocols and achieved zero customer complaints</li>
+</ul>
+
+<div class="header-row">
+  <div class="title">Guangzhou AI Creator Salon</div>
+  <div class="role">Guest Speaker</div>
+  <div class="date">2026</div>
+</div>
+<ul>
+  <li>Delivered a talk on how ordinary people can stay competitive in the AI era through local knowledge bases and AI agents</li>
+</ul>
 
 <h2>SKILLS & INTERESTS</h2>
-<p><strong>Technical:</strong> Python, STATA, Data Analysis, Econometric Modeling, AI-assisted Web Development (built <a href="https://kunkiportfolio.site/" target="_blank">kunkiportfolio.site</a> with CodeX)<br />
-<strong>Business:</strong> AI Content Creation, IP Operations, Product Design, Growth Marketing, Ecosystem Building<br />
-<strong>Languages:</strong> Mandarin (Native), English (Professional Working Proficiency)<br />
-<strong>Research Interests:</strong> AI + Token Economics, Digital Economy, AI Commercialization, Enterprise Process Re-engineering</p>
-
-<hr />
-<p><em>Page 2 of 2</em></p>
+<div class="skills">
+  <p><strong>AI Systems:</strong> AI knowledge-base design, workflow automation, prompt engineering, custom Skill creation, Codex and Claude Code</p>
+  <p><strong>Technical:</strong> Python, STATA, data analysis, econometric modeling, AI-assisted web development, built <a href="https://kunkiportfolio.site/" target="_blank">kunkiportfolio.site</a> with Codex</p>
+  <p><strong>Business:</strong> AI content creation, IP operations, product design, growth marketing, community operations, ecosystem building</p>
+  <p><strong>AI Learning & Results:</strong> invested RMB 10,000+ in AI learning and generated RMB 10,000+ in AI-related revenue through content, community and consulting experiments</p>
+  <p><strong>Languages:</strong> Mandarin native, English professional working proficiency</p>
+  <p><strong>Research Interests:</strong> AI and Token Economics, Digital Economy, AI Commercialization, Enterprise Process Redesign</p>
+</div>
 </body>
 </html>

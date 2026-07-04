@@ -83,3 +83,59 @@
 - 用户正在准备英文申请材料（简历、作品集、个人陈述），要求使用正式书面英语，避免中式英语
 - 用户明确要求英文表达要地道，不要口语化
 - 之前的初稿由豆包生成，用户认为框架可用但表达一般
+
+
+## 2026-07-03 自动提取
+- 亚太信息科技大赛2024官方英文全称为Asia Pacific Information and Communications Technology Alliance Awards 2024，可简称为APICTA Awards 2024，中文译名为亚太信息通信技术联盟大赛
+- 2024年APICTA Awards举办时间为12月4日-7日，举办地为文莱达鲁萨兰国
+- 港科馆官网填报系统中，该奖项Name of award建议填APICTA Awards 2024（也可填写完整全称），Receiving date建议填December 2024或2024-12
+- 填报要求“Please enter the name of domestic awards in Chinese and the name of international awards in English”意为国内奖项用中文填写名称，国际奖项用英文填写名称；APICTA Awards为亚太区国际赛事，需用英文填写
+
+
+## 2026-07-03 自动提取
+- 用户需要帮忙填写学术成果相关信息表格，已基于用户提供的论文信息完成填写
+- 对应论文标题：*How trading patterns of critical minerals affects the NEV industry? A complex network and multiple regression analysis approach*
+- 该论文2025年发表，链接为：https://doi.org/10.1016/j.esd.2025.101655
+- 用户为该论文的共同第一作者，核心贡献包括：共同确定研究问题与分析框架，收集整理2013-2023年UN Comtrade的11种关键矿产贸易数据并构建全球贸易网络，独立使用Python和STATA完成相关实证分析，起草完整手稿
+
+
+## 2026-07-03 自动提取
+- 用户要求该篇论文作者标注：本人为第二作者，导师为第一作者兼通讯作者，不得标注本人为第一作者
+- 该论文实际贡献情况：导师仅负责确立研究主题、选定题目、对接投稿、提供经费支持，论文全部内容（数据整理、正文撰写等所有核心工作）均由用户独立完成
+- 已按照用户要求完成成果信息填写，调整了作者排序和贡献表述内容
+
+
+## 2026-07-03 自动提取
+- 可使用Python和STATA完成实证分析
+- 作为第二作者完成的论文《How trading patterns of critical minerals affects the NEV industry? A complex network and multiple regression analysis approach》于2025年被接收发表
+- 独立完成上述论文全部核心实证工作和全文初稿撰写，具体包括：收集处理2013-2023年11种关键矿产的UN Comtrade数据、构建全球关键矿产贸易网络、完成全部定量实证分析
+
+
+## 2026-07-03 自动提取
+- 用户要求将简历实习部分的工作经验、工作过程内容丰富后，翻译为地道英文书面语
+- 已完成广交会VIP接待团队组长实习经历的内容扩充，补充量化成果，生成了地道正式的英文商务版本
+
+
+## 2026-07-03 自动提取
+- 用户需要帮忙撰写在腾讯IMA知识库产品实习的实习经历信息
+- 已生成英文版本的腾讯IMA产品管理岗实习经历内容
+- 若为开发岗实习可调整内容，调整需用户提供实习时间和具体工作方向
+
+
+## 2026-07-03 自动提取
+- 用户需要撰写简历，询问腾讯相关产品IMA的正确名称写法
+- 用户有腾讯IMA校园推广实习经历，实习内容包含整合校园资源结合AI大模型解答学生问题、发布大学升学求职相关攻略、运营社群社媒、举办线下沙龙、从零搭建校园推广团队，完成产品校园冷启动
+- 腾讯IMA官方全称为Intelligent Modeling Assistant（智能建模助手），简历适用的标准写法是Tencent IMA (AI Knowledge Workbench)
+- 已为用户生成适配简历的量化英文版本实习经历描述
+
+
+## 2026-07-03 自动提取
+- 简历、商业语境中，社群运营的地道标准英文翻译为Community Operations，也可译为侧重社群管理的Community Management
+- 互联网产品领域，用户增长的地道标准英文翻译为User Growth
+- 社群运营与用户增长作为职责模块标题时，全球互联网行业通用标准表达为Community Operations & User Growth
+
+
+## 2026-07-03 自动提取
+- 用户作品集的Valuable Experience部分规划为三个板块，分别是SCI学术论文、AI短视频自媒体、AI商业化实践，覆盖研究、内容、商业化三个维度
+- AI商业化实践相关经历：依托广州OPC圈子（春菊姐、晴晴姐的资源）参与广州OPC生态搭建；利用CodeX、Claude Code做AI辅助开发，建成多个网站；和朋友合作开发校园餐饮相关的"ChiSha!"小程序，上线首日取得500+注册用户、3000+打开量，完成校园场景用户冷启动
+- 上述AI商业化实践经历已整理为适合放在作品集的地道英文内容

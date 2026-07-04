@@ -10,7 +10,7 @@
   "filenamePrefix": "",
   "maxDays": 30,
   "syncStartDate": "2026-06-19",
-  "lastSyncEndTimestamp": "2026-06-29T15:32:29.775Z",
+  "lastSyncEndTimestamp": "2026-07-03T13:28:57.981Z",
   "scheduledSync": {
     "enabled": true,
     "intervalMinutes": 30,
@@ -28,336 +28,6 @@
   },
   "tagMigrationVersion": 2,
   "syncHistory": [
-    {
-      "id": "1782544714375-1782544715215-auto",
-      "startedAt": 1782544714375,
-      "finishedAt": 1782544715215,
-      "durationMs": 840,
-      "timestamp": 1782544715215,
-      "result": {
-        "created": 0,
-        "updated": 0,
-        "skipped": 0,
-        "failed": 0,
-        "total": 0,
-        "items": []
-      },
-      "type": "auto",
-      "mode": "auto",
-      "scope": {
-        "maxDays": 0,
-        "syncStartDate": "2026-06-27T06:48:34.950Z"
-      },
-      "status": "success"
-    },
-    {
-      "id": "1782546514416-1782546515116-auto",
-      "startedAt": 1782546514416,
-      "finishedAt": 1782546515116,
-      "durationMs": 700,
-      "timestamp": 1782546515116,
-      "result": {
-        "created": 0,
-        "updated": 0,
-        "skipped": 0,
-        "failed": 0,
-        "total": 0,
-        "items": []
-      },
-      "type": "auto",
-      "mode": "auto",
-      "scope": {
-        "maxDays": 0,
-        "syncStartDate": "2026-06-27T07:18:35.215Z"
-      },
-      "status": "success"
-    },
-    {
-      "id": "1782548314463-1782548315211-auto",
-      "startedAt": 1782548314463,
-      "finishedAt": 1782548315211,
-      "durationMs": 748,
-      "timestamp": 1782548315211,
-      "result": {
-        "created": 0,
-        "updated": 0,
-        "skipped": 0,
-        "failed": 0,
-        "total": 0,
-        "items": []
-      },
-      "type": "auto",
-      "mode": "auto",
-      "scope": {
-        "maxDays": 0,
-        "syncStartDate": "2026-06-27T07:48:35.116Z"
-      },
-      "status": "success"
-    },
-    {
-      "id": "1782550114454-1782550115111-auto",
-      "startedAt": 1782550114454,
-      "finishedAt": 1782550115111,
-      "durationMs": 657,
-      "timestamp": 1782550115111,
-      "result": {
-        "created": 0,
-        "updated": 0,
-        "skipped": 0,
-        "failed": 0,
-        "total": 0,
-        "items": []
-      },
-      "type": "auto",
-      "mode": "auto",
-      "scope": {
-        "maxDays": 0,
-        "syncStartDate": "2026-06-27T08:18:35.211Z"
-      },
-      "status": "success"
-    },
-    {
-      "id": "1782551914324-1782551915008-auto",
-      "startedAt": 1782551914324,
-      "finishedAt": 1782551915008,
-      "durationMs": 684,
-      "timestamp": 1782551915008,
-      "result": {
-        "created": 0,
-        "updated": 0,
-        "skipped": 0,
-        "failed": 0,
-        "total": 0,
-        "items": []
-      },
-      "type": "auto",
-      "mode": "auto",
-      "scope": {
-        "maxDays": 0,
-        "syncStartDate": "2026-06-27T08:48:35.111Z"
-      },
-      "status": "success"
-    },
-    {
-      "id": "1782553714340-1782553715046-auto",
-      "startedAt": 1782553714340,
-      "finishedAt": 1782553715046,
-      "durationMs": 706,
-      "timestamp": 1782553715046,
-      "result": {
-        "created": 0,
-        "updated": 0,
-        "skipped": 0,
-        "failed": 0,
-        "total": 0,
-        "items": []
-      },
-      "type": "auto",
-      "mode": "auto",
-      "scope": {
-        "maxDays": 0,
-        "syncStartDate": "2026-06-27T09:18:35.008Z"
-      },
-      "status": "success"
-    },
-    {
-      "id": "1782555514416-1782555515246-auto",
-      "startedAt": 1782555514416,
-      "finishedAt": 1782555515246,
-      "durationMs": 830,
-      "timestamp": 1782555515246,
-      "result": {
-        "created": 0,
-        "updated": 0,
-        "skipped": 0,
-        "failed": 0,
-        "total": 0,
-        "items": []
-      },
-      "type": "auto",
-      "mode": "auto",
-      "scope": {
-        "maxDays": 0,
-        "syncStartDate": "2026-06-27T09:48:35.046Z"
-      },
-      "status": "success"
-    },
-    {
-      "id": "1782557314495-1782557315222-auto",
-      "startedAt": 1782557314495,
-      "finishedAt": 1782557315222,
-      "durationMs": 727,
-      "timestamp": 1782557315222,
-      "result": {
-        "created": 0,
-        "updated": 0,
-        "skipped": 0,
-        "failed": 0,
-        "total": 0,
-        "items": []
-      },
-      "type": "auto",
-      "mode": "auto",
-      "scope": {
-        "maxDays": 0,
-        "syncStartDate": "2026-06-27T10:18:35.246Z"
-      },
-      "status": "success"
-    },
-    {
-      "id": "1782559114549-1782559115570-auto",
-      "startedAt": 1782559114549,
-      "finishedAt": 1782559115570,
-      "durationMs": 1021,
-      "timestamp": 1782559115570,
-      "result": {
-        "created": 0,
-        "updated": 0,
-        "skipped": 0,
-        "failed": 0,
-        "total": 0,
-        "items": []
-      },
-      "type": "auto",
-      "mode": "auto",
-      "scope": {
-        "maxDays": 0,
-        "syncStartDate": "2026-06-27T10:48:35.222Z"
-      },
-      "status": "success"
-    },
-    {
-      "id": "1782566756924-1782566757784-auto",
-      "startedAt": 1782566756924,
-      "finishedAt": 1782566757784,
-      "durationMs": 860,
-      "timestamp": 1782566757784,
-      "result": {
-        "created": 0,
-        "updated": 0,
-        "skipped": 0,
-        "failed": 0,
-        "total": 0,
-        "items": []
-      },
-      "type": "auto",
-      "mode": "auto",
-      "scope": {
-        "maxDays": 0,
-        "syncStartDate": "2026-06-27T11:18:35.570Z"
-      },
-      "status": "success"
-    },
-    {
-      "id": "1782575510578-1782575511462-auto",
-      "startedAt": 1782575510578,
-      "finishedAt": 1782575511462,
-      "durationMs": 884,
-      "timestamp": 1782575511462,
-      "result": {
-        "created": 0,
-        "updated": 0,
-        "skipped": 0,
-        "failed": 0,
-        "total": 0,
-        "items": []
-      },
-      "type": "auto",
-      "mode": "auto",
-      "scope": {
-        "maxDays": 0,
-        "syncStartDate": "2026-06-27T13:25:57.784Z"
-      },
-      "status": "success"
-    },
-    {
-      "id": "1782580112720-1782580117883-auto",
-      "startedAt": 1782580112720,
-      "finishedAt": 1782580117883,
-      "durationMs": 5163,
-      "timestamp": 1782580117883,
-      "result": {
-        "created": 0,
-        "updated": 0,
-        "skipped": 0,
-        "failed": 0,
-        "total": 0,
-        "items": []
-      },
-      "type": "auto",
-      "mode": "auto",
-      "scope": {
-        "maxDays": 0,
-        "syncStartDate": "2026-06-27T15:51:51.462Z"
-      },
-      "status": "success"
-    },
-    {
-      "id": "1782614755908-1782614756737-auto",
-      "startedAt": 1782614755908,
-      "finishedAt": 1782614756737,
-      "durationMs": 829,
-      "timestamp": 1782614756737,
-      "result": {
-        "created": 0,
-        "updated": 0,
-        "skipped": 0,
-        "failed": 0,
-        "total": 0,
-        "items": []
-      },
-      "type": "auto",
-      "mode": "auto",
-      "scope": {
-        "maxDays": 0,
-        "syncStartDate": "2026-06-27T17:08:37.883Z"
-      },
-      "status": "success"
-    },
-    {
-      "id": "1782628334280-1782628336613-auto",
-      "startedAt": 1782628334280,
-      "finishedAt": 1782628336613,
-      "durationMs": 2333,
-      "timestamp": 1782628336613,
-      "result": {
-        "created": 0,
-        "updated": 0,
-        "skipped": 0,
-        "failed": 0,
-        "total": 0,
-        "items": []
-      },
-      "type": "auto",
-      "mode": "auto",
-      "scope": {
-        "maxDays": 0,
-        "syncStartDate": "2026-06-28T02:45:56.737Z"
-      },
-      "status": "success"
-    },
-    {
-      "id": "1782634741975-1782635726046-auto",
-      "startedAt": 1782634741975,
-      "finishedAt": 1782635726046,
-      "durationMs": 984071,
-      "timestamp": 1782635726046,
-      "result": {
-        "created": 0,
-        "updated": 0,
-        "skipped": 0,
-        "failed": 0,
-        "total": 0,
-        "items": []
-      },
-      "type": "auto",
-      "mode": "auto",
-      "scope": {
-        "maxDays": 0,
-        "syncStartDate": "2026-06-28T06:32:16.613Z"
-      },
-      "status": "success"
-    },
     {
       "id": "1782637723241-1782637725393-auto",
       "startedAt": 1782637723241,
@@ -465,6 +135,337 @@
       "scope": {
         "maxDays": 0,
         "syncStartDate": "2026-06-29T15:02:29.481Z"
+      },
+      "status": "success"
+    },
+    {
+      "id": "1783060093857-1783060094869-auto",
+      "startedAt": 1783060093857,
+      "finishedAt": 1783060094869,
+      "durationMs": 1012,
+      "timestamp": 1783060094869,
+      "result": {
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "total": 0,
+        "items": []
+      },
+      "type": "auto",
+      "mode": "auto",
+      "scope": {
+        "maxDays": 0,
+        "syncStartDate": "2026-06-29T15:32:29.775Z"
+      },
+      "status": "success"
+    },
+    {
+      "id": "1783061894208-1783061895317-auto",
+      "startedAt": 1783061894208,
+      "finishedAt": 1783061895317,
+      "durationMs": 1109,
+      "timestamp": 1783061895317,
+      "result": {
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "total": 0,
+        "items": []
+      },
+      "type": "auto",
+      "mode": "auto",
+      "scope": {
+        "maxDays": 0,
+        "syncStartDate": "2026-07-03T06:28:14.869Z"
+      },
+      "status": "success"
+    },
+    {
+      "id": "1783063694294-1783063695149-auto",
+      "startedAt": 1783063694294,
+      "finishedAt": 1783063695149,
+      "durationMs": 855,
+      "timestamp": 1783063695149,
+      "result": {
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "total": 0,
+        "items": []
+      },
+      "type": "auto",
+      "mode": "auto",
+      "scope": {
+        "maxDays": 0,
+        "syncStartDate": "2026-07-03T06:58:15.317Z"
+      },
+      "status": "success"
+    },
+    {
+      "id": "1783065494288-1783065498118-auto",
+      "startedAt": 1783065494288,
+      "finishedAt": 1783065498118,
+      "durationMs": 3830,
+      "timestamp": 1783065498118,
+      "result": {
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "total": 0,
+        "items": []
+      },
+      "type": "auto",
+      "mode": "auto",
+      "scope": {
+        "maxDays": 0,
+        "syncStartDate": "2026-07-03T07:28:15.149Z"
+      },
+      "status": "success"
+    },
+    {
+      "id": "1783067294636-1783067295445-auto",
+      "startedAt": 1783067294636,
+      "finishedAt": 1783067295445,
+      "durationMs": 809,
+      "timestamp": 1783067295445,
+      "result": {
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "total": 0,
+        "items": []
+      },
+      "type": "auto",
+      "mode": "auto",
+      "scope": {
+        "maxDays": 0,
+        "syncStartDate": "2026-07-03T07:58:18.118Z"
+      },
+      "status": "success"
+    },
+    {
+      "id": "1783069094333-1783069095437-auto",
+      "startedAt": 1783069094333,
+      "finishedAt": 1783069095437,
+      "durationMs": 1104,
+      "timestamp": 1783069095437,
+      "result": {
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "total": 0,
+        "items": []
+      },
+      "type": "auto",
+      "mode": "auto",
+      "scope": {
+        "maxDays": 0,
+        "syncStartDate": "2026-07-03T08:28:15.445Z"
+      },
+      "status": "success"
+    },
+    {
+      "id": "1783070894204-1783070896390-auto",
+      "startedAt": 1783070894204,
+      "finishedAt": 1783070896390,
+      "durationMs": 2186,
+      "timestamp": 1783070896390,
+      "result": {
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "total": 0,
+        "items": []
+      },
+      "type": "auto",
+      "mode": "auto",
+      "scope": {
+        "maxDays": 0,
+        "syncStartDate": "2026-07-03T08:58:15.437Z"
+      },
+      "status": "success"
+    },
+    {
+      "id": "1783072737299-1783072738393-auto",
+      "startedAt": 1783072737299,
+      "finishedAt": 1783072738393,
+      "durationMs": 1094,
+      "timestamp": 1783072738393,
+      "result": {
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "total": 0,
+        "items": []
+      },
+      "type": "auto",
+      "mode": "auto",
+      "scope": {
+        "maxDays": 0,
+        "syncStartDate": "2026-07-03T09:28:16.390Z"
+      },
+      "status": "success"
+    },
+    {
+      "id": "1783074537372-1783074538986-auto",
+      "startedAt": 1783074537372,
+      "finishedAt": 1783074538986,
+      "durationMs": 1614,
+      "timestamp": 1783074538986,
+      "result": {
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "total": 0,
+        "items": []
+      },
+      "type": "auto",
+      "mode": "auto",
+      "scope": {
+        "maxDays": 0,
+        "syncStartDate": "2026-07-03T09:58:58.393Z"
+      },
+      "status": "success"
+    },
+    {
+      "id": "1783076337488-1783076533765-auto",
+      "startedAt": 1783076337488,
+      "finishedAt": 1783076533765,
+      "durationMs": 196277,
+      "timestamp": 1783076533765,
+      "result": {
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "total": 0,
+        "items": []
+      },
+      "type": "auto",
+      "mode": "auto",
+      "scope": {
+        "maxDays": 0,
+        "syncStartDate": "2026-07-03T10:28:58.986Z"
+      },
+      "status": "failed",
+      "error": "Failed to fetch"
+    },
+    {
+      "id": "1783078137450-1783078138388-auto",
+      "startedAt": 1783078137450,
+      "finishedAt": 1783078138388,
+      "durationMs": 938,
+      "timestamp": 1783078138388,
+      "result": {
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "total": 0,
+        "items": []
+      },
+      "type": "auto",
+      "mode": "auto",
+      "scope": {
+        "maxDays": 0,
+        "syncStartDate": "2026-07-03T10:28:58.986Z"
+      },
+      "status": "success"
+    },
+    {
+      "id": "1783079905915-1783079907488-auto",
+      "startedAt": 1783079905915,
+      "finishedAt": 1783079907488,
+      "durationMs": 1573,
+      "timestamp": 1783079907488,
+      "result": {
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "total": 0,
+        "items": []
+      },
+      "type": "auto",
+      "mode": "auto",
+      "scope": {
+        "maxDays": 0,
+        "syncStartDate": "2026-07-03T11:28:58.388Z"
+      },
+      "status": "success"
+    },
+    {
+      "id": "1783081737174-1783081738066-auto",
+      "startedAt": 1783081737174,
+      "finishedAt": 1783081738066,
+      "durationMs": 892,
+      "timestamp": 1783081738066,
+      "result": {
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "total": 0,
+        "items": []
+      },
+      "type": "auto",
+      "mode": "auto",
+      "scope": {
+        "maxDays": 0,
+        "syncStartDate": "2026-07-03T11:58:27.488Z"
+      },
+      "status": "success"
+    },
+    {
+      "id": "1783083537294-1783083538162-auto",
+      "startedAt": 1783083537294,
+      "finishedAt": 1783083538162,
+      "durationMs": 868,
+      "timestamp": 1783083538162,
+      "result": {
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "total": 0,
+        "items": []
+      },
+      "type": "auto",
+      "mode": "auto",
+      "scope": {
+        "maxDays": 0,
+        "syncStartDate": "2026-07-03T12:28:58.066Z"
+      },
+      "status": "success"
+    },
+    {
+      "id": "1783085337136-1783085337981-auto",
+      "startedAt": 1783085337136,
+      "finishedAt": 1783085337981,
+      "durationMs": 845,
+      "timestamp": 1783085337981,
+      "result": {
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "total": 0,
+        "items": []
+      },
+      "type": "auto",
+      "mode": "auto",
+      "scope": {
+        "maxDays": 0,
+        "syncStartDate": "2026-07-03T12:58:58.162Z"
       },
       "status": "success"
     }

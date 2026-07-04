@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kunqi Lin - Red Bird Portfolio</title>
+<style>
+  @import url('https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&f[]=clash-display@600,700&display=swap');
+  @page { size: 13.333in 7.5in; margin: 0; }
+  * { box-sizing: border-box; }
+  :root {
+    --blue: #075497;
+    --blue2: #0f70b8;
+    --ink: #09233d;
+    --navy: #123a5d;
+    --muted: #50657a;
+    --paper: #f5f9fc;
+    --pale: #e6f1f8;
+    --line: #aac4d8;
+    --accent: #b33d3d;
+  }
+  body {
+    margin: 0;
+    background: transparent;
+    color: var(--ink);
+    font-family: "Satoshi", Arial, sans-serif;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .slide {
+    width: 13.333in;
+    height: 7.5in;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    background:
+      radial-gradient(circle at 86% 12%, rgba(7,84,151,.08), transparent 22%),
+      linear-gradient(180deg, #fbfdff 0%, #eef6fb 100%);
+    page-break-after: always;
+  }
+  .slide:last-child { page-break-after: auto; }
+  .brand {
+    position: absolute;
+    right: 31px;
+    top: 16px;
+    width: 260px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+    z-index: 5;
+  }
+  .brand img { width: 31px; height: 34px; object-fit: contain; }
+  .brand-text { width: 210px; line-height: 1.05; color: #0b2946; }
+  .brand-text b { display: block; font-size: 10px; font-weight: 900; }
+  .brand-text span { display: block; font-size: 7px; font-weight: 800; }
+  .top {
+    height: 64px;
+    border-bottom: 5px solid var(--blue);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0 320px 0 31px;
+    background: rgba(255,255,255,.64);
+  }
+  .num {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    background: var(--blue);
+    font-weight: 900;
+    font-size: 17px;
+  }
+  .top h1 {
+    margin: 0;
+    font-family: "Clash Display", "Satoshi", Arial, sans-serif;
+    font-size: 27px;
+    line-height: 1;
+    word-spacing: .06em;
+    color: var(--blue);
+  }
+  .section-title {
+    min-height: 35px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    background: var(--blue);
+    color: #fff;
+    font-weight: 900;
+    font-size: 15px;
+  }
+  .content { height: calc(100% - 64px); padding: 26px 32px 24px; }
+  .page-no {
+    position: absolute;
+    left: 28px;
+    bottom: 16px;
+    color: #8a4b22;
+    font-size: 16px;
+  }
+  h2, h3, p { margin: 0; }
+  h2 {
+    font-family: "Clash Display", "Satoshi", Arial, sans-serif;
+    font-size: 34px;
+    line-height: 1.04;
+    letter-spacing: 0;
+    word-spacing: .04em;
+  }
+  h2 strong, .blue { color: var(--blue); }
+  h3 { font-size: 17px; color: var(--blue); margin-bottom: 7px; }
+  p, li { font-size: 12px; line-height: 1.36; color: #25445f; }
+  a { color: inherit; text-decoration: none; }
+  ul { margin: 0; padding-left: 16px; }
+  li { margin: 4px 0; }
+  .photo, .evidence {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid var(--line);
+  }
+  .photo img, .evidence img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+  }
+  .cover-img img, .fit-cover img, .crop img { object-fit: cover; }
+  .cap {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    max-width: 84%;
+    padding: 7px 10px;
+    background: rgba(18,58,93,.92);
+    color: #fff;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 1.18;
+  }
+  .tag {
+    position: absolute;
+    left: 9px;
+    top: 9px;
+    padding: 4px 8px;
+    background: var(--blue);
+    color: #fff;
+    font-size: 10px;
+    font-weight: 900;
+  }
+  .statement {
+    background: #fff;
+    border-left: 6px solid var(--blue);
+    padding: 15px 17px;
+  }
+  .small-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .pill {
+    background: var(--pale);
+    border-top: 4px solid var(--blue);
+    padding: 8px 9px;
+    min-height: 58px;
+  }
+  .pill b { display: block; color: var(--blue); font-size: 13px; margin-bottom: 4px; }
+  .pill span { display: block; color: #3e5870; font-size: 10px; line-height: 1.24; }
+  .metric-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+  .metric {
+    min-height: 64px;
+    padding: 10px 11px;
+    background: var(--navy);
+    color: #fff;
+  }
+  .metric b { display: block; color: #fff; font-size: 20px; line-height: 1; margin-bottom: 6px; }
+  .metric span { display: block; color: #dcecf7; font-size: 10px; line-height: 1.2; }
+  .note {
+    background: rgba(255,255,255,.78);
+    border: 1px solid #b9cedf;
+    padding: 10px 12px;
+  }
+
+  /* Cover */
+  .cover { padding: 0; }
+  .cover .brand {
+    top: 28px;
+    right: 56px;
+    width: 305px;
+  }
+  .cover-frame {
+    position: relative;
+    height: 100%;
+    display: grid;
+    grid-template-columns: .95fr 1.05fr;
+    border: 0;
+    background: rgba(255,255,255,.7);
+  }
+  .cover-left {
+    padding: 146px 68px 0;
+    display: grid;
+    align-content: start;
+    background: rgba(255,255,255,.76);
+  }
+  .cover-left h1 {
+    font-family: "Clash Display", "Satoshi", Arial, sans-serif;
+    color: var(--blue);
+    font-size: 46px;
+    margin: 0 0 18px;
+  }
+  .cover-left .sub { font-size: 21px; color: #1c3853; margin-bottom: 16px; }
+  .cover-line { height: 2px; width: 430px; background: #1d3f61; margin-bottom: 18px; }
+  .keywords { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; margin-top: 28px; }
+  .keyword { background: var(--pale); border-left: 6px solid var(--blue); padding: 10px 12px; font-weight: 900; font-size: 14px; }
+  .cover-theme {
+    border-left: 1px solid rgba(170,196,216,.55);
+    padding: 132px 58px 122px;
+    background:
+      linear-gradient(90deg, rgba(255,255,255,.28), rgba(214,233,246,.9)),
+      radial-gradient(circle at 84% 20%, rgba(0,91,154,.18), transparent 28%),
+      #f8fbfd;
+    display: grid;
+    align-content: start;
+  }
+  .theme-kicker { color: var(--gold); font-weight: 900; font-size: 14px; letter-spacing: 0; text-transform: uppercase; }
+  .theme-title {
+    margin-top: 12px;
+    font-family: "Clash Display", "Satoshi", Arial, sans-serif;
+    font-size: 42px;
+    line-height: .98;
+    word-spacing: .04em;
+    color: #0d2742;
+  }
+  .theme-title strong { color: var(--blue); }
+  .theme-copy { margin-top: 15px; max-width: 470px; font-size: 14px; color: #2c4b66; line-height: 1.42; }
+  .theme-proof {
+    margin-top: 26px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9px;
+  }
+  .theme-proof div {
+    border-top: 4px solid var(--blue);
+    background: rgba(255,255,255,.72);
+    padding: 9px 10px;
+    min-height: 54px;
+    color: #28465f;
+    font-size: 11px;
+    line-height: 1.22;
+  }
+  .theme-proof b { display: block; color: #0d2742; font-size: 14px; margin-bottom: 3px; }
+  .contents {
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 165px 1fr;
+    background: rgba(223,238,248,.96);
+  }
+  .contents-title { background: var(--blue); color: #fff; display: grid; place-items: center; font-size: 20px; font-weight: 900; }
+  .contents-list { display: grid; grid-template-columns: repeat(5,1fr); align-items: center; gap: 10px; padding: 0 24px; color: #16446d; font-weight: 900; font-size: 13px; }
+
+  /* Profile */
+  .profile-layout { display: grid; grid-template-columns: 302px 1fr; gap: 22px; height: 100%; }
+  .identity-panel { background: #fff; border-left: 7px solid var(--blue); padding: 12px; display: grid; grid-template-rows: 302px auto 1fr; }
+  .identity-panel img { width: 100%; height: 302px; object-fit: cover; object-position: center top; }
+  .identity-name { padding: 13px 4px 10px; border-bottom: 1px solid #c7dae9; }
+  .identity-name b { display: block; font-family: "Clash Display"; font-size: 27px; line-height: 1; color: #0d2742; }
+  .identity-name span { display: block; margin-top: 6px; color: #3a5870; font-size: 12px; line-height: 1.3; }
+  .identity-proof { padding: 10px 4px 0; display: grid; gap: 7px; }
+  .identity-proof div { display: grid; grid-template-columns: 58px 1fr; gap: 8px; align-items: center; }
+  .identity-proof b { color: var(--blue); font-size: 19px; line-height: 1; }
+  .identity-proof span { color: #38566e; font-size: 10px; line-height: 1.22; }
+  .profile-story h2 { max-width: 800px; font-size: 41px; line-height: .98; margin-bottom: 10px; }
+  .profile-story h2 em { color: var(--blue); font-style: normal; }
+  .profile-story .lead { max-width: 820px; color: #294962; font-size: 14px; line-height: 1.38; }
+  .proof-strip { margin: 16px 0 12px; display: grid; grid-template-columns: 1.05fr .78fr .78fr .9fr; gap: 8px; }
+  .proof-strip div { min-height: 88px; background: #edf6fb; border-top: 5px solid var(--blue); color: #0d2742; padding: 12px 13px; }
+  .proof-strip b { display: block; font-family: "Clash Display"; color: var(--blue); font-size: 28px; line-height: .95; margin-bottom: 8px; }
+  .proof-strip span { color: #31506a; font-size: 10px; line-height: 1.24; }
+  .profile-stage { display: grid; grid-template-columns: 1.15fr .85fr; gap: 12px; }
+  .thesis-panel { background: #e5f1f8; border-left: 7px solid var(--blue); color: #0d2742; padding: 21px 22px; min-height: 210px; display: grid; align-content: space-between; }
+  .thesis-panel b { display: block; font-family: "Clash Display"; font-size: 32px; line-height: 1; }
+  .thesis-panel span { color: #294962; font-size: 13px; line-height: 1.35; }
+  .role-ladder { display: grid; gap: 8px; }
+  .role-ladder div { background: rgba(255,255,255,.8); border-left: 6px solid var(--blue); padding: 10px 12px; min-height: 62px; }
+  .role-ladder b { display: block; color: var(--blue); font-size: 17px; margin-bottom: 4px; }
+  .role-ladder span { display: block; color: #3a5870; font-size: 11px; line-height: 1.24; }
+  .profile-close { margin-top: 12px; display: grid; grid-template-columns: 1.08fr .92fr; min-height: 92px; }
+  .profile-close b { display: block; background: #e3f0f8; border-top: 5px solid var(--blue); padding: 13px 16px; font-size: 17px; line-height: 1.18; color: #0d2742; }
+  .profile-close p { background: #fff; padding: 14px 16px; color: #25445f; font-size: 12px; line-height: 1.34; }
+
+  /* Research */
+  .research-layout { display: grid; grid-template-columns: .82fr 1.18fr; gap: 18px; height: 100%; }
+  .paper-card { background: #fff; border-left: 6px solid var(--blue); padding: 13px 16px; min-height: 186px; }
+  .paper-card h2 { font-size: 26px; margin-bottom: 9px; }
+  .paper-card .role-line { color: #24425d; font-size: 11px; line-height: 1.32; margin-top: 6px; }
+  .paper-metrics { display: grid; grid-template-columns: repeat(3,1fr); gap: 8px; margin: 10px 0; }
+  .paper-metrics div { background: var(--navy); color: #fff; padding: 11px 11px; min-height: 68px; }
+  .paper-metrics b { display: block; font-family: "Clash Display"; font-size: 27px; line-height: .95; }
+  .paper-metrics span { display: block; margin-top: 7px; color: #dbeaf5; font-size: 10px; line-height: 1.18; }
+  .link-pill { display: inline-flex; align-items: center; min-height: 30px; padding: 6px 10px; margin-bottom: 10px; background: var(--blue); color: #fff; font-size: 11px; font-weight: 900; }
+  .method-steps { display: grid; grid-template-columns: repeat(5,1fr); gap: 6px; margin: 10px 0; }
+  .step { background: var(--pale); border-top: 4px solid var(--blue); padding: 7px; min-height: 60px; font-size: 10px; font-weight: 900; color: #113858; }
+  .published-stack {
+    height: 184px;
+    margin-bottom: 10px;
+    position: relative;
+    background: #fff;
+    border: 1px solid var(--line);
+    overflow: hidden;
+  }
+  .paper-main {
+    position: absolute;
+    left: 10px;
+    top: 13px;
+    width: 59%;
+    height: 157px;
+    background: #fff;
+    box-shadow: 0 8px 16px rgba(12,47,77,.12);
+  }
+  .paper-layer {
+    position: absolute;
+    right: 11px;
+    top: 19px;
+    width: 42%;
+    height: 147px;
+    background: #fff;
+    border: 1px solid #c7dae9;
+    box-shadow: -8px 10px 18px rgba(12,47,77,.13);
+  }
+  .paper-main img, .paper-layer img { width: 100%; height: 100%; object-fit: contain; display: block; }
+  .top-figure {
+    position: absolute;
+    right: 11px;
+    top: 14px;
+    width: 42%;
+    height: 156px;
+    background: #fff;
+    border: 1px solid #c7dae9;
+    box-shadow: -8px 10px 18px rgba(12,47,77,.13);
+    overflow: hidden;
+  }
+  .top-figure img { width: 100%; height: 100%; object-fit: contain; display: block; }
+  .research-board { display: grid; grid-template-columns: 1fr .92fr; grid-template-rows: 170px 130px; gap: 10px; }
+  .research-board .large { grid-row: 1 / 3; }
+  .reg-table {
+    background: #fff;
+    border: 1px solid var(--line);
+    overflow: hidden;
+  }
+  .reg-table h3 { margin: 0; padding: 6px 10px; background: var(--blue); color: #fff; font-size: 13px; }
+  table { border-collapse: collapse; width: 100%; font-size: 9px; color: #173653; }
+  th, td { border: 1px solid #c7dae9; padding: 3px 5px; text-align: center; }
+  th:first-child, td:first-child { text-align: left; }
+  th { background: #eaf4fb; }
+  .sig { color: var(--blue); font-weight: 900; }
+  .finding { margin-top: 10px; display: grid; grid-template-columns: 125px 1fr; background: var(--navy); color: #fff; }
+  .finding b { display: grid; place-items: center; background: var(--blue); font-size: 17px; }
+  .finding span { padding: 10px 12px; color: #dbeaf5; font-size: 12px; line-height: 1.32; }
+
+  /* Competition */
+  .qianwen-layout { display: grid; grid-template-columns: .78fr 1.22fr; gap: 18px; height: 100%; }
+  .qianwen-core { background: #fff; border-left: 6px solid var(--blue); padding: 14px 16px; }
+  .qianwen-core h2 { font-size: 28px; margin-bottom: 10px; }
+  .qianwen-core p { font-size: 12px; line-height: 1.34; margin-bottom: 7px; }
+  .qianwen-metrics { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 11px; }
+  .qianwen-metrics .metric { min-height: 61px; }
+  .contrib-list { margin-top: 10px; display: grid; gap: 7px; }
+  .contrib-list div { background: var(--pale); border-left: 4px solid var(--blue); padding: 7px 9px; color: #26435b; font-size: 11px; line-height: 1.28; }
+  .qianwen-board { display: grid; grid-template-columns: .78fr 1.22fr; grid-template-rows: 160px 160px 160px; gap: 10px; }
+  .qianwen-board .main-tall { grid-row: 1 / 4; }
+  .qianwen-board .main-tall img { object-fit: contain; }
+  .qianwen-board .wide-evidence img { object-fit: contain; }
+
+  /* Product */
+  .product-layout { display: grid; grid-template-columns: 1.06fr .94fr; gap: 18px; height: 100%; }
+  .brand-showcase {
+    display: grid;
+    grid-template-columns: .9fr 1.1fr;
+    gap: 10px;
+    align-items: stretch;
+  }
+  .brand-stack-right { display: grid; align-content: start; }
+  .channel-shot,
+  .channel-strip { height: 384px; background: #fff; }
+  .channel-shot img { object-fit: contain; object-position: center; background: #fff; }
+  .site-shot { height: 188px; }
+  .site-shot img { object-fit: cover; object-position: top center; }
+  .web-link-card { display: block; margin-top: 9px; background: #123a5d; color: #fff; padding: 16px 15px; }
+  .web-link-card b { display: block; font-family: "Clash Display"; font-size: 25px; line-height: 1; margin-bottom: 7px; }
+  .web-link-card span { color: #dbeaf5; font-size: 11px; line-height: 1.3; }
+  .brand-showcase .metric-grid { gap: 6px; margin-top: 8px !important; }
+  .brand-showcase .metric { min-height: 76px; padding: 11px 12px; background: #123a5d; }
+  .brand-showcase .metric b { font-size: 22px; margin-bottom: 6px; }
+  .brand-showcase .metric span { font-size: 10px; }
+  .brand-content-band {
+    position: relative;
+    height: 126px;
+    margin-top: 10px;
+    background: #fff;
+    border: 1px solid var(--line);
+    overflow: hidden;
+  }
+  .brand-content-band img { width: 100%; height: 100%; object-fit: cover; object-position: center 18%; display: block; }
+  .funnel { display: grid; gap: 5px; margin-top: 8px; }
+  .funnel div { height: 27px; display: flex; align-items: center; padding-left: 11px; color: #fff; font-weight: 900; font-size: 12px; }
+  .funnel div:nth-child(1) { width: 100%; background: var(--blue); }
+  .funnel div:nth-child(2) { width: 82%; background: #4d91c7; }
+  .funnel div:nth-child(3) { width: 62%; background: var(--navy); }
+  .brand-qr { display: grid; grid-template-columns: 76px 1fr; gap: 10px; align-items: center; margin-top: 8px; background: #fff; border: 1px solid var(--line); padding: 7px; }
+  .brand-qr img { width: 76px; height: 76px; object-fit: contain; }
+  .chisha-case { display: grid; grid-template-columns: 288px 1fr; gap: 16px; }
+  .poster-frame { height: 404px; border: 2px solid #f2a452; background: #fff; }
+  .poster-frame img { width: 100%; height: 100%; object-fit: contain; }
+  .case-note { background: #fff; border-left: 5px solid #f28c18; padding: 13px 14px; }
+  .case-note h2 { font-size: 28px; margin-bottom: 9px; }
+  .case-note em { color: #e36f00; font-style: normal; font-weight: 900; }
+  .mini-metrics { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 10px; }
+  .mini-metrics div { background: var(--navy); color: #fff; padding: 9px 10px; min-height: 58px; }
+  .mini-metrics b { display: block; color: #fff; font-size: 18px; line-height: 1; margin-bottom: 6px; }
+  .mini-metrics span { display: block; color: #dbeaf5; font-size: 10px; line-height: 1.2; }
+  .poster-note { margin-top: 10px; background: #fff7ed; border: 1px solid #f2a452; padding: 9px 11px; }
+
+  /* Symbiosis */
+  .sym-layout { display: grid; grid-template-columns: 1.05fr .95fr; gap: 18px; height: 100%; }
+  .op-hero { height: 324px; }
+  .op-hero img { object-fit: cover; object-position: center; }
+  .op-card { margin-top: 10px; background: #fff; border-left: 6px solid var(--blue); padding: 13px 15px; }
+  .op-card h2 { font-size: 25px; margin-bottom: 8px; }
+  .op-card p { font-size: 11px; line-height: 1.32; margin-bottom: 8px; }
+  .direction { background: #fff; border-left: 6px solid var(--blue); padding: 16px 18px; }
+  .direction h2 { font-size: 31px; margin-bottom: 12px; }
+  .direction p { margin-bottom: 10px; }
+  .quote {
+    margin-top: 12px;
+    background: var(--navy);
+    color: #fff;
+    padding: 15px 16px;
+    font-family: "Clash Display";
+    font-size: 24px;
+    line-height: 1.12;
+  }
+  .quote small { display: block; font-family: "Satoshi"; font-size: 12px; line-height: 1.34; color: #dbeaf5; margin-top: 10px; }
+  @media print { body { background: #fff; } .slide { margin: 0; border: 0; } }
+</style>
+</head>
+<body>
+
+<section class="slide cover">
+  <div class="brand"><img src="assets/hkust-gz-crest-transparent.png" alt="HKUST(GZ) logo"><div class="brand-text"><b>香港科技大学（广州）</b><span>THE HONG KONG UNIVERSITY OF SCIENCE AND TECHNOLOGY (GUANGZHOU)</span></div></div>
+  <div class="cover-frame">
+    <div class="cover-left">
+      <h1>Personal Portfolio</h1>
+      <div class="sub">For 2026 Red Bird Challenge Camp</div>
+      <div class="cover-line"></div>
+      <p>Applicant: Kunqi Lin (KUNKI)<br>Economics · AI Products · Workflow Design</p>
+      <div class="keywords">
+        <div class="keyword">SCI Q2 second author</div>
+        <div class="keyword">AI competition project</div>
+        <div class="keyword">Creator brand + tools</div>
+        <div class="keyword">OPC + AI FDE direction</div>
+      </div>
+    </div>
+    <div class="cover-theme">
+      <div class="theme-kicker">Theme · Human-AI Symbiosis</div>
+      <div class="theme-title">Designing with AI as a <strong>second self</strong>, not just a tool.</div>
+      <div class="theme-copy">This portfolio presents five evidence-backed projects: research rigor, international AI competition, shipped products, creator practice, and an OPC-oriented AI workflow.</div>
+      <div class="theme-proof">
+        <div><b>Research</b>SCI Q2 paper with quantitative evidence.</div>
+        <div><b>Competition</b>APICTA Brunei 2nd Runner-up.</div>
+          <div><b>Product</b>Mini-program launch and AI workflow practice.</div>
+          <div><b>Future</b>AI FDE and one-person company practice.</div>
+      </div>
+    </div>
+    <div class="contents">
+      <div class="contents-title">CONTENTS</div>
+      <div class="contents-list">
+        <div>1 Profile</div>
+        <div>2 Research</div>
+        <div>3 AI Competition</div>
+        <div>4 Product</div>
+        <div>5 OPC / Future</div>
+      </div>
+    </div>
+  </div>
+  <div class="page-no">1</div>
+</section>
+
+<section class="slide">
+  <div class="brand"><img src="assets/hkust-gz-crest-transparent.png" alt="HKUST(GZ) logo"><div class="brand-text"><b>香港科技大学（广州）</b><span>THE HONG KONG UNIVERSITY OF SCIENCE AND TECHNOLOGY (GUANGZHOU)</span></div></div>
+  <div class="top"><span class="num">1</span><h1>Personal Profile</h1></div>
+  <div class="content">
+    <div class="profile-layout">
+      <div class="identity-panel">
+        <img src="profile-photo.jpg" alt="Kunqi Lin">
+        <div class="identity-name">
+          <b>Kunqi Lin</b>
+          <span>KUNKI · Economics student<br>AI product builder / creator / researcher<br><a href="https://kunkiportfolio.site/" target="_blank">kunkiportfolio.site</a></span>
+        </div>
+        <div class="identity-proof">
+          <div><b>GPA</b><span>3.98 / 4.0, ranked 1 / 227 in major.</span></div>
+          <div><b>SCI</b><span>SCI Q2 publication; first student author, second author overall.</span></div>
+          <div><b>AI</b><span>Products, content, workflow, and OPC exploration.</span></div>
+        </div>
+      </div>
+      <div class="profile-story">
+        <h2>I turn <em>economic questions</em> and <em>AI tools</em> into things people can actually use.</h2>
+        <p class="lead">My strongest edge is not a single label. It is the ability to move between research, product, public communication, and workflow design, then turn that movement into visible outputs.</p>
+        <div class="proof-strip">
+          <div><b>3.98</b><span>GPA / 4.0, ranked first in International Economics and Trade.</span></div>
+          <div><b>IF 4.4</b><span>SCI Q2 journal evidence from Energy for Sustainable Development.</span></div>
+          <div><b>APICTA</b><span>Brunei 2024 international ICT award evidence.</span></div>
+          <div><b>5,000+</b><span>AI content audience and user-facing workflow practice.</span></div>
+        </div>
+        <div class="profile-stage">
+          <div class="thesis-panel">
+            <b>Red Bird fit: I study AI as a new relationship, not only a new tool.</b>
+            <span>Research gives me rigor. Products give me feedback loops. Content entrepreneurship gives me audience sensitivity. OPC practice gives me a live field for human-AI collaboration.</span>
+          </div>
+          <div class="role-ladder">
+            <div><b>Researcher</b><span>Frame variables, read systems, test evidence.</span></div>
+            <div><b>Builder</b><span>Ship small products and let users correct the idea.</span></div>
+            <div><b>Creator</b><span>Translate AI workflows into public-facing content.</span></div>
+          </div>
+        </div>
+        <div class="profile-close">
+          <b>Selected evidence for this portfolio: SCI paper, APICTA project, AI brand, campus product, OPC direction.</b>
+          <p>One throughline: human value is amplified when a person can ask better questions, judge outputs, organize workflows, and build with AI.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="page-no">2</div>
+</section>
+
+<section class="slide">
+  <div class="brand"><img src="assets/hkust-gz-crest-transparent.png" alt="HKUST(GZ) logo"><div class="brand-text"><b>香港科技大学（广州）</b><span>THE HONG KONG UNIVERSITY OF SCIENCE AND TECHNOLOGY (GUANGZHOU)</span></div></div>
+  <div class="top"><span class="num">2</span><h1>Research Project</h1></div>
+  <div class="content">
+    <div class="research-layout">
+      <div>
+        <div class="section-title">SCI Q2 Publication · Energy Economics</div>
+        <div class="paper-card">
+          <h2>Published SCI paper on critical minerals and NEV industry development.</h2>
+          <p><b>Article:</b> How trading patterns of critical minerals affects the NEV industry? A complex network and multiple regression analysis approach.</p>
+          <p class="role-line"><b>Role:</b> First student author · Second author overall</p>
+          <p class="role-line"><b>Journal:</b> Energy for Sustainable Development, Vol. 85, 2025, Article 101655</p>
+        </div>
+        <div class="paper-metrics">
+          <div><b>IF 4.4</b><span>Impact factor evidence for the journal.</span></div>
+          <div><b>SCI Q2</b><span>Published journal ranking signal.</span></div>
+          <div><b>1st</b><span>First student author; second author overall.</span></div>
+        </div>
+        <a class="link-pill" href="https://doi.org/10.1016/j.esd.2025.101655" target="_blank">DOI · 10.1016/j.esd.2025.101655</a>
+        <div class="evidence" style="height:200px;"><img src="assets/paper-figures/trimmed/image2.png" alt="Research pipeline"><div class="tag">RESEARCH PIPELINE</div></div>
+      </div>
+      <div>
+        <div class="section-title">Published Evidence + Method</div>
+        <div class="published-stack">
+          <a class="paper-main" href="https://doi.org/10.1016/j.esd.2025.101655" target="_blank"><img src="assets/research/sci-journal-interface.png" alt="SCI journal page"></a>
+          <div class="top-figure"><img src="assets/paper-figures/trimmed/image5.png" alt="Betweenness centrality ranking"><div class="tag">CENTRALITY RANKING</div></div>
+          <div class="tag">PUBLISHED PAPER + NETWORK EVIDENCE</div>
+        </div>
+        <div class="research-board">
+          <div class="evidence large"><img src="assets/paper-figures/trimmed/image1.png" alt="Research framework"><div class="tag">QUESTION FRAMEWORK</div></div>
+          <div class="evidence"><img src="assets/paper-figures/trimmed/image3.png" alt="Trade network"><div class="tag">TRADE NETWORK</div></div>
+          <div class="reg-table">
+            <h3>Regression + Mediation Evidence</h3>
+            <table>
+              <tr><th>Variable</th><th>NEVD</th><th>NEVT</th><th>Sobel z</th></tr>
+              <tr><td>Weighted in-degree</td><td><span class="sig">0.144***</span></td><td><span class="sig">0.019**</span></td><td><span class="sig">4.174</span></td></tr>
+              <tr><td>Weighted out-degree</td><td><span class="sig">0.278***</span></td><td><span class="sig">0.031***</span></td><td><span class="sig">3.677</span></td></tr>
+              <tr><td>Weighted degree</td><td><span class="sig">0.395***</span></td><td><span class="sig">0.050***</span></td><td><span class="sig">4.235</span></td></tr>
+              <tr><td>EGC</td><td>0.547</td><td><span class="sig">0.525***</span></td><td><span class="sig">2.325</span></td></tr>
+            </table>
+          </div>
+        </div>
+        <div class="finding"><b>Finding</b><span>Trade network centrality significantly promotes NEV industry growth, with technological progress as a full mediator.</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="page-no">3</div>
+</section>
+
+<section class="slide">
+  <div class="brand"><img src="assets/hkust-gz-crest-transparent.png" alt="HKUST(GZ) logo"><div class="brand-text"><b>香港科技大学（广州）</b><span>THE HONG KONG UNIVERSITY OF SCIENCE AND TECHNOLOGY (GUANGZHOU)</span></div></div>
+  <div class="top"><span class="num">3</span><h1>AI Competition Project</h1></div>
+  <div class="content">
+    <div class="qianwen-layout">
+      <div>
+        <div class="section-title">Qianwen · Low-Resource Language Assessment</div>
+        <div class="qianwen-core">
+          <h2>Turning a team outcome into a <strong>defensible product story</strong>.</h2>
+          <p><b>Project:</b> “Qianwen”, a multimodal AI system for low-resource language learning and assessment.</p>
+          <p><b>Competition evidence:</b> APICTA Awards 2024 in Brunei, 2nd Runner-up in Tertiary Student Projects: Solutions, with Foreign Ministry and school media coverage.</p>
+          <p><b>My ownership path:</b> reconstructed the project logic from code, paper, proposal, and pitch deck, then rebuilt the product narrative, demo explanation, and commercialization story.</p>
+          <div class="qianwen-metrics">
+            <div class="metric"><b>APICTA</b><span>Asia Pacific ICT Alliance Awards 2024</span></div>
+            <div class="metric"><b>2nd</b><span>Runner-up, Tertiary Student Projects</span></div>
+            <div class="metric"><b>Brunei</b><span>International presentation and award scene</span></div>
+            <div class="metric"><b>Media</b><span>Foreign Ministry and school recognition</span></div>
+          </div>
+        </div>
+        <div class="contrib-list">
+          <div><b>Product framing:</b> from “AI can generate questions” to reliable low-resource language assessment.</div>
+          <div><b>Evidence framing:</b> connect product demo, certificate, award scene, and official recognition into one defensible story.</div>
+        </div>
+      </div>
+      <div>
+        <div class="section-title">APICTA Visual Evidence</div>
+        <div class="qianwen-board">
+          <div class="evidence main-tall"><img src="assets/apicta/apicta-stage-award.png" alt="APICTA award stage"><div class="tag">AWARD STAGE</div></div>
+          <div class="evidence wide-evidence"><img src="assets/apicta/qianwen-product-services.png" alt="Qianwen product services"><div class="tag">PRODUCT DEMO</div></div>
+          <div class="evidence wide-evidence"><img src="assets/apicta/ministry-media-proof.png" alt="Foreign Ministry and media proof"><div class="tag">OFFICIAL COVERAGE</div></div>
+          <div class="evidence wide-evidence"><img src="assets/apicta/apicta-certificate.png" alt="APICTA certificate"><div class="tag">CERTIFICATE</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="page-no">4</div>
+</section>
+
+<section class="slide">
+  <div class="brand"><img src="assets/hkust-gz-crest-transparent.png" alt="HKUST(GZ) logo"><div class="brand-text"><b>香港科技大学（广州）</b><span>THE HONG KONG UNIVERSITY OF SCIENCE AND TECHNOLOGY (GUANGZHOU)</span></div></div>
+  <div class="top"><span class="num">4</span><h1>AI Brand, Website, and Campus Product</h1></div>
+  <div class="content">
+    <div class="product-layout">
+      <div>
+        <div class="section-title">Personal AI Brand + Website</div>
+        <div class="brand-showcase">
+          <div class="evidence channel-shot"><img src="assets/brand/wechat-channel-profile-key.jpg" alt="WeChat Channel profile"><div class="tag">WECHAT CHANNEL</div></div>
+          <div class="brand-stack-right">
+            <a class="evidence site-shot" href="https://kunkiportfolio.site/" target="_blank"><img src="assets/kunkiportfolio-site-crop.png" alt="Personal website"><div class="tag">PERSONAL WEBSITE</div></a>
+            <a class="web-link-card" href="https://kunkiportfolio.site/" target="_blank"><b>kunkiportfolio.site</b><span>Personal website as a public portfolio hub for AI practice, writing, and project evidence.</span></a>
+            <div class="metric-grid" style="grid-template-columns: repeat(2,1fr); margin-top: 10px;">
+              <div class="metric"><b>80</b><span>Original videos on AI application</span></div>
+              <div class="metric"><b>4,177</b><span>Likes across video channel</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="brand-content-band"><img src="assets/brand/wechat-channel-grid-key.jpg" alt="WeChat Channel content grid"><div class="tag">CONTENT GRID</div></div>
+      </div>
+      <div>
+        <div class="section-title">Campus Product Launch: “ChiSha!” Mini-Program</div>
+        <div class="chisha-case">
+          <div class="poster-frame"><img src="assets/chisha-promo-poster.png" alt="ChiSha poster"></div>
+          <div>
+            <div class="case-note">
+              <h2>Small product, <em>real launch</em>.</h2>
+              <ul>
+                <li>Helps students decide what to eat or drink through quick random draws.</li>
+                <li>Includes food, beverage, and DIY menu scenarios.</li>
+                <li>Reached 500+ users and 3,000+ opens on day one.</li>
+                <li>Built a 147-member user feedback community.</li>
+              </ul>
+            </div>
+            <div class="mini-metrics">
+              <div><b>500+</b><span>Users on launch day</span></div>
+              <div><b>3,000+</b><span>Opens on day one</span></div>
+              <div><b>147</b><span>Feedback group members</span></div>
+            </div>
+            <div class="poster-note">
+              <h3>English poster message</h3>
+              <p>“Stuck at mealtime? One draw decides what to eat.” The Chinese launch poster is used as product evidence before the final English visual translation.</p>
+            </div>
+            <div class="brand-qr">
+              <img src="wechat-qrcode.jpg" alt="ChiSha mini-program QR">
+              <div><h3>Mini-Program QR</h3><p>Scan evidence for the ChiSha campus dining decision tool.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="page-no">5</div>
+</section>
+
+<section class="slide">
+  <div class="brand"><img src="assets/hkust-gz-crest-transparent.png" alt="HKUST(GZ) logo"><div class="brand-text"><b>香港科技大学（广州）</b><span>THE HONG KONG UNIVERSITY OF SCIENCE AND TECHNOLOGY (GUANGZHOU)</span></div></div>
+  <div class="top"><span class="num">5</span><h1>OPC Ecosystem & AI FDE Direction</h1></div>
+  <div class="content">
+    <div class="sym-layout">
+      <div>
+        <div class="section-title">OPC: One-Person Company Ecosystem</div>
+        <div class="photo op-hero cover-img"><img src="assets/obc-salon-talk.jpg" alt="OPC salon"><div class="cap">OPC offline salon · AI exploration after Gaokao</div></div>
+        <div class="op-card">
+          <h2>Joining the Guangzhou <strong>OPC circle</strong>.</h2>
+          <p>OPC is not just “working alone”. I hope to become part of the Guangzhou OPC community, using AI agents, knowledge bases, content distribution, and collaboration networks to carry a larger business surface.</p>
+          <div class="small-grid">
+            <div class="pill"><b>People</b><span>Creators, students, operators, service providers.</span></div>
+            <div class="pill"><b>Workflow</b><span>Knowledge base, agent collaboration, delivery.</span></div>
+            <div class="pill"><b>Market</b><span>From consumer-facing enablement to enterprise AI projects.</span></div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="section-title">Human-AI Symbiosis · Into the Unknown</div>
+        <div class="direction">
+          <h2>From <strong>consumer-facing AI enablement</strong> to <strong>enterprise workflow transformation</strong>.</h2>
+          <p>At present, I help individual users build a personal digital brain and second-self workflow with Obsidian knowledge bases, Claude Code, Codex, and local agent collaboration.</p>
+          <p>The longer-term direction is AI FDE and enterprise process redesign: mapping workflows, embedding agents, and turning AI from a tool into an operating system.</p>
+          <div class="small-grid" style="grid-template-columns: 1fr 1fr; margin-top: 12px;">
+            <div class="pill"><b>Tools</b><span>Claude Code, Codex, Obsidian, local agents.</span></div>
+            <div class="pill"><b>Users</b><span>Learners, creators, and knowledge workers.</span></div>
+            <div class="pill"><b>Method</b><span>Capture knowledge, orchestrate agents, redesign processes.</span></div>
+            <div class="pill"><b>Next Step</b><span>Enterprise AI enablement when project access matures.</span></div>
+          </div>
+        </div>
+        <div class="quote">
+          Human value is not replaced by AI; it is redefined by the ability to ask, judge, organize, and build with AI.
+          <small>Why Red Bird: I want to study not only what AI can do, but how AI changes incentives, workflows, communities, and value creation.</small>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="page-no">6</div>
+</section>
+
+</body>
+</html>
