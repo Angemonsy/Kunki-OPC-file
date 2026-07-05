@@ -42,3 +42,148 @@ fatal: the remote end hung up unexpectedly
 ========================================
 ========================================
 同步时间: 2026-07-04 23:30:05
+检测到 148 个变更，开始提交...
+[main b248261] 自动同步: 2026-07-04 23:30:05
+ 148 files changed, 3872 insertions(+), 346 deletions(-)
+ create mode 100644 "00-inbox/ima/\344\270\252\344\272\272\347\237\245\350\257\206\345\272\223/Kunki\350\266\205\347\272\247\344\270\252\344\275\223\346\211\223\351\200\240/\346\257\217\346\227\245\346\217\220\345\215\207daily improvement/\346\257\217\346\227\245\345\244\215\347\233\230/2026.6/2026.6.22\357\275\2366.23.md"
+ create mode 100644 "00-inbox/ima/\344\270\252\344\272\272\347\237\245\350\257\206\345\272\223/Kunki\350\266\205\347\272\247\344\270\252\344\275\223\346\211\223\351\200\240/\346\257\217\346\227\245\346\217\220\345\215\207daily improvement/\346\257\217\346\227\245\345\244\215\347\233\230/2026.6/2026.6.24\357\275\23625.md"
+ create mode 100644 "00-inbox/ima/\344\270\252\344\272\272\347\237\245\350\257\206\345\272\223/Kunki\350\266\205\347\272\247\344\270\252\344\275\223\346\211\223\351\200\240/\346\257\217\346\227\245\346\217\220\345\215\207daily improvement/\346\257\217\346\227\245\345\244\215\347\233\230/2026.6/2026.6.26\357\275\23627.md"
+ create mode 100644 "00-inbox/ima/\344\270\252\344\272\272\347\237\245\350\257\206\345\272\223/Kunki\350\266\205\347\272\247\344\270\252\344\275\223\346\211\223\351\200\240/\346\257\217\346\227\245\346\217\220\345\215\207daily improvement/\346\257\217\346\227\245\345\244\215\347\233\230/2026.6/2026.6.28\357\275\23629.md"
+ create mode 100644 "00-inbox/ima/\344\270\252\344\272\272\347\237\245\350\257\206\345\272\223/Kunki\350\266\205\347\272\247\344\270\252\344\275\223\346\211\223\351\200\240/\346\257\217\346\227\245\346\217\220\345\215\207daily improvement/\346\257\217\346\227\245\345\244\215\347\233\230/2026.6/2026.6.30\357\275\2367.2.md"
+ create mode 100644 "02-\350\256\260\345\277\206\347\263\273\347\273\237/\346\257\217\346\227\245\350\276\223\345\205\245\344\270\216\347\264\240\346\235\220/AI\350\207\252\345\212\250\347\224\237\346\210\220\345\206\205\345\256\271/\345\276\256\344\277\241\351\253\230\344\273\267\345\200\274\345\206\205\345\256\271\346\227\245\346\212\245-2026-07-02.md"
+ create mode 100644 "02-\350\256\260\345\277\206\347\263\273\347\273\237/\346\257\217\346\227\245\350\276\223\345\205\245\344\270\216\347\264\240\346\235\220/AI\350\207\252\345\212\250\347\224\237\346\210\220\345\206\205\345\256\271/\345\276\256\344\277\241\351\253\230\344\273\267\345\200\274\345\206\205\345\256\271\346\227\245\346\212\245-2026-07-04.md"
+ create mode 100644 "02-\350\256\260\345\277\206\347\263\273\347\273\237/\346\257\217\346\227\245\350\276\223\345\205\245\344\270\216\347\264\240\346\235\220/AI\350\207\252\345\212\250\347\224\237\346\210\220\345\206\205\345\256\271/\351\230\277\345\260\224\346\263\225\345\206\205\346\240\270\347\276\244\351\207\215\347\202\271\346\200\273\347\273\223-2026-07-03.md"
+ create mode 100644 "05-\345\206\205\345\256\271\345\210\233\344\275\234\347\263\273\347\273\237/\360\237\224\24501.\351\200\211\351\242\230\345\206\263\347\255\226/\345\276\205\351\200\211\351\200\211\351\242\230/\345\200\231\351\200\211\351\200\211\351\242\230\346\216\250\350\215\220 - 2026\345\271\26407\346\234\21004\346\227\245.md"
+ create mode 100644 "05-\345\206\205\345\256\271\345\210\233\344\275\234\347\263\273\347\273\237/\360\237\224\24501.\351\200\211\351\242\230\345\206\263\347\255\226/\345\276\205\351\200\211\351\200\211\351\242\230/\346\257\217\346\227\245AI\350\265\204\350\256\257\346\261\207\346\200\273 - 2026\345\271\26407\346\234\21004\346\227\245.md"
+ create mode 100644 conversations/proj-conv-1783075279038/images/191208be-9b61-4e32-b5ef-394e4b6b02a5.png
+ create mode 100644 paper_text.txt
+ create mode 100644 projects/proj-1782629643686-klctn6/conversations/conv-1783029558774/images/455afd6c-17e5-4fa6-ac2b-ab983ac91947.png
+ create mode 100644 projects/proj-1782629643686-klctn6/conversations/conv-1783029558774/images/6505a49b-567e-469c-b419-3334100d7aa8.png
+ create mode 100644 projects/proj-1782629643686-klctn6/conversations/conv-1783085981939/KUNQI-LIN-Portfolio-16x9.pdf.txt
+ create mode 100644 projects/proj-1782629643686-klctn6/memory/2026-07-03.md
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/KUNQI-LIN-Portfolio-16x9-backup.html
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/KUNQI-LIN-Portfolio-16x9-montage.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/KUNQI-LIN-Portfolio-16x9.html
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/KUNQI-LIN-Portfolio-16x9.pdf
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/KUNQI-LIN-Portfolio-16x9.pptx
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/KUNQI-LIN-Portfolio-16x9.pptx.inspect.ndjson
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/KUNQI-LIN-Portfolio-16x9/slide-1.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/KUNQI-LIN-Portfolio-16x9/slide-2.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/KUNQI-LIN-Portfolio-16x9/slide-3.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/KUNQI-LIN-Portfolio-16x9/slide-4.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/KUNQI-LIN-Portfolio-16x9/slide-5.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/KUNQI-LIN-Portfolio-16x9/slide-6.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/KUNQI-LIN-Resume.pdf
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/apicta/apicta-certificate.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/apicta/apicta-stage-award.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/apicta/ministry-media-proof.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/apicta/qianwen-product-services.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/brand/wechat-channel-grid-key.jpg
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/brand/wechat-channel-grid.jpg
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/brand/wechat-channel-profile-key.jpg
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/brand/wechat-channel-profile.jpg
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/canton-fair-internship.jpg
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/chisha-promo-poster.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/hkust-gz-crest-transparent.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/hkust-gz-crest.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/hkust-gz-logo-e-white-2x.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/obc-salon-talk.jpg
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/paper-figures-montage.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/paper-figures/image1.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/paper-figures/image2.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/paper-figures/image3.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/paper-figures/image4.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/paper-figures/image5.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/paper-figures/image6.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/paper-figures/image7.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/paper-figures/trimmed/image1.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/paper-figures/trimmed/image2.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/paper-figures/trimmed/image3.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/paper-figures/trimmed/image4.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/paper-figures/trimmed/image5.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/paper-figures/trimmed/image6.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/paper-figures/trimmed/image7.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/qianwen/selected/qianwen-award-certificate.jpg
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/qianwen/selected/qianwen-class-demo.jpg
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/qianwen/selected/qianwen-honor-certificate.jpg
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/qianwen/selected/qianwen-qa-demo.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/qianwen/selected/qianwen-quiz-design.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/qianwen/selected/qianwen-survey-bar.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/research/sci-article-title.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/research/sci-journal-header-test.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/research/sci-journal-header.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/research/sci-journal-interface.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/assets/research/sci-research-montage.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/cover-finalcheck.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/cover-fixed.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/opc-revise.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/opc-terms.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/portfolio-apicta-v2.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/portfolio-apicta.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/portfolio-cover-v2.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/portfolio-cover.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/portfolio-opc.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/product-finalcheck.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/product-fixed.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/product-ima-v2.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/product-ima.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/product-revise.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/product-terms.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/product-v2.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/product-v3.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/profile-revise.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/profile-softblue-v2.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/profile-softblue.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/profile-v3.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/research-duo-v2.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/research-duo.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/research-finalcheck.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/research-fixed.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/research-revise.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/research-stack.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/research-v2.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/research-v3.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/slide-1-check.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/slide-1-final.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/slide-3-check.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/slide-3-final-trim.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/slide-3-final-userfix.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/slide-3-final.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/slide-3-final4.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/slide-3-fix3.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/slide-3-revise2.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/slide-4-latest.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/slide-5-check.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/slide-5-final-submit.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/slide-5-final-userfix.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/slide-5-final.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/slide-5-final4.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/slide-5-fix3.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/slide-5-latest.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/slide-5-product-fill.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/slide-5-product-wide.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/slide-5-revise2.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/slide-6-final-userfix.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/slide-6-latest.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/playwright/slide-6-revise2.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/profile-photo-old-lowres.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/rendered-16x9/pptx-preview-1.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/rendered-16x9/pptx-preview-2.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/rendered-16x9/pptx-preview-3.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/rendered-16x9/pptx-preview-4.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/rendered-16x9/pptx-preview-5.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/rendered-16x9/pptx-preview-6.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/rendered-16x9/slide-1.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/rendered-16x9/slide-2.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/rendered-16x9/slide-3.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/rendered-16x9/slide-4.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/rendered-16x9/slide-5.png
+ create mode 100644 projects/proj-1782629643686-klctn6/outputs/rendered-16x9/slide-6.png
+ create mode 100644 tmp_paper.pdf
+To github.com:Angemonsy/Kunki-OPC-file.git
+   f0cd515..b248261  main -> main
+✅ 推送成功
+同步完成
+========================================
+========================================
+同步时间: 2026-07-05 23:30:05
