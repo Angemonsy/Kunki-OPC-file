@@ -29,7 +29,7 @@ description: 旧版 New Drive 知识库读取与任务上下文路由，仅在�
 3. **所有文件都从 New Drive 读取**：不需要 git pull，不需要克隆 GitHub。
 4. **飞书是轻工作台**：用于任务输入、摘要展示、协作入口，不再作为完整知识库主库。
 5. **小龙虾不能只在内存干活**：所有长期有效产出必须写回 New Drive 对应目录。
-6. 未发布草稿只能放入 `D-内容创作/08-草稿库/` 或 `02-记忆系统/每日输入与复盘/lobster_input/`，不能放入 `E-产出交付/01-已发文案/`。
+6. 未发布草稿只能放入 `D-内容创作/08-草稿库/` 或 `02-记忆系统/每日输入与素材/lobster_input/`，不能放入 `E-产出交付/01-已发文案/`。
 
 ## 标准启动流程（纯 New Drive）
 
@@ -62,7 +62,7 @@ read_file("/projects/kunki-ai-one-person-company/lobster/00-main-rules.md")
 02-记忆系统/长期记忆.md
 02-记忆系统/当下每时每刻（持续更新）.md
 A-系统基座/00-核心配置/小龙虾系统/
-02-记忆系统/每日输入与复盘/lobster_input/00-龙虾核心配置/
+02-记忆系统/每日输入与素材/lobster_input/00-龙虾核心配置/
 ```
 
 ## 任务类型识别与读取路径
@@ -81,7 +81,7 @@ D-内容创作/01-用户画像/
 D-内容创作/02-选题决策/
 D-内容创作/03-素材库/
 E-产出交付/03-数据反馈/
-02-记忆系统/每日输入与复盘/lobster_input/01-xuange-选哥/
+02-记忆系统/每日输入与素材/lobster_input/01-xuange-选哥/
 ```
 
 输出交给 `lobster-output-sync` 的 `01-xuange-选哥`。
@@ -101,7 +101,7 @@ D-内容创作/03-素材库/
 D-内容创作/04-文案框架/
 D-内容创作/05-开篇模板/
 D-内容创作/08-草稿库/
-02-记忆系统/每日输入与复盘/lobster_input/02-contenthelper-内容助手/_persona/
+02-记忆系统/每日输入与素材/lobster_input/02-contenthelper-内容助手/_persona/
 E-产出交付/01-已发文案/
 ```
 
@@ -119,9 +119,9 @@ E-产出交付/01-已发文案/
 02-记忆系统/长期记忆.md
 02-记忆系统/长期记忆.md
 02-记忆系统/当下每时每刻（持续更新）.md
-02-记忆系统/每日输入与复盘/
-02-记忆系统/每日输入与复盘/lobster_input/05-xuedadazi-学习搭子/
-02-记忆系统/每日输入与复盘/lobster_input/08-yasige-雅思哥/
+02-记忆系统/每日输入与素材/
+02-记忆系统/每日输入与素材/lobster_input/05-xuedadazi-学习搭子/
+02-记忆系统/每日输入与素材/lobster_input/08-yasige-雅思哥/
 ```
 
 输出交给 `05-xuedadazi-学习搭子` 或 `08-yasige-雅思哥`。
@@ -153,7 +153,7 @@ E-产出交付/05-合作管理/
 ```text
 B-参考资料/
 D-内容创作/03-素材库/
-02-记忆系统/每日输入与复盘/lobster_input/06-sucai-素材整理大师/
+02-记忆系统/每日输入与素材/lobster_input/06-sucai-素材整理大师/
 ```
 
 输出交给 `06-sucai-素材整理大师`。
@@ -169,7 +169,7 @@ E-产出交付/01-已发文案/
 E-产出交付/03-数据反馈/
 C-记忆核心/03-经验沉淀/爆款方法论/
 D-内容创作/04-文案框架/
-02-记忆系统/每日输入与复盘/lobster_input/07-fupange-复盘哥/
+02-记忆系统/每日输入与素材/lobster_input/07-fupange-复盘哥/
 ```
 
 输出交给 `07-fupange-复盘哥`。
@@ -181,14 +181,14 @@ D-内容创作/04-文案框架/
 必须从 New Drive 读取当日目录：
 
 ```text
-02-记忆系统/每日输入与复盘/lobster_input/01-xuange-选哥/YYYY-MM-DD/
-02-记忆系统/每日输入与复盘/lobster_input/02-contenthelper-内容助手/YYYY-MM-DD/
-02-记忆系统/每日输入与复盘/lobster_input/03-cuihuo-催活助手/YYYY-MM-DD/
-02-记忆系统/每日输入与复盘/lobster_input/04-gzhmonitor-公众号监控助手/YYYY-MM-DD/
-02-记忆系统/每日输入与复盘/lobster_input/05-xuedadazi-学习搭子/YYYY-MM-DD/
-02-记忆系统/每日输入与复盘/lobster_input/06-sucai-素材整理大师/YYYY-MM-DD/
-02-记忆系统/每日输入与复盘/lobster_input/07-fupange-复盘哥/YYYY-MM-DD/
-02-记忆系统/每日输入与复盘/lobster_input/08-yasige-雅思哥/YYYY-MM-DD/
+02-记忆系统/每日输入与素材/lobster_input/01-xuange-选哥/YYYY-MM-DD/
+02-记忆系统/每日输入与素材/lobster_input/02-contenthelper-内容助手/YYYY-MM-DD/
+02-记忆系统/每日输入与素材/lobster_input/03-cuihuo-催活助手/YYYY-MM-DD/
+02-记忆系统/每日输入与素材/lobster_input/04-gzhmonitor-公众号监控助手/YYYY-MM-DD/
+02-记忆系统/每日输入与素材/lobster_input/05-xuedadazi-学习搭子/YYYY-MM-DD/
+02-记忆系统/每日输入与素材/lobster_input/06-sucai-素材整理大师/YYYY-MM-DD/
+02-记忆系统/每日输入与素材/lobster_input/07-fupange-复盘哥/YYYY-MM-DD/
+02-记忆系统/每日输入与素材/lobster_input/08-yasige-雅思哥/YYYY-MM-DD/
 ```
 
 输出交给 `09-zongkongxia-总控虾`。
@@ -205,4 +205,4 @@ D-内容创作/04-文案框架/
 
 如果小龙虾不知道怎么干，直接告诉它：
 
-> 先运行 `kunki-knowledge-base`：第一步读 New Drive 项目 `kunki-ai-one-person-company`，profile 为空就读 `/projects/kunki-ai-one-person-company/context.md`；然后按任务类型从 New Drive 读取对应路径上下文；产出后运行 `lobster-output-sync`，写入 `02-记忆系统/每日输入与复盘/lobster_input/` 对应智能体目录，更新总控日报。New Drive 会自动备份到 GitHub，不需要你操作 Git。
+> 先运行 `kunki-knowledge-base`：第一步读 New Drive 项目 `kunki-ai-one-person-company`，profile 为空就读 `/projects/kunki-ai-one-person-company/context.md`；然后按任务类型从 New Drive 读取对应路径上下文；产出后运行 `lobster-output-sync`，写入 `02-记忆系统/每日输入与素材/lobster_input/` 对应智能体目录，更新总控日报。New Drive 会自动备份到 GitHub，不需要你操作 Git。

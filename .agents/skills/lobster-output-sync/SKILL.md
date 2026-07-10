@@ -24,7 +24,7 @@ description: 旧版 New Drive 产出回流与日报同步，仅在用户明确�
 3. 所有小龙虾产出必须写入：
 
 ```text
-02-记忆系统/每日输入与复盘/lobster_input/
+02-记忆系统/每日输入与素材/lobster_input/
 ```
 
 4. 每个智能体只能写入自己的目录，避免混乱。
@@ -50,21 +50,21 @@ description: 旧版 New Drive 产出回流与日报同步，仅在用户明确�
 普通智能体按日期建目录：
 
 ```text
-02-记忆系统/每日输入与复盘/lobster_input/[智能体目录]/YYYY-MM-DD/[产出标题].md
+02-记忆系统/每日输入与素材/lobster_input/[智能体目录]/YYYY-MM-DD/[产出标题].md
 ```
 
 示例：
 
 ```text
-02-记忆系统/每日输入与复盘/lobster_input/01-xuange-选哥/2026-05-24/每日选题推荐.md
-02-记忆系统/每日输入与复盘/lobster_input/02-contenthelper-内容助手/2026-05-24/港科广AI商业IP选题初稿.md
-02-记忆系统/每日输入与复盘/lobster_input/08-yasige-雅思哥/2026-05-24/雅思学习记录.md
+02-记忆系统/每日输入与素材/lobster_input/01-xuange-选哥/2026-05-24/每日选题推荐.md
+02-记忆系统/每日输入与素材/lobster_input/02-contenthelper-内容助手/2026-05-24/港科广AI商业IP选题初稿.md
+02-记忆系统/每日输入与素材/lobster_input/08-yasige-雅思哥/2026-05-24/雅思学习记录.md
 ```
 
 总控虾日报路径：
 
 ```text
-02-记忆系统/每日输入与复盘/lobster_input/09-zongkongxia-总控虾/YYYY-MM-DD-小龙虾每日总控日报.md
+02-记忆系统/每日输入与素材/lobster_input/09-zongkongxia-总控虾/YYYY-MM-DD-小龙虾每日总控日报.md
 ```
 
 ## 文件命名规则
@@ -178,7 +178,7 @@ description: 旧版 New Drive 产出回流与日报同步，仅在用户明确�
 ## 标准写入流程（纯 New Drive）
 
 1. 识别智能体身份
-2. 确认输出路径：`02-记忆系统/每日输入与复盘/lobster_input/[智能体目录]/YYYY-MM-DD/`
+2. 确认输出路径：`02-记忆系统/每日输入与素材/lobster_input/[智能体目录]/YYYY-MM-DD/`
 3. 按模板生成 Markdown 文件
 4. 在 New Drive 中创建路径并写入文件
 5. 如果是每日任务，生成或更新总控日报
@@ -223,4 +223,4 @@ GitHub 备份由 New Drive 自动处理。
 
 ## 给小龙虾的短指令
 
-> 产出直接写回 New Drive。按智能体身份写入 `02-记忆系统/每日输入与复盘/lobster_input/` 对应目录，更新总控日报。New Drive 会自动备份到 GitHub，不需要你操作 Git。
+> 产出直接写回 New Drive。按智能体身份写入 `02-记忆系统/每日输入与素材/lobster_input/` 对应目录，更新总控日报。New Drive 会自动备份到 GitHub，不需要你操作 Git。
